@@ -1,0 +1,24 @@
+# Raw NASA downloads are large (SAME-R ≈ 5.4 GB): keep them out of Git.
+/data/raw/*
+!/data/raw/README.md
+
+# Python environments, caches and build files
+.venv/
+venv/
+__pycache__/
+*.py[oc]
+*.egg-info
+build/
+dist/
+.pytest_cache/
+.mplconfig/
+.ruff_cache/
+
+# Local secrets and generated agent prompts
+.env
+.env.*
+CLAUDE.md
+AGENTS.md
+
+# Scientific results ARE versioned: JSON exports, Markdown reports, processed CSVs,
+# figures, inventory and runs/ (attempt JSONs, train.py snapshots, results.tsv).
