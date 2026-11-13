@@ -1,0 +1,71 @@
+precipitator,slot,side,label,run,sample_id,material,grid_age,viewing_note,source_file
+1,1,A,48 (SAMERFLT 1S),48,1S,Silicone,,8/24 - no particles - No images,thermal precipitator map updated.xlsx
+1,2,A,49 (SAMERFLT 2L),49,2L,Lampwick,,8/24 - no particles Ubiquitous particles,thermal precipitator map updated.xlsx
+1,3,A,50 (SAMERFLT 3T),50,3T,Teflon,,9/1 no particles,thermal precipitator map updated.xlsx
+1,4,A,51 (SAMERFLT 4K),51,4K,Kapton,,8/31 - no particles - tinies/ chains,thermal precipitator map updated.xlsx
+1,5,A,52 (SAMERFLT 5P),52,5P,Pyrell,,9/12 no particles,thermal precipitator map updated.xlsx
+1,6,A,53 (SAMERFLT 6S),53,6S,Silicone,,"2/22 - few particles, mostly debris",thermal precipitator map updated.xlsx
+2,1,A,54 (SAMERFLT 7L),54,7L,Lampwick,,9/16 & 4/23 - particles present,thermal precipitator map updated.xlsx
+2,2,A,55 (SAMERFLT 8L),55,8L,Lampwick,,9/28 - particles present,thermal precipitator map updated.xlsx
+2,3,A,56 (SAMERFLT 9T),56,9T,Teflon,,9/21 - particles present,thermal precipitator map updated.xlsx
+2,4,A,#58 Preage (SAMERFLT 11T),58,11T,Teflon,preage,9/21 - no measureable particles,thermal precipitator map updated.xlsx
+2,5,A,#58 Postage (SAMERFLT 11T),58,11T,Teflon,postage,2/17 - particles present,thermal precipitator map updated.xlsx
+2,6,A,60 (SAMERFLT 13S),60,13S,Silicone,,9/28 & 4/23 particles present,thermal precipitator map updated.xlsx
+2,1,B,62 preage (SAMERFLT 15K),62,15K,Kapton,preage,9/16 -  particles present,thermal precipitator map updated.xlsx
+2,2,B,62 postage (SAMERFLT 15K),62,15K,Kapton,postage,2/17 - particles present,thermal precipitator map updated.xlsx
+2,3,B,63 preage (SAMERFLT 16P),63,16P,Pyrell,preage,2/17 - particles present,thermal precipitator map updated.xlsx
+2,4,B,63 postage (SAMERFLT 16P),63,16P,Pyrell,postage,2/17 - particles present,thermal precipitator map updated.xlsx
+2,5,B,64 preage (SAMERFLT 17P),64,17P,Pyrell,preage,9/21 - particles present,thermal precipitator map updated.xlsx
+2,6,B,64 postage (SAMERFLT 17P),64,17P,Pyrell,postage,2/22 - Particles present,thermal precipitator map updated.xlsx
+1,1,B,67 (SAMERFLT 20S),67,20S,Silicone,,"2/22 - few particles, mostly debris",thermal precipitator map updated.xlsx
+1,2,B,68 (SAMERFLT 21L),68,21L,Lampwick,,9/12 - no particles,thermal precipitator map updated.xlsx
+1,3,B,69 (SAMERFLT 22T),69,22T,Teflon,,"2/22 - few particles, some background particles",thermal precipitator map updated.xlsx
+1,4,B,70 (SAMERFLT 23K),70,23K,Kapton,,9/13 - no particles,thermal precipitator map updated.xlsx
+1,5,B,71 (SAMERFLT 24P),71,24P,Pyrell,,"2/22 - few particles, mostly debris",thermal precipitator map updated.xlsx
+1,6,B,72 (SAMERFLT 25S),72,25S,Silicone,,"2/22 -  few particles, mostly debris",thermal precipitator map updated.xlsx
+5,1,A,73 preage (SAMERFLT 26K),73,26K,Kapton,preage,10/28 - no particles,thermal precipitator map updated.xlsx
+5,1,B,73 postage (SAMERFLT 26K),73,26K,Kapton,postage,11/9 - no particles extremely clean,thermal precipitator map updated.xlsx
+5,2,A,74 preage (SAMERFLT 27P),74,27P,Pyrell,preage,11/3 - no particles,thermal precipitator map updated.xlsx
+5,2,B,74 postage (SAMERFLT 27P),74,27P,Pyrell,postage,11/9 -  particles found upstream at -3y.,thermal precipitator map updated.xlsx
+5,3,A,75 preage (SAMERFLT 28K),75,28K,Kapton,preage,10/28 - no particles,thermal precipitator map updated.xlsx
+5,3,B,75 postage (SAMERFLT 28K),75,28K,Kapton,postage,11/9 - possible population of very tiny particles,thermal precipitator map updated.xlsx
+5,4,A,76 preage (SAMERFLT 29P),76,29P,Pyrell,preage,11/3 - many agglomerated particles,thermal precipitator map updated.xlsx
+5,4,B,76 postage (SAMERFLT 29P),76,29P,Pyrell,postage,11/3 - particles found not as far upstream,thermal precipitator map updated.xlsx
+5,5,A,77 preage (SAMERFLT 30K),77,30K,Kapton,preage,11/3 - very tiny particles,thermal precipitator map updated.xlsx
+5,5,B,77 postage (SAMERFLT 30K),77,30K,Kapton,postage,11/3 -  more very tiny particles,thermal precipitator map updated.xlsx
+4,1,A,78 preage (SAMERFLT 31L),78,31L,Lampwick,preage,12/9 & 4/23 - no particles,thermal precipitator map updated.xlsx
+4,1,B,78 postage (SAMERFLT 31L),78,31L,Lampwick,postage,12/9 - no particles,thermal precipitator map updated.xlsx
+4,2,A,79 preage (SAMERFLT 32T),79,32T,Teflon,preage,10/5 - no particles,thermal precipitator map updated.xlsx
+4,2,B,79 postage (SAMERFLT 32T),79,32T,Teflon,postage,12/9 - no particles,thermal precipitator map updated.xlsx
+4,3,A,80 preage (SAMERFLT 33L),80,33L,Lampwick,preage,12/9 - No particles,thermal precipitator map updated.xlsx
+4,3,B,80 postage (SAMERFLT 33L),80,33L,Lampwick,postage,12/9 - no particles,thermal precipitator map updated.xlsx
+4,4,A,81 preage (SAMERFLT 34T),81,34T,Teflon,preage,10/5 - no particles,thermal precipitator map updated.xlsx
+4,4,B,81 postage (SAMERFLT 34T),81,34T,Teflon,postage,10/6 - no particles,thermal precipitator map updated.xlsx
+4,5,A,82 preage (SAMERFLT 35L),82,35L,Lampwick,preage,12/9 - No particles,thermal precipitator map updated.xlsx
+4,5,B,82 postage (SAMERFLT 35L),82,35L,Lampwick,postage,12/9 & 4/23 -  no particles,thermal precipitator map updated.xlsx
+4,6,A,83 preage (SAMERFLT 36T),83,36T,Teflon,preage,10/5 - no measurable particles,thermal precipitator map updated.xlsx
+4,6,B,83 postage (SAMERFLT 36T),83,36T,Teflon,postage,10/6 - no particles,thermal precipitator map updated.xlsx
+3,1,A,84 preage (SAMERFLT 37P),84,37P,Pyrell,preage,10/5 - particles noted,thermal precipitator map updated.xlsx
+3,1,B,84 postage (SAMERFLT 37P),84,37P,Pyrell,postage,10/5 -  particles noted,thermal precipitator map updated.xlsx
+3,2,A,85 (SAMERFLT 38K),85,38K,Kapton,,2/6/12 - no measureable particles,thermal precipitator map updated.xlsx
+3,2,B,87 (SAMERFLT 40P),87,40P,Pyrell,,2/6/12 - particles present,thermal precipitator map updated.xlsx
+3,3,B,89 (SAMERFLT 42T),89,42T,Teflon,,3/19 - particles present,thermal precipitator map updated.xlsx
+6,1,A,93 preage (SAMERFLT 46K),93,46K,Kapton,preage,3/19 - no particles,thermal precipitator map updated.xlsx
+6,1,B,93 postage (SAMERFLT 46K),93,46K,Kapton,postage,2/13 - no particles,thermal precipitator map updated.xlsx
+6,2,A,94 preage (SAMERFLT 47K),94,47K,Kapton,preage,3/8 - very tiny,thermal precipitator map updated.xlsx
+6,2,B,94 postage (SAMERFLT 47K),94,47K,Kapton,postage,"2/13 - Yes, few",thermal precipitator map updated.xlsx
+6,3,A,95 (SAMERFLT 48P),95,48P,Pyrell,,"2/13 - yes, few",thermal precipitator map updated.xlsx
+6,3,B,96 (SAMERFLT 49L),96,49L,Lampwick,,"2/13 -  yes, various",thermal precipitator map updated.xlsx
+6,4,A,97 (SAMERFLT 50P),97,50P,Pyrell,,"3/8 - yes, few",thermal precipitator map updated.xlsx
+6,5,A,98 preage (SAMERFLT 51L),98,51L,Lampwick,preage,"3/8 - yes, tiny",thermal precipitator map updated.xlsx
+6,5,B,98 postage (SAMERFLT 51L),98,51L,Lampwick,postage,"2/13 - yes, few large & tiny spots",thermal precipitator map updated.xlsx
+6,4,B,100 (SAMERFLT 53T),100,53T,Teflon,,"2/13 - yes, few",thermal precipitator map updated.xlsx
+6,6,A,101 preage (SAMERFLT 54K),101,54K,Kapton,preage,"3/8 - yes, small & large",thermal precipitator map updated.xlsx
+6,6,B,101 postage (SAMERFLT 54K),101,54K,Kapton,postage,"2/13 - yes, few",thermal precipitator map updated.xlsx
+3,4,A,105 preage (SAMERFLT 58T),105,58T,Teflon,preage,2/6/12 - Particles but not enough to measure - no images,thermal precipitator map updated.xlsx
+3,4,B,105 postage (SAMERFLT 58T),105,58T,Teflon,postage,2/6/12 - very small particles - not measureable.,thermal precipitator map updated.xlsx
+3,3,A,106 (SAMERFLT 59L),106,59L,Lampwick,,3/19 - particles mixed in with extraneous bkg.,thermal precipitator map updated.xlsx
+3,5,A,107 preage (SAMERFLT 60P),107,60P,Pyrell,preage,3/29/12 - particles present,thermal precipitator map updated.xlsx
+3,5,B,107 postage (SAMERFLT 60P),107,60P,Pyrell,postage,2/22 - particles present,thermal precipitator map updated.xlsx
+3,6,A,108 preage (SAMERFLT 61K),108,61K,Kapton,preage,3/29/12 - very small particles present,thermal precipitator map updated.xlsx
+3,6,B,108 postage (SAMERFLT 61K),108,61K,Kapton,postage,3/29/12 - very small particles,thermal precipitator map updated.xlsx

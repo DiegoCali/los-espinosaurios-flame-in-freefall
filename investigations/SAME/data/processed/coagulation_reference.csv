@@ -1,0 +1,4 @@
+material,n_start_per_cc,amd_start_um,n_end_per_cc,time_s,k_coag_cm3_s,method,source_file
+Lampwick,2.833e+06,0.138,1.96e+06,126,1.24779e-09,parsed_with_libreoffice,ISS Coagulation.doc
+Lampwick,2.65e+06,0.112,1.83e+06,134,1.26186e-09,parsed_with_libreoffice,ISS Coagulation.doc
+Teflon,2.63e+06,0.16,2.28e+06,35,1.66767e-09,parsed_with_libreoffice,ISS Coagulation.doc

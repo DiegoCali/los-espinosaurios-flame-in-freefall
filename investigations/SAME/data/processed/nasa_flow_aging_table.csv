@@ -1,0 +1,16 @@
+flight,material,same_id,description,inlet_velocity_cm_s,rt_r0,net_aging_s,m0_per_cc,m1_mm_per_cc,dusttrak_b_mg_m3,amd_um,dm_um,mpass_3_2,sigma_g_hc,dg_um_hc,ion_b_moment_mm_per_cc,tem_max_diam_um,tem_bg_diam_um,tem_shape,tem_distribution,run,aged_state,source_file
+2,Kapton,94a,"with flow, aged, 1.450",8.1,1.45,567.429,1.03404e+06,156.018,4.88698,0.150882,0.185242,2.64402,1.57294,0.136172,156.018,0.26,0.04,mostly spherical,broad,94,aged,TEMflowvsnoflow.xls
+2,Pyrell,95,no flow/aging (1.22),0,1.22,38,64110.9,9.99268,10.1166,0.155866,0.670452,2.96858,3.34636,0.0751522,9.99268,,,,,95,unaged,TEMflowvsnoflow.xls
+2,Pyrell,95a,aged,0,1.22,,32219.4,12.9101,9.56276,0.400693,0.827603,2.66314,2.34355,0.278809,12.9101,1.3,0.06,mostly spherical,"50 % larger, few particles",95,aged,TEMflowvsnoflow.xls
+2,Pyrell,74a,aged,8.1,1.22,622.571,1.49331e+06,630.198,98.9909,0.422014,0.502129,2.97755,1.51727,0.386886,630.198,2.47,0.12,"cluster, small&large prim.","primaries 0.12 to 0.4, 3 to 30 primaries",74,aged,TEMflowvsnoflow.xls
+2,Lampwick,96,No flow run w/ aging (1.245),0,1.245,33.5714,190634,39.2146,8.64724,0.205706,0.442479,3.89177,2.39931,0.140257,39.2146,1.3,0.1,spherical & small clusters,large variation with location on grid,96,unaged,TEMflowvsnoflow.xls
+2,Lampwick,96a,aged,0,1.245,581.714,157406,41.5313,8.87716,0.263848,0.475793,3.89298,2.15515,0.196482,41.5313,0.82,0.1,fused 2's or 3's,"only 3 part in 2 TEM, faint bgd part.",96,aged,TEMflowvsnoflow.xls
+2,Lampwick,98,No flow run w/ aging,0,1.28,37.1429,394008,73.8325,15.7754,0.187388,0.424449,3.67463,2.47,0.124509,73.8325,,,,,98,unaged,TEMflowvsnoflow.xls
+2,Lampwick,98a,No flow/aging (1.280),0,1.28,585.286,295539,61.1286,14.4674,0.206838,0.453864,3.67076,2.4266,0.139631,61.1286,2.3,0.1,mostly spherical,broad,98,aged,TEMflowvsnoflow.xls
+2,Lampwick,54,High RT/R0 (1.260),8.1,1.26021,56.8,2.8718e+06,350.557,28.5606,0.122069,0.266812,,2.42125,0.0825664,350.557,1.28,0.1,mostly spherical,"broad, smallest may be particles",54,unaged,TEMflowvsnoflow.xls
+2,Teflon,100,no flow/aging(1.45),0,1.45,28.7143,498061,107.768,13.4992,0.216374,0.286551,3.61096,1.69894,0.188022,107.768,2,0.1,cluster,"primaries 0,2-0.3 mm, range of contrast",100,unaged,TEMflowvsnoflow.xls
+2,Teflon,100a,aged,0,1.45,560.429,357452,90.3667,13.0123,0.252808,0.316159,3.68896,1.60461,0.226065,90.3667,,,,,100,aged,TEMflowvsnoflow.xls
+2,Teflon,50,Baseline High RT/R0,8.1,1.45241,33.2,3.32558e+06,541.224,66.1306,0.162746,0.258447,3.61411,1.97403,0.129145,541.224,,,,,50,unaged,TEMflowvsnoflow.xls
+2,Kapton,101,No flow with aging (1.480),0,1.48,29.4286,249344,62.0057,8.89379,0.248675,0.363357,3.72681,1.85118,0.205722,62.0057,,,,,101,unaged,TEMflowvsnoflow.xls
+2,Kapton,101a,aged,0,1.48,560.571,227310,59.1469,8.51773,0.260204,0.36938,3.64014,1.80744,0.218391,59.1469,1.1,0.1,cluster and spheroids,fairly broad,101,aged,TEMflowvsnoflow.xls
+2,Kapton,62,High Temp aging (not aged),8.1,1.48,38.8,5.25403e+06,867.825,71.9924,0.165173,0.264141,2.71235,1.98415,0.130614,867.825,0.78,0.09,"spheres, fused doublets","broad, all sizes appear to be particles",62,unaged,TEMflowvsnoflow.xls

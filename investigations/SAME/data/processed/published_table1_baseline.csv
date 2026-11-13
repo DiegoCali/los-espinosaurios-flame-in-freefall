@@ -1,0 +1,11 @@
+material,aged_state,aging_s_nominal,dg_um,amd_um,dm_um,sigma_g,source
+Kapton,unaged,,0.042,0.056,0.101,2.154,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Kapton,aged,720,0.089,0.109,0.161,1.872,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Lampwick,unaged,,0.09,0.128,0.258,2.312,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Lampwick,aged,720,0.229,0.276,0.398,1.834,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Silicone,unaged,,0.128,0.196,0.465,2.53,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Silicone,aged,720,0.269,0.355,0.619,2.108,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Teflon,unaged,,0.081,0.101,0.17,2.198,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Teflon,aged,720,0.07,0.105,0.232,2.442,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Pyrell,unaged,,0.149,0.204,0.384,2.211,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
+Pyrell,aged,720,0.293,0.359,0.539,1.892,"Urban DL, Ruff GA, Greenberg PS, et al. Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2. AIAA 2012-3536 (42nd ICES), Table 1. NTRS 20130000422."
