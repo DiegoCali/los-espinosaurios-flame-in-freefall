@@ -161,6 +161,7 @@ def main() -> None:
             RandomForestRegressor(
                 n_estimators=N_ESTIMATORS,
                 max_depth=MAX_DEPTH,
+                max_features=0.7,
                 min_samples_leaf=MIN_SAMPLES_LEAF,
                 random_state=RANDOM_STATE,
                 n_jobs=-1,
