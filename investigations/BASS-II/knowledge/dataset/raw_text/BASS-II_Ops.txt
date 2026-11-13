@@ -1,0 +1,704 @@
+# Fuente: Engineering Documents_BASS-II_Ops.docx
+OBJECTIVE:
+Conduct BASS-2 (Burning and Suppression of Solids-2) operations by adding GN2 to the WV to reduce the O2 partial pressure in order to get a stable blue flame for longer periods of time.
+
+TOOLS:
+CSA-CP
+CDM
+Tweezers (if needed)
+Mini-Maglite
+
+PARTS:
+BASS-2 Samples per BASS-2 Test Matrix
+Digital Tape Case P/N 96M53038-1
+
+
+[TABLA]
+NOTE
+1.	Steps 7, 8 and 9 will be repeated as required to complete multiple tests on a given day per PI direction.  /  / 2.	Steps 9 requires S-Band and KU-Band for the PI to assist with test parameters. /  / 3.	The fan calibration (step 11) and the video tape exchange (step 12) are only required after the last flame test for the day has been completed.
+[/TABLA]
+
+
+1.	MSG FACILITY CONFIG
+
+1.1	✓All operator rings, watches removed
+
+CMP	1.2	EXPERIMENT POWER OUTLETS
+sw OUTLET 1 +5V, +12V, +28V → ON (Hold switch in place for 1 second and manually return to center.)
+✓OUTLET 1 +5V, +12V, +28V ON LED (three)  On (green)
+
+1.3	✓FUNCTIONS AIR CIRC ON LED  On (green)
+✓FUNCTIONS WV ILLUM ON LED  On (green)
+
+WV rear wall	1.4	✓GN2  CLOSE ()
+
+SPICE Exp. Assy	1.5	✓FUEL  OFF (toward front of WV)
+
+BASS Control Box	1.6	✓IGN ENA  OFF
+✓GN2 ENA  OFF
+✓DATA REC  OFF
+
+1.7	Remove front MSG Glove Ring Assembly (two).
+
+2.	SAMPLE REMOVAL
+
+[TABLA]
+CAUTION
+To prevent degraded/blurred video image, avoid touching the lexan covers during sample removal.
+[/TABLA]
+
+
+SPICE Exp. Assy	2.1	Release access window latches (two).
+Lower front lexan cover.
+
+
+
+
+Figure 1. - BASS Flat Sample.
+
+
+[TABLA]
+NOTE
+Previously burned BASS Samples may have some soot accumulation and should be removed from the SPICE Experiment Assembly using a Dry Wipe.
+[/TABLA]
+
+
+2.2	If BASS flat sample installed,
+Disconnect ignitor wire and remove from Sample Frame Assembly [Dry Wipe] (Figure 1).
+Stow BASS flat sample in original packaging and trash Dry Wipe.
+Go to step 3
+
+
+2.3	If BASS Ignitor installed,
+Remove BASS Ignitor (gently pull upwards).
+Place BASS Ignitor inside MSG WV (to preserve ignitor wire and bent configuration) [Kapton Tape].
+
+
+2.4	If BASS Sample installed,
+Remove BASS Sample from Sample Frame Assembly [Dry Wipe].
+Remove soot from BASS Sample [Dry Wipe].
+Stow BASS Sample in original packaging and trash Dry Wipe.
+
+
+3.	SAMPLE INSTALLATION 
+
+3.1	✓POIC for PI enablement, Sample Number and Test Point
+
+3.2	Install BASS Sample X onto the Sample Frame Assembly per BASS Test Matrix .
+✓Sample orientation per BASS Test Matrix Ignition Type (front or wake)
+
+3.3	Install BASS Ignitor X (Ignitor tip towards the right so that the Ignitor leads are clear of the imaging views) onto SPICE Experiment Assembly per BASS Test Matrix.
+
+3.4	IGNITOR lever → Pull forward
+✓Ignitor wire is as close to the leading edge of the BASS Sample as possible without touching (within 1 mm).
+
+
+[TABLA]
+* | ***************************************************************************************************
+* / * / * | / If ignitor touches the BASS Sample, / reposition the BASS Ignitor until the ignitor wire is within 1 mm of the surface of the sample without touching [Tweezers and/or Fingers]. /
+* | ***************************************************************************************************
+[/TABLA]
+
+3.5	Close front lexan cover on SPICE Experiment Assembly, engage latches.
+
+4.	STILL CAMERA SETUP
+
+
+
+
+Figure 2. - Still Camera.
+
+
+WV	4.1	✓Still Camera Power Switch  ON (Figure 2)
+
+
+
+
+Figure 3. - Still Camera - Rear View.
+
+
+[TABLA]
+NOTE
+The Still Camera can be removed for better access to the rear display, crew preference. The Still Camera is also displayed on MSG Video Monitor 2.
+[/TABLA]
+
+
+4.2	If Still Camera needs to be removed to perform camera settings:
+Pull and hold plunger on Still Camera. 
+Remove Still Camera from SPICE Still Camera Mount and orient camera per Figure 3. 
+
+
+[TABLA]
+NOTE
+It is highly possible that the date displayed on the MSG Video Monitor 1 is one day off from the actual date. It is very important that the date on the Still Camera match the displayed date.
+[/TABLA]
+
+
+4.3	Date and Time set per date displayed on MSG Video Monitor 1:
+Press Still Camera MENU button (Figure 3).
+
+✓SETUP MENU Screen is displayed
+
+If SETUP MENU not displayed,
+Using the Still Camera UP/DOWN Multi-Selector (MS) Button select the SETUP MENU Screen.
+Press the RIGHT MS Button to select.
+
+Using the UP/DOWN MS Button highlight TIME ZONE AND DATE.
+Press the RIGHT MS Button to select.
+
+Press UP/DOWN to select DATE AND TIME.
+Using the RIGHT MS Button select the desired parameter and use the UP/DOWN MS Button to change the parameter. Date should be entered as YYYY/MM/DD and Time should be current GMT as display on MSG Video Monitor 1 ±5 seconds.
+Press OK to accept.
+
+Press the LEFT MS Button to return to SETUP MENU Screen.
+Press the LEFT MS Button to access the left column menu bar.
+
+4.4	CL Mode Shooting Speed check (1fps): 
+Using the Still Camera UP/DOWN MS button, select CUSTOM SETTING MENU screen.
+pb RIGHT MS → to select
+sel SHOOTING/DISPLAY
+pb RIGHT MS → to select
+✓CL MODE SHOOTING SPEED  1(fps)
+
+
+[TABLA]
+* | ***************************************************************************************************
+* / * / * | / If CL MODE SHOOTING SPEED is not 1fps, / pb RIGHT MS → to select sub-menu / pb UP/DOWN MS to select → 1fps / pb RIGHT MS to select → OK / Press LEFT MS Button to exit and return to SHOOTING/DISPLAY /
+* | ***************************************************************************************************
+[/TABLA]
+
+4.5	File Number Sequence check ON:
+Using the Still Camera UP/DOWN MS Button, 
+✓FILE NO. SEQUENCE  ON
+
+
+[TABLA]
+* | ***************************************************************************************************
+* / * / * | / If OFF / pb RIGHT MS → to select sub-menu / pb UP/DOWN MS to select → ON / pb RIGHT MS to select → OK / Press LEFT MS Button to exit and return to SHOOTING/DISPLAY /
+* | ***************************************************************************************************
+[/TABLA]
+
+4.6	Press MENU button until back LCD is blank.
+
+
+
+
+Figure 4. - Still Camera top LCD - FRAMES Available.
+
+
+
+
+
+Figure 5. - Still Camera Photo Display (Full Metadata) on Video Monitor.
+
+
+4.7	Verify FRAMES Available on Microdrive = 146 (Figure 4)
+
+4.8	Verify Full Metadata camera display mode:
+
+pb SHUTTER → Press firmly and hold for 5 seconds
+✓Image data is displayed on the back LCD with the word "RAW" in the bottom right. (Figure 5)
+
+
+[TABLA]
+* | ***************************************************************************************************
+* / * / * | / If camera display mode is not Full Metadata, / pb UP/DOWN → to select (See Figure 6) /  /  /  /  / Figure 6. - Still Camera Photo Display (Partial Metadata) on Video Monitor. /  /
+* | ***************************************************************************************************
+[/TABLA]
+
+4.9	If Still Camera was previously removed,
+ Install Still Camera onto SPICE Still Camera Mount. 
+✓Spring Plunger  fully engaged (Still Camera)
+
+
+5.	DARK FRAME CALIBRATION AND TEST POINT SETUP
+
+5.1	If first test of the day,
+Install Still Camera lens cap.
+Perform steps 5.2 through 5.9 per the BASS Test Matrix, Dark Frame Calibration. 
+
+
+
+
+
+Figure 7. - Still Camera - Bracket Display (Top LCD).
+
+
+5.2	pb Still Camera Fn or Pv button → Press and Hold (near bottom front of camera between grip and lens)
+✓BKT display appears on Still Camera LCD (Figure 7)
+✓9F on top left of display indicates 9 Frames will be taken for Bracket Sequence (Figure 7)
+
+
+[TABLA]
+* | ***************************************************************************************************
+* / * / * | / If 'BKT' icon does not appear on Still Camera LCD,  / pb Fn or Pv → Press, Hold while rotating Main Command dial until 'BKT' display appears on LCD / ✓POIC if any problems encountered /
+* | ***************************************************************************************************
+[/TABLA]
+
+5.3	While pressing and holding Fn or Pv on Still Camera,
+Rotate Still Camera Main Command Dial (top left of camera while mounted, Figure 2) until appropriate Bracketing Frames value appears on LCD per BASS Test Matrix (Figure 7).
+Release Fn or Pv button.
+
+
+5.4	While pressing and holding Fn or Pv button on Still Camera,
+Rotate Camera Sub-command Dial (bottom left of camera while mounted, Figure 2) until appropriate Exposure Bracket Value appears on LCD per BASS Test Matrix (Figure 7). 
+Release Fn or Pv button.
+
+
+
+
+
+Figure 8. - Still Camera - Exposure Mode Adjustment.
+
+
+5.5	pb Still Camera MODE button (Figure 8) → Rotate Main Command Dial to set Exposure Mode per BASS Test Matrix.
+Release MODE button.
+
+
+
+
+Figure 9. - Still Camera - Exposure Compensation (EV Setting).
+
+
+5.6	If Camera Exposure Mode is A or S per the BASS Test Matrix,
+pb Exposure Compensation Button (Figure 9) → Press and Hold (EV setting will display on top LCD, Figure 9)
+While pressing Exposure Compensation Button adjust the Main Command Dial (Figure 9 above -- top left of Camera while mounted) to Exposure Compensation Value (EV) per BASS Test Matrix.
+
+
+5.7	If Camera Exposure Mode is M per the BASS Test Matrix,
+Rotate Main Command Dial (Figure 8) → Shutter Speed (per BASS Test Matrix)
+
+
+5.8	Rotate Still Camera Sub-Command Dial (Figure 2)→F-Stop Value (per BASS Test Matrix)
+
+
+
+
+Figure 10. - Still Camera - Release Modes: S=Single, CL=Continuous Low, CH=Continuous High.
+
+
+5.9	While pressing the MODE Release button,
+rotate Release Mode Selection per the BASS Test Matrix (Figure 10)
+
+
+Still Camera	5.10	✓SPICE Feedthrough Cable P43 | SHUTTER J43 (left side)
+
+[TABLA]
+NOTE
+Camera exposure is optimally configured for the upcoming flame tests and as a result the deployed scale may not be visible in the image.
+[/TABLA]
+
+
+SLICE Control Box Assy	5.11	pb SHUTTER → Press firmly and hold for 5 seconds
+✓Camera fires BKT sequence in rapid succession
+Release Shutter after timed count.
+✓Image data appears on MSG Video Monitor 2
+
+
+
+
+Figure 11. - Still Camera - Bracketing Progress Indicator Full.
+
+
+[TABLA]
+NOTE
+In Figure 11 the bracketing is FULL when the BKT indicator is at zero. Figure 11 shows each of the four bracket settings at FULL.
+[/TABLA]
+
+
+5.12	On Still Camera top LCD,
+✓Bracketing Progress Indicator  full (ready for new sequence)
+Figure 11.
+
+
+[TABLA]
+* | ***************************************************************************************************
+* / * / * | / If Bracketing Progress Indicator is not full, / pb SHUTTER → Press firmly and release / Repeat as necessary until Bracketing Progress Indicator is full. /
+* | ***************************************************************************************************
+[/TABLA]
+
+5.13	If first test of the day,
+Remove Still Camera lens cover, place on MSG Long Velcro Strip.
+Repeat step 5.2 to step 5.12 to setup the Still Camera for the next planned Test Point per the BASS Test Matrix.
+
+
+
+
+
+Figure 12. - Still Camera Filter.
+
+
+5.14	Install or remove Still Camera Filter on the Still Camera (Figure 12) per the BASS Test Matrix.
+Stow Still Camera Filter on MSG Long Velcro Strip, if required.
+
+
+
+
+Figure 13. - Still Camera - LCD illuminator display.
+
+
+
+
+
+Figure 14. - LCD Output on Rear Display and MSG Video Monitor 2.
+
+
+Still Camera	5.15	Rotate Main Power switch momentarily clockwise to activate LCD illuminator display (Figure 13 and 14).
+
+6.	FAN FLOW CONSTRICTOR CONFIGURATION
+
+SPICE Exp. Assembly	6.1	Install or remove Fan Flow Constrictor(s) on the SPICE Experiment Assembly Fan Inlet, per the BASS Test Matrix.
+Stow Fan Flow Constrictor(s) on MSG Long Velcro Strip if required.
+
+SPICE Exp. Assembly	6.2	✓Fan Inlet and Filter Outlet are clear of obstructions.
+
+7.	TEST PREP
+
+SPICE Exp. Assy	7.1	✓Front lexan cover closed (latches engaged)
+
+7.2	Activating the CSA-CP and CDM:
+
+MSG WV	7.2.1	Place CSA-CP and CDM on MSG Velcro Mounting Pad.
+
+[TABLA]
+NOTE
+1.	Audible beeps occur when the MODE pushbutton is pressed during unit activation.  /  / 2.	Wait approximately 1 minute while unit runs self-check routine. A single beep occurs when the self-check routine is complete.
+[/TABLA]
+
+
+CSA-CP CDM	7.2.2	pb MODE → Press (hold until 'RELEASE' displayed)
+
+7.2.3	Wait 1 minute.
+On CSA-CP, verify display indicates readings for OXYGEN, HCN, HCL and CO.
+On CDM, verify display indicates readings for CO2.
+
+7.3	Place Mini-Maglite on MSG Long Velcro Strip.
+
+MSG WV	7.4	Install front MSG Glove Ring Assembly (two)
+✓MSG Gloves are out of the FOV of the cameras.
+
+7.5	✓All operator rings, watches removed
+
+[TABLA]
+NOTE
+MSG Air Circ must be OFF during GN2 fill and flame test.
+[/TABLA]
+
+
+CMP	7.6	sw FUNCTIONS AIR CIRC → OFF (Hold switch in place for 1 second and manually return to center.)
+✓FUNCTIONS AIR CIRC OFF LED  On (green, air circulation disabled)
+
+BASS Control Box	7.7	FAN FLOW → 10.0
+GN2 FLOW → ✓POIC
+
+WV	7.8	Using front right MSG Glove Ring Assembly,
+GN2 → OPEN (CCW, approx 2 turns)
+
+SPICE Exp. Assy	7.9	sw FUEL → ON (push toward rear of WV to enable GN2 flow)
+
+7.10	✓DATA REC  OFF
+✓IGN ENA  OFF
+
+sw GN2 ENA → ON
+
+7.11	Notify POIC with the following:
+GMT time of GN2 flow start
+CSA-CP OXYGEN reading
+CSA-CP CO reading
+CDM CO2 reading
+
+7.12	Using MSG Glove Ring Assembly, power off CSA-CP and CDM:
+pb MODE → Press (hold until 'RELEASE' displayed)
+✓CSA-CP Off
+✓CDM Off
+
+7.13	✓MSG Front Stray Light Cover is installed.
+Peel off middle viewing window.
+
+7.14	Wait 25-225 minutes for WV to fill with GN2 per OSTPV.
+
+8.	TEST PREP CONCLUDE
+
+8.1	✓POIC for PI enablement and live video
+
+BASS Control Box	8.2	sw GN2 ENA → OFF
+
+8.3	Notify POIC with GMT time of GN2 flow off. 
+
+8.4	FAN FLOW → 0.0
+
+8.5	Powering the CSA-CP and CDM using the MSG Glove Ring Assembly:
+
+[TABLA]
+NOTE
+1.	Audible beeps occur when the MODE pushbutton is pressed during unit activation.  /  / 2.	Wait approximately 1 minute while unit runs self-check routine. A single beep occurs when the self-check routine is complete.
+[/TABLA]
+
+
+CSA-CP CDM	8.5.1	pb MODE → Press (hold until 'RELEASE' displayed)
+
+8.5.2	Wait 1 minute.
+On CSA-CP, verify display indicates readings for OXYGEN, HCN, HCL and CO.
+On CDM, verify display indicates readings for CO2.
+
+8.5.3	Notify POIC with the following:
+CSA-CP OXYGEN reading
+CSA-CP CO reading
+CDM CO2 reading
+
+8.5.4	Power off CSA-CP and CDM:
+pb MODE → Press (hold until 'RELEASE' displayed)
+✓CSA-CP Off
+✓CDM Off
+
+CMP	8.6	sw FUNCTIONS WV ILLUM → OFF
+
+
+[TABLA]
+NOTE
+Steps 9 requires S-Band and KU-Band for the PI to talk directly to the crew and provide all guidance from this point. These steps, included in the procedure for situational awareness, will be repeated as required to complete multiple tests on a given day per PI direction.
+[/TABLA]
+
+
+9.	FLAME TESTS
+
+9.1	GN2 FLOW → rotate to value (per BASS Test Matrix)
+FAN FLOW → rotate to value (per BASS Test Matrix)
+
+9.2	sw IGN ENA → ON
+✓GN2 ENA  OFF
+
+9.3	Review step 9.4 for hardware location and sequence order.
+This step must be performed without delay or loss of science will occur.
+
+[TABLA]
+CAUTION
+1.	The following step will initiate the Still Camera to take an image once every second. A maximum of 100 images may be taken before the camera stops. Releasing the SHUTTER will also cause the camera to stop taking images. /  / 2.	The SLICE Ignitor takes time to cool after Ignition; to avoid damage to the ignitor or front window release the IGNITOR lever only to the point that the ignitor is not glowing for 10 seconds before fully releasing. In order to hold the IGNITOR lever and push the SHUTTER button simultaneously, Step 9.4 will be performed with right hand in the right MSG Glove Ring Assembly and the left hand on the SHUTTER button.
+[/TABLA]
+
+
+
+
+
+Figure 15. - SPICE Experiment Assembly - Flame Ignition.
+
+
+SPICE Exp. Assy	9.4	Locate ignitor lever (Figure 15).
+IGNITOR lever → Pull forward and hold (ignitor glows)
+Allow the IGNITOR lever to move backward until the ignitor is not glowing when flame appears on MSG Video Monitor 1 (up to 60 seconds).
+
+BASS Control Box	pb SHUTTER → Press firmly and lock.
+
+Hold IGNITOR lever at mid-point for 10 seconds for ignitor to cool, and then fully release.
+
+
+[TABLA]
+* | ***************************************************************************************************
+* / * / * | / If ignitor does not glow or flame does not appear: / Unlock and release SHUTTER button. /  / On BASS Control Box, / sw IGN ENA → OFF / ✓GN2 ENA  OFF / ✓POIC for re-iginition or ignitor reposition. /
+* | ***************************************************************************************************
+[/TABLA]
+
+9.5	Adjust RADIOMETER GAIN until RAD value on MSG Video Monitor 1 is at highest value possible but RAD ≤ 1.0
+
+9.6	After burning for approximately one minute, attempt to extinguish flame per PI direction.
+
+If extinguishing the flame by terminating air flow,
+Set FAN FLOW to 0.00
+Wait for flame to extinguish.
+
+
+If extinguishing the flame using GN2,
+sw GN2 ENA → ON
+Increase GN2 flow by one turn.
+Observe flame for destabilization or extinction (wait 5 seconds).
+Repeat until flame extinguishes.
+
+
+BASS Control Box	9.7	sw IGN ENA → OFF
+sw GN2 ENA → OFF
+
+9.8	Set FAN FLOW to maximum.
+Unlock and release SHUTTER button.
+
+WV rear wall	9.9	GN2 → CLOSE (CW)
+
+9.10	Report RADIOMETER GAIN from step 9.5.
+
+9.11	Powering the CSA-CP and CDM using the MSG Glove Ring Assembly:
+
+[TABLA]
+NOTE
+1.	Audible beeps occur when the MODE pushbutton is pressed during unit activation.  /  / 2.	Wait approximately 1 minute while unit runs self-check routine. A single beep occurs when the self-check routine is complete.
+[/TABLA]
+
+
+CSA-CP CDM	9.11.1	pb MODE → Press (hold until 'RELEASE' displayed)
+
+9.11.2	Wait 1 minute.
+On CSA-CP, verify display indicates readings for OXYGEN, HCN, HCL and CO.
+On CDM, verify display indicates readings for CO2.
+
+9.11.3	Notify POIC with the following:
+CSA-CP OXYGEN reading
+CSA-CP CO reading
+CDM CO2 reading
+
+9.11.4	Power off CSA-CP and CDM:
+pb MODE → Press (hold until 'RELEASE' displayed)
+✓CSA-CP Off
+✓CDM Off
+
+9.12	Photographing the Sample Post-Burn using the BASS Still Camera:
+
+[TABLA]
+NOTE
+The MSG Stray Light Cover can be removed or folded down per crew preference to complete step 9.12.
+[/TABLA]
+
+
+9.12.1	Using MSG Glove Ring Assembly, illuminate BASS sample [Mini-Maglite].
+
+BASS Control Box	9.12.2	pb SHUTTER → Press
+
+9.12.3	Review image on MSG Video Monitor 2.
+
+9.12.4	 If needed, adjust Mini-Maglite angle and retake photo to capture/highlight sample details.
+
+10.	MSG WV PURGE
+
+[TABLA]
+WARNING
+The MSG WV must be purged for 3 minutes after every ten BASS burns because of the concern of combustion byproducts from the Freon in the cabin air.
+[/TABLA]
+
+
+SPICE Exp. Assy	10.1	sw FUEL → OFF (pull toward front of WV)
+
+CMP	10.2	sw FUNCTIONS AIR CIRC → ON (Hold switch in place for 1 second and manually return to center.)
+✓FUNCTIONS AIR CIRC ON LED  ON (green)
+
+10.3	Remove front MSG Glove Ring Assembly (two) (MSG goes to OPEN mode)
+
+10.4	Wait 3 minutes while Work Volume clears of combustion products before accessing the WV.
+
+10.5	While waiting an additional 6 minutes with FAN FLOW at maximum for touch temperature,
+Per PI direction, perform 2.007 BASS FLASH CARD EXCHANGE, steps 2 to 4 (US PODF: MSG BASS)
+
+SPICE Exp. Assy	10.6	If required, adjust sample distance and/or BASS Ignitor per PI direction for next test point.
+
+10.7	Install front MSG Glove Ring Assembly (two).
+
+10.8	sw FUNCTIONS AIR CIRC → OFF (Hold switch in place for 1 second and manually return to center.)
+✓FUNCTIONS AIR CIRC OFF LED  On (green, air circulation disabled)
+
+10.9	If additional reduced O2 tests planned for the day,
+Perform step 7 then exit procedure.
+
+
+If additional test in normal air planned for the day,
+Go to step 8.5
+
+
+If all tests complete for the day,
+Go to step 11
+
+
+11.	FAN CALIBRATION
+
+SPICE Exp Assy	11.1	✓Front Lexan Window closed (engage latches)
+
+
+
+
+Figure 16. - Fan Inlet/ Filter Outlet.
+
+
+11.2	✓POIC for Fan Flow Constrictor configuration (zero, one, or two installed)
+
+11.3	✓Fan Inlet and Filter Outlet are clear of obstructions. (Figure 16)
+
+CMP	11.4	sw FUNCTIONS AIR CIRC → OFF (Hold switch in place for 1 second and manually return to center.)
+✓FUNCTIONS AIR CIRC OFF LED  On (green, air circulation disabled)
+
+[TABLA]
+/  / Figure 17. - FAN FLOW Adjustment Knob. Value shown here is 2.36. | /  / Figure 18. - MSG Video Monitor 1 Display.
+[/TABLA]
+
+
+
+BASS Control Box	11.5	Rotate FAN FLOW → 10.0 (Figure 17)
+
+Video Monitor 1	✓POIC with AIR and FAN value on monitor after value stabilizes (approximately 1 minute) (Figure 18).
+
+ 
+Repeat with FAN FLOW of 8.0, 6.0, 4.0, 2.0 and 0.0.
+
+12.	MSG VIDEO TAPE EXCHANGE
+
+MSG Vid Drawer	12.1	Exchange the digital video tapes in MSG Video Recorders 1 and 2. Note video tape barcodes.
+
+If procedure steps needed,
+✓MAIN POWER ON LED  On
+
+✓RECORDERS 1,2 LED  On
+
+Slide MSG Video Drawer fully open.
+
+Release MSG Video Drawer lid latching mechanisms (two), 
+Slide lid, secure.
+
+Open MSG Video Recorder 1,2 lid.
+
+On MSG Video Recorder 1,2,
+EJECT → Slide in direction of arrow
+
+Remove, lock Digital Video Tape (two).
+
+Label Digital Tapes with BASS and GMT date [Fine Point Sharpie].
+
+Stow BASS Digital Tapes in "MSG/BASS Used Tapes" Ziplock Bag.
+
+Remove blank Digital Tape (two) from Digital Tape Case.
+
+Note tape barcode to report to POIC.
+
+Insert tape into MSG Video Recorder 1,2.
+
+pb TC Reset → press
+
+Close MSG Video Recorder 1,2 lid.
+
+Pull MSG Video Drawer lid forward.
+Secure MSG Video Drawer lid latching mechanisms (two).
+
+Close, lock MSG Video Drawer.
+
+
+12.2	Notify POIC of blank video tape barcode number.
+
+12.3	Stow:
+CSA-CP
+CDM
+
+ 
+
+Ground should update IMS for the following parts:
+BASS Used Sample To: Stow (step 2.4)
+BASS New Sample To: MSG (step 3.2)
+ 
+
+Table 1. Procedure Hazard Control List.
+[TABLA]
+Hazard Report Number | Hazard Control Number | Procedure Step(s)
+STD-BASS-01 | 14/14b.6 | Go to step 1.6, step 7.10, step 9.2, step 9.7
+STD-BASS-01 | 14/14b.8 | Go to step 9.4
+BASS-U1 | 2/2.2 | Warning Box prior to step 10.1, step 10.2, step 10.3, step 10.4
+BASS-U3 | 2/2.1 | Go to step 10.4, step 10.5
+BASS-U4 | 1/1.1 | Go to step 1.6, step 7.10, step 9.2, step 9.7
+BASS-U4 | 1/1.2 | Go to step 9.4
+BASS-U4 | 1/1.3 | Go to step 3.5, step 7.1
+BASS-U4 | 2/2.1 | Go to step 9.6
+BASS-U4 | 2/2.2 | Go to step 9.6
+MSG-Int-BASS-05 | 1/1.2 | Warning Box prior to step 10.1 and  step 10.4
+MSG-FL4 | 1/1.2 | Warning Box prior to step 10.1and step 10.4
+[/TABLA]
