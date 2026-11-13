@@ -1,0 +1,1 @@
+**G7 — B4.** Stacked panels (shared time axis, independent scales, no dual axis): luminous area, length along the spread direction and integrated intensity (≈ visible radiated energy). Growth to a plateau = flame reaching a steady size; decay = approach to extinction. Compare with the RAD radiometer trace (OSD, G18) as an independent check.

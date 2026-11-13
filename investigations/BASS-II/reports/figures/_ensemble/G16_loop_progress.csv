@@ -1,0 +1,15 @@
+run,val_score,D,R,C,M,P,R_err,cov90,D_source,runtime_s,status,description
+1,1.186802,1.0,1.0,1.8686,1.323,0.0,0.1941,0.918,synthetic,5.0,keep,baseline v0
+2,1.005048,1.0,1.0,1.392,1.0603,0.0,0.1941,0.879,synthetic,228.1,keep,"forecast: KalmanMLE (q,r by ML of innovations, unit-invariant) instead of heuristic KalmanCV"
+3,1.013055,1.0,1.0,1.178,1.054,0.6054,0.1941,0.828,synthetic,5.0,discard,"forecast: profile-MLE CV Kalman (vectorised, same model as KalmanMLE) + conformal intervals = recency-weighted (half-life 10 s) 90% quantile of in-history h-step errors"
+4,0.982225,1.0,1.0,1.3215,1.054,0.0,0.1941,0.873,synthetic,5.0,keep,forecast: conformal intervals over the full history (no recency weighting) with finite-sample correction ceil((n+1)0.9)/n
+5,0.916661,1.0,1.0,1.1481,0.9629,0.0,0.1941,0.887,synthetic,5.0,keep,forecast: point = equal-weight combination of profile-MLE Kalman and 5 s local linear trend (level and slope averaged); conformal intervals on the combination's in-history errors
+6,0.899307,1.0,1.0,1.0926,0.9629,0.0,0.1941,0.909,synthetic,5.1,keep,forecast: normalised conformal intervals (in-history errors divided by local 5 s residual sd regularised by its history mean; width scaled by current local sd)
+7,0.912204,1.0,1.0,1.117,1.0052,0.0,0.1941,0.908,synthetic,5.2,discard,forecast: add expanding-window OLS line (steady-spread prior) as third equal-weight member of the point-forecast combination
+8,0.772715,1.1596,0.3739,1.0926,0.9629,0.0,0.0726,0.909,synthetic,196.6,keep,"segmentation: adaptive noise-relative hysteresis (k_low 8, k_high 16, min_low 14, min_high 30) + blue-excess OR, as configs/pipeline.yaml"
+9,0.800657,1.1596,0.3739,1.182,0.9629,0.0,0.0726,0.915,synthetic,5.6,discard,"forecast: local noise scale for normalised conformal = trailing 5 s residual variance shrunk to history mean with 1 pseudo-observation (was equal weight, i.e. a strong floor)"
+10,0.769734,1.1596,0.3739,1.087,0.9531,0.0,0.0726,0.903,synthetic,5.8,discard,forecast: per-horizon Bates-Granger weights (inverse in-history h-step MSE) for the Kalman/local-linear combination instead of equal weights
+11,0.724892,0.6672,0.5519,1.0926,0.9629,0.0,0.1071,0.909,synthetic,172.0,keep,segmentation: 1-px erosion (3x3 cross) after adaptive segmenter to remove outward edge bias from sigma=1 blur + noise-level low threshold
+12,0.690901,0.6672,0.416,1.0926,0.9629,0.0,0.0808,0.909,synthetic,177.7,keep,segmentation: 1-px erosion but components that would fall below min_component_area after erosion (thin faint flame sheets) are kept un-eroded
+13,0.642845,0.6672,0.416,0.9782,0.8645,0.0,0.0808,0.89,synthetic,5.9,keep,"forecast: per-horizon inverse-MSE (Bates-Granger) combination of Kalman, 5 s local linear and persistence (no-trend member for plateaus)"
+14,0.64154,0.6672,0.416,0.9763,0.8587,0.0,0.0808,0.89,synthetic,5.9,discard,forecast: combination weights from recency-weighted in-history MSE (half-life 2x drift window = 10 s) to track spread/stall regime changes

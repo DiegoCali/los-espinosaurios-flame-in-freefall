@@ -1,0 +1,1 @@
+**G11.** Mean MASE per model and horizon (rolling-origin evaluation, no temporal leakage). Lower is better; MASE < 1 beats the naive one-step forecast. Some models usually win at short horizons and lose at long ones: choose according to the operational horizon.

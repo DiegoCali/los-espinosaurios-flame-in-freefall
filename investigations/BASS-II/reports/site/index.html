@@ -1,0 +1,123 @@
+
+<title>Flame in Freefall</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: single reading column (~72ch) with full-width figure plates; key numbers as a 4-up strip */
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --plate: #fcfcfb; --fg: #11161d; --muted: #586170; --line: #dfe3e8;
+  --accent: #eb6834; --blue: #2a78d6; --ok: #0c7a3a; --warn: #a3520f; --capt: #3b434e;
+  --display: "Space Grotesk", "Segoe UI", system-ui, sans-serif; --text: "Inter", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0e1217; --surface: #151b22; --plate: #fcfcfb; --fg: #e8ecf1; --muted: #9aa5b3; --line: #273039;
+  --accent: #f07a48; --blue: #5c9be6; --ok: #4cc27a; --warn: #f0a35c; --capt: #3b434e; color-scheme: dark } }
+:root[data-theme="dark"] { --bg: #0e1217; --surface: #151b22; --plate: #fcfcfb; --fg: #e8ecf1; --muted: #9aa5b3;
+  --line: #273039; --accent: #f07a48; --blue: #5c9be6; --ok: #4cc27a; --warn: #f0a35c; --capt: #3b434e; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 16px/1.6 var(--text); }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 40px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 28px; }
+header { display: grid; gap: 10px; }
+.eyebrow { font: 600 12px/1.2 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 700 clamp(30px, 5vw, 46px)/1.08 var(--display); margin: 0; text-wrap: balance; }
+h2 { font: 700 24px/1.2 var(--display); margin: 18px 0 0; text-wrap: balance; }
+p, li { max-width: 72ch; margin: 0; color: var(--fg); }
+.lede { font-size: 18px; color: var(--muted); max-width: 66ch; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 4px; }
+.stat b { font: 700 28px/1.1 var(--display); font-variant-numeric: tabular-nums; }
+.stat span { font-size: 13px; color: var(--muted); }
+ol.steps, ul { display: grid; gap: 8px; padding-left: 20px; margin: 0; }
+.plate { margin: 0; background: var(--plate); border: 1px solid var(--line); border-radius: 10px; padding: 12px; display: grid; gap: 10px; }
+.plate img { width: 100%; height: auto; display: block; }
+.plate figcaption { color: var(--capt); font-size: 14px; line-height: 1.55; max-width: none; }
+.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 8px 12px; border-bottom: 1px solid var(--line); text-align: left; white-space: nowrap; }
+th { font: 600 12px/1.3 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; text-align: right; }
+td.ok { color: var(--ok); } td.warn { color: var(--warn); }
+code { font: 13px var(--mono); background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: 1px 4px; }
+.note { border-left: 3px solid var(--accent); padding: 4px 0 4px 14px; color: var(--muted); }
+</style>
+<div class="wrap">
+<header>
+  <div class="eyebrow">NASA PSI-25 · BASS-II · ISS Microgravity Science Glovebox · 2014</div>
+  <h1>Measuring and forecasting flame spread in microgravity from ISS video</h1>
+  <p class="lede">An automatic computer-vision pipeline tracks the flame front in the Burning and Suppression of Solids II
+  videos, converts it to millimetres with the duct's own ruler, compares the spread rates with those NASA investigators
+  published, and forecasts how the flame front evolves.</p>
+</header>
+<section class="stats" aria-label="Key results">
+  <div class="stat"><b>-0.99 ± 0.05</b><span>thin-film thickness-law slope over 11 films, 4 of them never used for tuning (theory −1; scale-independent)</span></div>
+  <div class="stat"><b>4.5 %</b><span>median error on 8 development tests (in-sample)</span></div>
+  <div class="stat"><b>18 %</b><span>median error on 14 hold-out slab steps (frozen settings)</span></div>
+  <div class="stat"><b>0.2093</b><span>mm per pixel from the duct ruler (±0.8 % across tests)</span></div>
+</section>
+
+<h2>How the measurement works</h2>
+<ol class="steps">
+  <li>Download each test's side-view video from the NASA PSI repository (720×480, 29.97 fps, non-square pixels corrected).</li>
+  <li>Read the burned-in telemetry (air velocity, fan voltage, radiometer, clock) by template OCR and mask it out.</li>
+  <li>Skip frames with the cabin lights on, mask static artefacts, and segment the luminous flame with thresholds relative to each frame's noise so faint blue edges survive.</li>
+  <li>Convert pixels to millimetres with the duct's ruler, visible in the illuminated frames before ignition.</li>
+  <li>Split the front's trajectory into linear regimes (ignition, spread under flow, spread after a flow change, extinction) and fit the steady spread rate with a robust Theil-Sen regression.</li>
+  <li>Backtest forecasting models on the measured series and compare the rates with published values.</li>
+</ol>
+
+<h2>One test, end to end: B1 (100 µm PMMA film, opposed flow)</h2>
+<figure class="plate"><img src="figures/B1__G1_overlay.png" alt="G1_overlay" loading="lazy"><figcaption><strong>G1 — B1.</strong> Top row: original frames (720×480, OSD telemetry visible). Bottom row: flame mask (translucent blue), contour (yellow) and leading edge (dashed orange line). A good segmentation covers the faint flame base and excludes the OSD, reflections and the igniter; the leading edge must sit at the advancing tip.</figcaption></figure>
+<figure class="plate"><img src="figures/B1__G2_kymograph.png" alt="G2_kymograph" loading="lazy"><figcaption><strong>G2 — kymograph of B1.</strong> Each row is the horizontal flame-intensity profile at one instant (darker = brighter, log scale). A slanted band means spread: since time runs vertically, the visual slope is 1/V_f (flatter = faster). Straight band = constant speed; curvature = acceleration or deceleration; fading = approach to extinction; horizontal stripes = exposure changes or bad frames.</figcaption></figure>
+<figure class="plate"><img src="figures/B1__G3_edge_fit.png" alt="G3_edge_fit" loading="lazy"><figcaption><strong>G3 — B1.</strong> Dots: leading-edge position projected on the spread direction (origin at first detection). Line: robust Theil-Sen fit over the shaded steady window; its slope is the spread rate V_f with a 95 % CI. Bottom panel: residuals, which should look like structureless noise. Systematic curvature means the spread is not steady (growth or approach to extinction) and a linear model is not enough.</figcaption></figure>
+<figure class="plate"><img src="figures/B1__G18_telemetry.png" alt="G18_telemetry" loading="lazy"><figcaption><strong>G18 — B1.</strong> Telemetry read by OCR from the video (AIR = air velocity, lagging the fan by ≈15–25 s; FAN = 10× fan voltage; RAD = uncalibrated radiometer) aligned with the luminous area measured by computer vision. RAD and area should co-vary (independent cross-check). FAN steps are the crew&#x27;s flow manoeuvres and explain changes in V_f.</figcaption></figure>
+
+<h2>How close is it to NASA's published numbers?</h2>
+<p class="note">The spatial calibration uses no published value. Published rates of the development tests (B1–B5, B7,
+B12, M1) were used to choose the segmentation and regime settings, so their accuracy is in-sample. The hold-out slab
+tests were processed only after every setting was frozen. A physics review that flagged implausible results was done
+with the published values visible, so filtered statistics are shown next to unfiltered ones.</p>
+<p>Development tests: median error 4.5 %, bias +2.1 %.
+Hold-out: 13 slab tests were processed once with frozen settings; 12 gave at least one comparison (M15 showed no steady spread). Across their 14 flow-step comparisons the median error is 18 %; these tests were not part of the physics review. Split by flow step: the first or only step of a test gives a median error of 15 % (n = 4, bias -1 %), while later steps after a flow change give 64 % (n = 10). A thick slab needs minutes to settle after the flow changes and the per-step window does not yet wait for that, so later-step rates stay close to the previous step's rate. For slab tests with several flow steps, 14 of 32 published steps could be matched to a measured flow plateau.
+Thick slabs burn for 10 to 30 minutes with very dim late phases, which is where the automatic regime choice is least reliable.</p>
+<div class="tablebox"><table>
+<thead><tr><th>Comparison</th><th>Set</th><th>Physics QC</th><th>Measured V<sub>f</sub> (mm/s)</th><th>95 % CI</th><th>Published (mm/s)</th><th>Difference</th></tr></thead>
+<tbody><tr><td>B1</td><td>development</td><td>passed</td><td class='num'>1.89</td><td class='num'>[1.88, 1.9]</td><td class='num'>1.878</td><td class='num ok'>+0.6 %</td></tr><tr><td>B12</td><td>development</td><td>passed</td><td class='num'>0.6634</td><td class='num'>[0.63, 0.704]</td><td class='num'>0.6073</td><td class='num ok'>+9.2 %</td></tr><tr><td>B2</td><td>development</td><td>passed</td><td class='num'>1.073</td><td class='num'>[1.06, 1.08]</td><td class='num'>1.078</td><td class='num ok'>-0.5 %</td></tr><tr><td>B3</td><td>development</td><td>passed</td><td class='num'>2.027</td><td class='num'>[2, 2.06]</td><td class='num'>2.056</td><td class='num ok'>-1.4 %</td></tr><tr><td>B4</td><td>development</td><td>passed</td><td class='num'>0.7561</td><td class='num'>[0.744, 0.768]</td><td class='num'>0.8004</td><td class='num ok'>-5.5 %</td></tr><tr><td>B5</td><td>development</td><td>passed</td><td class='num'>1.186</td><td class='num'>[1.17, 1.2]</td><td class='num'>1.126</td><td class='num ok'>+5.3 %</td></tr><tr><td>B7</td><td>development</td><td>passed</td><td class='num'>0.4899</td><td class='num'>[0.469, 0.518]</td><td class='num'>0.4715</td><td class='num ok'>+3.9 %</td></tr><tr><td>M1</td><td>development</td><td>passed</td><td class='num'>0.07455</td><td class='num'>[0.0723, 0.0769]</td><td class='num'>0.071</td><td class='num ok'>+5.0 %</td></tr><tr><td>M10.2</td><td>holdout</td><td>not reviewed</td><td class='num'>0.03376</td><td class='num'>[0.027, 0.0406]</td><td class='num'>0.03</td><td class='num warn'>+12.5 %</td></tr><tr><td>M11.3</td><td>holdout</td><td>not reviewed</td><td class='num'>0.1278</td><td class='num'>[0.0856, 0.181]</td><td class='num'>0.022</td><td class='num warn'>+480.8 %</td></tr><tr><td>M13.2</td><td>holdout</td><td>not reviewed</td><td class='num'>0.02891</td><td class='num'>[0.0259, 0.0323]</td><td class='num'>0.035</td><td class='num warn'>-17.4 %</td></tr><tr><td>M14.2</td><td>holdout</td><td>not reviewed</td><td class='num'>0.06371</td><td class='num'>[0.0602, 0.0671]</td><td class='num'>0.055</td><td class='num warn'>+15.8 %</td></tr><tr><td>M14.3</td><td>holdout</td><td>not reviewed</td><td class='num'>0.06662</td><td class='num'>[0.0632, 0.0693]</td><td class='num'>0.0353</td><td class='num warn'>+88.7 %</td></tr><tr><td>M17.2</td><td>holdout</td><td>not reviewed</td><td class='num'>0.1153</td><td class='num'>[0.0768, 0.178]</td><td class='num'>0.042</td><td class='num warn'>+174.5 %</td></tr><tr><td>M18.1</td><td>holdout</td><td>not reviewed</td><td class='num'>0.0306</td><td class='num'>[0.029, 0.0321]</td><td class='num'>0.026</td><td class='num warn'>+17.7 %</td></tr><tr><td>M18.2</td><td>holdout</td><td>not reviewed</td><td class='num'>0.02128</td><td class='num'>[0.0205, 0.0222]</td><td class='num'>0.013</td><td class='num warn'>+63.7 %</td></tr><tr><td>M19.2</td><td>holdout</td><td>not reviewed</td><td class='num'>0.03249</td><td class='num'>[0.0281, 0.0364]</td><td class='num'>0.0159</td><td class='num warn'>+104.3 %</td></tr><tr><td>M2.2</td><td>holdout</td><td>not reviewed</td><td class='num'>0.05453</td><td class='num'>[0.0529, 0.0561]</td><td class='num'>0.033</td><td class='num warn'>+65.2 %</td></tr><tr><td>M20</td><td>holdout</td><td>not reviewed</td><td class='num'>0.0132</td><td class='num'>[0.000112, 0.0289]</td><td class='num'>0.012</td><td class='num ok'>+10.0 %</td></tr><tr><td>M4.1</td><td>holdout</td><td>not reviewed</td><td class='num'>0.03676</td><td class='num'>[0.035, 0.0381]</td><td class='num'>0.045</td><td class='num warn'>-18.3 %</td></tr><tr><td>M5</td><td>holdout</td><td>not reviewed</td><td class='num'>0.06212</td><td class='num'>[0.0572, 0.0672]</td><td class='num'>0.071</td><td class='num warn'>-12.5 %</td></tr><tr><td>M8.2</td><td>holdout</td><td>not reviewed</td><td class='num'>0.05887</td><td class='num'>[0.057, 0.0609]</td><td class='num'>0.056</td><td class='num ok'>+5.1 %</td></tr><tr><td>M16.2</td><td>other</td><td>passed</td><td class='num'>0.1376</td><td class='num'>[0.136, 0.14]</td><td class='num'>0.1309</td><td class='num ok'>+5.2 %</td></tr><tr><td>M7.2</td><td>other</td><td>passed</td><td class='num'>0.1118</td><td class='num'>[0.0745, 0.142]</td><td class='num'>0.099</td><td class='num warn'>+13.0 %</td></tr><tr><td>M9</td><td>other</td><td>passed</td><td class='num'>0.02694</td><td class='num'>[0.00849, 0.039]</td><td class='num'>0.025</td><td class='num ok'>+7.8 %</td></tr></tbody></table></div>
+<figure class="plate"><img src="figures/G6_parity_published.png" alt="G6_parity_published" loading="lazy"><figcaption><strong>G6 — validation against published spread rates.</strong> Left: measured steady V_f (geometric ruler calibration) against published values (SDSU side view for B films, NASA TM-20210011385 Table 5.1 for M slabs); error bars are ±2σ on both axes (measured σ includes the 2 % scale uncertainty). Blue = development tests, used to choose the segmentation and regime settings (in-sample); orange = hold-out slab tests processed only after all settings were frozen; green = other slab steps examined while diagnosing regime selection (not independent). Hollow markers are comparisons rejected by the physics review, which was done with published values visible. Right: relative difference for every comparison; the legend gives the median absolute difference per set. The spatial calibration uses no published value.</figcaption></figure>
+<figure class="plate"><img src="figures/G19_thickness_law.png" alt="G19_thickness_law" loading="lazy"><figcaption><strong>G19 — V_f vs. film thickness for PMMA films in opposed flow (O₂ &gt; 19.5 %).</strong> Log-log axes. The fitted slope (-0.97 ± 0.07, R² = 0.98, n = 7) does not depend on the spatial calibration, so it validates the edge tracking itself. The de Ris thin-fuel theory predicts −1; the published SDSU values give -0.99 ± 0.09. Scatter at equal thickness reflects different flow velocities and O₂.</figcaption></figure>
+<figure class="plate"><img src="figures/G15_threshold_sensitivity.png" alt="G15_threshold_sensitivity" loading="lazy"><figcaption><strong>G15.</strong> Relative change of the steady spread rate when the noise-relative threshold k varies from 4σ to 14σ around the default (8σ, vertical line; high threshold = 2k, floors scaled alike); shaded bands are the 95 % CIs. Robust (&lt; 5 % change): B1, B3, B4, M1. Threshold-dependent: B12 (up to 40 %), B7 (up to 7 %) — these faint flames carry a systematic uncertainty larger than their statistical CI. Tests whose default run gives no steady rate are omitted.</figcaption></figure>
+
+<h2>What the whole dataset shows</h2>
+<p>83 tests were processed. A physics review classified them as: 34 excluded, 10 flagged, 1 order of magnitude, 15 trusted, 9 trusted null, 1 trusted steps only, 13 unreviewed. Only the 15 trusted tests
+enter the ensemble figures below; excluded tests are missed dim burns, igniter-flash or ignition-growth regimes, rods
+where the video measures flame-length settling rather than spread, or tests with too little footage.</p>
+<figure class="plate"><img src="figures/G13_conditions.png" alt="G13_conditions" loading="lazy"><figcaption><strong>G13.</strong> Each point is one test (small horizontal jitter to avoid overlap). Colour = outcome noted by the crew; shape = material class. Shows the experimental coverage: where there is data to validate against and where a model would extrapolate. Extinctions cluster at low flow / low O₂, approaching the microgravity flammability limit. Note: many tests step the flow during the burn; only the initial value is shown, and a few O-test rows are known parser outliers (see docs/ROADMAP.md).</figcaption></figure>
+<figure class="plate"><img src="figures/G5_spread_vs_flow.png" alt="G5_spread_vs_flow" loading="lazy"><figcaption><strong>G5.</strong> Steady spread rate (95 % CI, log scale) of the QC-trusted tests (configs/qc.yaml) against the air velocity measured during each steady window; colour = MCA-calibrated initial O₂. V_f is expected to increase with O₂; against flow, microgravity can show a maximum at low flow (radiative → thermal → kinetic regimes). Compare with published values (knowledge/literature/publications.md §2).</figcaption></figure>
+
+<h2>Forecasting the flame front</h2>
+<p>Each steady-spread series of the trusted tests is cut at several points in time and every model forecasts the next
+1 to 10 seconds of the leading-edge position. MASE below 1 beats a naive one-step forecast; coverage is the share of
+observations inside the 90 % interval. The steady windows are chosen with hindsight, so these numbers describe
+forecasting within a steady regime.</p>
+<div class="tablebox"><table><thead><tr><th>Model</th><th>h = 1 s</th><th>h = 5 s</th><th>h = 10 s</th><th>Coverage</th></tr></thead><tbody><tr><td>drift</td><td class='num'>0.73</td><td class='num'>1.30</td><td class='num'>1.89</td><td class='num'>0.75</td></tr><tr><td>holt_damped</td><td class='num'>0.84</td><td class='num'>1.72</td><td class='num'>3.58</td><td class='num'>0.57</td></tr><tr><td>kalman_conformal</td><td class='num'>0.78</td><td class='num'>1.40</td><td class='num'>2.21</td><td class='num'>0.91</td></tr><tr><td>kalman_cv</td><td class='num'>0.99</td><td class='num'>2.51</td><td class='num'>4.42</td><td class='num'>0.97</td></tr><tr><td>kalman_mle</td><td class='num'>0.74</td><td class='num'>1.08</td><td class='num'>1.61</td><td class='num'>0.93</td></tr><tr><td>persistence</td><td class='num'>1.31</td><td class='num'>4.26</td><td class='num'>8.32</td><td class='num'>0.69</td></tr><tr><td>physics_linear</td><td class='num'>0.85</td><td class='num'>0.93</td><td class='num'>1.12</td><td class='num'>0.80</td></tr></tbody></table></div>
+<figure class="plate"><img src="figures/B1__G9_forecast.png" alt="G9_forecast" loading="lazy"><figcaption><strong>G9 — B1.</strong> Grey: observed series. Blue: forecasts from several origins (vertical lines) with 90 % prediction intervals. An honest model contains the observation ~9 times out of 10 and its bands widen with the horizon. A median that flattens against a linear advance indicates a model that is mis-specified for steady spread.</figcaption></figure>
+<figure class="plate"><img src="figures/G11_skill.png" alt="G11_skill" loading="lazy"><figcaption><strong>G11.</strong> Mean MASE per model and horizon (rolling-origin evaluation, no temporal leakage). Lower is better; MASE &lt; 1 beats the naive one-step forecast. Some models usually win at short horizons and lose at long ones: choose according to the operational horizon.</figcaption></figure>
+<figure class="plate"><img src="figures/G12_calibration.png" alt="G12_calibration" loading="lazy"><figcaption><strong>G12.</strong> Empirical vs. nominal coverage of the prediction intervals (Gaussian assumption). Points below the diagonal = intervals too narrow (over-confidence); above it = too wide.</figcaption></figure>
+<figure class="plate"><img src="figures/G10_residuals.png" alt="G10_residuals" loading="lazy"><figcaption><strong>G10.</strong> Distribution of signed forecast errors (normalised per test and target so different units and scales are comparable) for each model and horizon, pooled over all tests and rolling origins. A box centred on zero = unbiased; a narrow box = precise. Boxes drifting below zero at long horizons reveal models that under-predict steady flame advance (e.g. persistence, damped trend).</figcaption></figure>
+<p>The autonomous research loop ran <strong>14</strong> evaluations against a fixed harness. The best version scores <strong>0.643</strong> against <strong>1.187</strong> for the baseline (lower is better). Best change: forecast: per-horizon inverse-MSE (Bates-Granger) combination of Kalman, 5 s local linear and persistence (no-trend member for plateaus).</p>
+<figure class="plate"><img src="figures/G16_loop_progress.png" alt="G16_loop_progress" loading="lazy"><figcaption><strong>G16.</strong> Every evaluation of research/experiment.py by the fixed harness (val_score combines segmentation, spread-rate accuracy and forecast skill, each normalised to the v0 baseline = 1). Green points were kept, grey ones reverted. The blue staircase is the best score so far; a long flat tail means the loop has converged on the current development set.</figcaption></figure>
+
+<h2>Limitations</h2>
+<ul>
+  <li>The ruler graduation (1 cm major marks) is inferred from the 76 mm duct geometry; NASA documents do not state it.</li>
+  <li>Development-test accuracy is in-sample; the hold-out slab steps are the out-of-sample evidence.</li>
+  <li>For thick slabs, rates after a flow change are over-estimated because the measurement window starts before the flame re-equilibrates.</li>
+  <li>Faint flames depend on the segmentation threshold (figure G15); that systematic uncertainty is not in the per-test intervals.</li>
+  <li>Segmentation is scored on synthetic flames until a hand-labelled gold set exists.</li>
+  <li>The B14, B18 and B20 main videos are truncated on the NASA server; their original MPEG-TS recordings were used instead.</li>
+</ul>
+<p class="note">Data: NASA Physical Sciences Informatics, investigation PSI-25 (DOI 10.60555/4qc4-de67), CC0. Published reference
+rates: SDSU BASS repository (B tests) and NASA/TM-20210011385 Table 5.1 (M tests).</p>
+</div>

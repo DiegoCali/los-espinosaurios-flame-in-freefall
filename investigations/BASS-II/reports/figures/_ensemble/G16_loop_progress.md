@@ -1,0 +1,1 @@
+**G16.** Every evaluation of research/experiment.py by the fixed harness (val_score combines segmentation, spread-rate accuracy and forecast skill, each normalised to the v0 baseline = 1). Green points were kept, grey ones reverted. The blue staircase is the best score so far; a long flat tail means the loop has converged on the current development set.
