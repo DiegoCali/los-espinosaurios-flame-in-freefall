@@ -28,7 +28,7 @@ RESULTS_PATH = Path(__file__).resolve().parent / "predictions.json"
 
 # Experimental knobs for autoresearch. Keep the split and targets fixed.
 N_ESTIMATORS = 200
-MAX_DEPTH = 8
+MAX_DEPTH = None
 MIN_SAMPLES_LEAF = 2
 RANDOM_STATE = 42
 
