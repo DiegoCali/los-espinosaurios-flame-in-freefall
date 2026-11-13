@@ -1,0 +1,5 @@
+"Actual Date  (for Video Display Date, add 1 for Leap Year)",GMT 2014-,Test no.,Sample no.,Material,Flow restrictor,Fan display,Air display,"Radiometer gain   (1000, 250, 50, 10)",total frames shot,calibrated  initial O2 % by vol ,calibrated final O2 % by vol,Initial CO2 % by vol,Final CO2 % by vol,Initial CO (ppm),Final CO (ppm)
+2014-02-19,50,F1,227,Nomex natural (nomex III),2,82,9.5,250,208,22.2,22.2,0.46,0.45,0,2
+2014-07-28,209,F2,228m,Nomex natural (nomex III),2,92,15,250,72,21,21,0.37,0.39,105,82
+2014-08-01,213,F3,229m,Nomex natural (nomex III),1,61,8,50,46,21.7,none,0.36,none,2,none
+2014-06-24,175,F4,39M,Japan Wax candle,2,see notes,3 ign,250,270,17.4,17.4,0.38,0.48,22,56

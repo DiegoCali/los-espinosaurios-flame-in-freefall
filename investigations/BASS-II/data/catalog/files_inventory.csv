@@ -1,0 +1,695 @@
+pi,test_id,test_variant,file_name,kind,ext,size_bytes,gmt_day,sample_id,category,subcategory
+,,,PSI-25_metadata_PSI_metadata_PSI-101_BASS-II.zip,raw_images_zip,.zip,13439,,,metadata,
+,,,PSI-25_Engineering Documents_BASS-II_Engineering Requirements.pptx,other,.pptx,1123356,,,Engineering Documents,
+Bhattacharjee,B1,B1,PSI-25_Raw Data_BASS_GMT50_SAMPLE_147_TEST_B1.mp4,main_video,.mp4,5803980,50.0,147,Raw Data,Reduced Gravity/ Bhattacharjee/B1
+Bhattacharjee,B1,B1,PSI-25_Raw Data_BASS_GMT50_SAMPLE_147_TEST_B1_Still_Sequence.mp4,still_sequence,.mp4,2831066,50.0,147,Raw Data,Reduced Gravity/ Bhattacharjee/B1
+Bhattacharjee,B1,,PSI-25_Raw Data_iss038e051108.zip,raw_images_zip,.zip,658096095,,,Raw Data,Reduced Gravity/ Bhattacharjee/B1
+Bhattacharjee,B1,B3,PSI-25_Raw Data_BASS_GMT50_SAMPLE_148_TEST_B3.mp4,main_video,.mp4,8005417,50.0,148,Raw Data,Reduced Gravity/ Bhattacharjee/B1
+Bhattacharjee,B3,B3,PSI-25_Raw Data_BASS_GMT50_SAMPLE_148_TEST_B3_Still_Sequence.mp4,still_sequence,.mp4,2072492,50.0,148,Raw Data,Reduced Gravity/ Bhattacharjee/B3
+Bhattacharjee,B2,B2,PSI-25_Raw Data_BASS_GMT50_SAMPLE_155_TEST_B2.mp4,main_video,.mp4,7855717,50.0,155,Raw Data,Reduced Gravity/ Bhattacharjee/B2
+Bhattacharjee,B5,B5,PSI-25_Raw Data_BASS_GMT50_SAMPLE_156_TEST_B5.mp4,main_video,.mp4,11138074,50.0,156,Raw Data,Reduced Gravity/ Bhattacharjee/B5
+Bhattacharjee,B5,B5,PSI-25_Raw Data_BASS_GMT50_SAMPLE_156_TEST_B5_Still_Sequence.mp4,still_sequence,.mp4,2652338,50.0,156,Raw Data,Reduced Gravity/ Bhattacharjee/B5
+Bhattacharjee,B4,B4,PSI-25_Raw Data_BASS_GMT50_SAMPLE_159_TEST_B4.mp4,main_video,.mp4,12580563,50.0,159,Raw Data,Reduced Gravity/ Bhattacharjee/B4
+Bhattacharjee,B4,B4,PSI-25_Raw Data_BASS_GMT50_SAMPLE_159_TEST_B4_Still_Sequence.mp4,still_sequence,.mp4,3356673,50.0,159,Raw Data,Reduced Gravity/ Bhattacharjee/B4
+Bhattacharjee,B12,B12,PSI-25_Raw Data_BASS_GMT50_SAMPLE_160_TEST_B12.mp4,main_video,.mp4,13139046,50.0,160,Raw Data,Reduced Gravity/ Bhattacharjee/B12
+Bhattacharjee,B12,B12,PSI-25_Raw Data_BASS_GMT50_SAMPLE_160_TEST_B12_Still_Sequence.mp4,still_sequence,.mp4,3387928,50.0,160,Raw Data,Reduced Gravity/ Bhattacharjee/B12
+Bhattacharjee,B16,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_150_TESTB16.mp4,other_video,.mp4,11837789,183.0,150,Raw Data,Reduced Gravity/ Bhattacharjee/B16
+Bhattacharjee,B16,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_150_TESTB16_2ND_VIEW.mp4,second_view,.mp4,18227573,183.0,150,Raw Data,Reduced Gravity/ Bhattacharjee/B16
+Bhattacharjee,B19,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_151_TESTB19.mp4,other_video,.mp4,10534334,183.0,151,Raw Data,Reduced Gravity/ Bhattacharjee/B19
+Bhattacharjee,B19,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_151_TESTB19_2ND_VIEW.mp4,second_view,.mp4,10956921,183.0,151,Raw Data,Reduced Gravity/ Bhattacharjee/B19
+Bhattacharjee,B19,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_151_TESTB19_Still_Sequence.mp4,still_sequence,.mp4,1794994,183.0,151,Raw Data,Reduced Gravity/ Bhattacharjee/B19
+Bhattacharjee,B20,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_152_TESTB20_2ND_VIEW.mp4,second_view,.mp4,14714696,183.0,152,Raw Data,Reduced Gravity/ Bhattacharjee/B20
+Bhattacharjee,B20,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_152_TESTB20.mp4,other_video,.mp4,10276296,183.0,152,Raw Data,Reduced Gravity/ Bhattacharjee/B20
+Bhattacharjee,B20,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_152_TESTB20_Still_Sequence.mp4,still_sequence,.mp4,5717139,183.0,152,Raw Data,Reduced Gravity/ Bhattacharjee/B20
+Bhattacharjee,B14,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14_2ND_VIEW.mp4,second_view,.mp4,10228951,183.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B14
+Bhattacharjee,B17,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15.mp4,other_video,.mp4,21089860,183.0,175,Raw Data,Reduced Gravity/ Bhattacharjee/B17
+Bhattacharjee,B17,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15_2ND_VIEW.mp4,second_view,.mp4,31534268,183.0,175,Raw Data,Reduced Gravity/ Bhattacharjee/B17
+Bhattacharjee,B18,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18.mp4,other_video,.mp4,14505745,183.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B18
+Bhattacharjee,B18,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18_Still_Sequence.mp4,still_sequence,.mp4,1701709,183.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B18
+Bhattacharjee,B18,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18_2ND_VIEW.mp4,second_view,.mp4,22103478,183.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B18
+Bhattacharjee,B15,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_149_TESTB15.mp4,other_video,.mp4,10743193,188.0,149,Raw Data,Reduced Gravity/ Bhattacharjee/B15
+Bhattacharjee,B15,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_149_TESTB15_2ND_VIEW.mp4,second_view,.mp4,10258618,188.0,149,Raw Data,Reduced Gravity/ Bhattacharjee/B15
+Bhattacharjee,B15,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_149_TESTB15_Still_Sequence.mp4,still_sequence,.mp4,2357480,188.0,149,Raw Data,Reduced Gravity/ Bhattacharjee/B15
+Bhattacharjee,B6,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_153_TESTB6.mp4,other_video,.mp4,7594452,188.0,153,Raw Data,Reduced Gravity/ Bhattacharjee/B6
+Bhattacharjee,B6,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_153_TESTB6_2ND_VIEW.mp4,second_view,.mp4,8744904,188.0,153,Raw Data,Reduced Gravity/ Bhattacharjee/B6
+Bhattacharjee,B6,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_153_TESTB6_Still_Sequence.mp4,still_sequence,.mp4,1770296,188.0,153,Raw Data,Reduced Gravity/ Bhattacharjee/B6
+Bhattacharjee,B9,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_154_TESTB9.mp4,other_video,.mp4,4962193,188.0,154,Raw Data,Reduced Gravity/ Bhattacharjee/B9
+Bhattacharjee,B9,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_154_TESTB9_2ND_VIEW.mp4,second_view,.mp4,5027782,188.0,154,Raw Data,Reduced Gravity/ Bhattacharjee/B9
+Bhattacharjee,B8,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_157_TESTB8.mp4,other_video,.mp4,18221098,188.0,157,Raw Data,Reduced Gravity/ Bhattacharjee/B8
+Bhattacharjee,B8,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_157_TESTB8_2ND_VIEW.mp4,second_view,.mp4,15707307,188.0,157,Raw Data,Reduced Gravity/ Bhattacharjee/B8
+Bhattacharjee,B8,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_157_TESTB8_Still_Sequence.mp4,still_sequence,.mp4,3454367,188.0,157,Raw Data,Reduced Gravity/ Bhattacharjee/B8
+Bhattacharjee,B13,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_162_TESTB13.mp4,other_video,.mp4,29172112,188.0,162,Raw Data,Reduced Gravity/ Bhattacharjee/B13
+Bhattacharjee,B13,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_162_TESTB13_Still_Sequence.mp4,still_sequence,.mp4,2117856,188.0,162,Raw Data,Reduced Gravity/ Bhattacharjee/B13
+Bhattacharjee,B13,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_162_TESTB13_2ND_VIEW.mp4,second_view,.mp4,31584073,188.0,162,Raw Data,Reduced Gravity/ Bhattacharjee/B13
+Bhattacharjee,B10,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_173_TESTB10.mp4,other_video,.mp4,17545851,188.0,173,Raw Data,Reduced Gravity/ Bhattacharjee/B10
+Bhattacharjee,B10,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_173_TESTB10_Still_Sequence.mp4,still_sequence,.mp4,1526965,188.0,173,Raw Data,Reduced Gravity/ Bhattacharjee/B10
+Bhattacharjee,B10,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_173_TESTB10_2ND_VIEW.mp4,second_view,.mp4,21543949,188.0,173,Raw Data,Reduced Gravity/ Bhattacharjee/B10
+Bhattacharjee,B22,B22,PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22.mp4,main_video,.mp4,13111581,216.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B22
+Bhattacharjee,B22,B22,PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22_2ND_VIEW.mp4,second_view,.mp4,15753412,216.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B22
+Bhattacharjee,B3,,PSI-25_Raw Data_iss038e051295.zip,raw_images_zip,.zip,560441499,,,Raw Data,Reduced Gravity/ Bhattacharjee/B3
+Bhattacharjee,B2,,PSI-25_Raw Data_iss038e051200.zip,raw_images_zip,.zip,153556346,,,Raw Data,Reduced Gravity/ Bhattacharjee/B2
+Bhattacharjee,B5,,PSI-25_Raw Data_iss038e051258.zip,raw_images_zip,.zip,711067092,,,Raw Data,Reduced Gravity/ Bhattacharjee/B5
+Bhattacharjee,B4,,PSI-25_Raw Data_iss038e051182.zip,raw_images_zip,.zip,918248327,,,Raw Data,Reduced Gravity/ Bhattacharjee/B4
+Bhattacharjee,B12,,PSI-25_Raw Data_iss038e051408.zip,raw_images_zip,.zip,972769419,,,Raw Data,Reduced Gravity/ Bhattacharjee/B12
+Bhattacharjee,B7,,PSI-25_Raw Data_iss038e051384.zip,raw_images_zip,.zip,1139763474,,,Raw Data,Reduced Gravity/ Bhattacharjee/B7
+Bhattacharjee,B16,,PSI-25_Raw Data_iss040e031282.zip,raw_images_zip,.zip,1218424466,,,Raw Data,Reduced Gravity/ Bhattacharjee/B16
+Bhattacharjee,B19,,PSI-25_Raw Data_iss040e031379.zip,raw_images_zip,.zip,1189444874,,,Raw Data,Reduced Gravity/ Bhattacharjee/B19
+Bhattacharjee,B20,,PSI-25_Raw Data_iss040e031181.zip,raw_images_zip,.zip,1381255153,,,Raw Data,Reduced Gravity/ Bhattacharjee/B20
+Bhattacharjee,B14,,PSI-25_Raw Data_iss040e030711.zip,raw_images_zip,.zip,513761683,,,Raw Data,Reduced Gravity/ Bhattacharjee/B14
+Ferkul,F1,F1,PSI-25_Raw Data_BASS_GMT50_SAMPLE_227_TEST_F1_Still_Sequence.mp4,still_sequence,.mp4,1199309,50.0,227,Raw Data,Reduced Gravity/Ferkul/F1
+Ferkul,F1,F1,PSI-25_Raw Data_BASS_GMT50_SAMPLE_227_TEST_F1.mp4,main_video,.mp4,10773471,50.0,227,Raw Data,Reduced Gravity/Ferkul/F1
+Bhattacharjee,B17,,PSI-25_Raw Data_iss040e030906.zip,raw_images_zip,.zip,2411022967,,,Raw Data,Reduced Gravity/ Bhattacharjee/B17
+Ferkul,F4,F4,PSI-25_Raw Data_BASS_GMT175_SAMPLE_039_TEST_F4.mp4,main_video,.mp4,43977075,175.0,039,Raw Data,Reduced Gravity/Ferkul/F4
+Ferkul,F4,F4,PSI-25_Raw Data_BASS_GMT175_SAMPLE_039_TEST_F4_2ND_VIEW.mp4,second_view,.mp4,59146861,175.0,039,Raw Data,Reduced Gravity/Ferkul/F4
+Ferkul,F3,F3,PSI-25_Raw Data_BASS_GMT213_SAMPLE_229_TEST_F3.mp4,main_video,.mp4,13139602,213.0,229,Raw Data,Reduced Gravity/Ferkul/F3
+Ferkul,F3,F3,PSI-25_Raw Data_BASS_GMT213_SAMPLE_229_TEST_F3_2ND_VIEW.mp4,second_view,.mp4,16089495,213.0,229,Raw Data,Reduced Gravity/Ferkul/F3
+Fernandez-Pello,P2,P2,PSI-25_Raw Data_BASS_GMT167_SAMPLE_188_TEST_P2.mp4,main_video,.mp4,56626643,167.0,188,Raw Data,Reduced Gravity/Fernandez-Pello/P2
+Fernandez-Pello,P2,P2,PSI-25_Raw Data_BASS_GMT167_SAMPLE_188_TEST_P2_Still_Sequence.mp4,still_sequence,.mp4,649879,167.0,188,Raw Data,Reduced Gravity/Fernandez-Pello/P2
+Fernandez-Pello,P2,P2,PSI-25_Raw Data_BASS_GMT167_SAMPLE_188_TEST_P2_2ND_VIEW.mp4,second_view,.mp4,69541663,167.0,188,Raw Data,Reduced Gravity/Fernandez-Pello/P2
+Fernandez-Pello,P3,P3a,PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a.mp4,main_video,.mp4,60651360,167.0,215,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P3,P3a,PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a_Still_Sequence.mp4,still_sequence,.mp4,1101615,167.0,215,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P3,P3a,PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a_2ND_VIEW.mp4,second_view,.mp4,76631703,167.0,215,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P3,P3b,PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b.mp4,main_video,.mp4,109145356,167.0,215,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P3,P3b,PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3b_2ND_VIEW.mp4,second_view,.mp4,146388142,167.0,215,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P14,P14,PSI-25_Raw Data_BASS_GMT174_SAMPLE_189_TEST_P14.mp4,main_video,.mp4,84961435,174.0,189,Raw Data,Reduced Gravity/Fernandez-Pello/P14
+Fernandez-Pello,P14,P14,PSI-25_Raw Data_BASS_GMT174_SAMPLE_189_TEST_P14_2ND_VIEW.mp4,second_view,.mp4,145518568,174.0,189,Raw Data,Reduced Gravity/Fernandez-Pello/P14
+Fernandez-Pello,P15,P15,PSI-25_Raw Data_BASS_GMT174_SAMPLE_190_TEST_P15.mp4,main_video,.mp4,70783057,174.0,190,Raw Data,Reduced Gravity/Fernandez-Pello/P15
+Fernandez-Pello,P15,P15,PSI-25_Raw Data_BASS_GMT174_SAMPLE_190_TEST_P15_Still_Sequence.mp4,still_sequence,.mp4,4692297,174.0,190,Raw Data,Reduced Gravity/Fernandez-Pello/P15
+Fernandez-Pello,P15,P15,PSI-25_Raw Data_BASS_GMT174_SAMPLE_190_TEST_P15_2ND_VIEW.mp4,second_view,.mp4,114699073,174.0,190,Raw Data,Reduced Gravity/Fernandez-Pello/P15
+Bhattacharjee,B18,,PSI-25_Raw Data_iss040e031063.zip,raw_images_zip,.zip,1931682647,,,Raw Data,Reduced Gravity/ Bhattacharjee/B18
+Bhattacharjee,B15,,PSI-25_Raw Data_iss040e045850.zip,raw_images_zip,.zip,872960433,,,Raw Data,Reduced Gravity/ Bhattacharjee/B15
+Bhattacharjee,B6,,PSI-25_Raw Data_iss040e045728.zip,raw_images_zip,.zip,921646016,,,Raw Data,Reduced Gravity/ Bhattacharjee/B6
+Bhattacharjee,B9,,PSI-25_Raw Data_iss040e045775.zip,raw_images_zip,.zip,588709400,,,Raw Data,Reduced Gravity/ Bhattacharjee/B9
+Fernandez-Pello,P21,P21a,PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a.mp4,main_video,.mp4,44226366,174.0,196,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P21,P21a,PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a_2ND_VIEW.mp4,second_view,.mp4,58580059,174.0,196,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P21,P21b,PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b.mp4,main_video,.mp4,35882022,174.0,196,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P21,P21b,PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21b_2ND_VIEW.mp4,second_view,.mp4,45866697,174.0,196,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P6,,PSI-25_Raw Data_BASS_GMT184_SAMPLE_186_TESTP6.mp4,other_video,.mp4,57618947,184.0,186,Raw Data,Reduced Gravity/Fernandez-Pello/P6
+Fernandez-Pello,P4,,PSI-25_Raw Data_BASS_GMT184_SAMPLE_197_TESTP4.mp4,other_video,.mp4,156209211,184.0,197,Raw Data,Reduced Gravity/Fernandez-Pello/P4
+Bhattacharjee,B8,,PSI-25_Raw Data_iss040e045964.zip,raw_images_zip,.zip,1372004553,,,Raw Data,Reduced Gravity/ Bhattacharjee/B8
+Fernandez-Pello,P25,P25,PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25.mp4,main_video,.mp4,103836812,189.0,217,Raw Data,Reduced Gravity/Fernandez-Pello/P25
+Fernandez-Pello,P25,P25,PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25_2ND_VIEW.mp4,second_view,.mp4,128498079,189.0,217,Raw Data,Reduced Gravity/Fernandez-Pello/P25
+Fernandez-Pello,P9,P9,PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9.mp4,main_video,.mp4,109313158,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P9
+Fernandez-Pello,P9,P9,PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P9_2ND_VIEW.mp4,second_view,.mp4,175423824,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P9
+Bhattacharjee,B13,,PSI-25_Raw Data_iss040e046276.zip,raw_images_zip,.zip,2280848281,,,Raw Data,Reduced Gravity/ Bhattacharjee/B13
+Fernandez-Pello,P16,P16,PSI-25_Raw Data_BASS_GMT203_SAMPLE_191_TEST_P16.mp4,main_video,.mp4,87525194,203.0,191,Raw Data,Reduced Gravity/Fernandez-Pello/P16
+Fernandez-Pello,P16,P16,PSI-25_Raw Data_BASS_GMT203_SAMPLE_191_TEST_P16_2ND_VIEW.mp4,second_view,.mp4,131505253,203.0,191,Raw Data,Reduced Gravity/Fernandez-Pello/P16
+Fernandez-Pello,P19,P19,PSI-25_Raw Data_BASS_GMT203_SAMPLE_194_TEST_P19.mp4,main_video,.mp4,153447514,203.0,194,Raw Data,Reduced Gravity/Fernandez-Pello/P19
+Fernandez-Pello,P19,P19,PSI-25_Raw Data_BASS_GMT203_SAMPLE_194_TEST_P19_2ND_VIEW.mp4,second_view,.mp4,219574375,203.0,194,Raw Data,Reduced Gravity/Fernandez-Pello/P19
+Fernandez-Pello,P17,P17,PSI-25_Raw Data_BASS_GMT210_SAMPLE_192_TEST_P17.mp4,main_video,.mp4,104648639,210.0,192,Raw Data,Reduced Gravity/Fernandez-Pello/P17
+Fernandez-Pello,P17,P17,PSI-25_Raw Data_BASS_GMT210_SAMPLE_192_TEST_P17_2ND_VIEW.mp4,second_view,.mp4,133500600,210.0,192,Raw Data,Reduced Gravity/Fernandez-Pello/P17
+Fernandez-Pello,P12,P12,PSI-25_Raw Data_BASS_GMT210_SAMPLE_199_TEST_P12.mp4,main_video,.mp4,108299394,210.0,199,Raw Data,Reduced Gravity/Fernandez-Pello/P12
+Fernandez-Pello,P12,P12,PSI-25_Raw Data_BASS_GMT210_SAMPLE_199_TEST_P12_LOS_Portion_1132-1133.mp4,los_clip,.mp4,6919902,210.0,199,Raw Data,Reduced Gravity/Fernandez-Pello/P12
+Fernandez-Pello,P12,P12,PSI-25_Raw Data_BASS_GMT210_SAMPLE_199_TEST_P12_LOS_Portion_1132-1133_2ND_VIEW.mp4,los_clip,.mp4,5360493,210.0,199,Raw Data,Reduced Gravity/Fernandez-Pello/P12
+Fernandez-Pello,P12,P12,PSI-25_Raw Data_BASS_GMT210_SAMPLE_199_TEST_P12_2ND_VIEW.mp4,second_view,.mp4,124770577,210.0,199,Raw Data,Reduced Gravity/Fernandez-Pello/P12
+Fernandez-Pello,P20,P20,PSI-25_Raw Data_BASS_GMT211_SAMPLE_195_TEST_P20.mp4,main_video,.mp4,98151714,211.0,195,Raw Data,Reduced Gravity/Fernandez-Pello/P20
+Fernandez-Pello,P20,P20,PSI-25_Raw Data_BASS_GMT211_SAMPLE_195_TEST_P20_2ND_VIEW_LOS_Portion_15h33m45s_to_end_of_test.mp4,los_clip,.mp4,15425545,211.0,195,Raw Data,Reduced Gravity/Fernandez-Pello/P20
+Fernandez-Pello,P20,P20,PSI-25_Raw Data_BASS_GMT211_SAMPLE_195_TEST_P20_LOS_Portion_15h33m45s_to_end_of_test.ts.mp4,los_clip,.mp4,11577077,211.0,195,Raw Data,Reduced Gravity/Fernandez-Pello/P20
+Fernandez-Pello,P20,P20,PSI-25_Raw Data_BASS_GMT211_SAMPLE_195_TEST_P20_2ND_VIEW.mp4,second_view,.mp4,122172164,211.0,195,Raw Data,Reduced Gravity/Fernandez-Pello/P20
+Fernandez-Pello,P23,P23,PSI-25_Raw Data_BASS_GMT211_SAMPLE_201_TEST_P23.mp4,main_video,.mp4,154030119,211.0,201,Raw Data,Reduced Gravity/Fernandez-Pello/P23
+Fernandez-Pello,P23,P23,PSI-25_Raw Data_BASS_GMT211_SAMPLE_201_TEST_P23_2ND_VIEW.mp4,second_view,.mp4,169994682,211.0,201,Raw Data,Reduced Gravity/Fernandez-Pello/P23
+Fernandez-Pello,P24,P24,PSI-25_Raw Data_BASS_GMT211_SAMPLE_819_TEST_P24.mp4,main_video,.mp4,138309330,211.0,819,Raw Data,Reduced Gravity/Fernandez-Pello/P24
+Fernandez-Pello,P24,P24,PSI-25_Raw Data_BASS_GMT211_SAMPLE_819_TEST_P24_Still_Sequence.mp4,still_sequence,.mp4,2619212,211.0,819,Raw Data,Reduced Gravity/Fernandez-Pello/P24
+Fernandez-Pello,P24,P24,PSI-25_Raw Data_BASS_GMT211_SAMPLE_819_TEST_P24_2ND_VIEW.mp4,second_view,.mp4,174010269,211.0,819,Raw Data,Reduced Gravity/Fernandez-Pello/P24
+Bhattacharjee,B10,,PSI-25_Raw Data_iss040e046091.zip,raw_images_zip,.zip,1450641182,,,Raw Data,Reduced Gravity/ Bhattacharjee/B10
+Bhattacharjee,B21,B21,PSI-25_Raw Data_GMT2014_216_BASS_S174M_TPB21.zip,raw_images_zip,.zip,1012617469,216.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B21
+Miller,M5,M5,PSI-25_Raw Data_BASS_GMT51_SAMPLE_167_TEST_M5_Still_Sequence_1.mp4,still_sequence,.mp4,5039147,51.0,167,Raw Data,Reduced Gravity/Miller/M5
+Miller,M5,M5,PSI-25_Raw Data_BASS_GMT51_SAMPLE_167_TEST_M5_Still_Sequence_2.mp4,still_sequence,.mp4,10157907,51.0,167,Raw Data,Reduced Gravity/Miller/M5
+Miller,M5,M5,PSI-25_Raw Data_BASS_GMT51_SAMPLE_167_TEST_M5.mp4,main_video,.mp4,193476993,51.0,167,Raw Data,Reduced Gravity/Miller/M5
+Bhattacharjee,B22,B22,PSI-25_Raw Data_GMT2014_216_BASS_S176M_TPB22.zip,raw_images_zip,.zip,821683643,216.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B22
+Bhattacharjee,B11,,PSI-25_Raw Data_iss040e042733.zip,raw_images_zip,.zip,1533656435,,,Raw Data,Reduced Gravity/ Bhattacharjee/B11
+Ferkul,F1,,PSI-25_Raw Data_iss038e051507.zip,raw_images_zip,.zip,660340771,,,Raw Data,Reduced Gravity/Ferkul/F1
+Ferkul,F4,,PSI-25_Raw Data_iss040e018147.zip,raw_images_zip,.zip,1901987151,,,Raw Data,Reduced Gravity/Ferkul/F4
+Ferkul,F3,F3,PSI-25_Raw Data_GMT2014_213_BASS_S229M_TPF3.zip,raw_images_zip,.zip,420796613,213.0,229,Raw Data,Reduced Gravity/Ferkul/F3
+Fernandez-Pello,P1,,PSI-25_Raw Data_iss040e012414.zip,raw_images_zip,.zip,1185072607,,,Raw Data,Reduced Gravity/Fernandez-Pello/P1
+Fernandez-Pello,P1,,PSI-25_Raw Data_iss040e012518.zip,raw_images_zip,.zip,1201118982,,,Raw Data,Reduced Gravity/Fernandez-Pello/P1
+Fernandez-Pello,P1,,PSI-25_Raw Data_iss040e012614.zip,raw_images_zip,.zip,1247021874,,,Raw Data,Reduced Gravity/Fernandez-Pello/P1
+Miller,M1,M1,PSI-25_Raw Data_BASS_GMT51_SAMPLE_222_TEST_M1_Still_Sequence.mp4,still_sequence,.mp4,11636925,51.0,222,Raw Data,Reduced Gravity/Miller/M1
+Miller,M1,M1,PSI-25_Raw Data_BASS_GMT51_SAMPLE_222_TEST_M1.mp4,main_video,.mp4,57914129,51.0,222,Raw Data,Reduced Gravity/Miller/M1
+Miller,M14,M14,PSI-25_Raw Data_BASS_GMT51_SAMPLE_223_TEST_M14_Still_Sequence.mp4,still_sequence,.mp4,4390099,51.0,223,Raw Data,Reduced Gravity/Miller/M14
+Miller,M14,M14,PSI-25_Raw Data_BASS_GMT51_SAMPLE_223_TEST_M14.mp4,main_video,.mp4,187975972,51.0,223,Raw Data,Reduced Gravity/Miller/M14
+Fernandez-Pello,P2,,PSI-25_Raw Data_iss040e012916.zip,raw_images_zip,.zip,3595227763,,,Raw Data,Reduced Gravity/Fernandez-Pello/P2
+Fernandez-Pello,P3,,PSI-25_Raw Data_iss040e013020.zip,raw_images_zip,.zip,1157209856,,,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P3,,PSI-25_Raw Data_iss040e013123.zip,raw_images_zip,.zip,1229956570,,,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P3,,PSI-25_Raw Data_iss040e013223.zip,raw_images_zip,.zip,1244929649,,,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P3,,PSI-25_Raw Data_iss040e013526.zip,raw_images_zip,.zip,3675476822,,,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P14,,PSI-25_Raw Data_iss040e020561.zip,raw_images_zip,.zip,1822050418,,,Raw Data,Reduced Gravity/Fernandez-Pello/P14
+Fernandez-Pello,P15,,PSI-25_Raw Data_iss040e017750.zip,raw_images_zip,.zip,2130701523,,,Raw Data,Reduced Gravity/Fernandez-Pello/P15
+Fernandez-Pello,P21,,PSI-25_Raw Data_iss040e017812.zip,raw_images_zip,.zip,761691633,,,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P21,,PSI-25_Raw Data_iss040e017813.zip,raw_images_zip,.zip,761691633,,,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P21,,PSI-25_Raw Data_iss040e017831.zip,raw_images_zip,.zip,171315042,,,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P6,,PSI-25_Raw Data_iss040e032206.zip,raw_images_zip,.zip,1917853039,,,Raw Data,Reduced Gravity/Fernandez-Pello/P6
+Fernandez-Pello,P4,,PSI-25_Raw Data_iss040e032358.zip,raw_images_zip,.zip,1786828865,,,Raw Data,Reduced Gravity/Fernandez-Pello/P4
+Fernandez-Pello,P4,,PSI-25_Raw Data_iss040e032501.zip,raw_images_zip,.zip,1854778867,,,Raw Data,Reduced Gravity/Fernandez-Pello/P4
+Fernandez-Pello,P22,,PSI-25_Raw Data_iss040e053362.zip,raw_images_zip,.zip,823127146,,,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Fernandez-Pello,P22,,PSI-25_Raw Data_iss040e053527.zip,raw_images_zip,.zip,1871302602,,,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Miller,M2,M2,PSI-25_Raw Data_BASS_GMT51_SAMPLE_224_TEST_M2_Still_Sequence_1.mp4,still_sequence,.mp4,5490564,51.0,224,Raw Data,Reduced Gravity/Miller/M2
+Miller,M2,M2,PSI-25_Raw Data_BASS_GMT51_SAMPLE_224_TEST_M2_Still_Sequence_2.mp4,still_sequence,.mp4,11022774,51.0,224,Raw Data,Reduced Gravity/Miller/M2
+Miller,M2,M2,PSI-25_Raw Data_BASS_GMT51_SAMPLE_224_TEST_M2.mp4,main_video,.mp4,212015133,51.0,224,Raw Data,Reduced Gravity/Miller/M2
+Fernandez-Pello,P25,,PSI-25_Raw Data_iss040e053783.zip,raw_images_zip,.zip,2886921629,,,Raw Data,Reduced Gravity/Fernandez-Pello/P25
+Miller,M15,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_225_TESTM15.mp4,other_video,.mp4,142273046,188.0,225,Raw Data,Reduced Gravity/Miller/M15
+Miller,M15,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_225_TESTM15_2ND_VIEW.mp4,second_view,.mp4,204744222,188.0,225,Raw Data,Reduced Gravity/Miller/M15
+Fernandez-Pello,P10,,PSI-25_Raw Data_iss040e032729.zip,raw_images_zip,.zip,2824769955,,,Raw Data,Reduced Gravity/Fernandez-Pello/P10
+Miller,M7,M7,PSI-25_Raw Data_BASS_GMT192_SAMPLE_177_TEST_M7.mp4,main_video,.mp4,110011647,192.0,177,Raw Data,Reduced Gravity/Miller/M7
+Miller,M7,M7,PSI-25_Raw Data_BASS_GMT192_SAMPLE_177_TEST_M7_2ND_VIEW.mp4,second_view,.mp4,179387384,192.0,177,Raw Data,Reduced Gravity/Miller/M7
+Fernandez-Pello,P8,,PSI-25_Raw Data_iss040e032805.zip,raw_images_zip,.zip,854840910,,,Raw Data,Reduced Gravity/Fernandez-Pello/P8
+Miller,M8,M8,PSI-25_Raw Data_BASS_GMT192_SAMPLE_178_TEST_M8.mp4,main_video,.mp4,163852409,192.0,178,Raw Data,Reduced Gravity/Miller/M8
+Miller,M8,M8,PSI-25_Raw Data_BASS_GMT192_SAMPLE_178_TEST_M8_2ND_VIEW.mp4,second_view,.mp4,254594784,192.0,178,Raw Data,Reduced Gravity/Miller/M8
+Miller,M9,M9,PSI-25_Raw Data_BASS_GMT192_SAMPLE_179_TEST_M9.mp4,main_video,.mp4,97701031,192.0,179,Raw Data,Reduced Gravity/Miller/M9
+Miller,M9,M9,PSI-25_Raw Data_BASS_GMT192_SAMPLE_179_TEST_M9_2ND_VIEW.mp4,second_view,.mp4,161042847,192.0,179,Raw Data,Reduced Gravity/Miller/M9
+Miller,M11,M11,PSI-25_Raw Data_BASS_GMT192_SAMPLE_181_TEST_M11.mp4,main_video,.mp4,172643300,192.0,181,Raw Data,Reduced Gravity/Miller/M11
+Miller,M11,M11,PSI-25_Raw Data_BASS_GMT192_SAMPLE_181_TEST_M11_2ND_VIEW.mp4,second_view,.mp4,284270558,192.0,181,Raw Data,Reduced Gravity/Miller/M11
+Fernandez-Pello,P5,P5,PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP5.zip,raw_images_zip,.zip,3275534145,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P5
+Fernandez-Pello,P9,P9,PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP9.zip,raw_images_zip,.zip,1623329600,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P9
+Miller,M17,M17,PSI-25_Raw Data_BASS_GMT196_SAMPLE_166_TEST_M17.mp4,main_video,.mp4,188454727,196.0,166,Raw Data,Reduced Gravity/Miller/M17
+Miller,M17,M17,PSI-25_Raw Data_BASS_GMT196_SAMPLE_166_TEST_M17_2ND_VIEW.mp4,second_view,.mp4,311887260,196.0,166,Raw Data,Reduced Gravity/Miller/M17
+Fernandez-Pello,P13,P13a,PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13a.zip,raw_images_zip,.zip,2769319261,195.0,203,Raw Data,Reduced Gravity/Fernandez-Pello/P13
+Fernandez-Pello,P13,P13b,PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13b.zip,raw_images_zip,.zip,903202840,195.0,203,Raw Data,Reduced Gravity/Fernandez-Pello/P13
+Fernandez-Pello,P16,P16,PSI-25_Raw Data_GMT2014_203_BASS_S191M_TPP16.zip,raw_images_zip,.zip,1663798886,203.0,191,Raw Data,Reduced Gravity/Fernandez-Pello/P16
+Fernandez-Pello,P19,P19,PSI-25_Raw Data_GMT2014_203_BASS_S194M_TPP19.zip,raw_images_zip,.zip,3128626171,203.0,194,Raw Data,Reduced Gravity/Fernandez-Pello/P19
+Fernandez-Pello,P17,P17,PSI-25_Raw Data_GMT2014_210_BASS_S192_TPP17.zip,raw_images_zip,.zip,2152496543,210.0,192,Raw Data,Reduced Gravity/Fernandez-Pello/P17
+Fernandez-Pello,P12,P12,PSI-25_Raw Data_GMT2014_210_BASS_S199_TPP12_1.zip,raw_images_zip,.zip,1827999816,210.0,199,Raw Data,Reduced Gravity/Fernandez-Pello/P12
+Fernandez-Pello,P12,P12,PSI-25_Raw Data_GMT2014_210_BASS_S199_TPP12_2.zip,raw_images_zip,.zip,1266803024,210.0,199,Raw Data,Reduced Gravity/Fernandez-Pello/P12
+Fernandez-Pello,P18,P18,PSI-25_Raw Data_BASS_GMT211_SAMPLE_193_TEST_P18_2ND_VIEW_LOS_Portion_10h52m52s_to_end_of_test.mp4,los_clip,.mp4,88432562,211.0,193,Raw Data,Reduced Gravity/Fernandez-Pello/P18
+Fernandez-Pello,P18,P18,PSI-25_Raw Data_BASS_GMT211_SAMPLE_193_TEST_P18_LOS_Portion_10h52m52s_to_end_of_test.mp4,los_clip,.mp4,59472326,211.0,193,Raw Data,Reduced Gravity/Fernandez-Pello/P18
+Fernandez-Pello,P18,P18,PSI-25_Raw Data_BASS_GMT211_SAMPLE_193_TEST_P18_2ND_VIEW.mp4,second_view,.mp4,91179442,211.0,193,Raw Data,Reduced Gravity/Fernandez-Pello/P18
+Fernandez-Pello,P18,P18,PSI-25_Raw Data_GMT2014_211_BASS_S193M_TPP18.zip,raw_images_zip,.zip,3327663973,211.0,193,Raw Data,Reduced Gravity/Fernandez-Pello/P18
+Fernandez-Pello,P20,P20,PSI-25_Raw Data_GMT2014_211_BASS_S195M_TPP20-1.zip,raw_images_zip,.zip,1817981295,211.0,195,Raw Data,Reduced Gravity/Fernandez-Pello/P20
+Fernandez-Pello,P20,P20,PSI-25_Raw Data_GMT2014_211_BASS_S195M_TPP20-2.zip,raw_images_zip,.zip,1758402557,211.0,195,Raw Data,Reduced Gravity/Fernandez-Pello/P20
+Fernandez-Pello,P23,P23,PSI-25_Raw Data_GMT2014_211_BASS_S201M_TPP23_original_NEF_images.zip,raw_images_zip,.zip,2831196328,211.0,201,Raw Data,Reduced Gravity/Fernandez-Pello/P23
+Miller,M18,M18,PSI-25_Raw Data_BASS_GMT196_SAMPLE_168_TEST_M18.mp4,main_video,.mp4,154679243,196.0,168,Raw Data,Reduced Gravity/Miller/M18
+Miller,M18,M18,PSI-25_Raw Data_BASS_GMT196_SAMPLE_168_TEST_M18_2ND_VIEW.mp4,second_view,.mp4,253121484,196.0,168,Raw Data,Reduced Gravity/Miller/M18
+Miller,M16,M16,PSI-25_Raw Data_BASS_GMT204_SAMPLE_164_TEST_M16.mp4,main_video,.mp4,112162685,204.0,164,Raw Data,Reduced Gravity/Miller/M16
+Miller,M16,M16,PSI-25_Raw Data_BASS_GMT204_SAMPLE_164_TEST_M16_2ND_VIEW.mp4,second_view,.mp4,141580740,204.0,164,Raw Data,Reduced Gravity/Miller/M16
+Fernandez-Pello,P24,P24,PSI-25_Raw Data_GMT2014_211_BASS_S819L_TPP24_1.zip,raw_images_zip,.zip,1783531449,211.0,819,Raw Data,Reduced Gravity/Fernandez-Pello/P24
+Fernandez-Pello,P24,P24,PSI-25_Raw Data_GMT2014_211_BASS_S819L_TPP24_2.zip,raw_images_zip,.zip,1725839270,211.0,819,Raw Data,Reduced Gravity/Fernandez-Pello/P24
+Miller,M19,M19,PSI-25_Raw Data_BASS_GMT204_SAMPLE_170_TEST_M19.mp4,main_video,.mp4,183298910,204.0,170,Raw Data,Reduced Gravity/Miller/M19
+Miller,M19,M19,PSI-25_Raw Data_BASS_GMT204_SAMPLE_170_TEST_M19_2ND_VIEW.mp4,second_view,.mp4,226568634,204.0,170,Raw Data,Reduced Gravity/Miller/M19
+Miller,M10,M10,PSI-25_Raw Data_BASS_GMT204_SAMPLE_180_TEST_M10.mp4,main_video,.mp4,209995144,204.0,180,Raw Data,Reduced Gravity/Miller/M10
+Miller,M10,M10,PSI-25_Raw Data_BASS_GMT204_SAMPLE_180_TEST_M10_LOS_Portion_1754-1756.mp4,los_clip,.mp4,10826556,204.0,180,Raw Data,Reduced Gravity/Miller/M10
+Miller,M10,M10,PSI-25_Raw Data_BASS_GMT204_SAMPLE_180_TEST_M10_LOS_Portion_1754-1756_2ND_VIEW.mp4,los_clip,.mp4,14428982,204.0,180,Raw Data,Reduced Gravity/Miller/M10
+Miller,M10,M10,PSI-25_Raw Data_BASS_GMT204_SAMPLE_180_TEST_M10_2ND_VIEW.mp4,second_view,.mp4,254551596,204.0,180,Raw Data,Reduced Gravity/Miller/M10
+Miller,M5,,PSI-25_Raw Data_iss038e052905.zip,raw_images_zip,.zip,1257360999,,,Raw Data,Reduced Gravity/Miller/M5
+Miller,M5,,PSI-25_Raw Data_iss038e053008.zip,raw_images_zip,.zip,1267350195,,,Raw Data,Reduced Gravity/Miller/M5
+Miller,M5,,PSI-25_Raw Data_iss038e053071.zip,raw_images_zip,.zip,1360974807,,,Raw Data,Reduced Gravity/Miller/M5
+Miller,M5,,PSI-25_Raw Data_iss038e053229.zip,raw_images_zip,.zip,1420625275,,,Raw Data,Reduced Gravity/Miller/M5
+Miller,M6,M6,PSI-25_Raw Data_BASS_GMT212_SAMPLE_163_TEST_M6.mp4,main_video,.mp4,144868608,212.0,163,Raw Data,Reduced Gravity/Miller/M6
+Miller,M6,M6,PSI-25_Raw Data_BASS_GMT212_SAMPLE_163_TEST_M6_2ND_VIEW.mp4,second_view,.mp4,176976715,212.0,163,Raw Data,Reduced Gravity/Miller/M6
+Miller,M12,M12,PSI-25_Raw Data_BASS_GMT212_SAMPLE_165_TEST_M12.mp4,main_video,.mp4,125655846,212.0,165,Raw Data,Reduced Gravity/Miller/M12
+Miller,M12,M12,PSI-25_Raw Data_BASS_GMT212_SAMPLE_165_TEST_M12_2ND_VIEW.mp4,second_view,.mp4,157206941,212.0,165,Raw Data,Reduced Gravity/Miller/M12
+Miller,M13,M13,PSI-25_Raw Data_BASS_GMT212_SAMPLE_169_TEST_M13.mp4,main_video,.mp4,142341116,212.0,169,Raw Data,Reduced Gravity/Miller/M13
+Miller,M13,M13,PSI-25_Raw Data_BASS_GMT212_SAMPLE_169_TEST_M13_2ND_VIEW.mp4,second_view,.mp4,185003328,212.0,169,Raw Data,Reduced Gravity/Miller/M13
+Miller,M1,,PSI-25_Raw Data_iss038e052299.zip,raw_images_zip,.zip,3687014302,,,Raw Data,Reduced Gravity/Miller/M1
+Miller,M20,M20,PSI-25_Raw Data_BASS_GMT213_SAMPLE_172_TEST_M20.mp4,main_video,.mp4,170044149,213.0,172,Raw Data,Reduced Gravity/Miller/M20
+Miller,M20,M20,PSI-25_Raw Data_BASS_GMT213_SAMPLE_172_TEST_M20_2ND_VIEW.mp4,second_view,.mp4,194213946,213.0,172,Raw Data,Reduced Gravity/Miller/M20
+Miller,M14,,PSI-25_Raw Data_iss038e052427.zip,raw_images_zip,.zip,1642278866,,,Raw Data,Reduced Gravity/Miller/M14
+Miller,M14,,PSI-25_Raw Data_iss038e052560.zip,raw_images_zip,.zip,1695139063,,,Raw Data,Reduced Gravity/Miller/M14
+Miller,M2,,PSI-25_Raw Data_iss038e052689.zip,raw_images_zip,.zip,1682663785,,,Raw Data,Reduced Gravity/Miller/M2
+Miller,M2,,PSI-25_Raw Data_iss038e052818.zip,raw_images_zip,.zip,1782999274,,,Raw Data,Reduced Gravity/Miller/M2
+Miller,M15,,PSI-25_Raw Data_iss040e046434.zip,raw_images_zip,.zip,1840154070,,,Raw Data,Reduced Gravity/Miller/M15
+Miller,M7,M7,PSI-25_Raw Data_GMT2014_192_BASS_S177M_TPM7.zip,raw_images_zip,.zip,3400321243,192.0,177,Raw Data,Reduced Gravity/Miller/M7
+Miller,M8,M8,PSI-25_Raw Data_GMT2014_192_BASS_S178M_TPM8_1.zip,raw_images_zip,.zip,1200135845,192.0,178,Raw Data,Reduced Gravity/Miller/M8
+Miller,M8,M8,PSI-25_Raw Data_GMT2014_192_BASS_S178M_TPM8_2.zip,raw_images_zip,.zip,1138053674,192.0,178,Raw Data,Reduced Gravity/Miller/M8
+Miller,M8,M8,PSI-25_Raw Data_GMT2014_192_BASS_S178M_TPM8_3.zip,raw_images_zip,.zip,1136840220,192.0,178,Raw Data,Reduced Gravity/Miller/M8
+Miller,M9,M9,PSI-25_Raw Data_GMT2014_192_BASS_S179M_TPM9.zip,raw_images_zip,.zip,1566856264,192.0,179,Raw Data,Reduced Gravity/Miller/M9
+Miller,M11,M11,PSI-25_Raw Data_GMT2014_192_BASS_S181M_TPM11.zip,raw_images_zip,.zip,2707171034,192.0,181,Raw Data,Reduced Gravity/Miller/M11
+Miller,M3,,PSI-25_Raw Data_M3-over-the-shoulder-view-during-LOS.mp4,los_clip,.mp4,17106964,,,Raw Data,Reduced Gravity/Miller/M3
+Miller,M3,,PSI-25_Raw Data_M3-rack-video-during-LOS.mp4,los_clip,.mp4,11533335,,,Raw Data,Reduced Gravity/Miller/M3
+Miller,M10,,PSI-25_Raw Data_M10experimentvideo-LOS.mp4,los_clip,.mp4,12772956,,,Raw Data,Reduced Gravity/Miller/M10
+Miller,M3,M3,PSI-25_Raw Data_GMT2014_192_BASS_S226M_TPM3.zip,raw_images_zip,.zip,2481302422,192.0,226,Raw Data,Reduced Gravity/Miller/M3
+Miller,M10,,PSI-25_Raw Data_M10-lab-camera-LOS.mp4,los_clip,.mp4,15216538,,,Raw Data,Reduced Gravity/Miller/M10
+Olson,O2,O2,PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2_Still_Sequence.mp4,still_sequence,.mp4,2946305,49.0,204,Raw Data,Reduced Gravity/Olson/O2
+Olson,O2,O2,PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2.mp4,main_video,.mp4,31874741,49.0,204,Raw Data,Reduced Gravity/Olson/O2
+Olson,O1,O1,PSI-25_Raw Data_BASS_GMT49_SAMPLE_207_TEST_O1_Still_Sequence.mp4,still_sequence,.mp4,5821593,49.0,207,Raw Data,Reduced Gravity/Olson/O1
+Olson,O1,O1,PSI-25_Raw Data_BASS_GMT49_SAMPLE_207_TEST_O1.mp4,main_video,.mp4,34211955,49.0,207,Raw Data,Reduced Gravity/Olson/O1
+Miller,M17,,PSI-25_Raw Data_iss040e064265.zip,raw_images_zip,.zip,3768112520,,,Raw Data,Reduced Gravity/Miller/M17
+Miller,M18,M18,PSI-25_Raw Data_GMT2014_196_BASS_S168M_TPM18.zip,raw_images_zip,.zip,1953088353,196.0,168,Raw Data,Reduced Gravity/Miller/M18
+Miller,M16,M16,PSI-25_Raw Data_GMT2014_204_BASS_S164M_TPM16_1.zip,raw_images_zip,.zip,1795233142,204.0,164,Raw Data,Reduced Gravity/Miller/M16
+Miller,M16,M16,PSI-25_Raw Data_GMT2014_204_BASS_S164M_TPM16_2.zip,raw_images_zip,.zip,1855979526,204.0,164,Raw Data,Reduced Gravity/Miller/M16
+Olson,O3,O3a,PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a.mp4,main_video,.mp4,23510087,164.0,205,Raw Data,Reduced Gravity/Olson/O3
+Olson,O3,O3a,PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a_2ND_VIEW.mp4,second_view,.mp4,27893426,164.0,205,Raw Data,Reduced Gravity/Olson/O3
+Olson,O3,O3b,PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b.mp4,main_video,.mp4,41601427,164.0,205,Raw Data,Reduced Gravity/Olson/O3
+Olson,O3,O3b,PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b_Still_Sequence.mp4,still_sequence,.mp4,4127161,164.0,205,Raw Data,Reduced Gravity/Olson/O3
+Olson,O3,O3b,PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3b_2ND_VIEW.mp4,second_view,.mp4,42565728,164.0,205,Raw Data,Reduced Gravity/Olson/O3
+Olson,O6,O6,PSI-25_Raw Data_BASS_GMT177_SAMPLE_206_TEST_O6.mp4,main_video,.mp4,86823830,177.0,206,Raw Data,Reduced Gravity/Olson/O6
+Olson,O6,O6,PSI-25_Raw Data_BASS_GMT177_SAMPLE_206_TEST_O6_2ND_VIEW.mp4,second_view,.mp4,129208937,177.0,206,Raw Data,Reduced Gravity/Olson/O6
+Olson,O8,O8a,PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a.mp4,main_video,.mp4,51121188,177.0,208,Raw Data,Reduced Gravity/Olson/O8
+Olson,O8,O8a,PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a_2ND_VIEW.mp4,second_view,.mp4,78581776,177.0,208,Raw Data,Reduced Gravity/Olson/O8
+Olson,O8,O8b,PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8b.mp4,main_video,.mp4,56114010,177.0,208,Raw Data,Reduced Gravity/Olson/O8
+Olson,O8,O8b,PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8b_2ND_VIEW.mp4,second_view,.mp4,81020427,177.0,208,Raw Data,Reduced Gravity/Olson/O8
+Miller,M19,,PSI-25_Raw Data_iss040e074747.zip,raw_images_zip,.zip,2333120317,,,Raw Data,Reduced Gravity/Miller/M19
+Olson,O9,O9,PSI-25_Raw Data_BASS_GMT177_SAMPLE_209_TEST_O9.mp4,main_video,.mp4,61078814,177.0,209,Raw Data,Reduced Gravity/Olson/O9
+Olson,O9,O9,PSI-25_Raw Data_BASS_GMT177_SAMPLE_209_TEST_O9_2ND_VIEW.mp4,second_view,.mp4,88666756,177.0,209,Raw Data,Reduced Gravity/Olson/O9
+Miller,M10,M10,PSI-25_Raw Data_GMT2014_204_BASS_S180M_TPM10.zip,raw_images_zip,.zip,2232833342,204.0,180,Raw Data,Reduced Gravity/Miller/M10
+Olson,O11,O11,PSI-25_Raw Data_BASS_GMT189_SAMPLE_184_TEST_O11.mp4,main_video,.mp4,120784326,189.0,184,Raw Data,Reduced Gravity/Olson/O11
+Olson,O11,O11,PSI-25_Raw Data_BASS_GMT189_SAMPLE_184_TEST_O11_2ND_VIEW.mp4,second_view,.mp4,163544771,189.0,184,Raw Data,Reduced Gravity/Olson/O11
+Olson,O4,O4,PSI-25_Raw Data_BASS_GMT189_SAMPLE_216_TEST_O4.mp4,main_video,.mp4,146711131,189.0,216,Raw Data,Reduced Gravity/Olson/O4
+Olson,O4,O4,PSI-25_Raw Data_BASS_GMT189_SAMPLE_216_TEST_O4_2ND_VIEW.mp4,second_view,.mp4,184709109,189.0,216,Raw Data,Reduced Gravity/Olson/O4
+Olson,O12,O12,PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12.mp4,main_video,.mp4,58379498,189.0,217,Raw Data,Reduced Gravity/Olson/O12
+Olson,O12,O12,PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12_2ND_VIEW.mp4,second_view,.mp4,71465162,189.0,217,Raw Data,Reduced Gravity/Olson/O12
+Olson,O5,O5a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1.mp4,main_video,.mp4,35877343,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O5,O5a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-1_2ND_VIEW.mp4,second_view,.mp4,45934347,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O5,O5a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2.mp4,main_video,.mp4,65190674,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O5,O5a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_Still_Sequence.mp4,still_sequence,.mp4,1007320,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O5,O5a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a_Part-2_2ND_VIEW.mp4,second_view,.mp4,86629045,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O5,O5b,PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b.mp4,main_video,.mp4,27229112,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O5,O5b,PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5b_Still_Sequence.mp4,still_sequence,.mp4,37546934,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O13,O13a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_LOS_Portion_1741-1743.mp4,los_clip,.mp4,11497596,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O13,O13a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_LOS_Portion_1741-1743_2ND_VIEW.mp4,los_clip,.mp4,15704573,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O13,O13a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a.mp4,main_video,.mp4,153642786,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O13,O13b,PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13b.mp4,main_video,.mp4,29477038,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O13,O13a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a_Still_Sequence.mp4,still_sequence,.mp4,214947327,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O13,O13b,PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13b_Still_Sequence.mp4,still_sequence,.mp4,42885447,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O10,O10,PSI-25_Raw Data_BASS_GMT203_SAMPLE_210_TEST_O10_Still_Sequence.mp4,still_sequence,.mp4,1973986,203.0,210,Raw Data,Reduced Gravity/Olson/O10
+Olson,O10,O10,PSI-25_Raw Data_BASS_GMT203_SAMPLE_210_TEST_O10_2ND_VIEW.mp4,second_view,.mp4,116397522,203.0,210,Raw Data,Reduced Gravity/Olson/O10
+Olson,O17,O17,PSI-25_Raw Data_BASS_GMT203_SAMPLE_211_TEST_O17_Still_Sequence.mp4,still_sequence,.mp4,1581765,203.0,211,Raw Data,Reduced Gravity/Olson/O17
+Olson,O17,O17,PSI-25_Raw Data_BASS_GMT203_SAMPLE_211_TEST_O17_2ND_VIEW.mp4,second_view,.mp4,154147156,203.0,211,Raw Data,Reduced Gravity/Olson/O17
+Olson,O18,O18,PSI-25_Raw Data_BASS_GMT209_SAMPLE_212_TEST_O18.mp4,main_video,.mp4,75137697,209.0,212,Raw Data,Reduced Gravity/Olson/O18
+Olson,O18,O18,PSI-25_Raw Data_BASS_GMT209_SAMPLE_212_TEST_O18_Still_Sequence.mp4,still_sequence,.mp4,4500363,209.0,212,Raw Data,Reduced Gravity/Olson/O18
+Olson,O18,O18,PSI-25_Raw Data_BASS_GMT209_SAMPLE_212_TEST_O18_2ND_VIEW.mp4,second_view,.mp4,88269340,209.0,212,Raw Data,Reduced Gravity/Olson/O18
+Olson,O15,O15a,PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a.mp4,main_video,.mp4,78319609,209.0,218,Raw Data,Reduced Gravity/Olson/O15
+Olson,O15,O15a,PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a_2ND_VIEW.mp4,second_view,.mp4,80420113,209.0,218,Raw Data,Reduced Gravity/Olson/O15
+Olson,O15,O15b,PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b.mp4,main_video,.mp4,222205165,209.0,218,Raw Data,Reduced Gravity/Olson/O15
+Olson,O15,O15b,PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15b_2ND_VIEW.mp4,second_view,.mp4,256091463,209.0,218,Raw Data,Reduced Gravity/Olson/O15
+Olson,O14,O14,PSI-25_Raw Data_BASS_GMT213_SAMPLE_183_TEST_O14.mp4,main_video,.mp4,110402103,213.0,183,Raw Data,Reduced Gravity/Olson/O14
+Olson,O14,O14,PSI-25_Raw Data_BASS_GMT213_SAMPLE_183_TEST_O14_2ND_VIEW.mp4,second_view,.mp4,130246895,213.0,183,Raw Data,Reduced Gravity/Olson/O14
+Miller,M6,M6,PSI-25_Raw Data_GMT2014_212_BASS_S163M_TPM6.zip,raw_images_zip,.zip,3039509465,212.0,163,Raw Data,Reduced Gravity/Miller/M6
+Olson,O19,O19,PSI-25_Raw Data_BASS_GMT213_SAMPLE_213_TEST_O19.mp4,main_video,.mp4,109651737,213.0,213,Raw Data,Reduced Gravity/Olson/O19
+Olson,O19,O19,PSI-25_Raw Data_BASS_GMT213_SAMPLE_213_TEST_O19_2ND_VIEW.mp4,second_view,.mp4,121826337,213.0,213,Raw Data,Reduced Gravity/Olson/O19
+Miller,M12,M12,PSI-25_Raw Data_GMT2014_212_BASS_S165M_TPM12-1.zip,raw_images_zip,.zip,1134952542,212.0,165,Raw Data,Reduced Gravity/Miller/M12
+Miller,M12,M12,PSI-25_Raw Data_GMT2014_212_BASS_S165M_TPM12-2.zip,raw_images_zip,.zip,1879561838,212.0,165,Raw Data,Reduced Gravity/Miller/M12
+Olson,O5,,PSI-25_Raw Data_O5a-all.mp4,other_video,.mp4,116960369,,,Raw Data,Reduced Gravity/Olson/O5
+T'ien,T13,,PSI-25_Raw Data_BASS_GMT_100_sample137_test T13.mp4,other_video,.mp4,65749185,,,Raw Data,Reduced Gravity/T'ien/T13
+T'ien,T13,,PSI-25_Raw Data_T13-post-burn-picture-camera-monitor.mp4,other_video,.mp4,166705,,,Raw Data,Reduced Gravity/T'ien/T13
+Miller,M4,M4,PSI-25_Raw Data_GMT2014_212_BASS_S171M_TPM4.zip,raw_images_zip,.zip,3096278158,212.0,171,Raw Data,Reduced Gravity/Miller/M4
+Miller,M13,M13,PSI-25_Raw Data_GMT2014_212_BASS_S169M_TPM13-1.zip,raw_images_zip,.zip,1512429554,212.0,169,Raw Data,Reduced Gravity/Miller/M13
+Miller,M13,M13,PSI-25_Raw Data_GMT2014_212_BASS_S169M_TPM13-2.zip,raw_images_zip,.zip,1531791641,212.0,169,Raw Data,Reduced Gravity/Miller/M13
+Miller,M20,M20,PSI-25_Raw Data_GMT2014_213_BASS_D300sGMT2014_213_BASS_D300sGMT2014_213_BASS_S172M_TPM20.zip,raw_images_zip,.zip,1895166485,213.0,172,Raw Data,Reduced Gravity/Miller/M20
+Olson,O2,,PSI-25_Raw Data_iss038e049390.zip,raw_images_zip,.zip,2981500859,,,Raw Data,Reduced Gravity/Olson/O2
+Olson,O1,,PSI-25_Raw Data_iss038e049157.zip,raw_images_zip,.zip,642114729,,,Raw Data,Reduced Gravity/Olson/O1
+Olson,O3,,PSI-25_Raw Data_iss040e011273.zip,raw_images_zip,.zip,930551802,,,Raw Data,Reduced Gravity/Olson/O3
+Olson,O3,,PSI-25_Raw Data_iss040e011490.zip,raw_images_zip,.zip,2568064128,,,Raw Data,Reduced Gravity/Olson/O3
+Olson,O6,,PSI-25_Raw Data_iss040e020687.zip,raw_images_zip,.zip,1536544668,,,Raw Data,Reduced Gravity/Olson/O6
+Olson,O6,,PSI-25_Raw Data_iss040e020811.zip,raw_images_zip,.zip,1552491490,,,Raw Data,Reduced Gravity/Olson/O6
+Olson,O8,,PSI-25_Raw Data_iss040e021212.zip,raw_images_zip,.zip,1736394001,,,Raw Data,Reduced Gravity/Olson/O8
+Olson,O8,,PSI-25_Raw Data_iss040e021375.zip,raw_images_zip,.zip,1921118014,,,Raw Data,Reduced Gravity/Olson/O8
+Olson,O9,,PSI-25_Raw Data_iss040e021536.zip,raw_images_zip,.zip,1967059615,,,Raw Data,Reduced Gravity/Olson/O9
+Olson,O7,,PSI-25_Raw Data_iss040e020946.zip,raw_images_zip,.zip,1568870614,,,Raw Data,Reduced Gravity/Olson/O7
+Olson,O7,,PSI-25_Raw Data_iss040e021033.zip,raw_images_zip,.zip,1584101075,,,Raw Data,Reduced Gravity/Olson/O7
+Olson,O11,,PSI-25_Raw Data_iss040e052838.zip,raw_images_zip,.zip,1607730091,,,Raw Data,Reduced Gravity/Olson/O11
+Olson,O11,,PSI-25_Raw Data_iss040e052971.zip,raw_images_zip,.zip,1625331327,,,Raw Data,Reduced Gravity/Olson/O11
+Olson,O4,,PSI-25_Raw Data_iss040e053225.zip,raw_images_zip,.zip,2922987354,,,Raw Data,Reduced Gravity/Olson/O4
+Olson,O12,,PSI-25_Raw Data_iss040e053285.zip,raw_images_zip,.zip,743380103,,,Raw Data,Reduced Gravity/Olson/O12
+Olson,O5,O5a,PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a.zip,raw_images_zip,.zip,1912299311,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O5,O5b,PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b.zip,raw_images_zip,.zip,18863323,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O13,O13a,PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13a.zip,raw_images_zip,.zip,2272103683,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O13,O13b,PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13b.zip,raw_images_zip,.zip,70617941,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O10,O10,PSI-25_Raw Data_GMT2014_203_BASS_S210M_TPO10.zip,raw_images_zip,.zip,2115553309,203.0,210,Raw Data,Reduced Gravity/Olson/O10
+Olson,O17,O17,PSI-25_Raw Data_GMT2014_203_BASS_S211M_TPO17.zip,raw_images_zip,.zip,1911800330,203.0,211,Raw Data,Reduced Gravity/Olson/O17
+Olson,O18,,PSI-25_Raw Data_iss040e082198.zip,raw_images_zip,.zip,2052874193,,,Raw Data,Reduced Gravity/Olson/O18
+Olson,O15,,PSI-25_Raw Data_iss040e082016.zip,raw_images_zip,.zip,1602368780,,,Raw Data,Reduced Gravity/Olson/O15
+Olson,O15,,PSI-25_Raw Data_iss040e080519.zip,raw_images_zip,.zip,1807623563,,,Raw Data,Reduced Gravity/Olson/O15
+Olson,O15,,PSI-25_Raw Data_iss040e080674.zip,raw_images_zip,.zip,1666364765,,,Raw Data,Reduced Gravity/Olson/O15
+T'ien,T1,T1,PSI-25_Raw Data_BASS_GMT45_SAMPLE_128_TEST_T1_Still_Sequence.mp4,still_sequence,.mp4,2030280,45.0,128,Raw Data,Reduced Gravity/T'ien/T1
+T'ien,T1,T1,PSI-25_Raw Data_BASS_GMT45_SAMPLE_128_TEST_T1.mp4,main_video,.mp4,11667714,45.0,128,Raw Data,Reduced Gravity/T'ien/T1
+Olson,O14,O14,PSI-25_Raw Data_GMT2014_213_BASS_D300sGMT2014_213_BASS_D300sGMT2014_213_BASS_S183M_TPO14.zip,raw_images_zip,.zip,3240202869,213.0,183,Raw Data,Reduced Gravity/Olson/O14
+Olson,O16,O16,PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_Second_Ignition_Attempt.mp4,main_video,.mp4,20782392,210.0,219,Raw Data,Reduced Gravity/Olson/O16
+Olson,O16,O16,PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_Second_Ignition_Attempt_2ND_VIEW.mp4,second_view,.mp4,23987409,210.0,219,Raw Data,Reduced Gravity/Olson/O16
+Olson,O16,O16,PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt.mp4,main_video,.mp4,37529587,210.0,219,Raw Data,Reduced Gravity/Olson/O16
+Olson,O16,O16,PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt_2ND_VIEW.mp4,second_view,.mp4,44141476,210.0,219,Raw Data,Reduced Gravity/Olson/O16
+T'ien,T2,T2,PSI-25_Raw Data_BASS_GMT45_SAMPLE_129_TEST_T2.mp4,main_video,.mp4,13699222,45.0,129,Raw Data,Reduced Gravity/T'ien/T2
+T'ien,T2,T2,PSI-25_Raw Data_BASS_GMT45_SAMPLE_129_TEST_T2_Still_Sequence.mp4,still_sequence,.mp4,4696375,45.0,129,Raw Data,Reduced Gravity/T'ien/T2
+T'ien,T4,T4,PSI-25_Raw Data_BASS_GMT45_SAMPLE_130_TEST_T4.mp4,main_video,.mp4,8085062,45.0,130,Raw Data,Reduced Gravity/T'ien/T4
+T'ien,T4,T4,PSI-25_Raw Data_BASS_GMT45_SAMPLE_130_TEST_T4_Still_Sequence.mp4,still_sequence,.mp4,2545773,45.0,130,Raw Data,Reduced Gravity/T'ien/T4
+Olson,O19,O19,PSI-25_Raw Data_GMT2014_213_BASS_D300sGMT2014_213_BASS_S213M_TPO19.zip,raw_images_zip,.zip,3322397570,213.0,213,Raw Data,Reduced Gravity/Olson/O19
+T'ien,T1,,PSI-25_Raw Data_iss038e048838.zip,raw_images_zip,.zip,1059858374,,,Raw Data,Reduced Gravity/T'ien/T1
+T'ien,T2,,PSI-25_Raw Data_iss038e048937.zip,raw_images_zip,.zip,1283961848,,,Raw Data,Reduced Gravity/T'ien/T2
+T'ien,T4,,PSI-25_Raw Data_iss038e049041.zip,raw_images_zip,.zip,1250267029,,,Raw Data,Reduced Gravity/T'ien/T4
+T'ien,T15,T15,PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15_Still_Sequence.mp4,still_sequence,.mp4,2626885,45.0,138,Raw Data,Reduced Gravity/T'ien/T15
+T'ien,T15,T15,PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15.mp4,main_video,.mp4,4715080,45.0,138,Raw Data,Reduced Gravity/T'ien/T15
+T'ien,T15,,PSI-25_Raw Data_iss038e049092.zip,raw_images_zip,.zip,718504240,,,Raw Data,Reduced Gravity/T'ien/T15
+T'ien,T13,,PSI-25_Raw Data_iss039e010923.zip,raw_images_zip,.zip,696591540,,,Raw Data,Reduced Gravity/T'ien/T13
+T'ien,T5,T5,PSI-25_Raw Data_BASS_GMT100_SAMPLE_131_TEST_T5_Still_Sequence.mp4,still_sequence,.mp4,1859994,100.0,131,Raw Data,Reduced Gravity/T'ien/T5
+T'ien,T5,T5,PSI-25_Raw Data_BASS_GMT100_SAMPLE_131_TEST_T5.mp4,main_video,.mp4,35706820,100.0,131,Raw Data,Reduced Gravity/T'ien/T5
+T'ien,T6,T6,PSI-25_Raw Data_BASS_GMT100_SAMPLE_132_TEST_T6.mp4,main_video,.mp4,23605877,100.0,132,Raw Data,Reduced Gravity/T'ien/T6
+T'ien,T16,T16,PSI-25_Raw Data_BASS_GMT100_SAMPLE_139_TEST_T16.mp4,main_video,.mp4,34952158,100.0,139,Raw Data,Reduced Gravity/T'ien/T16
+T'ien,T16,,PSI-25_Raw Data_BASS_GMT100_sample139_test-T16-shifted-video.mp4,other_video,.mp4,35875159,100.0,,Raw Data,Reduced Gravity/T'ien/T16
+T'ien,T10,T10,PSI-25_Raw Data_BASS_GMT175_SAMPLE_134_TEST_T10.mp4,main_video,.mp4,9733029,175.0,134,Raw Data,Reduced Gravity/T'ien/T10
+T'ien,T10,T10,PSI-25_Raw Data_BASS_GMT175_SAMPLE_134_TEST_T10_2ND_VIEW.mp4,second_view,.mp4,16223672,175.0,134,Raw Data,Reduced Gravity/T'ien/T10
+T'ien,T18,T18,PSI-25_Raw Data_BASS_GMT175_SAMPLE_141_TEST_T18.mp4,main_video,.mp4,10344053,175.0,141,Raw Data,Reduced Gravity/T'ien/T18
+T'ien,T18,T18,PSI-25_Raw Data_BASS_GMT175_SAMPLE_141_TEST_T18_2ND_VIEW.mp4,second_view,.mp4,17331258,175.0,141,Raw Data,Reduced Gravity/T'ien/T18
+T'ien,T11,T11,PSI-25_Raw Data_BASS_GMT178_SAMPLE_135_TEST_T11.mp4,main_video,.mp4,12444685,178.0,135,Raw Data,Reduced Gravity/T'ien/T11
+T'ien,T11,T11,PSI-25_Raw Data_BASS_GMT178_SAMPLE_135_TEST_T11_Still_Sequence.mp4,still_sequence,.mp4,3654022,178.0,135,Raw Data,Reduced Gravity/T'ien/T11
+T'ien,T11,T11,PSI-25_Raw Data_BASS_GMT178_SAMPLE_135_TEST_T11_2ND_VIEW.mp4,second_view,.mp4,31544262,178.0,135,Raw Data,Reduced Gravity/T'ien/T11
+T'ien,T5,,PSI-25_Raw Data_iss039e010762.zip,raw_images_zip,.zip,1336098711,,,Raw Data,Reduced Gravity/T'ien/T5
+T'ien,T6,,PSI-25_Raw Data_iss039e010866.zip,raw_images_zip,.zip,1313757652,,,Raw Data,Reduced Gravity/T'ien/T6
+T'ien,T16,,PSI-25_Raw Data_iss039e011022.zip,raw_images_zip,.zip,1230028139,,,Raw Data,Reduced Gravity/T'ien/T16
+T'ien,T9,,PSI-25_Raw Data_iss040e017895.zip,raw_images_zip,.zip,605068930,,,Raw Data,Reduced Gravity/T'ien/T9
+T'ien,T10,,PSI-25_Raw Data_iss040e017916.zip,raw_images_zip,.zip,265764953,,,Raw Data,Reduced Gravity/T'ien/T10
+T'ien,T12,T12,PSI-25_Raw Data_BASS_GMT178_SAMPLE_136_TEST_T12.mp4,main_video,.mp4,4644924,178.0,136,Raw Data,Reduced Gravity/T'ien/T12
+T'ien,T12,T12,PSI-25_Raw Data_BASS_GMT178_SAMPLE_136_TEST_T12_2ND_VIEW.mp4,second_view,.mp4,5549434,178.0,136,Raw Data,Reduced Gravity/T'ien/T12
+T'ien,T18,,PSI-25_Raw Data_iss040e017979.zip,raw_images_zip,.zip,586194581,,,Raw Data,Reduced Gravity/T'ien/T18
+T'ien,T11,,PSI-25_Raw Data_iss040e023507.zip,raw_images_zip,.zip,1161425063,,,Raw Data,Reduced Gravity/T'ien/T11
+T'ien,T12,,PSI-25_Raw Data_iss040e023876.zip,raw_images_zip,.zip,586817139,,,Raw Data,Reduced Gravity/T'ien/T12
+T'ien,T14,T14,PSI-25_Raw Data_BASS_GMT178_SAMPLE_140_TEST_T14.mp4,main_video,.mp4,13747923,178.0,140,Raw Data,Reduced Gravity/T'ien/T14
+T'ien,T14,T14,PSI-25_Raw Data_BASS_GMT178_SAMPLE_140_TEST_T14_Still_Sequence.mp4,still_sequence,.mp4,1007930,178.0,140,Raw Data,Reduced Gravity/T'ien/T14
+T'ien,T14,T14,PSI-25_Raw Data_BASS_GMT178_SAMPLE_140_TEST_T14_2ND_VIEW.mp4,second_view,.mp4,17673653,178.0,140,Raw Data,Reduced Gravity/T'ien/T14
+T'ien,T3,T3,PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3.mp4,main_video,.mp4,37727321,178.0,182,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T3,T3,PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_2ND_VIEW.mp4,second_view,.mp4,61076311,178.0,182,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T3,T3,PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_First_Ignition_Attempts.mp4,main_video,.mp4,32963113,178.0,182,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T3,T3,PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_Still_Sequence.mp4,still_sequence,.mp4,1156844,178.0,182,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T3,T3,PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3_First_Ignition_Attempts_2ND_VIEW.mp4,second_view,.mp4,49264051,178.0,182,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T23,T23,PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23.mp4,main_video,.mp4,5688672,190.0,133,Raw Data,Reduced Gravity/T'ien/T23
+T'ien,T23,T23,PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_Still_Sequence.mp4,still_sequence,.mp4,323810,190.0,133,Raw Data,Reduced Gravity/T'ien/T23
+T'ien,T23,T23,PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23_2ND_VIEW.mp4,second_view,.mp4,7433909,190.0,133,Raw Data,Reduced Gravity/T'ien/T23
+T'ien,T24,T24,PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24.mp4,main_video,.mp4,13938018,190.0,133,Raw Data,Reduced Gravity/T'ien/T24
+T'ien,T24,T24,PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_Still_Sequence.mp4,still_sequence,.mp4,4470351,190.0,133,Raw Data,Reduced Gravity/T'ien/T24
+T'ien,T24,T24,PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T24_2ND_VIEW.mp4,second_view,.mp4,17866853,190.0,133,Raw Data,Reduced Gravity/T'ien/T24
+T'ien,T19,T19,PSI-25_Raw Data_BASS_GMT190_SAMPLE_143_TEST_T19.mp4,main_video,.mp4,9216046,190.0,143,Raw Data,Reduced Gravity/T'ien/T19
+T'ien,T19,T19,PSI-25_Raw Data_BASS_GMT190_SAMPLE_143_TEST_T19_2ND_VIEW.mp4,second_view,.mp4,11583343,190.0,143,Raw Data,Reduced Gravity/T'ien/T19
+T'ien,T20,T20,PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_Still_Sequence.mp4,still_sequence,.mp4,992495,190.0,144,Raw Data,Reduced Gravity/T'ien/T20
+T'ien,T20,T20,PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20_2ND_VIEW.mp4,second_view,.mp4,4689812,190.0,144,Raw Data,Reduced Gravity/T'ien/T20
+T'ien,T21,T21,PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21.mp4,main_video,.mp4,4704569,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+T'ien,T21,T21,PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21_Still_Sequence.mp4,still_sequence,.mp4,1346447,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+T'ien,T21,T21,PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21_2ND_VIEW.mp4,second_view,.mp4,6420548,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+T'ien,T22,T22,PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22.mp4,main_video,.mp4,5016477,190.0,146,Raw Data,Reduced Gravity/T'ien/T22
+T'ien,T22,T22,PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22_Still_Sequence.mp4,still_sequence,.mp4,956973,190.0,146,Raw Data,Reduced Gravity/T'ien/T22
+T'ien,T22,T22,PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22_2ND_VIEW.mp4,second_view,.mp4,7744804,190.0,146,Raw Data,Reduced Gravity/T'ien/T22
+T'ien,T7,T7,PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts.mp4,main_video,.mp4,4317209,190.0,182,Raw Data,Reduced Gravity/T'ien/T7
+T'ien,T7,T7,PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts_2ND_VIEW.mp4,second_view,.mp4,6634818,190.0,182,Raw Data,Reduced Gravity/T'ien/T7
+T'ien,T7,T7,PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts.mp4,main_video,.mp4,50199185,190.0,182,Raw Data,Reduced Gravity/T'ien/T7
+T'ien,T7,T7,PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts_Still_Sequence.mp4,still_sequence,.mp4,1545417,190.0,182,Raw Data,Reduced Gravity/T'ien/T7
+T'ien,T7,T7,PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_Second_Ignition_Attempts_2ND_VIEW.mp4,second_view,.mp4,68237025,190.0,182,Raw Data,Reduced Gravity/T'ien/T7
+T'ien,T14,,PSI-25_Raw Data_iss040e023997.zip,raw_images_zip,.zip,1297023888,,,Raw Data,Reduced Gravity/T'ien/T14
+T'ien,T17,,PSI-25_Raw Data_iss040e024084.zip,raw_images_zip,.zip,1100811675,,,Raw Data,Reduced Gravity/T'ien/T17
+T'ien,T3,,PSI-25_Raw Data_iss040e023669.zip,raw_images_zip,.zip,1752490106,,,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T3,,PSI-25_Raw Data_iss040e023829.zip,raw_images_zip,.zip,1844152609,,,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T23,T23,PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23.zip,raw_images_zip,.zip,632028539,190.0,133,Raw Data,Reduced Gravity/T'ien/T23
+T'ien,T24,T24,PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24.zip,raw_images_zip,.zip,1071117557,190.0,133,Raw Data,Reduced Gravity/T'ien/T24
+T'ien,T19,T19,PSI-25_Raw Data_GMT2014_190_BASS_S143M_TPT19.zip,raw_images_zip,.zip,765315224,190.0,143,Raw Data,Reduced Gravity/T'ien/T19
+T'ien,T20,T20,PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20.zip,raw_images_zip,.zip,437199918,190.0,144,Raw Data,Reduced Gravity/T'ien/T20
+T'ien,T21,T21,PSI-25_Raw Data_GMT2014_190_BASS_S145M_TPT21.zip,raw_images_zip,.zip,455100046,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+T'ien,T22,T22,PSI-25_Raw Data_GMT2014_190_BASS_S146M_TPT22.zip,raw_images_zip,.zip,499273420,190.0,146,Raw Data,Reduced Gravity/T'ien/T22
+T'ien,T7,T7,PSI-25_Raw Data_GMT2014_190_BASS_S182M_TPT7.zip,raw_images_zip,.zip,3447183179,190.0,182,Raw Data,Reduced Gravity/T'ien/T7
+T'ien,T26,T26,PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26.mp4,main_video,.mp4,15332738,216.0,137,Raw Data,Reduced Gravity/T'ien/T26
+T'ien,T26,T26,PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26_2ND_VIEW.mp4,second_view,.mp4,22126263,216.0,137,Raw Data,Reduced Gravity/T'ien/T26
+T'ien,T25,T25,PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25.mp4,main_video,.mp4,8626310,216.0,138,Raw Data,Reduced Gravity/T'ien/T25
+T'ien,T25,T25,PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25_2ND_VIEW.mp4,second_view,.mp4,9516662,216.0,138,Raw Data,Reduced Gravity/T'ien/T25
+T'ien,T25,T25,PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25_Still_Sequence.mp4,still_sequence,.mp4,2239487,216.0,138,Raw Data,Reduced Gravity/T'ien/T25
+T'ien,T28,T28a,PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a.mp4,main_video,.mp4,9339780,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T28,T28a,PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a_2ND_VIEW.mp4,second_view,.mp4,9534038,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T28,T28b,PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b.mp4,main_video,.mp4,8378753,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T28,T28b,PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b_2ND_VIEW.mp4,second_view,.mp4,8411087,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T29,T29,PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29.mp4,main_video,.mp4,19142967,216.0,145,Raw Data,Reduced Gravity/T'ien/T29
+T'ien,T29,T29,PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29_2ND_VIEW.mp4,second_view,.mp4,20913019,216.0,145,Raw Data,Reduced Gravity/T'ien/T29
+T'ien,T27,T27,PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27.mp4,main_video,.mp4,13981372,216.0,146,Raw Data,Reduced Gravity/T'ien/T27
+T'ien,T27,T27,PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27_2ND_VIEW.mp4,second_view,.mp4,12998036,216.0,146,Raw Data,Reduced Gravity/T'ien/T27
+T'ien,T26,T26,PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S137M_TPT26.zip,raw_images_zip,.zip,1056330908,216.0,137,Raw Data,Reduced Gravity/T'ien/T26
+T'ien,T25,T25,PSI-25_Raw Data_GMT2014_216_BASS_S138M_TPT25.zip,raw_images_zip,.zip,824445534,216.0,138,Raw Data,Reduced Gravity/T'ien/T25
+T'ien,T28,T28a,PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28a.zip,raw_images_zip,.zip,242874110,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T28,T28b,PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S144M_TPT28b.zip,raw_images_zip,.zip,342843180,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T29,T29,PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S145M_TPT29.zip,raw_images_zip,.zip,723234297,216.0,145,Raw Data,Reduced Gravity/T'ien/T29
+T'ien,T27,T27,PSI-25_Raw Data_GMT2014_216_BASS_D300sGMT2014_216_BASS_S146M_TPT27.zip,raw_images_zip,.zip,762211466,216.0,146,Raw Data,Reduced Gravity/T'ien/T27
+T'ien,T16,,PSI-25_Raw Data_T16-post-burn-picture.mp4,other_video,.mp4,307586,,,Raw Data,Reduced Gravity/T'ien/T16
+T'ien,T16,,PSI-25_Raw Data_T16-post-burn-picture-2.mp4,other_video,.mp4,4018563,,,Raw Data,Reduced Gravity/T'ien/T16
+T'ien,T16,,PSI-25_Raw Data_T16-still-camera-monitor-image-playback.mp4,other_video,.mp4,15951867,,,Raw Data,Reduced Gravity/T'ien/T16
+T'ien,T21,T21,PSI-25_Raw Data_vlc-record-2014-12-05-17h06m58s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4,main_video,.mp4,253248,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+T'ien,T21,T21,PSI-25_Raw Data_vlc-record-2014-12-05-17h07m02s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4,main_video,.mp4,907519,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+T'ien,T21,T21,PSI-25_Raw Data_vlc-record-2015-06-04-17h20m14s-BASS_GMT190_SAMPLE_145_TEST_T21.ts-.mp4,main_video,.mp4,219187,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+Bhattacharjee,B1,B1,PSI-25_Raw Data_GMT2014_050_BASS_S147M_TPB1_ProofSheet.pdf,proofsheet,.pdf,264402,50.0,147,Raw Data,Reduced Gravity/ Bhattacharjee/B1
+Bhattacharjee,B3,B3,PSI-25_Raw Data_GMT2014_050_BASS_S148M_TPB3_ProofSheet.pdf,proofsheet,.pdf,248184,50.0,148,Raw Data,Reduced Gravity/ Bhattacharjee/B3
+Bhattacharjee,B2,B2,PSI-25_Raw Data_GMT2014_050_BASS_S155M_TPB2_ProofSheet.pdf,proofsheet,.pdf,103013,50.0,155,Raw Data,Reduced Gravity/ Bhattacharjee/B2
+Bhattacharjee,B5,B5,PSI-25_Raw Data_GMT2014_050_BASS_S156M_TPB5_ProofSheet.pdf,proofsheet,.pdf,324243,50.0,156,Raw Data,Reduced Gravity/ Bhattacharjee/B5
+Bhattacharjee,B4,B4,PSI-25_Raw Data_GMT2014_050_BASS_S159M_TPB4_ProofSheet.pdf,proofsheet,.pdf,359250,50.0,159,Raw Data,Reduced Gravity/ Bhattacharjee/B4
+Bhattacharjee,B12,B12,PSI-25_Raw Data_GMT2014_050_BASS_S160M_TPB12_ProofSheet.pdf,proofsheet,.pdf,408613,50.0,160,Raw Data,Reduced Gravity/ Bhattacharjee/B12
+Bhattacharjee,B7,B7,PSI-25_Raw Data_GMT2014_050_BASS_S161M_TPB7_ProofSheet.pdf,proofsheet,.pdf,482009,50.0,161,Raw Data,Reduced Gravity/ Bhattacharjee/B7
+Bhattacharjee,B16,B16P,PSI-25_Raw Data_GMT2014_183_BASS_S150M_TPB16ProofSheet.pdf,proofsheet,.pdf,504989,183.0,150,Raw Data,Reduced Gravity/ Bhattacharjee/B16
+Bhattacharjee,B19,B19,PSI-25_Raw Data_GMT2014_183_BASS_S151M_TPB19_ProofSheet.pdf,proofsheet,.pdf,583641,183.0,151,Raw Data,Reduced Gravity/ Bhattacharjee/B19
+Bhattacharjee,B20,B20,PSI-25_Raw Data_GMT2014_183_BASS_S152M_TPB20_ProofSheet.pdf,proofsheet,.pdf,641493,183.0,152,Raw Data,Reduced Gravity/ Bhattacharjee/B20
+Bhattacharjee,B14,B14,PSI-25_Raw Data_GMT2014_183_BASS_S174M_TPB14_ProofSheet.pdf,proofsheet,.pdf,231980,183.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B14
+Bhattacharjee,B17,B17,PSI-25_Raw Data_GMT2014_183_BASS_S175M_TPB17_ProofSheet.pdf,proofsheet,.pdf,769508,183.0,175,Raw Data,Reduced Gravity/ Bhattacharjee/B17
+Bhattacharjee,B18,B18,PSI-25_Raw Data_GMT2014_183_BASS_S176M_TPB18_ProofSheet.pdf,proofsheet,.pdf,756099,183.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B18
+Bhattacharjee,B15,B15,PSI-25_Raw Data_GMT2014_188_BASS_S149M_TPB15_ProofSheet.pdf,proofsheet,.pdf,486431,188.0,149,Raw Data,Reduced Gravity/ Bhattacharjee/B15
+Bhattacharjee,B6,B6,PSI-25_Raw Data_GMT2014_188_BASS_S153M_TPB6_ProofSheet.pdf,proofsheet,.pdf,513738,188.0,153,Raw Data,Reduced Gravity/ Bhattacharjee/B6
+Bhattacharjee,B9,B9,PSI-25_Raw Data_GMT2014_188_BASS_S154M_TPB9_ProofSheet.pdf,proofsheet,.pdf,313390,188.0,154,Raw Data,Reduced Gravity/ Bhattacharjee/B9
+Bhattacharjee,B8,B8,PSI-25_Raw Data_GMT2014_188_BASS_S157M_TPB8_ProofSheet.pdf,proofsheet,.pdf,836303,188.0,157,Raw Data,Reduced Gravity/ Bhattacharjee/B8
+Bhattacharjee,B11,B11,PSI-25_Raw Data_GMT2014_188_BASS_S158M_TPB11_ProofSheet.pdf,proofsheet,.pdf,797411,188.0,158,Raw Data,Reduced Gravity/ Bhattacharjee/B11
+Bhattacharjee,B13,B13,PSI-25_Raw Data_GMT2014_188_BASS_S162M_TPB13_ProofSheet.pdf,proofsheet,.pdf,1315555,188.0,162,Raw Data,Reduced Gravity/ Bhattacharjee/B13
+Bhattacharjee,B10,B10,PSI-25_Raw Data_GMT2014_188_BASS_S173M_TPB10_ProofSheet.pdf,proofsheet,.pdf,740417,188.0,173,Raw Data,Reduced Gravity/ Bhattacharjee/B10
+Bhattacharjee,B21,B21,PSI-25_Raw Data_GMT2014_216_BASS_S174M_TPB21_ProofSheet.pdf,proofsheet,.pdf,481025,216.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B21
+Bhattacharjee,B21,B21,PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21.mp4,main_video,.mp4,20112760,216.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B21
+Bhattacharjee,B21,B21,PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21_2ND_VIEW.mp4,second_view,.mp4,20292338,216.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B21
+Bhattacharjee,B7,B7,PSI-25_Raw Data_BASS_GMT50_SAMPLE_161_TEST_B7_Still_Sequence.mp4,still_sequence,.mp4,4003527,50.0,161,Raw Data,Reduced Gravity/ Bhattacharjee/B7
+Bhattacharjee,B7,B7,PSI-25_Raw Data_BASS_GMT50_SAMPLE_161_TEST_B7.mp4,main_video,.mp4,16692289,50.0,161,Raw Data,Reduced Gravity/ Bhattacharjee/B7
+Bhattacharjee,B22,B22,PSI-25_Raw Data_GMT2014_216_BASS_S176M_TPB22_ProofSheet.pdf,proofsheet,.pdf,402401,216.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B22
+Ferkul,F1,F1,PSI-25_Raw Data_GMT2014_050_BASS_S227M_TPF1_ProofSheet.pdf,proofsheet,.pdf,403594,50.0,227,Raw Data,Reduced Gravity/Ferkul/F1
+Ferkul,F4,F04,PSI-25_Raw Data_GMT2014_175_BASS_S39M_TPF04_ProofSheet.pdf,proofsheet,.pdf,1079760,175.0,39,Raw Data,Reduced Gravity/Ferkul/F4
+Ferkul,F3,F3,PSI-25_Raw Data_GMT2014_213_BASS_S229M_TPF3_ProofSheet.pdf,proofsheet,.pdf,234620,213.0,229,Raw Data,Reduced Gravity/Ferkul/F3
+Fernandez-Pello,P1,P1,PSI-25_Raw Data_BASS_GMT167_SAMPLE_185_TEST_P1_Still_Sequence.mp4,still_sequence,.mp4,2882887,167.0,185,Raw Data,Reduced Gravity/Fernandez-Pello/P1
+Fernandez-Pello,P1,P1,PSI-25_Raw Data_BASS_GMT167_SAMPLE_185_TEST_P1_2ND_VIEW.mp4,second_view,.mp4,60357231,167.0,185,Raw Data,Reduced Gravity/Fernandez-Pello/P1
+Fernandez-Pello,P1,P1,PSI-25_Raw Data_BASS_GMT167_SAMPLE_185_TEST_P1.mp4,main_video,.mp4,53049877,167.0,185,Raw Data,Reduced Gravity/Fernandez-Pello/P1
+Fernandez-Pello,P1,P1,PSI-25_Raw Data_GMT2014_167_BASS_S185M_TPP1_ProofSheet.pdf,proofsheet,.pdf,1532396,167.0,185,Raw Data,Reduced Gravity/Fernandez-Pello/P1
+Fernandez-Pello,P2,P2,PSI-25_Raw Data_GMT2014_167_BASS_S188M_TPP2_ProofSheet.pdf,proofsheet,.pdf,1532167,167.0,188,Raw Data,Reduced Gravity/Fernandez-Pello/P2
+Fernandez-Pello,P3,P3a,PSI-25_Raw Data_GMT2014_167_BASS_S215M_TPP3a_ProofSheet.pdf,proofsheet,.pdf,1544341,167.0,215,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P3,P3b,PSI-25_Raw Data_GMT2014_167_BASS_S215M_TPP3b_ProofSheet.pdf,proofsheet,.pdf,1583539,167.0,215,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P14,P14,PSI-25_Raw Data_GMT2014_174_BASS_S189M_TPP14_ProofSheet.pdf,proofsheet,.pdf,743392,174.0,189,Raw Data,Reduced Gravity/Fernandez-Pello/P14
+Fernandez-Pello,P15,P15,PSI-25_Raw Data_GMT2014_174_BASS_S190M_TPP15_ProofSheet.pdf,proofsheet,.pdf,915687,174.0,190,Raw Data,Reduced Gravity/Fernandez-Pello/P15
+Fernandez-Pello,P21,P21a,PSI-25_Raw Data_GMT2014_174_BASS_S196M_TPP21a_ProofSheet.pdf,proofsheet,.pdf,298417,174.0,196,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P21,P21b,PSI-25_Raw Data_GMT2014_174_BASS_S196M_TPP21b_ProofSheet.pdf,proofsheet,.pdf,83890,174.0,196,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P6,P6,PSI-25_Raw Data_GMT2014_184_BASS_S186M_TPP6_ProofSheet.pdf,proofsheet,.pdf,928375,184.0,186,Raw Data,Reduced Gravity/Fernandez-Pello/P6
+Fernandez-Pello,P10,P10,PSI-25_Raw Data_GMT2014_184_BASS_S187M_TPP10_ProofSheet.pdf,proofsheet,.pdf,1175926,184.0,187,Raw Data,Reduced Gravity/Fernandez-Pello/P10
+Fernandez-Pello,P4,P4,PSI-25_Raw Data_GMT2014_184_BASS_S197M_TPP4_ProofSheet.pdf,proofsheet,.pdf,1538569,184.0,197,Raw Data,Reduced Gravity/Fernandez-Pello/P4
+Fernandez-Pello,P8,P8,PSI-25_Raw Data_GMT2014_184_BASS_S198M_TPP8_ProofSheet.pdf,proofsheet,.pdf,334350,184.0,198,Raw Data,Reduced Gravity/Fernandez-Pello/P8
+Fernandez-Pello,P22,P22a,PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a.mp4,main_video,.mp4,32998129,189.0,200,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Fernandez-Pello,P22,P22a,PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a_2ND_VIEW.mp4,second_view,.mp4,37816979,189.0,200,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Fernandez-Pello,P22,P22b,PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b.mp4,main_video,.mp4,73175049,189.0,200,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Fernandez-Pello,P22,P22b,PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22b_2ND_VIEW.mp4,second_view,.mp4,92114874,189.0,200,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Fernandez-Pello,P22,P22a,PSI-25_Raw Data_GMT2014_189_BASS_S200M_TPP22a_ProofSheet.pdf,proofsheet,.pdf,449544,189.0,200,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Fernandez-Pello,P22,P22b,PSI-25_Raw Data_GMT2014_189_BASS_S200M_TPP22b_ProofSheet.pdf,proofsheet,.pdf,1000993,189.0,200,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Fernandez-Pello,P25,P25,PSI-25_Raw Data_GMT2014_189_BASS_S217M_TPP25_ProofSheet.pdf,proofsheet,.pdf,1517708,189.0,217,Raw Data,Reduced Gravity/Fernandez-Pello/P25
+Fernandez-Pello,P5,P5,PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5.mp4,main_video,.mp4,184104096,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P5
+Fernandez-Pello,P5,P5,PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5-LOS-portion.mp4,los_clip,.mp4,14026261,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P5
+Fernandez-Pello,P5,P5,PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5_2ND_VIEW.mp4,second_view,.mp4,262920726,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P5
+Fernandez-Pello,P5,P5,PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP5_ProofSheet.pdf,proofsheet,.pdf,1731031,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P5
+Fernandez-Pello,P9,P9,PSI-25_Raw Data_GMT2014_195_BASS_S202M_TPP9_ProofSheet.pdf,proofsheet,.pdf,858172,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P9
+Fernandez-Pello,P13,P13b,PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13b.mp4,main_video,.mp4,56412853,195.0,203,Raw Data,Reduced Gravity/Fernandez-Pello/P13
+Fernandez-Pello,P13,P13a,PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a_2ND_VIEW.mp4,second_view,.mp4,246980311,195.0,203,Raw Data,Reduced Gravity/Fernandez-Pello/P13
+Fernandez-Pello,P13,P13a,PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a.mp4,main_video,.mp4,177851046,195.0,203,Raw Data,Reduced Gravity/Fernandez-Pello/P13
+Fernandez-Pello,P13,P13a,PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13a_ProofSheet.pdf,proofsheet,.pdf,1491467,195.0,203,Raw Data,Reduced Gravity/Fernandez-Pello/P13
+Fernandez-Pello,P13,P13b,PSI-25_Raw Data_GMT2014_195_BASS_S203M_TPP13b_ProofSheet.pdf,proofsheet,.pdf,472958,195.0,203,Raw Data,Reduced Gravity/Fernandez-Pello/P13
+Fernandez-Pello,P16,P16,PSI-25_Raw Data_GMT2014_203_BASS_S191M_TPP16_ProofSheet.pdf,proofsheet,.pdf,890302,203.0,191,Raw Data,Reduced Gravity/Fernandez-Pello/P16
+Fernandez-Pello,P19,P19,PSI-25_Raw Data_GMT2014_203_BASS_S194M_TPP19_ProofSheet.pdf,proofsheet,.pdf,1680677,203.0,194,Raw Data,Reduced Gravity/Fernandez-Pello/P19
+Fernandez-Pello,P17,P17,PSI-25_Raw Data_GMT2014_210_BASS_S192_TPP17_ProofSheet.pdf,proofsheet,.pdf,1134860,210.0,192,Raw Data,Reduced Gravity/Fernandez-Pello/P17
+Fernandez-Pello,P12,P12,PSI-25_Raw Data_GMT2014_210_BASS_S199_TPP12_ProofSheet.pdf,proofsheet,.pdf,1591335,210.0,199,Raw Data,Reduced Gravity/Fernandez-Pello/P12
+Fernandez-Pello,P18,P18,PSI-25_Raw Data_GMT2014_211_BASS_S193M_TPP18_ProofSheet.pdf,proofsheet,.pdf,1832051,211.0,193,Raw Data,Reduced Gravity/Fernandez-Pello/P18
+Fernandez-Pello,P20,P20,PSI-25_Raw Data_GMT2014_211_BASS_S195M_TPP20_ProofSheet.pdf,proofsheet,.pdf,1280083,211.0,195,Raw Data,Reduced Gravity/Fernandez-Pello/P20
+Fernandez-Pello,P23,P23,PSI-25_Raw Data_GMT2014_211_BASS_S201M_TPP23_ProofSheet.pdf,proofsheet,.pdf,1138076,211.0,201,Raw Data,Reduced Gravity/Fernandez-Pello/P23
+Fernandez-Pello,P24,P24,PSI-25_Raw Data_GMT2014_211_BASS_S819L_TPP24_ProofSheet.pdf,proofsheet,.pdf,1166168,211.0,819,Raw Data,Reduced Gravity/Fernandez-Pello/P24
+Miller,M5,M5,PSI-25_Raw Data_GMT2014_051_BASS_S167M_TPM5_ProofSheet.pdf,proofsheet,.pdf,2658597,51.0,167,Raw Data,Reduced Gravity/Miller/M5
+Miller,M1,M1,PSI-25_Raw Data_GMT2014_051_BASS_S222M_TPM1_ProofSheet.pdf,proofsheet,.pdf,1467462,51.0,222,Raw Data,Reduced Gravity/Miller/M1
+Miller,M14,M14,PSI-25_Raw Data_GMT2014_051_BASS_S223M_TPM14_ProofSheet.pdf,proofsheet,.pdf,1487767,51.0,223,Raw Data,Reduced Gravity/Miller/M14
+Miller,M2,M2,PSI-25_Raw Data_GMT2014_051_BASS_S224_TPM2_ProofSheet.pdf,proofsheet,.pdf,1603129,51.0,224,Raw Data,Reduced Gravity/Miller/M2
+Miller,M15,M15,PSI-25_Raw Data_GMT2014_188_BASS_S225M_TPM15_ProofSheet.pdf,proofsheet,.pdf,946680,188.0,225,Raw Data,Reduced Gravity/Miller/M15
+Miller,M7,M7,PSI-25_Raw Data_GMT2014_192_BASS_S177M_TPM7_ProofSheet.pdf,proofsheet,.pdf,1509066,192.0,177,Raw Data,Reduced Gravity/Miller/M7
+Miller,M8,M8,PSI-25_Raw Data_GMT2014_192_BASS_S178M_TPM8_ProofSheet.pdf,proofsheet,.pdf,1592419,192.0,178,Raw Data,Reduced Gravity/Miller/M8
+Miller,M9,M9,PSI-25_Raw Data_GMT2014_192_BASS_S179M_TPM9_ProofSheet.pdf,proofsheet,.pdf,705770,192.0,179,Raw Data,Reduced Gravity/Miller/M9
+Miller,M11,M11,PSI-25_Raw Data_GMT2014_192_BASS_S181M_TPM11_ProofSheet.pdf,proofsheet,.pdf,1230327,192.0,181,Raw Data,Reduced Gravity/Miller/M11
+Miller,M3,M3,PSI-25_Raw Data_GMT2014_192_BASS_S226M_TPM3_ProofSheet.pdf,proofsheet,.pdf,1275121,192.0,226,Raw Data,Reduced Gravity/Miller/M3
+Miller,M17,M17,PSI-25_Raw Data_GMT2014_196_BASS_S166M_TPM17_ProofSheet.pdf,proofsheet,.pdf,1816915,196.0,166,Raw Data,Reduced Gravity/Miller/M17
+Miller,M18,M18,PSI-25_Raw Data_GMT2014_196_BASS_S168M_TPM18_ProofSheet.pdf,proofsheet,.pdf,1003988,196.0,168,Raw Data,Reduced Gravity/Miller/M18
+Miller,M16,M16,PSI-25_Raw Data_GMT2014_204_BASS_S164M_TPM16_ProofSheet.pdf,proofsheet,.pdf,1789956,204.0,164,Raw Data,Reduced Gravity/Miller/M16
+Miller,M19,M19,PSI-25_Raw Data_GMT2014_204_BASS_S170M_TPM19_ProofSheet.pdf,proofsheet,.pdf,1181989,204.0,170,Raw Data,Reduced Gravity/Miller/M19
+Miller,M10,M10,PSI-25_Raw Data_GMT2014_204_BASS_S180M_TPM10_ProofSheet.pdf,proofsheet,.pdf,1020149,204.0,180,Raw Data,Reduced Gravity/Miller/M10
+Miller,M6,M6,PSI-25_Raw Data_GMT2014_212_BASS_S163M_TPM6_ProofSheet.pdf,proofsheet,.pdf,1526243,212.0,163,Raw Data,Reduced Gravity/Miller/M6
+Miller,M12,M12,PSI-25_Raw Data_GMT2014_212_BASS_S165M_TPM12_ProofSheet.pdf,proofsheet,.pdf,1543218,212.0,165,Raw Data,Reduced Gravity/Miller/M12
+Miller,M13,M13,PSI-25_Raw Data_GMT2014_212_BASS_S169M_TPM13_ProofSheet.pdf,proofsheet,.pdf,1509984,212.0,169,Raw Data,Reduced Gravity/Miller/M13
+Miller,M4,M4,PSI-25_Raw Data_GMT2014_212_BASS_S171M_TPM4_ProofSheet.pdf,proofsheet,.pdf,1557073,212.0,171,Raw Data,Reduced Gravity/Miller/M4
+Miller,M20,M20,PSI-25_Raw Data_GMT2014_213_BASS_S172M_TPM20_ProofSheet.pdf,proofsheet,.pdf,970383,213.0,172,Raw Data,Reduced Gravity/Miller/M20
+Olson,O2,O2,PSI-25_Raw Data_GMT2014_049_BASS_S204_TPO2_ProofSheet.pdf,proofsheet,.pdf,1622189,49.0,204,Raw Data,Reduced Gravity/Olson/O2
+Olson,O1,O1,PSI-25_Raw Data_GMT2014_049_BASS_S207_TPO1_ProofSheet.pdf,proofsheet,.pdf,353965,49.0,207,Raw Data,Reduced Gravity/Olson/O1
+Olson,O3,O3a,PSI-25_Raw Data_GMT2014_164_BASS_S205M_TPO3a_ProofSheet.pdf,proofsheet,.pdf,387684,164.0,205,Raw Data,Reduced Gravity/Olson/O3
+Olson,O3,O3b,PSI-25_Raw Data_GMT2014_164_BASS_S205M_TPO3b_ProofSheet.pdf,proofsheet,.pdf,1464257,164.0,205,Raw Data,Reduced Gravity/Olson/O3
+Olson,O6,,PSI-25_Raw Data_GMT2014_177_BASS_S206M_TP06_ProofSheet.pdf,proofsheet,.pdf,12769359,177.0,206,Raw Data,Reduced Gravity/Olson/O6
+Olson,O8,,PSI-25_Raw Data_GMT2014_177_BASS_S208M_TP08a_ProofSheet.pdf,proofsheet,.pdf,785768,177.0,208,Raw Data,Reduced Gravity/Olson/O8
+Olson,O8,,PSI-25_Raw Data_GMT2014_177_BASS_S208M_TP08b_ProofSheet.pdf,proofsheet,.pdf,846201,177.0,208,Raw Data,Reduced Gravity/Olson/O8
+Olson,O9,,PSI-25_Raw Data_GMT2014_177_BASS_S209M_TP09_ProofSheet.pdf,proofsheet,.pdf,844095,177.0,209,Raw Data,Reduced Gravity/Olson/O9
+Olson,O7,,PSI-25_Raw Data_GMT2014_177_BASS_S214M_TP07_ProofSheet.pdf,proofsheet,.pdf,1390468,177.0,214,Raw Data,Reduced Gravity/Olson/O7
+Olson,O7,O7,PSI-25_Raw Data_BASS_GMT177_SAMPLE_214_TEST_O7.mp4,main_video,.mp4,87589566,177.0,214,Raw Data,Reduced Gravity/Olson/O7
+Olson,O7,O7,PSI-25_Raw Data_BASS_GMT177_SAMPLE_214_TEST_O7_2ND_VIEW.mp4,second_view,.mp4,130240123,177.0,214,Raw Data,Reduced Gravity/Olson/O7
+Olson,O7,,PSI-25_Raw Data_Flame-Blowoff-BASS-GMT177-Test-O7.mp4,other_video,.mp4,6363631,177.0,,Raw Data,Reduced Gravity/Olson/O7
+Olson,O11,O11,PSI-25_Raw Data_GMT2014_189_BASS_S184M_TPO11_ProofSheet.pdf,proofsheet,.pdf,1443512,189.0,184,Raw Data,Reduced Gravity/Olson/O11
+Olson,O4,O4,PSI-25_Raw Data_GMT2014_189_BASS_S216M_TPO4_ProofSheet.pdf,proofsheet,.pdf,1471366,189.0,216,Raw Data,Reduced Gravity/Olson/O4
+Olson,O12,O12,PSI-25_Raw Data_GMT2014_189_BASS_S217M_TPO12_ProofSheet.pdf,proofsheet,.pdf,447610,189.0,217,Raw Data,Reduced Gravity/Olson/O12
+Olson,O5,O5a,PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5a_ProofSheet.pdf,proofsheet,.pdf,1036828,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O5,O5b,PSI-25_Raw Data_GMT2014_202_BASS_S220M_TPO5b_ProofSheet.pdf,proofsheet,.pdf,27893,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O13,O13a,PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13a_ProofSheet.pdf,proofsheet,.pdf,1226617,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O13,O13b,PSI-25_Raw Data_GMT2014_202_BASS_S221M_TPO13b_ProofSheet.pdf,proofsheet,.pdf,55975,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O10,O10,PSI-25_Raw Data_GMT2014_203_BASS_S210M_TPO10_ProofSheet.pdf,proofsheet,.pdf,1133999,203.0,210,Raw Data,Reduced Gravity/Olson/O10
+Olson,O17,O17,PSI-25_Raw Data_GMT2014_203_BASS_S211M_TPO17_ProofSheet.pdf,proofsheet,.pdf,995173,203.0,211,Raw Data,Reduced Gravity/Olson/O17
+Olson,O18,O18,PSI-25_Raw Data_GMT2014_209_BASS_S212M_TPO18_ProofSheet.pdf,proofsheet,.pdf,1063292,209.0,212,Raw Data,Reduced Gravity/Olson/O18
+Olson,O15,O15a,PSI-25_Raw Data_GMT2014_209_BASS_S218M_TPO15a_ProofSheet.pdf,proofsheet,.pdf,875580,209.0,218,Raw Data,Reduced Gravity/Olson/O15
+Olson,O15,O15b,PSI-25_Raw Data_GMT2014_209_BASS_S218M_TPO15b_ProofSheet.pdf,proofsheet,.pdf,1856728,209.0,218,Raw Data,Reduced Gravity/Olson/O15
+Olson,O16,O16,PSI-25_Raw Data_GMT2014_210_BASS_S219_TPO16_ProofSheet.pdf,proofsheet,.pdf,98941,210.0,219,Raw Data,Reduced Gravity/Olson/O16
+Olson,O16,P16,PSI-25_Raw Data_GMT2014_210_BASS_S219_TPP16.zip,raw_images_zip,.zip,13454469,210.0,219,Raw Data,Reduced Gravity/Olson/O16
+Olson,O14,O14,PSI-25_Raw Data_GMT2014_213_BASS_S183M_TPO14_ProofSheet.pdf,proofsheet,.pdf,1767878,213.0,183,Raw Data,Reduced Gravity/Olson/O14
+Olson,O19,O19,PSI-25_Raw Data_GMT2014_213_BASS_S213M_TPO19_ProofSheet.pdf,proofsheet,.pdf,1847749,213.0,213,Raw Data,Reduced Gravity/Olson/O19
+T'ien,T1,T1,PSI-25_Raw Data_GMT2014_045_BASS_S128_TPT1_ProofSheet.pdf,proofsheet,.pdf,463321,45.0,128,Raw Data,Reduced Gravity/T'ien/T1
+T'ien,T2,T2,PSI-25_Raw Data_GMT2014_045_BASS_S129_TPT2_ProofSheet.pdf,proofsheet,.pdf,499802,45.0,129,Raw Data,Reduced Gravity/T'ien/T2
+T'ien,T4,T4,PSI-25_Raw Data_GMT2014_045_BASS_S130_TPT4_ProofSheet.pdf,proofsheet,.pdf,418918,45.0,130,Raw Data,Reduced Gravity/T'ien/T4
+T'ien,T15,T15,PSI-25_Raw Data_GMT2014_045_BASS_S138_TPT15_ProofSheet.pdf,proofsheet,.pdf,413209,45.0,138,Raw Data,Reduced Gravity/T'ien/T15
+T'ien,T5,T5,PSI-25_Raw Data_GMT2014_100_BASS_S131M_TPT5_ProofSheet.pdf,proofsheet,.pdf,588707,100.0,131,Raw Data,Reduced Gravity/T'ien/T5
+T'ien,T6,T6,PSI-25_Raw Data_GMT2014_100_BASS_S132M_TPT6_ProofSheet.pdf,proofsheet,.pdf,561256,100.0,132,Raw Data,Reduced Gravity/T'ien/T6
+T'ien,T13,T13,PSI-25_Raw Data_GMT2014_100_BASS_S137M_TPT13_ProofSheet.pdf,proofsheet,.pdf,296829,100.0,137,Raw Data,Reduced Gravity/T'ien/T13
+T'ien,T16,T16,PSI-25_Raw Data_GMT2014_100_BASS_S139M_TPT16_ProofSheet.pdf,proofsheet,.pdf,503414,100.0,139,Raw Data,Reduced Gravity/T'ien/T16
+T'ien,T9,T9,PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9.mp4,main_video,.mp4,10800404,175.0,133,Raw Data,Reduced Gravity/T'ien/T9
+T'ien,T9,T09,PSI-25_Raw Data_GMT2014_175_BASS_S133M_TPT09_ProofSheet.pdf,proofsheet,.pdf,429710,175.0,133,Raw Data,Reduced Gravity/T'ien/T9
+T'ien,T10,T10,PSI-25_Raw Data_GMT2014_175_BASS_S134M_TPT10_ProofSheet.pdf,proofsheet,.pdf,181321,175.0,134,Raw Data,Reduced Gravity/T'ien/T10
+T'ien,T18,T18,PSI-25_Raw Data_GMT2014_175_BASS_S141M_TPT18_ProofSheet.pdf,proofsheet,.pdf,314095,175.0,141,Raw Data,Reduced Gravity/T'ien/T18
+T'ien,T11,T11,PSI-25_Raw Data_GMT2014_178_BASS_S135M_TPT11_ProofSheet.pdf,proofsheet,.pdf,620885,178.0,135,Raw Data,Reduced Gravity/T'ien/T11
+T'ien,T12,T12,PSI-25_Raw Data_GMT2014_178_BASS_S136M_TPT12_ProofSheet.pdf,proofsheet,.pdf,455883,178.0,136,Raw Data,Reduced Gravity/T'ien/T12
+T'ien,T14,T14,PSI-25_Raw Data_GMT2014_178_BASS_S140M_TPT14_ProofSheet.pdf,proofsheet,.pdf,682380,178.0,140,Raw Data,Reduced Gravity/T'ien/T14
+T'ien,T17,T17,PSI-25_Raw Data_BASS_GMT178_SAMPLE_142_TEST_T17.mp4,main_video,.mp4,9404429,178.0,142,Raw Data,Reduced Gravity/T'ien/T17
+T'ien,T17,T17,PSI-25_Raw Data_BASS_GMT178_SAMPLE_142_TEST_T17_2ND_VIEW.mp4,second_view,.mp4,12303319,178.0,142,Raw Data,Reduced Gravity/T'ien/T17
+T'ien,T17,T17,PSI-25_Raw Data_GMT2014_178_BASS_S142M_TPT17_ProofSheet.pdf,proofsheet,.pdf,738960,178.0,142,Raw Data,Reduced Gravity/T'ien/T17
+T'ien,T3,T03,PSI-25_Raw Data_GMT2014_178_BASS_S182M_TPT03_ProofSheet.pdf,proofsheet,.pdf,1710446,178.0,182,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T23,T23,PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT23_ProofSheet.pdf,proofsheet,.pdf,414062,190.0,133,Raw Data,Reduced Gravity/T'ien/T23
+T'ien,T24,T24,PSI-25_Raw Data_GMT2014_190_BASS_S133M_TPT24_ProofSheet.pdf,proofsheet,.pdf,665152,190.0,133,Raw Data,Reduced Gravity/T'ien/T24
+T'ien,T19,T19,PSI-25_Raw Data_GMT2014_190_BASS_S143M_TPT19_ProofSheet.pdf,proofsheet,.pdf,423010,190.0,143,Raw Data,Reduced Gravity/T'ien/T19
+T'ien,T20,T20,PSI-25_Raw Data_GMT2014_190_BASS_S144M_TPT20_ProofSheet.pdf,proofsheet,.pdf,252847,190.0,144,Raw Data,Reduced Gravity/T'ien/T20
+T'ien,T21,T21,PSI-25_Raw Data_GMT2014_190_BASS_S145M_TPT21_ProofSheet.pdf,proofsheet,.pdf,281369,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+T'ien,T22,T22,PSI-25_Raw Data_GMT2014_190_BASS_S146M_TPT22_ProofSheet.pdf,proofsheet,.pdf,289127,190.0,146,Raw Data,Reduced Gravity/T'ien/T22
+T'ien,T7,T7,PSI-25_Raw Data_GMT2014_190_BASS_S182M_TPT7_ProofSheet.pdf,proofsheet,.pdf,1871129,190.0,182,Raw Data,Reduced Gravity/T'ien/T7
+T'ien,T26,T26,PSI-25_Raw Data_GMT2014_216_BASS_S137M_TPT26_ProofSheet.pdf,proofsheet,.pdf,499840,216.0,137,Raw Data,Reduced Gravity/T'ien/T26
+T'ien,T25,T25,PSI-25_Raw Data_GMT2014_216_BASS_S138M_TPT25_ProofSheet.pdf,proofsheet,.pdf,553411,216.0,138,Raw Data,Reduced Gravity/T'ien/T25
+T'ien,T28,T28a,PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28a_ProofSheet.pdf,proofsheet,.pdf,148962,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T28,T28b,PSI-25_Raw Data_GMT2014_216_BASS_S144M_TPT28b_ProofSheet.pdf,proofsheet,.pdf,210827,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T29,T29,PSI-25_Raw Data_GMT2014_216_BASS_S145M_TPT29_ProofSheet.pdf,proofsheet,.pdf,354808,216.0,145,Raw Data,Reduced Gravity/T'ien/T29
+T'ien,T27,T27,PSI-25_Raw Data_GMT2014_216_BASS_S146M_TPT27_ProofSheet.pdf,proofsheet,.pdf,334372,216.0,146,Raw Data,Reduced Gravity/T'ien/T27
+,,,PSI-25_Reference Data_Fan calibration data.xlsx,other,.xlsx,23973,,,Reference Data,
+,,,PSI-25_Science Documents_BASS-II_Test.Matrices.xlsx,other,.xlsx,28956,,,Science Documents,
+,,,PSI-25_Science Documents_BASS-II_ReadMe.docx,other,.docx,21538,,,Science Documents,
+Bhattacharjee,B1,B1,PSI-25_Raw Data_BASS_GMT50_SAMPLE_147_TEST_B1 original videos.zip,original_videos_zip,.zip,14636823,50.0,147,Raw Data,Reduced Gravity/ Bhattacharjee/B1
+Bhattacharjee,B3,B3,PSI-25_Raw Data_BASS_GMT50_SAMPLE_148_TEST_B3 original videos.zip,original_videos_zip,.zip,15646573,50.0,148,Raw Data,Reduced Gravity/ Bhattacharjee/B3
+Bhattacharjee,B2,B2,PSI-25_Raw Data_BASS_GMT50_SAMPLE_155_TEST_B2 original videos.zip,original_videos_zip,.zip,10842402,50.0,155,Raw Data,Reduced Gravity/ Bhattacharjee/B2
+Bhattacharjee,B5,B5,PSI-25_Raw Data_BASS_GMT50_SAMPLE_156_TEST_B5 original videos.zip,original_videos_zip,.zip,21243429,50.0,156,Raw Data,Reduced Gravity/ Bhattacharjee/B5
+Bhattacharjee,B12,B12,PSI-25_Raw Data_BASS_GMT50_SAMPLE_160_TEST_B12 original videos.zip,original_videos_zip,.zip,25595198,50.0,160,Raw Data,Reduced Gravity/ Bhattacharjee/B12
+Bhattacharjee,B4,B4,PSI-25_Raw Data_BASS_GMT50_SAMPLE_159_TEST_B4 original videos.zip,original_videos_zip,.zip,24650035,50.0,159,Raw Data,Reduced Gravity/ Bhattacharjee/B4
+Bhattacharjee,B7,B7,PSI-25_Raw Data_BASS_GMT50_SAMPLE_161_TEST_B7 original videos.zip,original_videos_zip,.zip,30408560,50.0,161,Raw Data,Reduced Gravity/ Bhattacharjee/B7
+Bhattacharjee,B16,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_150_TESTB16 original videos.zip,original_videos_zip,.zip,48355950,183.0,150,Raw Data,Reduced Gravity/ Bhattacharjee/B16
+Bhattacharjee,B19,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_151_TESTB19 original videos.zip,original_videos_zip,.zip,43956887,183.0,151,Raw Data,Reduced Gravity/ Bhattacharjee/B19
+Bhattacharjee,B20,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_152_TESTB20 original videos.zip,original_videos_zip,.zip,56262779,183.0,152,Raw Data,Reduced Gravity/ Bhattacharjee/B20
+Bhattacharjee,B14,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14 original videos.zip,original_videos_zip,.zip,26578922,183.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B14
+Bhattacharjee,B14,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_174_TESTB14.mp4,other_video,.mp4,3145728,183.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B14
+Bhattacharjee,B17,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_175_TESTB15 original videos.zip,original_videos_zip,.zip,83944246,183.0,175,Raw Data,Reduced Gravity/ Bhattacharjee/B17
+Bhattacharjee,B18,,PSI-25_Raw Data_BASS_GMT183_SAMPLE_176_TESTB18 original videos.zip,original_videos_zip,.zip,65818288,183.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B18
+Bhattacharjee,B15,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_149_TESTB15 original videos.zip,original_videos_zip,.zip,36807987,188.0,149,Raw Data,Reduced Gravity/ Bhattacharjee/B15
+Bhattacharjee,B6,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_153_TESTB6 original videos.zip,original_videos_zip,.zip,32841516,188.0,153,Raw Data,Reduced Gravity/ Bhattacharjee/B6
+Bhattacharjee,B9,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_154_TESTB9 original vidoes.zip,raw_images_zip,.zip,15652229,188.0,154,Raw Data,Reduced Gravity/ Bhattacharjee/B9
+Bhattacharjee,B8,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_157_TESTB8 original videos.zip,original_videos_zip,.zip,56299513,188.0,157,Raw Data,Reduced Gravity/ Bhattacharjee/B8
+Bhattacharjee,B11,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_158_TESTB11 original videos.zip,original_videos_zip,.zip,62032842,188.0,158,Raw Data,Reduced Gravity/ Bhattacharjee/B11
+Bhattacharjee,B11,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_158_TESTB11_Still_Sequence.mp4,still_sequence,.mp4,1797313,188.0,158,Raw Data,Reduced Gravity/ Bhattacharjee/B11
+Bhattacharjee,B11,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_158_TESTB11_2ND_VIEW.mp4,second_view,.mp4,20368020,188.0,158,Raw Data,Reduced Gravity/ Bhattacharjee/B11
+Bhattacharjee,B11,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_158_TESTB11.mp4,other_video,.mp4,17478523,188.0,158,Raw Data,Reduced Gravity/ Bhattacharjee/B11
+Bhattacharjee,B13,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_162_TESTB13 original videos.zip,original_videos_zip,.zip,93746479,188.0,162,Raw Data,Reduced Gravity/ Bhattacharjee/B13
+Bhattacharjee,B10,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_173_TESTB10 original videos.zip,original_videos_zip,.zip,64489186,188.0,173,Raw Data,Reduced Gravity/ Bhattacharjee/B10
+Bhattacharjee,B21,B21,PSI-25_Raw Data_BASS_GMT216_SAMPLE_174_TEST_B21 original videos.zip,original_videos_zip,.zip,62674030,216.0,174,Raw Data,Reduced Gravity/ Bhattacharjee/B21
+Bhattacharjee,B22,B22,PSI-25_Raw Data_BASS_GMT216_SAMPLE_176_TEST_B22 original videos.zip,original_videos_zip,.zip,50384666,216.0,176,Raw Data,Reduced Gravity/ Bhattacharjee/B22
+Ferkul,F1,F1,PSI-25_Raw Data_BASS_GMT50_SAMPLE_227_TEST_F1 original videos.zip,original_videos_zip,.zip,17608921,50.0,227,Raw Data,Reduced Gravity/Ferkul/F1
+Ferkul,F4,F4,PSI-25_Raw Data_BASS_GMT175_SAMPLE_039_TEST_F4 original videos.zip,original_videos_zip,.zip,143089098,175.0,039,Raw Data,Reduced Gravity/Ferkul/F4
+Ferkul,F3,F3,PSI-25_Raw Data_BASS_GMT213_SAMPLE_229_TEST_F3 original videos.zip,original_videos_zip,.zip,44702673,213.0,229,Raw Data,Reduced Gravity/Ferkul/F3
+Fernandez-Pello,P1,,PSI-25_Raw Data_BASS_GMT167_SAMPLE_185_TEST original videos.zip,original_videos_zip,.zip,167499384,167.0,185,Raw Data,Reduced Gravity/Fernandez-Pello/P1
+Fernandez-Pello,P2,,PSI-25_Raw Data_BASS_GMT167_SAMPLE_188_TEST original videos.zip,original_videos_zip,.zip,180904627,167.0,188,Raw Data,Reduced Gravity/Fernandez-Pello/P2
+Fernandez-Pello,P3,P3a,PSI-25_Raw Data_BASS_GMT167_SAMPLE_215_TEST_P3a original videos.zip,original_videos_zip,.zip,548072160,167.0,215,Raw Data,Reduced Gravity/Fernandez-Pello/P3
+Fernandez-Pello,P14,P14,PSI-25_Raw Data_BASS_GMT174_SAMPLE_189_TEST_P14 original videos.zip,original_videos_zip,.zip,275195834,174.0,189,Raw Data,Reduced Gravity/Fernandez-Pello/P14
+Fernandez-Pello,P15,P15,PSI-25_Raw Data_BASS_GMT174_SAMPLE_190_TEST_P15 original videos.zip,original_videos_zip,.zip,236288215,174.0,190,Raw Data,Reduced Gravity/Fernandez-Pello/P15
+Fernandez-Pello,P21,P21a,PSI-25_Raw Data_BASS_GMT174_SAMPLE_196_TEST_P21a original videos.zip,original_videos_zip,.zip,260907085,174.0,196,Raw Data,Reduced Gravity/Fernandez-Pello/P21
+Fernandez-Pello,P6,,PSI-25_Raw Data_BASS_GMT184_SAMPLE_186_TESTP6 original videos.zip,original_videos_zip,.zip,80457801,184.0,186,Raw Data,Reduced Gravity/Fernandez-Pello/P6
+Fernandez-Pello,P4,,PSI-25_Raw Data_BASS_GMT184_SAMPLE_197_TESTP4 original videos.zip,original_videos_zip,.zip,221181871,184.0,197,Raw Data,Reduced Gravity/Fernandez-Pello/P4
+Fernandez-Pello,P22,P22a,PSI-25_Raw Data_BASS_GMT189_SAMPLE_200_TEST_P22a original videos.zip,original_videos_zip,.zip,327552485,189.0,200,Raw Data,Reduced Gravity/Fernandez-Pello/P22
+Fernandez-Pello,P25,P25,PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_P25 original videos.zip,original_videos_zip,.zip,319492034,189.0,217,Raw Data,Reduced Gravity/Fernandez-Pello/P25
+Fernandez-Pello,P5,P5,PSI-25_Raw Data_BASS_GMT195_SAMPLE_202_TEST_P5 original videos.zip,original_videos_zip,.zip,1018646567,195.0,202,Raw Data,Reduced Gravity/Fernandez-Pello/P5
+Fernandez-Pello,P13,P13a,PSI-25_Raw Data_BASS_GMT195_SAMPLE_203_TEST_P13a original videos.zip,original_videos_zip,.zip,733137929,195.0,203,Raw Data,Reduced Gravity/Fernandez-Pello/P13
+Fernandez-Pello,P16,P16,PSI-25_Raw Data_BASS_GMT203_SAMPLE_191_TEST_P16 original videos.zip,original_videos_zip,.zip,299052820,203.0,191,Raw Data,Reduced Gravity/Fernandez-Pello/P16
+Fernandez-Pello,P19,P19,PSI-25_Raw Data_BASS_GMT203_SAMPLE_194_TEST_P19 original videos.zip,original_videos_zip,.zip,485536028,203.0,194,Raw Data,Reduced Gravity/Fernandez-Pello/P19
+Fernandez-Pello,P17,P17,PSI-25_Raw Data_BASS_GMT210_SAMPLE_192_TEST_P17 orginal videos.zip,raw_images_zip,.zip,355211521,210.0,192,Raw Data,Reduced Gravity/Fernandez-Pello/P17
+Fernandez-Pello,P12,P12,PSI-25_Raw Data_BASS_GMT210_SAMPLE_199_TEST_P12 original videos.zip,original_videos_zip,.zip,388756485,210.0,199,Raw Data,Reduced Gravity/Fernandez-Pello/P12
+Fernandez-Pello,P18,P18,PSI-25_Raw Data_BASS_GMT211_SAMPLE_193_TEST_P18 original videos.zip,original_videos_zip,.zip,446033398,211.0,193,Raw Data,Reduced Gravity/Fernandez-Pello/P18
+Fernandez-Pello,P20,P20,PSI-25_Raw Data_BASS_GMT211_SAMPLE_195_TEST_P20 original videos.zip,original_videos_zip,.zip,346778534,211.0,195,Raw Data,Reduced Gravity/Fernandez-Pello/P20
+Fernandez-Pello,P23,P23,PSI-25_Raw Data_BASS_GMT211_SAMPLE_201_TEST_P23 original videos.zip,original_videos_zip,.zip,472428981,211.0,201,Raw Data,Reduced Gravity/Fernandez-Pello/P23
+Fernandez-Pello,P24,P24,PSI-25_Raw Data_BASS_GMT211_SAMPLE_819_TEST_P24 original videos.zip,original_videos_zip,.zip,486730804,211.0,819,Raw Data,Reduced Gravity/Fernandez-Pello/P24
+Miller,M5,M5,PSI-25_Raw Data_BASS_GMT51_SAMPLE_167_TEST_M5 orignial videos.zip,raw_images_zip,.zip,277957923,51.0,167,Raw Data,Reduced Gravity/Miller/M5
+Miller,M1,M1,PSI-25_Raw Data_BASS_GMT51_SAMPLE_222_TEST_M1 original videos.zip,original_videos_zip,.zip,101611556,51.0,222,Raw Data,Reduced Gravity/Miller/M1
+Miller,M14,M14,PSI-25_Raw Data_BASS_GMT51_SAMPLE_223_TEST_M14.zip,raw_images_zip,.zip,253950593,51.0,223,Raw Data,Reduced Gravity/Miller/M14
+Miller,M2,M2,PSI-25_Raw Data_BASS_GMT51_SAMPLE_224_TEST_M2 original videos.zip,original_videos_zip,.zip,311576532,51.0,224,Raw Data,Reduced Gravity/Miller/M2
+Miller,M15,,PSI-25_Raw Data_BASS_GMT188_SAMPLE_225_TESTM15 originla videos.zip,raw_images_zip,.zip,495065441,188.0,225,Raw Data,Reduced Gravity/Miller/M15
+Miller,M7,M7,PSI-25_Raw Data_BASS_GMT192_SAMPLE_177_TEST_M7 original videos.zip,original_videos_zip,.zip,416561202,192.0,177,Raw Data,Reduced Gravity/Miller/M7
+Miller,M8,M8,PSI-25_Raw Data_BASS_GMT192_SAMPLE_178_TEST_M8 original videos.zip,original_videos_zip,.zip,577694340,192.0,178,Raw Data,Reduced Gravity/Miller/M8
+Miller,M9,M9,PSI-25_Raw Data_BASS_GMT192_SAMPLE_179_TEST_M9 original videos.zip,original_videos_zip,.zip,377628349,192.0,179,Raw Data,Reduced Gravity/Miller/M9
+Miller,M11,M11,PSI-25_Raw Data_BASS_GMT192_SAMPLE_181_TEST_M11 original videos.zip,original_videos_zip,.zip,631204018,192.0,181,Raw Data,Reduced Gravity/Miller/M11
+Miller,M17,M17,PSI-25_Raw Data_BASS_GMT196_SAMPLE_166_TEST_M17 original videos.zip,original_videos_zip,.zip,695804065,196.0,166,Raw Data,Reduced Gravity/Miller/M17
+Miller,M18,M18,PSI-25_Raw Data_BASS_GMT196_SAMPLE_168_TEST_M18 original videos.zip,original_videos_zip,.zip,581153356,196.0,168,Raw Data,Reduced Gravity/Miller/M18
+Miller,M16,M16,PSI-25_Raw Data_BASS_GMT204_SAMPLE_164_TEST_M16 original videos.zip,original_videos_zip,.zip,346364239,204.0,164,Raw Data,Reduced Gravity/Miller/M16
+Miller,M19,M19,PSI-25_Raw Data_BASS_GMT204_SAMPLE_170_TEST_M19 original videos.zip,original_videos_zip,.zip,604831977,204.0,170,Raw Data,Reduced Gravity/Miller/M19
+Miller,M10,M10,PSI-25_Raw Data_BASS_GMT204_SAMPLE_180_TEST_M10 original videos.zip,original_videos_zip,.zip,741418452,204.0,180,Raw Data,Reduced Gravity/Miller/M10
+Miller,M6,M6,PSI-25_Raw Data_BASS_GMT212_SAMPLE_163_TEST_M6 original videos.zip,original_videos_zip,.zip,455302050,212.0,163,Raw Data,Reduced Gravity/Miller/M6
+Miller,M12,M12,PSI-25_Raw Data_BASS_GMT212_SAMPLE_165_TEST_M12 original videos.zip,original_videos_zip,.zip,399686967,212.0,165,Raw Data,Reduced Gravity/Miller/M12
+Miller,M13,M13,PSI-25_Raw Data_BASS_GMT212_SAMPLE_169_TEST_M13 original videos.zip,original_videos_zip,.zip,496233122,212.0,169,Raw Data,Reduced Gravity/Miller/M13
+Miller,M4,M4,PSI-25_Raw Data_BASS_GMT212_SAMPLE_171_TEST_M4 original videos.zip,original_videos_zip,.zip,495034524,212.0,171,Raw Data,Reduced Gravity/Miller/M4
+Miller,M4,M4,PSI-25_Raw Data_BASS_GMT212_SAMPLE_171_TEST_M4.mp4,main_video,.mp4,153411020,212.0,171,Raw Data,Reduced Gravity/Miller/M4
+Miller,M4,M4,PSI-25_Raw Data_BASS_GMT212_SAMPLE_171_TEST_M4_2ND_VIEW.mp4,second_view,.mp4,189091648,212.0,171,Raw Data,Reduced Gravity/Miller/M4
+Miller,M20,M20,PSI-25_Raw Data_BASS_GMT213_SAMPLE_172_TEST_M20 original videos.zip,original_videos_zip,.zip,591111754,213.0,172,Raw Data,Reduced Gravity/Miller/M20
+Miller,M10,,PSI-25_Raw Data_M10experimentvideo LOS original videos.zip,original_videos_zip,.zip,19006751,,,Raw Data,Reduced Gravity/Miller/M10
+Miller,M10,,PSI-25_Raw Data_M10 lab camera LOS original videos.zip,original_videos_zip,.zip,20210456,,,Raw Data,Reduced Gravity/Miller/M10
+Miller,M3,,PSI-25_Raw Data_M3-over the shoulder view during LOS orginal videos.zip,raw_images_zip,.zip,20822320,,,Raw Data,Reduced Gravity/Miller/M3
+Miller,M3,,PSI-25_Raw Data_M3-rack video during LOS original videos.zip,original_videos_zip,.zip,18118349,,,Raw Data,Reduced Gravity/Miller/M3
+Olson,O2,O2,PSI-25_Raw Data_BASS_GMT49_SAMPLE_204_TEST_O2 original videos.zip,original_videos_zip,.zip,51280150,49.0,204,Raw Data,Reduced Gravity/Olson/O2
+Olson,O1,O1,PSI-25_Raw Data_BASS_GMT49_SAMPLE_207_TEST_O1 original videos.zip,original_videos_zip,.zip,56853115,49.0,207,Raw Data,Reduced Gravity/Olson/O1
+Olson,O3,O3a,PSI-25_Raw Data_BASS_GMT164_SAMPLE_205_TEST_O3a original videos.zip,original_videos_zip,.zip,205248189,164.0,205,Raw Data,Reduced Gravity/Olson/O3
+Olson,O6,O6,PSI-25_Raw Data_BASS_GMT177_SAMPLE_206_TEST_O6 original videos.zip,original_videos_zip,.zip,327664795,177.0,206,Raw Data,Reduced Gravity/Olson/O6
+Olson,O8,O8a,PSI-25_Raw Data_BASS_GMT177_SAMPLE_208_TEST_O8a original videos.zip,original_videos_zip,.zip,388502187,177.0,208,Raw Data,Reduced Gravity/Olson/O8
+Olson,O9,O9,PSI-25_Raw Data_BASS_GMT177_SAMPLE_209_TEST_O9 original videos.zip,original_videos_zip,.zip,214131436,177.0,209,Raw Data,Reduced Gravity/Olson/O9
+Olson,O7,O7,PSI-25_Raw Data_BASS_GMT177_SAMPLE_214_TEST_O7 original videos.zip,original_videos_zip,.zip,315401303,177.0,214,Raw Data,Reduced Gravity/Olson/O7
+Olson,O11,O11,PSI-25_Raw Data_BASS_GMT189_SAMPLE_184_TEST_O11 original videos.zip,original_videos_zip,.zip,399459528,189.0,184,Raw Data,Reduced Gravity/Olson/O11
+Olson,O4,O4,PSI-25_Raw Data_BASS_GMT189_SAMPLE_216_TEST_O4 original videos.zip,original_videos_zip,.zip,475377295,189.0,216,Raw Data,Reduced Gravity/Olson/O4
+Olson,O12,O12,PSI-25_Raw Data_BASS_GMT189_SAMPLE_217_TEST_O12 original videos.zip,original_videos_zip,.zip,207755458,189.0,217,Raw Data,Reduced Gravity/Olson/O12
+Olson,O5,O5a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_220_TEST_O5a original videos.zip,original_videos_zip,.zip,442545846,202.0,220,Raw Data,Reduced Gravity/Olson/O5
+Olson,O13,O13a,PSI-25_Raw Data_BASS_GMT202_SAMPLE_221_TEST_O13a original videos.zip,original_videos_zip,.zip,624765458,202.0,221,Raw Data,Reduced Gravity/Olson/O13
+Olson,O10,O10,PSI-25_Raw Data_BASS_GMT203_SAMPLE_210_TEST_O10 original videos.zip,original_videos_zip,.zip,261393017,203.0,210,Raw Data,Reduced Gravity/Olson/O10
+Olson,O17,O17,PSI-25_Raw Data_BASS_GMT203_SAMPLE_211_TEST_O17 original videos.zip,original_videos_zip,.zip,342689753,203.0,211,Raw Data,Reduced Gravity/Olson/O17
+Olson,O18,O18,PSI-25_Raw Data_BASS_GMT209_SAMPLE_212_TEST_O18 original videos.zip,original_videos_zip,.zip,250711978,209.0,212,Raw Data,Reduced Gravity/Olson/O18
+Olson,O15,O15a,PSI-25_Raw Data_BASS_GMT209_SAMPLE_218_TEST_O15a original videos.zip,original_videos_zip,.zip,1049170337,209.0,218,Raw Data,Reduced Gravity/Olson/O15
+Olson,O16,O16,PSI-25_Raw Data_BASS_GMT210_SAMPLE_219_TEST_O16_First_Ignition_Attempt original videos.zip,original_videos_zip,.zip,195615938,210.0,219,Raw Data,Reduced Gravity/Olson/O16
+Olson,O14,O14,PSI-25_Raw Data_BASS_GMT213_SAMPLE_183_TEST_O14 original videos.zip,original_videos_zip,.zip,368882572,213.0,183,Raw Data,Reduced Gravity/Olson/O14
+Olson,O19,O19,PSI-25_Raw Data_BASS_GMT213_SAMPLE_213_TEST_O19 original videos.zip,original_videos_zip,.zip,351466088,213.0,213,Raw Data,Reduced Gravity/Olson/O19
+T'ien,T1,T1,PSI-25_Raw Data_BASS_GMT45_SAMPLE_128_TEST_T1 original videos.zip,original_videos_zip,.zip,21967435,45.0,128,Raw Data,Reduced Gravity/T'ien/T1
+T'ien,T2,T2,PSI-25_Raw Data_BASS_GMT45_SAMPLE_129_TEST_T2 original videos.zip,original_videos_zip,.zip,31469671,45.0,129,Raw Data,Reduced Gravity/T'ien/T2
+T'ien,T4,T4,PSI-25_Raw Data_BASS_GMT45_SAMPLE_130_TEST_T4 original videos.zip,original_videos_zip,.zip,17768598,45.0,130,Raw Data,Reduced Gravity/T'ien/T4
+T'ien,T15,T15,PSI-25_Raw Data_BASS_GMT45_SAMPLE_138_TEST_T15 original videos.zip,original_videos_zip,.zip,12818305,45.0,138,Raw Data,Reduced Gravity/T'ien/T15
+T'ien,T5,,PSI-25_Raw Data_BASS_GMT100_sample 131_test T5 original videos.zip,original_videos_zip,.zip,84329389,100.0,,Raw Data,Reduced Gravity/T'ien/T5
+T'ien,T6,,PSI-25_Raw Data_BASS_GMT100_sample 132_test T6 original videos.zip,original_videos_zip,.zip,33618324,100.0,,Raw Data,Reduced Gravity/T'ien/T6
+T'ien,T13,T13,PSI-25_Raw Data_BASS_GMT100_SAMPLE_137_TEST_T13 original videos.zip,original_videos_zip,.zip,24534433,100.0,137,Raw Data,Reduced Gravity/T'ien/T13
+T'ien,T16,,PSI-25_Raw Data_BASS_GMT100_sample139_test T16 original videos.zip,original_videos_zip,.zip,110948990,100.0,,Raw Data,Reduced Gravity/T'ien/T16
+T'ien,T9,T9,PSI-25_Raw Data_BASS_GMT175_SAMPLE_133_TEST_T9 original videos.zip,original_videos_zip,.zip,39650189,175.0,133,Raw Data,Reduced Gravity/T'ien/T9
+T'ien,T10,T10,PSI-25_Raw Data_BASS_GMT175_SAMPLE_134_TEST_T10 original videos.zip,original_videos_zip,.zip,36687937,175.0,134,Raw Data,Reduced Gravity/T'ien/T10
+T'ien,T18,T18,PSI-25_Raw Data_BASS_GMT175_SAMPLE_141_TEST_T18 original videos.zip,original_videos_zip,.zip,40710513,175.0,141,Raw Data,Reduced Gravity/T'ien/T18
+T'ien,T11,T11,PSI-25_Raw Data_BASS_GMT178_SAMPLE_135_TEST_T11 original videos.zip,original_videos_zip,.zip,69917153,178.0,135,Raw Data,Reduced Gravity/T'ien/T11
+T'ien,T12,T12,PSI-25_Raw Data_BASS_GMT178_SAMPLE_136_TEST_T12 original videos.zip,original_videos_zip,.zip,16257820,178.0,136,Raw Data,Reduced Gravity/T'ien/T12
+T'ien,T14,T14,PSI-25_Raw Data_BASS_GMT178_SAMPLE_140_TEST_T14 original videos.zip,original_videos_zip,.zip,53719781,178.0,140,Raw Data,Reduced Gravity/T'ien/T14
+T'ien,T17,T17,PSI-25_Raw Data_BASS_GMT178_SAMPLE_142_TEST_T17 original videos.zip,original_videos_zip,.zip,42719814,178.0,142,Raw Data,Reduced Gravity/T'ien/T17
+T'ien,T3,T3,PSI-25_Raw Data_BASS_GMT178_SAMPLE_182_TEST_T3 original videos.zip,original_videos_zip,.zip,254747751,178.0,182,Raw Data,Reduced Gravity/T'ien/T3
+T'ien,T23,T23,PSI-25_Raw Data_BASS_GMT190_SAMPLE_133_TEST_T23 original videos.zip,original_videos_zip,.zip,75728284,190.0,133,Raw Data,Reduced Gravity/T'ien/T23
+T'ien,T19,T19,PSI-25_Raw Data_BASS_GMT190_SAMPLE_143_TEST_T19 original videos.zip,original_videos_zip,.zip,37109759,190.0,143,Raw Data,Reduced Gravity/T'ien/T19
+T'ien,T20,T20,PSI-25_Raw Data_BASS_GMT190_SAMPLE_144_TEST_T20 original videos.zip,original_videos_zip,.zip,14676673,190.0,144,Raw Data,Reduced Gravity/T'ien/T20
+T'ien,T21,T21,PSI-25_Raw Data_BASS_GMT190_SAMPLE_145_TEST_T21 original videos.zip,original_videos_zip,.zip,20045992,190.0,145,Raw Data,Reduced Gravity/T'ien/T21
+T'ien,T22,T22,PSI-25_Raw Data_BASS_GMT190_SAMPLE_146_TEST_T22 original videos.zip,original_videos_zip,.zip,20776829,190.0,146,Raw Data,Reduced Gravity/T'ien/T22
+T'ien,T7,T7,PSI-25_Raw Data_BASS_GMT190_SAMPLE_182_TEST_T7_First_Ignition_Attempts original videos.zip,original_videos_zip,.zip,185231982,190.0,182,Raw Data,Reduced Gravity/T'ien/T7
+T'ien,T26,T26,PSI-25_Raw Data_BASS_GMT216_SAMPLE_137_TEST_T26 original videos.zip,original_videos_zip,.zip,57817962,216.0,137,Raw Data,Reduced Gravity/T'ien/T26
+T'ien,T25,T25,PSI-25_Raw Data_BASS_GMT216_SAMPLE_138_TEST_T25 original videos.zip,original_videos_zip,.zip,33626518,216.0,138,Raw Data,Reduced Gravity/T'ien/T25
+T'ien,T28,T28a,PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28a original videos.zip,original_videos_zip,.zip,29632744,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T28,T28b,PSI-25_Raw Data_BASS_GMT216_SAMPLE_144_TEST_T28b original videos.zip,original_videos_zip,.zip,26784632,216.0,144,Raw Data,Reduced Gravity/T'ien/T28
+T'ien,T29,T29,PSI-25_Raw Data_BASS_GMT216_SAMPLE_145_TEST_T29 original videos.zip,original_videos_zip,.zip,61654621,216.0,145,Raw Data,Reduced Gravity/T'ien/T29
+T'ien,T27,T27,PSI-25_Raw Data_BASS_GMT216_SAMPLE_146_TEST_T27 original videos.zip,original_videos_zip,.zip,42345787,216.0,146,Raw Data,Reduced Gravity/T'ien/T27
+,,,PSI-25_Reports_BASS-II Summary Report.pdf,other,.pdf,48972416,,,Reports,
+,,,PSI-25_Science Documents_BASS-II_SRD.pdf,other,.pdf,1108340,,,Science Documents,
+,,,PSI-25_Engineering Documents_BASS-II_Ops.docx,other,.docx,1111856,,,Engineering Documents,
+,,,PSI-25_Representative Image(s)_BASS-II_flame testing.jpg,other,.jpg,37525,,,Representative Image(s),
