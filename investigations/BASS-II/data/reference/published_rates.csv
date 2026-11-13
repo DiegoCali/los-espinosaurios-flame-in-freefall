@@ -1,0 +1,53 @@
+test_id,step,flow_cm_s,vf_mm_s,view,sigma_rel,source,notes
+B1,1,5,1.8783,side,0.05,SDSU flame.sdsu.edu/bass.html,PMMA 100um 2cm; flow cut mid-sample
+B1,1,5,1.7662,top,0.05,SDSU flame.sdsu.edu/bass.html,top view (Nikon stills)
+B3,1,2.5,2.0562,side,0.05,SDSU,PMMA 100um
+B3,1,2.5,1.9688,top,0.05,SDSU,
+B5,1,5.67,1.1262,side,0.05,SDSU,PMMA 200um
+B5,1,5.67,1.0531,top,0.05,SDSU,
+B2,1,6.47,1.0784,side,0.05,SDSU,PMMA 200um
+B4,1,6.2,0.8004,side,0.05,SDSU,PMMA 300um
+B4,1,6.2,0.7205,top,0.05,SDSU,
+B12,1,2.52,0.6073,side,0.05,SDSU,PMMA 300um
+B12,1,2.52,0.5842,top,0.05,SDSU,
+B7,1,2.47,0.4715,side,0.05,SDSU,PMMA 400um
+B7,1,2.47,0.4577,top,0.05,SDSU,
+M1,1,9,0.071,side,0.10,NASA/TM-20210011385 Tabla 5.1,PMMA 1mm one-sided
+M2,1,20,0.052,side,0.10,TM Table 5.1,
+M2,2,15,0.033,side,0.10,TM Table 5.1,
+M3,1,10,0.029,side,0.10,TM Table 5.1,
+M3,2,20,0.024,side,0.10,TM Table 5.1,
+M4,1,5,0.045,side,0.10,TM Table 5.1,
+M4,2,3,0.033,side,0.10,TM Table 5.1,
+M5,1,10,0.071,side,0.10,TM Table 5.1,
+M7,1,10,0.106,side,0.10,TM Table 5.1,
+M7,2,6,0.099,side,0.10,TM Table 5.1,
+M7,3,5,0.083,side,0.10,TM Table 5.1,
+M7,4,3,0.07,side,0.10,TM Table 5.1,
+M8,1,10,0.057,side,0.10,TM Table 5.1,
+M8,2,6,0.056,side,0.10,TM Table 5.1,
+M8,3,5,0.04,side,0.10,TM Table 5.1,
+M9,1,14,0.025,side,0.10,TM Table 5.1,
+M10,1,15,0.0373,side,0.10,TM Table 5.1,
+M10,2,10,0.03,side,0.10,TM Table 5.1,
+M11,1,21,0.048,side,0.10,TM Table 5.1,
+M11,2,15,0.028,side,0.10,TM Table 5.1,
+M11,3,13,0.022,side,0.10,TM Table 5.1,
+M13,1,6,0.047,side,0.10,TM Table 5.1,
+M13,2,5,0.035,side,0.10,TM Table 5.1,
+M13,3,4,0.033,side,0.10,TM Table 5.1,
+M14,1,15,0.0624,side,0.10,TM Table 5.1,
+M14,2,14,0.055,side,0.10,TM Table 5.1,
+M14,3,10,0.0353,side,0.10,TM Table 5.1,
+M15,1,20,0.045,side,0.10,TM Table 5.1,
+M16,1,5,0.144,side,0.10,TM Table 5.1,
+M16,2,3,0.1309,side,0.10,TM Table 5.1,
+M16,3,2,0.1062,side,0.10,TM Table 5.1,
+M17,1,5,0.053,side,0.10,TM Table 5.1,
+M17,2,4,0.042,side,0.10,TM Table 5.1,
+M17,3,3,0.026,side,0.10,TM Table 5.1,
+M18,1,10,0.026,side,0.10,TM Table 5.1,
+M18,2,8,0.013,side,0.10,TM Table 5.1,
+M19,1,10,0.027,side,0.10,TM Table 5.1,
+M19,2,6,0.0159,side,0.10,TM Table 5.1,
+M20,1,10,0.012,side,0.10,TM Table 5.1,
