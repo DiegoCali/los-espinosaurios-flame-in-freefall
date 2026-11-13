@@ -167,8 +167,8 @@ def main() -> None:
                 n_jobs=-1,
             ),
         )
-        model.fit(x.iloc[fit_idx], targets[target_name].iloc[fit_idx])
-        predicted = model.predict(x.iloc[score_idx])
+        model.fit(x.iloc[fit_idx], np.log1p(targets[target_name].iloc[fit_idx]))
+        predicted = np.expm1(model.predict(x.iloc[score_idx]))
         actual = targets[target_name].iloc[score_idx].to_numpy()
         predictions.loc[score_idx, target_name] = predicted
         metrics[target_name] = {
