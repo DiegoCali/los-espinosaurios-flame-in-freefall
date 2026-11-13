@@ -1,0 +1,15 @@
+# Pilot subset: small, representative tests from every PI / regime so we can iterate quickly
+# before touching the full ~275 GB. Criteria: main video < ~300 MB, distinct regimes (thin
+# opposed-flow films, thick slabs, concurrent fabric, rods) and published values to validate against.
+pilot:
+  - B1    # Bhattacharjee, PMMA 100 µm, opposed flow (5.8 MB)
+  - B3    # PMMA 100 µm
+  - B7    # PMMA 400 µm
+  - B12   # PMMA 300 µm
+  - F1    # Ferkul, Nomex
+  - T10   # T'ien, SIBAL fabric, concurrent
+  - T20
+  - O16   # Olson, PMMA rod
+  - O1
+  - M1    # Miller, thick PMMA slab
+  - P8    # Fernandez-Pello, black PMMA rod
