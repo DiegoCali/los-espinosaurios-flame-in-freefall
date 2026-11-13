@@ -1,0 +1,32 @@
+{
+  "phase": "remove_unused_report_alias",
+  "removed_alias_stays_absent_after_regeneration": true,
+  "analysis_report": "analysis-saffire.md",
+  "dashboard_export": "analysis-saffire-summary.json",
+  "english_dashboard_schema": "1.0.0",
+  "n_tests": 9,
+  "n_insights": 9,
+  "report_and_asset_links_checked": 52,
+  "all_dashboard_references_resolve": true,
+  "scientific_export_and_dashboard_payload_preserved": true,
+  "fresh_model_evaluation_matches_archived_metrics": true,
+  "existing_tests_passed": 22,
+  "raw_integrity": {
+    "n_files": 218,
+    "verification": "size_and_mtime_all_files",
+    "unchanged": true
+  },
+  "snapshot": {
+    "scientific_json": "1bdec3668c04473e6b2389353a0b4e355ffbb69b3d1420f7bbfb4acc6686d5ed",
+    "dashboard_json": "fa5e46d85a3654b4fe09c09b1ef0c7f2879b733b5d5c1ba47ae74977c8250d96",
+    "csv": {
+      "data/processed/image_frame_audit.csv": "534f3baf35151c93bc820a054251799c8f9fd012cc66f478a4adb3822c914b94",
+      "data/processed/tests.csv": "bf849e13f0bc6b5085c2d66c9f9a980ee2a26701c775fd5d33a9cf9eacca9c53",
+      "data/processed/validation_checks.csv": "2f4d6a408aceb9cb61c768cdfeb70bf1647ccae581c544be27c6ab897b0efefb",
+      "data/processed/cabin_metrics.csv": "c0c4c8d1e767678e2e140cc9cb63a48408648630b571eb29468d42289d6774a8",
+      "data/processed/metrics.csv": "dcf53146a66de56624174072b965d542b9a2b11c193f1dc1ad6a8384a2fc8a5f",
+      "data/processed/sensor_timeseries.csv": "4c560ce9d4ee513b61291826511a075820e157ec5041893748b406fa772f91f3",
+      "data/processed/model_dataset.csv": "5dcd973137994b6d0295acb8701369e9682d969a18c77d09bc1f4fb0ec53e66d"
+    }
+  }
+}

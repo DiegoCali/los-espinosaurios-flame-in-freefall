@@ -1,0 +1,30 @@
+{
+  "phase": "english_dashboard_export",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "n_test_results": 9,
+  "n_insights": 9,
+  "n_chart_descriptions": 5,
+  "numeric_results_and_metrics_match_detailed_export": true,
+  "all_missing_values_preserved_as_null": true,
+  "english_keys_and_labels_generated": true,
+  "all_evidence_references_and_file_links_resolve": true,
+  "dataset_citation_preserved": true,
+  "two_regenerations_byte_identical": true,
+  "export_sha256": {
+    "analysis-saffire-summary.json": "fa5e46d85a3654b4fe09c09b1ef0c7f2879b733b5d5c1ba47ae74977c8250d96",
+    "SAFFIRE_EXPLICADO.md": "3d132b29c71083f940ff61bafe9864a10ccd9060eecedcd1c63a7be2f47f26d5",
+    "analysis/output/saffire-summary.png": "71705f124a9376b02e9835e410e93e2b42a5ad3be50d501a947c174fe19247c6"
+  },
+  "experimental_train_and_prepare_unchanged": true,
+  "results_visible_to_git": true,
+  "raw_data_excluded": true,
+  "raw_integrity": {
+    "n_files": 218,
+    "verification": "size_and_mtime_all_files",
+    "unchanged": true
+  },
+  "existing_tests_passed": 22,
+  "canonical_investigation_id": "PSI-99",
+  "numerical_results_preserved": true
+}

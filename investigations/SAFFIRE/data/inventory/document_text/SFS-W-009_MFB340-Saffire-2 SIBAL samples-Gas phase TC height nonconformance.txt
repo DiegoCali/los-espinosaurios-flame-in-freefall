@@ -1,0 +1,107 @@
+                                   SFS Demo Deviation/Waiver
+1. Deviation/Waiver Request Number (Assigned by CMA)            2. Date
+Click here to enter text.
+SFS-W-009                                                       Click here to enter text.
+                                                                7/30/2014
+
+3. Waiver Title                                                 4. Initiator Name/Org
+Click
+MFB340here to enter text.Location Non-conformance
+        Thermocouple                                            ClickKacher
+                                                                Hank  here to/ LTF
+                                                                               enter text.
+5. Part/Document Number Affected:                               6. Serial/Lot Number Affected (if applicable):
+Click here to enter text.
+120102MFB340                                                     Click here to enter text.
+                                                                -002
+                                                                -002
+
+7. Requirement Affected (if applicable):                        8. SAFFIRE Unit Affected:
+Click here to enter
+SFSDP-REQ-102    Revtext.
+                      A, Table 3.7.4-8                          Choose
+                                                                Flight   an2 item.
+                                                                       Unit
+
+9. Classification                 10. Deliverable Affected                 11. Deviation/Waiver To:
+Choose an item.
+Minor                             Choose an item.
+                                  Flight                                  Choose an item.Req
+                                                                          System/Interface
+
+12. Reference Documents (CR’s, W/Ds, CPARS, etc.)
+Click here to enter text.
+CPAR SFSD2014071601
+
+13. Deviation/Waiver Description (note if continuation sheet needed)
+Click here to enter
+R.SFSD_S.0045    SFStext.
+                      Demo Flame and Fuel Surface Temperature Measurement (Material
+Flammability Sample)
+The SFS Demo Structural Subsystem shall measure the temperature of the Material
+Flammability Sample flame zone at 6 locations as specified in Table 3.7.4-8 and depicted in
+Figures 3.7.4-2, 3.7.4-3 and 3.7.4-4.
+
+Thermocouples on the S5 and S6 (SIBAL cloth) B locations do not meet the height above surface requirement of
+Table 3.7.4-8. Spec is 0.20" +/- 0.02" (0.5cm +/- 0.5mm). Actual measurements were S5/B 0.175" and S6/B 0.125".
+
+
+
+
+14. Reason/Justification (note if continuation sheet needed)
+Click here toteam
+The science    enterneeds
+                     text. to know the actual location of the thermocouples. Out of spec thermocouples can be used
+as is since the actual location is known.
+
+
+
+
+15. Impact and Risk Assessment of the Program/Project if approved (note if continuation sheet needed)
+Click here
+The risk     to enter
+         is that      text.may be closer to the fuel than the flame boundary and that we may consequently miss the
+                 the TC’s
+flame. Paul Ferkul and Dave Urban believe this risk is low.
+
+
+
+
+      SFS-Form-010 (v5)                              SFS Demo                                      Page 1 of 3
+                              SFS Demo Deviation/Waiver
+Deviation/Waiver Request Number:                  Title:
+SFS-W-009                                         MFB340 Thermocouple Location Non-co
+
+
+                                   16. Approval Signatures
+                                                              Approved (A)/
+    Function              Name             Signature                                  Date
+                                                             Disapproved (D)
+Responsible Eng.
+Payload Lead
+SE&I Lead
+Principle
+Investigator
+Software Lead
+
+
+
+
+S&MA Lead
+Chief Engineer
+Project Manager
+
+
+
+
+      SFS-Form-010 (v5)                   SFS Demo                             Page 2 of 3
+                              SFS Demo Deviation/Waiver
+Deviation/Waiver Request Number:              Title:
+SFS-W-009                                     MFB340 Thermocouple Loc
+Continuation Sheet:
+
+
+
+
+      SFS-Form-010 (v5)                SFS Demo                         Page 3 of 3
+

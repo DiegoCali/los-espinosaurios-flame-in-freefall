@@ -1,0 +1,192 @@
+source_file,n_members,uncompressed_bytes,extensions,method
+part-01/20161207_-_Overlap_verification_S8C1.zip,1,23382,"{"".jpg"": 1}",zip_central_directory_only
+part-01/PSI-99_metadata_PSI-167_SAFFIRE-II.zip,2,10303,"{"".txt"": 2}",zip_central_directory_only
+part-01/SAFFIRE-II-S6C1_Image_Data_All_JPEGs_Mapped_part2.zip,4600,45631492,"{"".jpeg"": 4600}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C1_DistortionGrid-30mmBlock_1280x916_color.zip,1,3521330,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C1_DistortionGrid-30mmBlock_1280x916_mono.zip,2,187169,"{"".jpg"": 2}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C1_DistortionGrid-30mmBlock_1360x1024.zip,3,6969110,"{"".raw"": 1, "".tif"": 2}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,133511,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C1_Image_Data_JPEGs_Mapped.zip,809,61619981,"{"".jpeg"": 809}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C1_Image_Data_RAW2TIFF_Mapped.zip,302,1626670090,"{"".tif"": 302}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,119408,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C2_Image_Data_All_JPEGs_Mapped.zip,809,62434290,"{"".jpeg"": 809}",zip_central_directory_only
+part-01/SAFFIRE-II_F1C2_Image_Data_RAW2TIFF_Mapped.zip,16,80420254,"{"".tif"": 16}",zip_central_directory_only
+part-01/SAFFIRE-II_F2C1_Image_Data_All_JPEGs_Mapped.zip,809,60126968,"{"".jpeg"": 809}",zip_central_directory_only
+part-01/SAFFIRE-II_F2C2_Image_Data_All_JPEGs_Mapped.zip,809,70345432,"{"".jpeg"": 809}",zip_central_directory_only
+part-01/SAFFIRE-II_Image_Data_RAW2TIFF_Mapped.zip,738,209660550,"{"".tif"": 738}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,9665,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGS_part1.zip,5000,25933335,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGS_part2.zip,5000,27228528,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGS_part3.zip,1400,7521400,"{"".jpeg"": 1400}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGs_Mapped_part1.zip,5000,31317394,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGs_Mapped_part2.zip,5000,32837909,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGs_Mapped_part3.zip,1400,9087962,"{"".jpeg"": 1400}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_RAW2TIFF_Mapped.zip,571,171938758,"{"".tif"": 571}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,571,295416672,"{"".tif"": 571}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_jpegs2png_icmad_part1.zip,5000,393168119,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_jpegs2png_icmad_part2.zip,5000,422183524,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S1C2_Image_Data_jpegs2png_icmad_part3.zip,1400,116108257,"{"".png"": 1400}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,9919,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part1 (2).zip,5000,30263276,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part1.zip,5000,30263276,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part2 (2).zip,5000,31161773,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part2.zip,5000,31161773,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part3 (2).zip,5000,31118505,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part3.zip,5000,31118505,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_part1.zip,5000,24617538,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_part2.zip,5000,25327066,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_part3.zip,5000,25332268,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_RAW2TIFF_Mapped.zip,710,202852338,"{"".tif"": 710}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,710,202852338,"{"".tif"": 710}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_jpegs2png_icmad_part1.zip,5000,360056345,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_jpegs2png_icmad_part2.zip,5000,376865813,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S2C2_Image_Data_jpegs2png_icmad_part3.zip,5000,375830313,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S3C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,10842,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S3C2_Image_Data_All-JPEGs_part2.zip,5000,25624012,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S3C2_Image_Data_All-JPEGs_part3.zip,5000,25270997,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S3C2_Image_Data_RAW2TIFF_Mapped.zip,1090,344658178,"{"".tif"": 1090}",zip_central_directory_only
+part-01/SAFFIRE-II_S3C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,1090,344658178,"{"".tif"": 1090}",zip_central_directory_only
+part-01/SAFFIRE-II_S3C2_Image_Data_jpegs2png_icmad_part1.zip,5000,361252955,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S3C2_Image_Data_jpegs2png_icmad_part2.zip,5000,388983402,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S3C2_Image_Data_jpegs2png_icmad_part3.zip,5000,382534336,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,7920,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_Mapped_part1.zip,5000,16559062,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_Mapped_part2.zip,5000,16390790,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_Mapped_part3.zip,5000,16390901,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_part1.zip,5000,13033368,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_part2.zip,5000,12970296,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_part3.zip,5000,12968159,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,737,366434350,"{"".tif"": 737}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C1_Image_Data_RAW2TIFF_Mapped_v2_ICMAD.zip,737,359123818,"{"".tif"": 737}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,12824,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_All-JPEGs_Mapped_part1.zip,5000,39311658,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_All-JPEGs_Mapped_part2.zip,5000,39751462,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_All-JPEGs_Mapped_part3.zip,5000,39422971,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_All_JPEGs_part3.zip,5000,21985224,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_RAW2TIFF_Maped.zip,753,250300782,"{"".tif"": 753}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,753,466804382,"{"".tif"": 753}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_jpegs2png_icmad_part1.zip,5000,362616494,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_jpegs2png_icmad_part2.zip,5000,368781720,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S4C2_Image_Data_jpegs2png_icmad_part3.zip,5000,361327871,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,9820,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C1_Image_Data_All_JPEGS_part2.zip,4600,22307513,"{"".jpeg"": 4600}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C1_Image_Data_All_JPEGs_Mapped_part1.zip,5000,24000581,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C1_Image_Data_All_JPEGs_Mapped_part2.zip,4600,33878417,"{"".jpeg"": 4600}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C1_Image_Data_RAW2TIFF_Mapped.zip,1079,341980670,"{"".tif"": 1079}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,1079,589372078,"{"".tif"": 1079}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C2_DistortionGrids_Sample_ROI.zip,1,299778,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,12452,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C2_Image_Data_All-JPEGs_Mapped_part2.zip,4600,41137134,"{"".jpeg"": 4600}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C2_Image_Data_All_JPEGs_Mapped_part1.zip,5000,28353579,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C2_Image_Data_RAW2TIFF_Mapped.zip,981,373925930,"{"".tif"": 981}",zip_central_directory_only
+part-01/SAFFIRE-II_S5C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,981,642001346,"{"".tif"": 981}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,15063,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_Image_Data_All-JPEGs_Mapped_part1.zip,5000,34932039,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_Image_Data_All_JPEGS_part2.zip,4600,24286898,"{"".jpeg"": 4600}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_Image_Data_All_JPEGs_part1.zip,5000,17950940,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_Image_Data_RAW2TIFF_Mapped.zip,921,385279322,"{"".tif"": 921}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,918,673063234,"{"".tif"": 918}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_Image_Data_RAW2TIFF_Mapped_v2_ICMAD.zip,918,656457518,"{"".tif"": 918}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_Image_Data_jpegs2pnc_icmad_part1.zip,5000,232152142,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C1_Image_Data_jpegs2pnc_icmad_part2.zip,4600,383727603,"{"".png"": 4600}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C2_Data_jpegs2png_icmad_part1.zip,5000,266221472,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S6C2_Data_jpegs2png_icmad_part2.zip,4599,421699091,"{"".png"": 4599}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,15010,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_All-JPEGs_Mapped_part1.zip,5000,29942865,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_All-JPEGs_Mapped_part2.zip,5000,29549649,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_All-JPEGs_Mapped_part3.zip,5000,29011985,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_All-JPEGs_Mapped_part4.zip,4950,35808045,"{"".jpeg"": 4950}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_All_JPEGs_part1.zip,5000,21728632,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_All_JPEGs_part2.zip,5000,21684859,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_All_JPEGs_part3.zip,5000,21171099,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_All_JPEGs_part4.zip,4950,26701701,"{"".jpeg"": 4950}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_RAW2TIFF_Mapped.zip,5444,2651549628,"{"".tif"": 5444}",zip_central_directory_only
+part-01/SAFFIRE-II_S8C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,5444,4440964520,"{"".tif"": 5444}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_DistortionGrids_Samples_ROI_Mapped JPEGS.zip,1,15230,"{"".jpg"": 1}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part1.zip,5000,28564179,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part2.zip,5000,28823205,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part3.zip,5000,29041835,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part4.zip,5000,30030853,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part5.zip,5000,30402431,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part6.zip,3950,29892244,"{"".jpeg"": 3950}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part1.zip,5000,21142704,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part2.zip,5000,21295249,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part3.zip,5000,21444648,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part4.zip,5000,22120552,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part5.zip,5000,22454315,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part6.zip,3950,22362620,"{"".jpeg"": 3950}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_RAW2TIFF_Mapped_ICMAD_jpegs.zip,3950,36064272,"{"".jpg"": 3950}",zip_central_directory_only
+part-01/SAFFIRE-II_S9C1_Image_Data_RAW2TIFF_Mapped_jpegs.zip,3950,18110604,"{"".jpg"": 3950}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C1-BIT_jpeg.zip,600,27452572,"{"".jpeg"": 600}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C1_Illustrative_images.zip,2,190169,"{"".jpg"": 2}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C1_Image_Data_All_JPEGS.zip,809,36267684,"{"".jpeg"": 809}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C1_Raw2TIFF.zip,302,1063441660,"{"".tif"": 302}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C2_BIT_jpeg.zip,600,29314596,"{"".jpeg"": 600}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C2_DistortionGrids_1280x916.zip,6,18798890,"{"".tif"": 6}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C2_DistortionGrids_1360x1024.zip,3,6969110,"{"".raw"": 1, "".tif"": 2}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C2_DistortionGrids_Sample_ROI.zip,1,3521330,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C2_Illustrative_images.zip,2,172050,"{"".jpg"": 2}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C2_Image_Data_JPEGS.zip,809,37670809,"{"".jpeg"": 809}",zip_central_directory_only
+part-01/SAFFIRE_II_F1C2_Image_Data_RAWs.zip,16,56341280,"{"".tif"": 16}",zip_central_directory_only
+part-01/SAFFIRE_II_F2C1_Image_Data_All_JPEGS.zip,809,34038554,"{"".jpeg"": 809}",zip_central_directory_only
+part-01/SAFFIRE_II_F2C1_Image_Data_RAW2TIFF.zip,9,31691970,"{"".tif"": 9}",zip_central_directory_only
+part-01/SAFFIRE_II_F2C2_Image_Data_All-JPEGS.zip,809,43728924,"{"".jpeg"": 809}",zip_central_directory_only
+part-01/SAFFIRE_II_F2C2_Image_Data_RAW2TIFF.zip,6,21127980,"{"".tif"": 6}",zip_central_directory_only
+part-01/SAFFIRE_II_S1C1_BIT_jpeg.zip,300,8156612,"{"".jpeg"": 300}",zip_central_directory_only
+part-01/SAFFIRE_II_S1C2_BIT_jpeg.zip,300,15099425,"{"".jpeg"": 300}",zip_central_directory_only
+part-01/SAFFIRE_II_S1C2_DistortionGrids_Sample_ROI.zip,1,269306,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S1C2_Image_Data_RAW2TIFF.zip,571,153773726,"{"".tif"": 571}",zip_central_directory_only
+part-01/SAFFIRE_II_S2C2_DistortionGrids_Sample_ROI.zip,1,269306,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S2C2_Image_Data_RAW2TIFF.zip,710,191207260,"{"".tif"": 710}",zip_central_directory_only
+part-01/SAFFIRE_II_S3C2_DistortionGrids_Sample_ROI_JPEGS.zip,1,269306,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S3C2_Image_Data_All-JPEGs_part1.zip,5000,24398999,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S3C2_Image_Data_RAW2TIFF.zip,1090,293543540,"{"".tif"": 1090}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C1_DistortionGrids_Sample_ROI.zip,1,236642,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C1_Image_Data_RAW2TIFF.zip,737,174405154,"{"".tif"": 737}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C1_Image_Data_jpegs2png_icmad_part1.zip,5000,128683652,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C1_Image_Data_jpegs2png_icmad_part2.zip,5000,126652925,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C1_Image_Data_jpegs2png_icmad_part3.zip,5000,126652925,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C2_DistortionGrids_Sample_ROI.zip,1,212602,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C2_Image_Data_All_JPEGS_part2.zip,5000,22314420,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C2_Image_Data_All_JPEGs_part1.zip,5000,22021515,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S4C2_Image_Data_RAW2TIFF.zip,753,160089306,"{"".tif"": 753}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C1_DistortionGrids_Sample-ROI.zip,1,210922,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C1_Image_Data_RAW2TIFF.zip,1079,227584838,"{"".tif"": 1079}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C1_Image_Data_jpegs2png_icmad_part1.zip,5000,190824265,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C1_Image_Data_jpegs2png_icmad_part2.zip,4600,346834775,"{"".png"": 4600}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C2_Image_Data_All_JPEGs_part1.zip,5000,20665620,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C2_Image_Data_All_JPEGs_part2.zip,4600,30483598,"{"".jpeg"": 4600}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C2_Image_Data_RAW2TIFF.zip,981,294082218,"{"".tif"": 981}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C2_Image_Data_jpegs2png_icmad_part1.zip,5000,231592152,"{"".png"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S5C2_Image_Data_jpegs2png_icmad_part2.zip,4600,447555736,"{"".png"": 4600}",zip_central_directory_only
+part-01/SAFFIRE_II_S6C1_DistortionGrids_Sample_ROI.zip,1,247506,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S6C1_Image_Data_RAW2TIFF.zip,918,227210508,"{"".tif"": 918}",zip_central_directory_only
+part-01/SAFFIRE_II_S6C2_DistortionGrids_Sample_ROI.zip,1,336214,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S6C2_Image_Data_All_JPEGs_part1.zip,5000,22563226,"{"".jpeg"": 5000}",zip_central_directory_only
+part-01/SAFFIRE_II_S6C2_Image_Data_All_JPEGs_part2.zip,4600,29552187,"{"".jpeg"": 4600}",zip_central_directory_only
+part-01/SAFFIRE_II_S8C1_DistortionGrids_ROI.zip,1,432142,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S8C1_Image_Data_RAW2TIFF.zip,5444,2352581048,"{"".tif"": 5444}",zip_central_directory_only
+part-01/SAFFIRE_II_S9C1_DistortionGrids_ROI.zip,1,412022,"{"".tif"": 1}",zip_central_directory_only
+part-01/SAFFIRE_II_S9C1_Illustrative_Images.zip,2,28982,"{"".jpg"": 2}",zip_central_directory_only
+part-01/SAFFIRE_II_S9C1_Image_Data_RAW2TIFF.zip,3950,1627486900,"{"".tif"": 3950}",zip_central_directory_only
+part-01.zip,193,16051285040,"{"".csv"": 1, "".docx"": 9, "".pdf"": 3, "".xlsx"": 10, "".zip"": 170}",zip_central_directory_only
+part-02/SAFFIRE-II_S6C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,11008,"{"".jpg"": 1}",zip_central_directory_only
+part-02/SAFFIRE-II_S6C2_Image_Data_All_JPEGs_Mapped_part1.zip,5000,26651627,"{"".jpeg"": 5000}",zip_central_directory_only
+part-02/SAFFIRE-II_S6C2_Image_Data_All_JPEGs_Mapped_part2.zip,4600,34162632,"{"".jpeg"": 4600}",zip_central_directory_only
+part-02/SAFFIRE-II_S6C2_Image_Data_RAW2TIFF-Mapped_ICMAD.zip,817,520508646,"{"".tif"": 817}",zip_central_directory_only
+part-02/SAFFIRE-II_S6C2_Image_Data_RAW2TIFF_Mapped.zip,817,304493588,"{"".tif"": 817}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip,1,12025,"{"".jpg"": 1}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_Mapped_part1.zip,5000,26104440,"{"".jpeg"": 5000}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_Mapped_part2.zip,5000,37074677,"{"".jpeg"": 5000}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_Mapped_part3.zip,5000,37996519,"{"".jpeg"": 5000}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_Mapped_part4.zip,3600,27698725,"{"".jpeg"": 3600}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_part1.zip,5000,18680500,"{"".jpeg"": 5000}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_part2.zip,5000,27113384,"{"".jpeg"": 5000}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_part3.zip,5000,27679718,"{"".jpeg"": 5000}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_part4.zip,3600,20256598,"{"".jpeg"": 3600}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_RAW2TIFF_Mapped.zip,923,321329984,"{"".tif"": 923}",zip_central_directory_only
+part-02/SAFFIRE-II_S7C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip,923,542163618,"{"".tif"": 923}",zip_central_directory_only
+part-02/SAFFIRE_II_S6C2_Image_Data_RAW2TIFF.zip,817,274686838,"{"".tif"": 817}",zip_central_directory_only
+part-02/SAFFIRE_II_S7C1_DistortionGrids_ROI.zip,1,285570,"{"".tif"": 1}",zip_central_directory_only
+part-02/SAFFIRE_II_S7C1_Image_Data_RAW2TIFF.zip,923,263581110,"{"".tif"": 923}",zip_central_directory_only
+part-02.zip,23,853797596,"{"".docx"": 1, "".pdf"": 2, "".xlsx"": 1, "".zip"": 19}",zip_central_directory_only

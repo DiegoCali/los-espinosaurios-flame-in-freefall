@@ -1,0 +1,33 @@
+SAFFIRE-II Operations
+
+Operational Requirements and Protocols
+
+The Saffire experiments are conducted in three consecutive flights of the Cygnus vehicle. Since Cygnus undergoes a
+destructive re-entry, three Saffire experiment units (Saffire-I, -II, and –III) are constructed and all data must be
+downlinked. Even with these three flight opportunities, the experiment is very limited in the amount of data and test
+conditions that can be investigated. In Saffire-I and –III, the sample material is a single large sample (approx. 0.4 m
+wide by 0.94 m tall) and investigates the development and spread of a large-scale low-gravity fire. Once started, the
+entire burn of each of these samples is recorded, the data compressed, and downlinked. Nine smaller samples are
+burned on Saffire-II each having a dimension of 5 cm wide x 25 cm long. These are burned sequentially with the
+camera recording images only from the sample being burned. Once started, these experiments run automatically.
+Because of limitations in time available for downlinking, a maximum of 20 gigabits of data can be downlinked.
+
+The Saffire-II experiment begins only after Cygnus is unberthed from the ISS. Prior to unberthing, the crew must
+check that the inlet and outlet ends of the flow duct be clear of any stowage bags being deorbited.
+
+Saffire-II mission operations begin when Cygnus unberths from the ISS. The Cygnus Flight Operations Team (FOT)
+establishes the vehicle in a lower, circular orbit. Based on this new orbit, ground station contact times are calculated
+and the experiment start is confirmed and coordinated with the Saffire FOT. From Cygnus undock until experiment
+start takes about one day.
+
+The experiment operations are conducted in two phases. The first phase consists of turning on power to the
+experiment avionics, checking the experiment is initialized successfully, starting the experiment run, and recording
+and compressing the resulting data. The second phase consists of downloading all experiment data via downlink
+passes at various ground sites. The data are examined for data quality and files are retransmitted if necessary. When
+a complete set of data files has been successfully retrieved, or the timeline has reached a predetermined maximum
+duration, the experiment avionics power is switched off and the Cygnus vehicle is deorbited.
+
+Cygnus burns up on re-entry into the Earth's atmosphere. Consequently, the flight unit is permanently disposed of
+during this process. No specific disposal processes are expected if the experiment hardware is burned up upon re-
+entry.
+

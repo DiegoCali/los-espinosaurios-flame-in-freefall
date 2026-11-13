@@ -1,0 +1,16 @@
+attempt	commit	model_name	val_rmse	val_mae	val_max_abs_err	num_params	status	description
+1	96e465683d04a9ad89dcee99c0aa7baad9ee30e8	training_mean	41.416407496142035	34.44880785261111	84.292566916375	1	keep	Baseline: training-fold mean, one parameter
+2	b6388f915157e289d8b9a64e5615b3566b2b0d74	ols_non_silicone	25.4723307657135	20.17949262124074	59.209599832249985	2	keep	Two-parameter material-regime OLS: silicone versus carbonaceous specimens
+3	5c454d46578052989d4001f91cc3858ddfb94357	ridge_non_silicone	27.231739810655174	19.68975577863688	67.57058886029165	2	discard	Ridge shrinkage alpha=1 on the same two material-regime parameters
+4	b2afaf31e84c1ce011132411264d929aa1b761c2	ols_sibal_pmma_pmma_nomex	38.847590781003845	23.638058477907414	109.37553400050001	4	discard	Separate material offsets; singleton composite uses training-only minimum-norm fallback
+5	383070fe3f1cc290e4eaffaf1f12096a1777046c	ridge_sibal_pmma_pmma_nomex	39.516143759544946	28.64690534039575	96.8340504584375	4	discard	Ridge alpha=1 regularizes four material-category parameters
+6	b14aa78138b22e587b86ca13a7a3ffee60a0c89d	ols_non_silicone_silicone_log_thickness_sign	25.97658072794616	20.777988174394878	59.20959983224999	3	discard	Add silicone log-thickness sensitivity constrained nonpositive; three parameters
+7	c6a599ba7b9f20c8d8f017e053c500cf9cc8da26	group_median	25.30524879358243	19.871875617166666	61.523583609499994	2	keep	Two robust material-regime medians; reduce outlier influence without extra parameters
+8	c2817cb9de30e77d98a26436c0f71a157e6b28de	group_huber20	24.01980281435714	18.607978182916668	59.20959983225	2	keep	Two material-regime Huber locations with fixed 20 ppm residual transition
+9	1b80c40066f39f30f4ba55aeddc7db58149eb614	group_trimmed_mean	24.47140692889691	18.446507318796293	61.523583609499994	2	discard	Two material-regime trimmed means when at least four training records exist
+10	2b40c5be541f3a8fedf495f3d330a4d5a4171378	ols_organic_dilution	25.064224390876007	19.453096596832406	56.90610938320078	2	discard	Two-parameter inverse-flow dilution response for non-silicone specimens
+11	67b987bb816f29198b512255f1f731a5ef891954	ols_organic_flow	27.376369087062272	21.701242326333993	62.71817722424191	2	discard	Two-parameter flow-proportional fuel-supply response for non-silicone specimens
+12	5b2c53df8618fd6e6814f3524f6e22b006f15b7a	ols_non_silicone_long_ignition	29.43843427962415	24.453952017185184	64.35219737899999	3	discard	Material regime plus known ignition pulse duration; three coefficients
+13	e8981b13de497dd8bca1c92c69e6eb50015e9c35	ols_non_silicone_opposed	25.558720062957537	19.970331341907404	59.20959983225001	3	discard	Material regime plus opposed-flow offset; three coefficients
+14	704266fa2786761bc6c77ee585c69c401e4a73f9	ridge_non_silicone_log_thickness	29.87149513272055	21.77601240070859	75.11431207769402	3	discard	Ridge material regime and logarithmic nominal thickness; three coefficients
+15	2af682a96609f938a023eb5bf94d62441d4e0d4d	group_huber20_inverse_flow	23.45069624835997	17.827873580152897	56.360004824632924	2	keep	Huber material regimes with fixed inverse-flow dilution; two fitted parameters

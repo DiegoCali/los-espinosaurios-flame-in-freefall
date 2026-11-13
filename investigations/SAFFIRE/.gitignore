@@ -1,0 +1,31 @@
+# Raw downloads are too large for this repository.
+/raw_data/
+# Python build files and caches
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.mplconfig/
+
+# Local environments and temporary execution directories
+.venv/
+venv/
+worktrees/
+queue/
+
+# Local secrets and generated agent prompts
+.env
+.env.*
+!.env.example
+CLAUDE.md
+AGENTS.md
+
+# Scientific results are intentionally versioned:
+# JSON exports, Markdown reports, processed CSVs, figures, runs and TSV logs.
+
+/raw_data

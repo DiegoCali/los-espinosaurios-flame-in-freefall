@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoresearch-saffire"
+version = "0.1.0"
+description = "Reproducible Saffire-II extraction and small-sample predictive study"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.21"]
+
+[project.optional-dependencies]
+extraction = ["matplotlib>=3.5", "Pillow>=9", "openpyxl>=3.1"]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["extraction*", "analysis*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

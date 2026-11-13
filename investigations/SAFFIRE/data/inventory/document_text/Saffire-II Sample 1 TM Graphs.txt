@@ -1,0 +1,27 @@
+
+Figure 1. Saffire-II Sample I Air Speed, Tachometer, and Igniter
+
+
+Figure 2. Saffire-II Sample 2 Radiometer and Igniter
+
+
+Figure 3. Saffire-II Sample 1 Plume Temperature and Igniter
+
+
+Figure 4. Saffire-II Sample 1 Sample Temperature and Igniter
+
+
+Figure 5. Saffire-II Sample 1 Carbon Dioxide Concentration and Igniter
+
+
+Figure 6. Saffire-II Sample 1Oxygen Concentration and Igniter
+
+
+Figure 7. Saffire-II Sample 1 Pressure and Igniter
+
+
+Figure 8. Saffire-II Sample 1 Humidity and Igniter
+
+
+Figure 9. Saffire-II Sample 1 Inlet Temperature and Igniter
+

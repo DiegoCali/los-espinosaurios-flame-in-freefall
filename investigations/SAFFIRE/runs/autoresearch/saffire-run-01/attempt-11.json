@@ -1,0 +1,125 @@
+{
+  "val_rmse": 27.376369087062272,
+  "val_mae": 21.701242326333993,
+  "val_max_abs_err": 62.71817722424191,
+  "model_name": "ols_organic_flow",
+  "num_params": 2,
+  "elapsed_seconds": 0.0026402000003145076,
+  "n_rows": 9,
+  "target": "co2_increase_180s_ppm",
+  "inputs": [
+    "material",
+    "thickness_nominal_mm",
+    "flow_pre_cm_s",
+    "direction",
+    "ignition_duration_command_s",
+    "ignition_power_command_w",
+    "structured_pmma"
+  ],
+  "validation": "leave_one_test_out",
+  "seed": 164,
+  "model": {
+    "model_name": "ols_organic_flow",
+    "formula": "delta_CO2_180_ppm = intercept + b_organic_flow * organic_flow",
+    "coefficients": {
+      "intercept": -0.8658607917607737,
+      "organic_flow": 56.51184079438486
+    },
+    "num_params": 2,
+    "ridge_alpha": 0.0,
+    "feature_definitions": {
+      "non_silicone": "1 for SIBAL, PMMA or PMMA_Nomex; 0 for Silicone",
+      "sibal": "1 for SIBAL; 0 otherwise",
+      "pmma": "1 for flat or grooved PMMA; 0 otherwise",
+      "pmma_nomex": "1 for PMMA_Nomex composite; 0 otherwise",
+      "log_thickness": "ln(1 + nominal_thickness_mm)",
+      "silicone_log_thickness": "I(Silicone) * ln(1 + nominal_thickness_mm / 0.37)",
+      "organic_dilution": "I(non_silicone) * (20 / flow_cm_s)^p",
+      "organic_flow": "I(non_silicone) * (flow_cm_s / 20)^p",
+      "flow_excess": "(flow_cm_s - 20) / 5",
+      "opposed": "1 for opposed; 0 for concurrent",
+      "structured_pmma": "1 for grooved PMMA; 0 otherwise",
+      "long_ignition": "(command_ignition_duration_s - 9.2) / 20.8"
+    },
+    "flow_power": 1.0,
+    "sign_constraint": null
+  },
+  "cv_predictions": [
+    {
+      "test_id": "II-1",
+      "observed": 3.060629209,
+      "predicted": -2.1553172738239215,
+      "error": -5.215946482823922,
+      "source_file": "part-01/Saffire Sensor Data Sample 1.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-2",
+      "observed": 15.026702119,
+      "predicted": -6.084966980215656,
+      "error": -21.111669099215653,
+      "source_file": "part-01/Saffire Sensor Data Sample 2.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-3",
+      "observed": -10.963963668,
+      "predicted": 2.4503489038666806,
+      "error": 13.414312571866681,
+      "source_file": "part-01/Saffire Sensor Data Sample 3.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-4",
+      "observed": -16.61131821,
+      "predicted": 4.304936059132522,
+      "error": 20.916254269132523,
+      "source_file": "part-01/Saffire Sensor Data Sample 4.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-5",
+      "observed": 39.654894258,
+      "predicted": 59.13363065571303,
+      "error": 19.47873639771303,
+      "source_file": "part-01/Saffire Sensor Data Sample 5.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-6",
+      "observed": 45.64780371,
+      "predicted": 79.53719362383372,
+      "error": 33.88938991383372,
+      "source_file": "part-01/Saffire Sensor Data Sample 6.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-7",
+      "observed": 107.003546363,
+      "predicted": 44.285369138758085,
+      "error": -62.71817722424191,
+      "source_file": "part-01/Saffire Sensor Data Sample 7.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-8",
+      "observed": 60.560966358,
+      "predicted": 54.51840267110303,
+      "error": -6.042563686896969,
+      "source_file": "part-01/Saffire Sensor Data Sample 8.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv;part-02/SAFFIRE-II DoD.docx",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-9",
+      "observed": 45.312121797,
+      "predicted": 57.83625308828151,
+      "error": 12.524131291281506,
+      "source_file": "part-01/Saffire Sensor Data Sample 9.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    }
+  ],
+  "commit": "67b987bb816f29198b512255f1f731a5ef891954",
+  "attempt": 11,
+  "status": "discard",
+  "description": "Two-parameter flow-proportional fuel-supply response for non-silicone specimens"
+}

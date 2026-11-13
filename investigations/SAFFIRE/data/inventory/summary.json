@@ -1,0 +1,89 @@
+{
+  "n_files": 218,
+  "total_size_gb": 33.810203886,
+  "missions_found": [
+    "Saffire-II"
+  ],
+  "tests_found": [
+    "II-1",
+    "II-2",
+    "II-3",
+    "II-4",
+    "II-5",
+    "II-6",
+    "II-7",
+    "II-8",
+    "II-9"
+  ],
+  "n_independent_tests": 9,
+  "file_types": {
+    "csv": 1,
+    "docx": 10,
+    "pdf": 5,
+    "xlsx": 11,
+    "zip": 191
+  },
+  "archive_image_variant_counts": {
+    ".jpeg": 357872,
+    ".jpg": 7923,
+    ".png": 109799,
+    ".raw": 2,
+    ".tif": 48353,
+    ".txt": 2
+  },
+  "exact_duplicate_file_groups": [
+    [
+      "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part1 (2).zip",
+      "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part1.zip"
+    ],
+    [
+      "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part2 (2).zip",
+      "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part2.zip"
+    ],
+    [
+      "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part3 (2).zip",
+      "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part3.zip"
+    ],
+    [
+      "part-01/SAFFIRE_II_S4C1_Image_Data_jpegs2png_icmad_part2.zip",
+      "part-01/SAFFIRE_II_S4C1_Image_Data_jpegs2png_icmad_part3.zip"
+    ]
+  ],
+  "redundant_outer_containers": [
+    "part-01.zip",
+    "part-02.zip"
+  ],
+  "variables_found": [
+    "CO2_pct",
+    "O2_pct",
+    "flow_cm_s",
+    "pressure_psia",
+    "radiation_mW_cm2",
+    "plume_temperature_C",
+    "sample_temperature_C",
+    "humidity_pct",
+    "inlet_temperature_C",
+    "igniter_current_A",
+    "igniter_voltage_V",
+    "fan_speed_rpm",
+    "camera_timestamp_ms",
+    "cabin_pressure_psi",
+    "cabin_temperature_C",
+    "smoke_obscuration_V",
+    "smoke_scatter_V"
+  ],
+  "identified_psi_investigation": "PSI-99",
+  "missing_or_ambiguous": [
+    "No raw tests from Saffire I, III, IV, V or VI",
+    "CO, acid gases, particle mass, alarm thresholds and exposure limits unavailable",
+    "No inlet/outlet O2 pair, exhaust mass flow, or validated mixed cabin volume for HRR",
+    "Preflight and postflight thicknesses and sample-6 flow disagree",
+    "Published O2 is CO2-derived; sensor O2 fluctuates; no atmosphere-response fit is supported",
+    "Grooved sample-8 effective thickness undefined",
+    "Radiometers have different views of samples; local flux is not total power",
+    "Repeated image variants and zero-filled cabin telemetry require filtering",
+    "Cygnus and Saffire clocks cannot be assigned per-test reliably from cached alignment columns"
+  ],
+  "n_flights": 1,
+  "independence_note": "Nine distinct ignition records in a single shared cabin; not independent flight replicates"
+}
