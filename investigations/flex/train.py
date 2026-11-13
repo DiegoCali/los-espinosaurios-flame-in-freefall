@@ -27,7 +27,7 @@ CSV_PATH = DATA_DIR / "PSI-69_Experimental table_FLEX.csv"
 RESULTS_PATH = Path(__file__).resolve().parent / "predictions.json"
 
 # Experimental knobs for autoresearch. Keep the split and targets fixed.
-N_ESTIMATORS = 200
+N_ESTIMATORS = 500
 MAX_DEPTH = None
 MIN_SAMPLES_LEAF = 2
 RANDOM_STATE = 42
