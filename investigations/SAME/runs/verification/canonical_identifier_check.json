@@ -1,0 +1,34 @@
+{
+  "phase": "canonical_investigation_identifier",
+  "investigation_id": "PSI-101",
+  "companion_investigation_not_present_locally": "PSI-102",
+  "n_tests": 47,
+  "n_attempts": 15,
+  "documents_and_exports_checked": [
+    "analysis-same.json",
+    "analysis-same-summary.json",
+    "analysis-same.md",
+    "SAME_EXPLICADO.md",
+    "data/inventory/INVENTORY.md",
+    "data/processed/VALIDATION.md",
+    "README.md",
+    "DATA_PLAN.md",
+    "SAME_ANALYSIS_REPORT_EN.md",
+    "knowledge/SAME_KNOWLEDGE_BASE.md"
+  ],
+  "documents_naming_psi_101": [
+    "analysis-same.json",
+    "analysis-same-summary.json",
+    "analysis-same.md",
+    "SAME_EXPLICADO.md",
+    "data/inventory/INVENTORY.md",
+    "README.md",
+    "DATA_PLAN.md",
+    "SAME_ANALYSIS_REPORT_EN.md",
+    "knowledge/SAME_KNOWLEDGE_BASE.md"
+  ],
+  "documents_naming_foreign_id_psi_99": [],
+  "best_metrics_match_archived_run": true,
+  "train_equals_best_train": true,
+  "protected_files_unchanged": true
+}

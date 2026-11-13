@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-13T19:45:38.456944+00:00",
+  "pytest_passed": 19,
+  "pytest_failed": 0,
+  "pytest_output_tail": [
+    "19 passed in 1.18s"
+  ],
+  "json_parse_and_schema": "pass",
+  "json_scientific_digest_matches_two_full_regenerations": true,
+  "selected_attempt": 11,
+  "selected_train_sha256": "324c483e6a99d48b6ecb061d097b72536699e7114d396a77ab1640fc7399f55e",
+  "train_py_equals_best_train_py": true,
+  "notes_field_corrected_and_original_preserved": true,
+  "git_head": "89f8322d7741d27a39769823345b7571ed382847",
+  "git_commits_made_by_module_work": "none (no git commit/push/branch/reset was run)",
+  "git_changes_outside_module_pre_existing": [
+    " M .gitignore"
+  ],
+  "raw_integrity": {
+    "n_files": 230,
+    "unchanged": true
+  },
+  "all_metric_source_files_exist": true,
+  "n_attempts": 15,
+  "n_tests": 47,
+  "reproducibility_ok": true,
+  "reproducibility_script_returncode": 0
+}
