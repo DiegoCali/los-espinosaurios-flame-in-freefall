@@ -21,7 +21,7 @@ from __future__ import annotations
 
 import numpy as np
 
-MODEL_NAME = "ridge_composition_quadratic_alpha_0_01"
+MODEL_NAME = "ridge_composition_cubic_alpha_0_01"
 RIDGE_ALPHA = 0.01
 
 
@@ -31,7 +31,7 @@ def fit_predict(
     X_eval: np.ndarray,
     seed: int,
 ) -> np.ndarray:
-    """Ajusta Ridge con composición cuadrática y predice Tad en K.
+    """Ajusta Ridge con composición cúbica y predice Tad en K.
 
     Las medias y escalas se estiman exclusivamente con entrenamiento.
     La columna 0 es binaria; el resto representa entradas físicas.
@@ -52,6 +52,7 @@ def fit_predict(
         burner, ambient = X[:, 1], X[:, 2]
         return np.column_stack((
             X[:, 1:], burner**2, burner * ambient, ambient**2,
+            burner**3, burner**2 * ambient, burner * ambient**2, ambient**3,
         ))
 
     features_train = features(X_train)
