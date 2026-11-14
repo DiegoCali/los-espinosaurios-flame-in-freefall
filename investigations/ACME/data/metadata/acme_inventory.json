@@ -1,0 +1,94 @@
+{
+  "investigation": "NASA PSI-10 / ACME Flame Design",
+  "doi": "10.60555/w4zy-bt45",
+  "status": "preliminary_pilot_not_soot_prediction",
+  "source_sha256": {
+    "PSI-10_Experimental table_Flame Design_Normal Flame.csv": "4a663292bd3f65201943cc71bd661a70383639276a9176f64105b285bf0b6deb",
+    "PSI-10_Experimental table_Flame Design_Inverse Flame.csv": "97933ee9ae0b9ebc6b948a67485a0fe2f8218f753253a4f2be93c40d374c44e4"
+  },
+  "original_rows": 327,
+  "original_by_flame": {
+    "Inverse": 120,
+    "Normal": 207
+  },
+  "flow_statuses": {
+    "low_oxygen": 2,
+    "ramped": 69,
+    "steady": 256
+  },
+  "fuel_counts": {
+    "C2H4": 307,
+    "C3H8": 20
+  },
+  "tad_numeric_rows_all_fuels": 256,
+  "pilot_ethylene_steady_rows": 236,
+  "pilot_by_flame": {
+    "Inverse": 109,
+    "Normal": 127
+  },
+  "pilot_split_rows": {
+    "holdout": 50,
+    "train": 134,
+    "validation": 52
+  },
+  "pilot_split_groups": {
+    "train": [
+      "inverse_day_03",
+      "inverse_day_06",
+      "inverse_day_07",
+      "inverse_day_08",
+      "normal_day_00",
+      "normal_day_01",
+      "normal_day_02",
+      "normal_day_05",
+      "normal_day_06",
+      "normal_day_07",
+      "normal_day_08",
+      "normal_day_11"
+    ],
+    "validation": [
+      "inverse_day_01",
+      "inverse_day_04",
+      "normal_day_04",
+      "normal_day_09"
+    ],
+    "holdout": [
+      "inverse_day_02",
+      "inverse_day_05",
+      "normal_day_10",
+      "normal_day_12"
+    ]
+  },
+  "grouping": "flame_type + source Day (no row-level splitting)",
+  "fixed_seed": 20261113,
+  "target": "tad_calculated_k (adiabatic calculated quantity, NOT measured flame temperature)",
+  "permitted_input_features": [
+    "flame_type",
+    "burner_reactant_mole_fraction",
+    "ambient_reactant_fraction_initial",
+    "burner_reactant_flow_mg_s",
+    "nitrogen_flow_mg_s",
+    "total_flow_mg_s",
+    "pressure_initial_atm"
+  ],
+  "forbidden_model_features": [
+    "test_id",
+    "day",
+    "group_id",
+    "source_file",
+    "flow_status",
+    "ambient_reactant_fraction_final",
+    "pressure_final_atm",
+    "pressure_mean_atm",
+    "zst_calculated",
+    "tad_calculated_k",
+    "split"
+  ],
+  "warnings": [
+    "No soot-inception labels appear in these two source tables.",
+    "RAMP/RAMPED/LOW O2 rows are kept for auditing, excluded from Tad pilot.",
+    "Propane (C3H8) is held outside the first ethylene-only pilot.",
+    "Day heldout sets remain for a single final audit, not AutoResearch tuning.",
+    "Source concentrations may be operational estimates; consult NASA final report."
+  ]
+}
