@@ -3,3 +3,6 @@ data/processed/*.csv
 # Los registros del proceso de búsqueda no se eliminan al restaurar commits.
 runs/*
 !runs/.gitkeep
+!runs/pilot-01/
+runs/pilot-01/*
+!runs/pilot-01/validation_predictions.json

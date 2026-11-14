@@ -44,6 +44,26 @@
         "sha256": "3f76350031607cbdea820c72fd9a7ba368199935eb7992f0e1515bb0ac2a884f"
       },
       {
+        "file": "runs/pilot-01/validation_predictions.json",
+        "reference": "@runs/pilot-01/validation_predictions.json",
+        "sha256": "c4804f2534c0ae9e8af39c1ed566eafca2f3e1d8874052e874dd276b324b221b"
+      },
+      {
+        "file": "data/processed/acme_tad_train.csv",
+        "reference": "@data/processed/acme_tad_train.csv",
+        "sha256": "cb38e586dc1de0c12a1d9725b5ed1b5bde2724ce6347e1f9a2283f6664658c89"
+      },
+      {
+        "file": "data/processed/acme_tad_validation.csv",
+        "reference": "@data/processed/acme_tad_validation.csv",
+        "sha256": "4ad43b24019c09810b45021fbbf0785a5b8bc3a2377861d001c4b6aab9e66203"
+      },
+      {
+        "file": "train.py",
+        "reference": "@train.py",
+        "sha256": "ab3c90ca73338ef954119343ae0a6f310b50352a39ad668b91729dce77929eb5"
+      },
+      {
         "file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv",
         "reference": "@data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv",
         "sha256": "4a663292bd3f65201943cc71bd661a70383639276a9176f64105b285bf0b6deb"
@@ -105,7 +125,9 @@
       ]
     },
     "status": "final_holdout_audit_completed",
-    "frozen_model_commit": "6d4dbe72c660dff475bfee09804ac275382300b6"
+    "frozen_model_commit": "6d4dbe72c660dff475bfee09804ac275382300b6",
+    "prediction_split": "validation",
+    "n_prediction_rows": 52
   },
   "metrics": {
     "tad_calculated_k": {
@@ -166,7 +188,944 @@
     }
   },
   "residual_definition": "actual_minus_predicted",
-  "predictions": [],
+  "predictions": [
+    {
+      "test_id": "19150A1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2191.412558
+      },
+      "predicted": {
+        "tad_calculated_k": 2189.4583701049196
+      },
+      "residual": {
+        "tad_calculated_k": 1.9541878950803948
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 1,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150A3",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2191.382943
+      },
+      "predicted": {
+        "tad_calculated_k": 2188.5737573438837
+      },
+      "residual": {
+        "tad_calculated_k": 2.8091856561163695
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 2,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150A4",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2190.311601
+      },
+      "predicted": {
+        "tad_calculated_k": 2187.466015737271
+      },
+      "residual": {
+        "tad_calculated_k": 2.845585262728946
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 3,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150A5",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2016.486447
+      },
+      "predicted": {
+        "tad_calculated_k": 2130.4508953388436
+      },
+      "residual": {
+        "tad_calculated_k": -113.96444833884357
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 4,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150B2",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2266.279232
+      },
+      "predicted": {
+        "tad_calculated_k": 2201.033670899152
+      },
+      "residual": {
+        "tad_calculated_k": 65.24556110084768
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 5,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150C1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2357.411608
+      },
+      "predicted": {
+        "tad_calculated_k": 2247.6940487008133
+      },
+      "residual": {
+        "tad_calculated_k": 109.71755929918663
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 6,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150B3",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2258.50826
+      },
+      "predicted": {
+        "tad_calculated_k": 2194.9777761915393
+      },
+      "residual": {
+        "tad_calculated_k": 63.53048380846076
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 7,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150D2",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2454.687757
+      },
+      "predicted": {
+        "tad_calculated_k": 2264.5811669505047
+      },
+      "residual": {
+        "tad_calculated_k": 190.10659004949548
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 8,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150F1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2514.159531
+      },
+      "predicted": {
+        "tad_calculated_k": 2309.74006529066
+      },
+      "residual": {
+        "tad_calculated_k": 204.41946570933987
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 9,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150G2",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2608.482429
+      },
+      "predicted": {
+        "tad_calculated_k": 2501.4736813209192
+      },
+      "residual": {
+        "tad_calculated_k": 107.0087476790809
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 10,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150H1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2695.153604
+      },
+      "predicted": {
+        "tad_calculated_k": 2726.059852047467
+      },
+      "residual": {
+        "tad_calculated_k": -30.90624804746676
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 11,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150J1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2763.339012
+      },
+      "predicted": {
+        "tad_calculated_k": 2763.626687791473
+      },
+      "residual": {
+        "tad_calculated_k": -0.28767579147324795
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 12,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150G3",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2590.824593
+      },
+      "predicted": {
+        "tad_calculated_k": 2486.2476395611516
+      },
+      "residual": {
+        "tad_calculated_k": 104.57695343884825
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 13,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150N1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2317.42441
+      },
+      "predicted": {
+        "tad_calculated_k": 2298.9414285441826
+      },
+      "residual": {
+        "tad_calculated_k": 18.48298145581748
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 14,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19150S1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2632.641072
+      },
+      "predicted": {
+        "tad_calculated_k": 2590.816825097934
+      },
+      "residual": {
+        "tad_calculated_k": 41.82424690206608
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 15,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19189A1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_09",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 1682.720497
+      },
+      "predicted": {
+        "tad_calculated_k": 2035.6204700828898
+      },
+      "residual": {
+        "tad_calculated_k": -352.8999730828898
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 16,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19189D1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_09",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 1732.245239
+      },
+      "predicted": {
+        "tad_calculated_k": 2065.1075648004526
+      },
+      "residual": {
+        "tad_calculated_k": -332.8623258004525
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 17,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19189D3",
+      "flame_type": "Normal",
+      "group_id": "normal_day_09",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 1729.397642
+      },
+      "predicted": {
+        "tad_calculated_k": 2062.0107029872347
+      },
+      "residual": {
+        "tad_calculated_k": -332.6130609872348
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 18,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19189H1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_09",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2091.280614
+      },
+      "predicted": {
+        "tad_calculated_k": 2194.988161509361
+      },
+      "residual": {
+        "tad_calculated_k": -103.70754750936112
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 19,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19189J1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_09",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2749.091871
+      },
+      "predicted": {
+        "tad_calculated_k": 2782.8988175758395
+      },
+      "residual": {
+        "tad_calculated_k": -33.80694657583945
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 20,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19189J2",
+      "flame_type": "Normal",
+      "group_id": "normal_day_09",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2743.972871
+      },
+      "predicted": {
+        "tad_calculated_k": 2779.6964699616674
+      },
+      "residual": {
+        "tad_calculated_k": -35.72359896166745
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 21,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19189J3",
+      "flame_type": "Normal",
+      "group_id": "normal_day_09",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2738.528449
+      },
+      "predicted": {
+        "tad_calculated_k": 2775.7670337065824
+      },
+      "residual": {
+        "tad_calculated_k": -37.238584706582515
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 22,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "19189K1",
+      "flame_type": "Normal",
+      "group_id": "normal_day_09",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2733.213653
+      },
+      "predicted": {
+        "tad_calculated_k": 2771.7138854897603
+      },
+      "residual": {
+        "tad_calculated_k": -38.50023248976049
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 23,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Normal Flame.csv"
+    },
+    {
+      "test_id": "21328A1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2595.073097
+      },
+      "predicted": {
+        "tad_calculated_k": 2642.036399234999
+      },
+      "residual": {
+        "tad_calculated_k": -46.96330223499899
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 24,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21328A2",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2594.870605
+      },
+      "predicted": {
+        "tad_calculated_k": 2640.122061359442
+      },
+      "residual": {
+        "tad_calculated_k": -45.25145635944182
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 25,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21328D1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2192.217132
+      },
+      "predicted": {
+        "tad_calculated_k": 2410.164906933297
+      },
+      "residual": {
+        "tad_calculated_k": -217.94777493329684
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 26,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21328N1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2335.819318
+      },
+      "predicted": {
+        "tad_calculated_k": 2508.214154565059
+      },
+      "residual": {
+        "tad_calculated_k": -172.394836565059
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 27,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21328N2",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2330.954842
+      },
+      "predicted": {
+        "tad_calculated_k": 2444.2286759324675
+      },
+      "residual": {
+        "tad_calculated_k": -113.27383393246737
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 28,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21328N3",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2327.248362
+      },
+      "predicted": {
+        "tad_calculated_k": 2374.3057723837073
+      },
+      "residual": {
+        "tad_calculated_k": -47.05741038370752
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 29,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21328N4",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2324.255924
+      },
+      "predicted": {
+        "tad_calculated_k": 2304.7800934659026
+      },
+      "residual": {
+        "tad_calculated_k": 19.47583053409744
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 30,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21328N5",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2321.659453
+      },
+      "predicted": {
+        "tad_calculated_k": 2235.549755454851
+      },
+      "residual": {
+        "tad_calculated_k": 86.10969754514917
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 31,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21328P1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_01",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2074.412212
+      },
+      "predicted": {
+        "tad_calculated_k": 2077.1632070901555
+      },
+      "residual": {
+        "tad_calculated_k": -2.7509950901553566
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 32,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361A1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2817.701326
+      },
+      "predicted": {
+        "tad_calculated_k": 2782.8021884322416
+      },
+      "residual": {
+        "tad_calculated_k": 34.899137567758316
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 33,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361B1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2816.297178
+      },
+      "predicted": {
+        "tad_calculated_k": 2780.6311547371533
+      },
+      "residual": {
+        "tad_calculated_k": 35.666023262846466
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 34,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361C1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2584.497108
+      },
+      "predicted": {
+        "tad_calculated_k": 2546.9349099823125
+      },
+      "residual": {
+        "tad_calculated_k": 37.56219801768748
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 35,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361C2",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2583.095391
+      },
+      "predicted": {
+        "tad_calculated_k": 2544.168402903857
+      },
+      "residual": {
+        "tad_calculated_k": 38.92698809614285
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 36,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361D1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2308.205137
+      },
+      "predicted": {
+        "tad_calculated_k": 2273.079156682663
+      },
+      "residual": {
+        "tad_calculated_k": 35.12598031733705
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 37,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361D2",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2307.790922
+      },
+      "predicted": {
+        "tad_calculated_k": 2271.0373530150914
+      },
+      "residual": {
+        "tad_calculated_k": 36.753568984908725
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 38,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361F1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2748.828582
+      },
+      "predicted": {
+        "tad_calculated_k": 2678.1628897161477
+      },
+      "residual": {
+        "tad_calculated_k": 70.66569228385242
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 39,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361F2",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2747.239261
+      },
+      "predicted": {
+        "tad_calculated_k": 2675.7787589880686
+      },
+      "residual": {
+        "tad_calculated_k": 71.46050201193157
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 40,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361F3",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2745.87798
+      },
+      "predicted": {
+        "tad_calculated_k": 2638.7905934388587
+      },
+      "residual": {
+        "tad_calculated_k": 107.08738656114156
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 41,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361F4",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2744.622802
+      },
+      "predicted": {
+        "tad_calculated_k": 2636.900706437082
+      },
+      "residual": {
+        "tad_calculated_k": 107.72209556291773
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 42,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361F5",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2743.741424
+      },
+      "predicted": {
+        "tad_calculated_k": 2670.8916393009895
+      },
+      "residual": {
+        "tad_calculated_k": 72.84978469901034
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 43,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361F6",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2742.694341
+      },
+      "predicted": {
+        "tad_calculated_k": 2610.531854214392
+      },
+      "residual": {
+        "tad_calculated_k": 132.16248678560805
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 44,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361G1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2624.773704
+      },
+      "predicted": {
+        "tad_calculated_k": 2564.2769283987705
+      },
+      "residual": {
+        "tad_calculated_k": 60.49677560122973
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 45,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361G2",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2625.080548
+      },
+      "predicted": {
+        "tad_calculated_k": 2556.583788913177
+      },
+      "residual": {
+        "tad_calculated_k": 68.49675908682275
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 46,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361G3",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2623.983759
+      },
+      "predicted": {
+        "tad_calculated_k": 2555.0779499358373
+      },
+      "residual": {
+        "tad_calculated_k": 68.9058090641629
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 47,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361G4",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2426.492367
+      },
+      "predicted": {
+        "tad_calculated_k": 2338.6064898576487
+      },
+      "residual": {
+        "tad_calculated_k": 87.88587714235109
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 48,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361G5",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2428.136754
+      },
+      "predicted": {
+        "tad_calculated_k": 2348.150807546642
+      },
+      "residual": {
+        "tad_calculated_k": 79.98594645335788
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 49,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361M1",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2591.047939
+      },
+      "predicted": {
+        "tad_calculated_k": 2558.7610229753036
+      },
+      "residual": {
+        "tad_calculated_k": 32.28691602469644
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 50,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361M2",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2318.962941
+      },
+      "predicted": {
+        "tad_calculated_k": 2306.073088697007
+      },
+      "residual": {
+        "tad_calculated_k": 12.88985230299295
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 51,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    },
+    {
+      "test_id": "21361M3",
+      "flame_type": "Inverse",
+      "group_id": "inverse_day_04",
+      "split": "validation",
+      "actual": {
+        "tad_calculated_k": 2817.385242
+      },
+      "predicted": {
+        "tad_calculated_k": 2897.230438673744
+      },
+      "residual": {
+        "tad_calculated_k": -79.84519667374434
+      },
+      "source_file": "data/processed/acme_tad_validation.csv",
+      "source_row": 52,
+      "original_source_file": "data/raw/PSI-10_Experimental table_Flame Design_Inverse Flame.csv"
+    }
+  ],
   "discovery": {
     "study_summary": {
       "investigation_id": "PSI-10",
@@ -306,7 +1265,7 @@
       "Grouped observations from only four reserved experimental days.",
       "No direct soot, real-temperature or extinction labels.",
       "This audit must not be used for additional model selection.",
-      "Individual predictions were not saved; aggregate metrics cannot reconstruct them.",
+      "Individual holdout predictions were not saved. Available individual predictions are validation only.",
       "Tad is a calculated thermodynamic quantity, not measured flame temperature, soot or extinction."
     ],
     "reading_guide": {
@@ -13522,6 +14481,16 @@
         "x": "attempt",
         "y": "val_rmse_k",
         "title": "Recorded validation search"
+      },
+      {
+        "id": "validation_parity",
+        "type": "observed_vs_predicted",
+        "data_pointer": "/predictions",
+        "x": "actual.tad_calculated_k",
+        "y": "predicted.tad_calculated_k",
+        "unit": "K",
+        "title": "Tabulated calculated Tad vs predicted Tad: 52 validation records",
+        "interpretation_note": "Calculated adiabatic temperature, not measured flame temperature; validation only, not holdout."
       }
     ],
     "model_details": {

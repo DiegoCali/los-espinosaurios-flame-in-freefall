@@ -89,10 +89,63 @@ def envelope(root, model, source, targets, validation, metrics, content, sources
             "residual_definition": "actual_minus_predicted", "predictions": [], "discovery": content}
 
 
+def verify_acme_validation(root, saved, selected, report):
+    """Check saved validation predictions and metrics without running a model."""
+    if (saved["split"] != "validation" or saved["n_train"] != 134 or saved["n_validation"] != 52
+            or saved["model"] != report["model_name"] or saved["model"] != selected["model_name"]
+            or saved["seed"] != selected["seed"] or saved["feature_order"] != selected["features"]
+            or saved["train_sha256"] != report["train_sha256"]
+            or saved["train_sha256"] != evidence(root, "train.py")["sha256"]
+            or saved["unit"] != "K" or saved["residual_definition"] != "actual_minus_predicted"):
+        raise ValueError("ACME validation provenance differs from the frozen selection")
+    required = {"train.py", "data/processed/acme_tad_train.csv", "data/processed/acme_tad_validation.csv"}
+    if not required.issubset({item["file"] for item in saved["source_files"]}):
+        raise ValueError("ACME validation is missing source hashes")
+    for item in saved["source_files"]:
+        if evidence(root, item["file"])["sha256"] != item["sha256"]:
+            raise ValueError(f"ACME validation source changed: {item['file']}")
+    rows = table(root, "data/processed/acme_tad_validation.csv")
+    predictions = saved["predictions"]
+    if len(predictions) != 52 or len(rows) != 52 or len({r["test_id"] for r in predictions}) != 52:
+        raise ValueError("ACME requires 52 distinct validation predictions")
+    residuals = []
+    for i, (prediction, row) in enumerate(zip(predictions, rows, strict=True)):
+        for key in ("test_id", "flame_type", "group_id", "split"):
+            if prediction[key] != row[key] or prediction["split"] != "validation":
+                raise ValueError(f"ACME validation identifiers differ at row {i + 1}")
+        if (prediction["source_file"] != "data/processed/acme_tad_validation.csv"
+                or prediction["source_row"] != i + 1):
+            raise ValueError("ACME validation source row differs")
+        for key in ("actual", "predicted", "residual"):
+            if set(prediction[key]) != {"tad_calculated_k"}:
+                raise ValueError("ACME validation target maps differ from FLEX")
+        actual, predicted, residual = (prediction[k]["tad_calculated_k"] for k in ("actual", "predicted", "residual"))
+        if (not all(isinstance(v, (int, float)) and math.isfinite(v) for v in (actual, predicted, residual))
+                or actual != row["tad_calculated_k"]
+                or not math.isclose(residual, actual - predicted, rel_tol=1e-12, abs_tol=1e-12)):
+            raise ValueError(f"ACME validation value or residual differs at row {i + 1}")
+        residuals.append(actual - predicted)
+    recomputed = {"rmse_k": math.sqrt(math.fsum(r * r for r in residuals) / 52),
+                  "mae_k": math.fsum(abs(r) for r in residuals) / 52,
+                  "max_abs_error_k": max(abs(r) for r in residuals)}
+    differences = []
+    for key, original_key in (("rmse_k", "val_rmse_k"), ("mae_k", "val_mae_k"),
+                              ("max_abs_error_k", "val_max_abs_error_k")):
+        for label, value in (("predictions", recomputed[key]), ("saved metrics", saved["metrics"][key])):
+            expected = selected[original_key]
+            if not math.isfinite(value) or not math.isclose(value, expected, rel_tol=1e-10, abs_tol=1e-6):
+                differences.append(f"{key} ({label}): expected={expected:.12f}, actual={value:.12f}, difference={value - expected:+.12f} K")
+    if differences:
+        raise ValueError("ACME validation metrics mismatch; export stopped:\n" + "\n".join(differences))
+
+
 def acme(root):
     source = "runs/holdout-final-v1/final_holdout_metrics.json"
     report = load(root, source)
     validation = load(root, "runs/pilot-01/latest_validation.json")
+    saved_file = "runs/pilot-01/validation_predictions.json"
+    saved = load(root, saved_file)
+    verify_acme_validation(root, saved, validation, report)
     inventory = load(root, "data/metadata/acme_inventory.json")
     content = discovery("PSI-10", report["investigation"], inventory)
     content["experimental_data"] = {"records": table(root, "data/processed/acme_all.csv"),
@@ -103,7 +156,7 @@ def acme(root):
         "summary": "The completed frozen-model audit evaluates calculated Tad on 50 reserved records.",
         "values": report["global"], "evidence": [evidence(root, source)]}]
     content["interpretation_limits"] = report["limitations"] + [
-        "Individual predictions were not saved; aggregate metrics cannot reconstruct them.",
+        "Individual holdout predictions were not saved. Available individual predictions are validation only.",
         "Tad is a calculated thermodynamic quantity, not measured flame temperature, soot or extinction.",
     ]
     content["data_quality_flags"] = [{"id": "inventory_warnings", "values": inventory["warnings"]}]
@@ -113,6 +166,10 @@ def acme(root):
          "interpretation_note": "Different partitions; preserve their separate counts and precision."},
         {"id": "search", "type": "line", "data_pointer": "/discovery/model_details/attempts",
          "x": "attempt", "y": "val_rmse_k", "title": "Recorded validation search"},
+        {"id": "validation_parity", "type": "observed_vs_predicted", "data_pointer": "/predictions",
+         "x": "actual.tad_calculated_k", "y": "predicted.tad_calculated_k", "unit": "K",
+         "title": "Tabulated calculated Tad vs predicted Tad: 52 validation records",
+         "interpretation_note": "Calculated adiabatic temperature, not measured flame temperature; validation only, not holdout."},
     ]
     targets = {"tad_calculated_k": {"unit": "K", "source_column": "tad_calculated_k",
                                     "actual_kind": "calculated", "definition": report["objective"]}}
@@ -126,17 +183,21 @@ def acme(root):
                     "by_flame_type": report["by_flame_type"], "by_day_group": report["by_day_group"]}}}
     sources = [source, "runs/pilot-01/latest_validation.json", "runs/pilot-01/results.tsv",
                "data/metadata/acme_inventory.json", "data/processed/acme_all.csv",
-               "data/processed/acme_tad_pilot.csv", "analysis/FINAL_TAD_PILOT.md"]
+               "data/processed/acme_tad_pilot.csv", "analysis/FINAL_TAD_PILOT.md", saved_file,
+               "data/processed/acme_tad_train.csv", "data/processed/acme_tad_validation.csv", "train.py"]
     citations = [{"doi": inventory["doi"], "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-10"}]
     for name, digest in report["source_sha256"].items():
         path = "data/raw/" + name
         if evidence(root, path)["sha256"] != digest:
             raise ValueError(f"ACME original hash mismatch: {path}")
         sources.append(path)
-    return envelope(root, report["model_name"], source, targets,
+    result = envelope(root, report["model_name"], source, targets,
                     {"split_rule": inventory["grouping"], "partitions": inventory["pilot_split_rows"],
                      "groups": inventory["pilot_split_groups"], "status": report["status"],
-                     "frozen_model_commit": report["frozen_model_commit"]}, metrics, content, sources, citations)
+                     "frozen_model_commit": report["frozen_model_commit"],
+                     "prediction_split": "validation", "n_prediction_rows": 52}, metrics, content, sources, citations)
+    result["predictions"] = saved["predictions"]
+    return result
 
 
 def bass(root):
@@ -360,7 +421,7 @@ def check(root, document):
     for key in ("data_source", "references", "target_metadata", "validation", "metrics", "discovery"):
         if not isinstance(document[key], dict):
             raise ValueError(f"{root.name}: {key} must be an object")
-    expected = {"ACME": 0, "BASS-II": 0, "SAFFIRE": 9, "SAME": 117, "flex": 50}
+    expected = {"ACME": 52, "BASS-II": 0, "SAFFIRE": 9, "SAME": 117, "flex": 50}
     if not isinstance(document["predictions"], list) or len(document["predictions"]) != expected[root.name]:
         raise ValueError(f"{root.name}: incorrect prediction count")
     if document["residual_definition"] != "actual_minus_predicted":
@@ -465,7 +526,9 @@ def main():
             actual = expected
         check(root, actual)
         if not args.check and name != "flex":
-            path.write_text(json.dumps(actual, ensure_ascii=False, indent=2, allow_nan=False) + "\n", encoding="utf-8")
+            serialized = json.dumps(actual, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
+            if not path.exists() or path.read_text(encoding="utf-8") != serialized:
+                path.write_text(serialized, encoding="utf-8")
         print(f"{name}: OK; {len(actual['predictions'])} predictions; {len(actual['target_metadata'])} targets")
 
 
