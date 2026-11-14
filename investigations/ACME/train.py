@@ -21,8 +21,8 @@ from __future__ import annotations
 
 import numpy as np
 
-MODEL_NAME = "ridge_composition_quadratic_alpha_0_01"
-RIDGE_ALPHA = 0.01
+MODEL_NAME = "rbf_kernel_ridge_alpha_1"
+RIDGE_ALPHA = 1.0
 
 
 def fit_predict(
@@ -31,7 +31,7 @@ def fit_predict(
     X_eval: np.ndarray,
     seed: int,
 ) -> np.ndarray:
-    """Ajusta Ridge con composición cuadrática y predice Tad en K.
+    """Ajusta kernel Ridge gaussiano y predice Tad en K.
 
     Las medias y escalas se estiman exclusivamente con entrenamiento.
     La columna 0 es binaria; el resto representa entradas físicas.
@@ -48,35 +48,30 @@ def fit_predict(
     if len(X_train) != len(y_train):
         raise ValueError("Longitudes X_train/y_train distintas")
 
-    def features(X):
-        burner, ambient = X[:, 1], X[:, 2]
-        return np.column_stack((
-            X[:, 1:], burner**2, burner * ambient, ambient**2,
-        ))
-
-    features_train = features(X_train)
-    features_eval = features(X_eval)
-    means = features_train.mean(axis=0)
-    scales = features_train.std(axis=0)
+    means = X_train[:, 1:].mean(axis=0)
+    scales = X_train[:, 1:].std(axis=0)
     scales[scales < 1e-12] = 1.0
-    A = np.column_stack((
-        np.ones(len(X_train)),
+    z_train = np.column_stack((
         X_train[:, 0],
-        (features_train - means) / scales,
+        (X_train[:, 1:] - means) / scales,
     ))
-    B = np.column_stack((
-        np.ones(len(X_eval)),
+    z_eval = np.column_stack((
         X_eval[:, 0],
-        (features_eval - means) / scales,
+        (X_eval[:, 1:] - means) / scales,
     ))
 
-    # Ridge sin penalización del intercepto. Resolver mediante mínimos cuadrados
-    # aumentados evita invertir matrices potencialmente mal condicionadas.
-    regularizer = np.eye(A.shape[1])
-    regularizer[0, 0] = 0.0
-    fitted = np.linalg.lstsq(
-        np.vstack((A, np.sqrt(RIDGE_ALPHA) * regularizer)),
-        np.concatenate((y_train, np.zeros(A.shape[1]))),
-        rcond=None,
-    )[0]
-    return B @ fitted
+    def squared_distances(left, right):
+        return np.sum((left[:, None, :] - right[None, :, :])**2, axis=2)
+
+    distances = squared_distances(z_train, z_train)
+    positive = distances[distances > 0.0]
+    width_squared = float(np.median(positive)) if positive.size else 1.0
+    kernel = np.exp(-distances / (2.0 * width_squared))
+    target_mean = y_train.mean()
+    fitted = np.linalg.solve(
+        kernel + RIDGE_ALPHA * np.eye(len(X_train)), y_train - target_mean,
+    )
+    evaluation_kernel = np.exp(
+        -squared_distances(z_eval, z_train) / (2.0 * width_squared),
+    )
+    return target_mean + evaluation_kernel @ fitted
