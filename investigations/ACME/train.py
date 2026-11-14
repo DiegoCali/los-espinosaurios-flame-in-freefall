@@ -21,8 +21,8 @@ from __future__ import annotations
 
 import numpy as np
 
-MODEL_NAME = "ridge_alpha_1"
-RIDGE_ALPHA = 1.0
+MODEL_NAME = "ridge_alpha_0_1"
+RIDGE_ALPHA = 0.1
 
 
 def fit_predict(
