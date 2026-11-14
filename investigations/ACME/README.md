@@ -99,10 +99,12 @@ uv run python evaluate.py --candidate \
 
 Los valores de RMSE corresponden a predicción de cálculos tabulados de `Tad`; **no son errores frente a termometría experimental ni mediciones de hollín**.
 
+Nota: Los comandos de línea base y Ridge alpha=10 se muestran como referencia de reproducibilidad. Ya fueron ejecutados en pilot-01 y no deben repetirse dentro de esa ejecución.
+
 ## 6. Uso con AutoResearch
 
 1. Lea `knowledge/ACME_DATASET.md`, `protocol.md`, `program.md`, `prepare.py`, `evaluate.py` y `train.py`.
-2. Ejecute y registre la línea base en una rama de experimentación que provenga de `feature/psi-10-acme-autoresearch`.
+2. Continúe los experimentos directamente en la rama feature/psi-10-acme-autoresearch, utilizando uv. La ejecución pilot-01 ya contiene la línea base y el primer candidato Ridge (alpha=10), por lo que no deben repetirse. Los nuevos experimentos deben continuar desde el siguiente intento disponible en runs/pilot-01/results.tsv.
 3. Entregue `program.md` al agente con acceso al código local. Durante la búsqueda solo puede modificar `train.py`.
 4. Cada intento debe quedar asociado a un hash SHA-256 de `train.py`, commit, métrica y decisión (`keep`, `discard`, `crash`).
 5. Las **50 filas holdout** son un conjunto independiente de auditoría final; `evaluate.py` ni siquiera ofrece una opción para abrirlas.
