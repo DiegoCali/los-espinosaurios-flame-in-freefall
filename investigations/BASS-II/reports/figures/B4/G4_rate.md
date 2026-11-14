@@ -1,0 +1,1 @@
+**G4 — B4.** Instantaneous front speed from a Savitzky-Golay derivative (blue) and from a sliding-window regression with a ±2 standard-error band (orange). A plateau marks the steady regime (it defines the fit window of G3); drops at the end anticipate extinction; jumps that coincide with FAN changes reflect the flow steps imposed by the crew.

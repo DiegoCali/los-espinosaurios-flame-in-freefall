@@ -1,0 +1,78 @@
+# Fuente: Engineering Documents_BASS-II_Engineering Requirements.pptx
+
+===== DIAPOSITIVA 1 =====
+BASS-2 Engineering Requirements
+General Requirements
+Each Burning And Suppression of Solids-2 (BASS-2) solid fuel assembly is mounted inside the Experiment Assembly via a magnetic interface such that it can be installed and removed by the crew.
+Solid fuel ignition will be done with a hot-wire Kanthol material igniter.
+Nitrogen gas to be used from 0 to 500 SCCM N2.  Instead of connecting the Experiment Assembly to the gas bottle it is connected via the GN2 hose to the Microgravity Science Glovebox (MSG) gaseous nitrogen (GN2) supply interface.
+3.2 mm normal length and 3.2 mm short length burner tubes will be manifested and used for BASS.
+The Control Box will be modified to allow the fan flow adjustment to stop the fan when set to its minimum as a safety mechanism to extinguish flame.
+Parameter Measurement
+Measurement of the GN2 Flow rate, Fan Voltage, Co-Flow velocity, and flame radiation will be measured and overlaid on the video.
+The data acquisition rate as measured by SPICE hardware is 4 Hz.
+The measurement accuracy of ±10% was met by the SPICE hardware prior to its launch.  The measurement accuracy will meet the requirements for BASS-2.
+Imaging Requirements
+The Field of view of the video is fixed for BASS-2 can not be changed from SPICE.
+The Still Image requirements are the same as for SPICE.  The BASS-2 still image requirements will be met with the Nikon model D300s digital still camera.
+4/14/2010
+1
+
+===== DIAPOSITIVA 2 =====
+BASS-2 Engineering Requirements
+Acceleration
+BASS-2 testing will be scheduled around planned thruster firing or spacecraft dock or undock.
+The acceleration environment will be measured by the Space Acceleration Measurement System (SAMS) during BASS-2 testing which will be installed into the Microgravity Science Glovebox (MSG) Work Volume.
+Oxygen Concentration
+The BASS-2 experiment will include steps in crew procedures to install a Compound Specific Analyzer (CSA-O2) into the MSG to measure the Oxygen concentration.  There is also a Major Constituent Analyzer available to measure the Columbus Module concentration. 
+Crew inserts fuel sample and adjusts igniter and fuel base to desired position
+Sample Frame Assembly is designed to allow for adjustment of the position of the BASS-2 solid fuel sample.
+The Igniter has a wire extension that the crew will be able to position as required to ignite the solid fuel sample.
+4/14/2010
+2
+
+===== DIAPOSITIVA 3 =====
+BASS-2 Hardware Description
+BASS-2 will utilize the Smoke Point In Co-flow Experiment (SPICE) hardware currently on ISS
+Experiment Assembly, Cables, Video Camera
+BASS-2 will utilize the BASS Digital Still Camera
+BASS-2 will design, fabrication, assemble, test new hardware
+Modified 3.2 mm burner tube
+GN2 Hose Assembly
+Sample Frame Assembly Insert for Experiment Assembly
+4 different fuel holder designs for a total of 100 fuel samples
+BASS Control Box
+Fan Flow Block Assembly
+Igniter Wire Extension Assembly
+4/14/2010
+3
+
+===== DIAPOSITIVA 4 =====
+BASS-2 Hardware Description
+Experiment Assembly
+Video Camera
+BASS Control Box
+4/14/2010
+4
+
+===== DIAPOSITIVA 5 =====
+BASS-2 SAMPLE PHOTOS
+10/28/2013
+5
+Sphere Sample
+2 cm SIBAL Sample
+Flat PMMA Sample (0.1 mm)
+Flat PMMA Sample (5 mm)
+
+===== DIAPOSITIVA 6 =====
+BASS Sample Types
+6
+BASS Sample Types
+
+===== DIAPOSITIVA 7 =====
+ROD SAMPLE ASSEMBLY
+BASS-2 HARDWARE OVERVIEW(Sample Mounting)
+6/16/2010
+7
+ROD SAMPLE
+SPHERE SAMPLE

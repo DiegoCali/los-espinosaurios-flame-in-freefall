@@ -1,0 +1,1 @@
+**G14 — B4.** Camera diagnostics: saturation, maximum and background level. Simultaneous jumps in the background and in the area (G7) point to an auto-exposure/gain artefact, not physics; those spans must be excluded from the V_f fit.

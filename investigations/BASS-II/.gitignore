@@ -1,0 +1,31 @@
+# Environment
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Heavy data (regenerate with scripts/download_study.py and scripts/analyze_study.py)
+data/raw/
+data/raw_alt/
+data/interim/
+# data/docs is regenerated with `bass2 fetch-docs` (includes a 49 MB PDF)
+data/docs/
+data/processed/
+# processing logs
+data/*.log
+data/*.out
+data/*.err
+
+# Figures: only those embedded in reports/REPORT.md are versioned (the rest are regenerable, ~200 MB)
+reports/figures/*
+!reports/figures/_ensemble/
+!reports/figures/B1/
+!reports/figures/B4/
+!reports/figures/M1/
+
+# Research loop: keep the log (results.tsv), the baseline and the best experiment; snapshots are regenerable
+research/runs/
+research/run.log
+research/.r_cache.json
+outputs/

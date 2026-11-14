@@ -1,0 +1,1 @@
+**G1 — B1.** Top row: original frames (720×480, OSD telemetry visible). Bottom row: flame mask (translucent blue), contour (yellow) and leading edge (dashed orange line). A good segmentation covers the faint flame base and excludes the OSD, reflections and the igniter; the leading edge must sit at the advancing tip.

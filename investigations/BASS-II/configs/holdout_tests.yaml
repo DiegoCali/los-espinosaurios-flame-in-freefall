@@ -1,0 +1,5 @@
+# True hold-out: thick PMMA slab tests with published spread rates (NASA/TM-20210011385 Table 5.1) that were
+# never processed while the segmentation, calibration and regime settings were chosen. They are analysed once,
+# with frozen settings, after all development decisions (reviewer finding H2, 2026-11-13).
+study:
+  M: [M2, M4, M5, M8, M10, M11, M13, M14, M15, M17, M18, M19, M20]

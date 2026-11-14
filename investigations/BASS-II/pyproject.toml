@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bass2"
+version = "0.1.0"
+description = "Flame-spread detection and measurement in NASA BASS-II (PSI-25) ISS videos + time-series forecasting"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=2.2",
+    "pandas>=2.2",
+    "scipy>=1.14",
+    "scikit-image>=0.24",
+    "scikit-learn>=1.5",
+    "opencv-python-headless>=4.10",
+    "statsmodels>=0.14",
+    "matplotlib>=3.9",
+    "plotly>=5.24",
+    "pyarrow>=17",
+    "pyyaml>=6",
+    "openpyxl>=3.1",
+    "requests>=2.32",
+    "tqdm>=4.66",
+    "imageio-ffmpeg>=0.5",
+    "rawpy>=0.22",
+]
+
+[project.optional-dependencies]
+app = ["streamlit>=1.40"]
+docs = ["python-docx>=1.1", "pypdf>=5"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+bass2 = "bass2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pyright]
+extraPaths = ["src"]
+venvPath = "."
+venv = ".venv"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

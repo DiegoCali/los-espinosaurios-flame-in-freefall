@@ -1,0 +1,128 @@
+test_id,material_class,flow_initial_cm_s,o2_initial_pct,outcome
+B1,PMMA thin film,5.0329999999999995,22.2,spread recorded
+B2,PMMA thin film,5.0329999999999995,22.2,spread recorded
+B3,PMMA thin film,2.0132,22.2,spread recorded
+B4,PMMA thin film,5.0329999999999995,22.2,spread recorded
+B5,PMMA thin film,5.0329999999999995,22.2,spread recorded
+B6,PMMA thin film,3.0198,21.0,spread recorded
+B7,PMMA thin film,2.0132,22.2,spread recorded
+B8,PMMA thin film,10.065999999999999,21.0,spread recorded
+B9,PMMA thin film,2.0132,21.0,spread recorded
+B10,PMMA thin film,5.0329999999999995,21.0,spread recorded
+B11,PMMA thin film,5.0329999999999995,21.0,spread recorded
+B12,PMMA thin film,2.0132,22.2,spread recorded
+B13,PMMA thin film,10.065999999999999,21.0,spread recorded
+B14,PMMA thin film,5.0329999999999995,15.0,extinction / blowoff / no ignition
+B15,PMMA thin film,10.065999999999999,21.0,spread recorded
+B16,PMMA thin film,3.0198,17.3,spread recorded
+B17,PMMA thin film,5.0329999999999995,17.5,spread recorded
+B18,PMMA thin film,10.065999999999999,17.4,extinction / blowoff / no ignition
+B19,PMMA thin film,10.065999999999999,17.3,extinction / blowoff / no ignition
+B20,PMMA thin film,5.0329999999999995,17.4,spread recorded
+B21,PMMA thin film,5.0329999999999995,20.8,extinction / blowoff / no ignition
+B22,PMMA thin film,5.0329999999999995,20.7,spread recorded
+F1,Nomex fabric,9.5627,22.2,spread recorded
+F2,Nomex fabric,15.098999999999998,21.0,spread recorded
+F3,Nomex fabric,8.0528,21.7,spread recorded
+F4,wax candle,3.0198,17.4,spread recorded
+M1,PMMA slab,10.065999999999999,22.2,spread recorded
+M2,PMMA slab,20.131999999999998,22.2,spread recorded
+M3,PMMA slab,10.065999999999999,20.8,spread recorded
+M4,PMMA slab,5.0329999999999995,21.8,spread recorded
+M5,PMMA slab,20.131999999999998,22.2,spread recorded
+M6,PMMA slab,10.065999999999999,21.8,spread recorded
+M7,PMMA slab,10.065999999999999,18.9,spread recorded
+M8,PMMA slab,10.065999999999999,19.1,spread recorded
+M9,PMMA slab,10.065999999999999,18.0,spread recorded
+M10,PMMA slab,10.065999999999999,20.1,spread recorded
+M11,PMMA slab,10.065999999999999,20.0,spread recorded
+M12,PMMA slab,1.0066,21.7,spread recorded
+M13,PMMA slab,6.0396,20.8,spread recorded
+M14,PMMA slab,10.065999999999999,22.2,spread recorded
+M15,PMMA slab,10.065999999999999,21.0,spread recorded
+M16,PMMA slab,10.065999999999999,19.2,spread recorded
+M17,PMMA slab,10.065999999999999,18.8,spread recorded
+M18,PMMA slab,10.065999999999999,17.9,spread recorded
+M19,PMMA slab,10.065999999999999,19.0,spread recorded
+M20,PMMA slab,10.065999999999999,18.0,spread recorded
+O1,PMMA rod,20.131999999999998,22.2,spread recorded
+O2,PMMA rod,0.0,22.2,spread recorded
+O3a,PMMA rod,5.0329999999999995,18.0,spread recorded
+O3b,PMMA rod,5.0329999999999995,18.0,spread recorded
+O4,PMMA rod,5.0329999999999995,14.8,extinction / blowoff / no ignition
+O5a,PMMA rod,5.0329999999999995,15.1,spread recorded
+O5b,PMMA rod,5.0329999999999995,14.2,spread recorded
+O6,PMMA rod,5.0329999999999995,16.7,extinction / blowoff / no ignition
+O7,PMMA rod,5.0329999999999995,16.0,extinction / blowoff / no ignition
+O8a,PMMA rod,5.0329999999999995,15.7,extinction / blowoff / no ignition
+O8b,PMMA rod,5.0329999999999995,15.5,extinction / blowoff / no ignition
+O9,PMMA rod,5.0329999999999995,15.0,extinction / blowoff / no ignition
+O10,PMMA rod,5.0329999999999995,16.7,spread recorded
+O11,PMMA rod,5.0329999999999995,15.4,extinction / blowoff / no ignition
+O13a,PMMA rod,5.0329999999999995,15.9,spread recorded
+O13b,PMMA rod,7.0462,14.6,spread recorded
+O14,PMMA rod,5.0329999999999995,16.3,extinction / blowoff / no ignition
+O15a,PMMA rod,5.0329999999999995,17.1,spread recorded
+O15b,PMMA rod,5.0329999999999995,16.7,spread recorded
+O16,PMMA rod,5.0329999999999995,14.5,spread recorded
+O17,PMMA rod,3.0198,15.1,spread recorded
+O18,PMMA rod,5.0329999999999995,15.2,spread recorded
+O19,PMMA rod,5.0329999999999995,15.3,extinction / blowoff / no ignition
+O20,PMMA rod,5.0329999999999995,16.5,spread recorded
+O22,PMMA rod,4.0264,15.4,extinction / blowoff / no ignition
+P1,PMMA rod,5.0329999999999995,17.7,extinction / blowoff / no ignition
+P2,PMMA rod,5.0329999999999995,17.4,spread recorded
+P3a,PMMA rod,5.0329999999999995,17.7,spread recorded
+P3b,PMMA rod,5.0329999999999995,17.4,spread recorded
+P4,PMMA rod,5.0329999999999995,18.5,spread recorded
+P5,PMMA rod,5.0329999999999995,19.3,extinction / blowoff / no ignition
+P6,PMMA rod,5.0329999999999995,18.9,spread recorded
+P8,PMMA rod,5.0329999999999995,16.4,extinction / blowoff / no ignition
+P9,PMMA rod,5.0329999999999995,17.6,extinction / blowoff / no ignition
+P10,PMMA rod,5.0329999999999995,17.0,extinction / blowoff / no ignition
+P12,PMMA rod,5.0329999999999995,17.5,spread recorded
+P13a,PMMA rod,5.0329999999999995,20.7,extinction / blowoff / no ignition
+P13b,PMMA rod,5.0329999999999995,20.6,extinction / blowoff / no ignition
+P14,PMMA rod,5.0329999999999995,18.4,spread recorded
+P15,PMMA rod,5.0329999999999995,18.0,spread recorded
+P16,PMMA rod,5.0329999999999995,18.2,spread recorded
+P17,PMMA rod,5.0329999999999995,16.8,spread recorded
+P18,PMMA rod,2.0132,20.0,spread recorded
+P19,PMMA rod,5.0329999999999995,17.5,spread recorded
+P20,PMMA rod,2.0132,19.0,spread recorded
+P21a,PMMA rod,5.0329999999999995,16.3,spread recorded
+P21b,PMMA rod,5.0329999999999995,16.3,spread recorded
+P22a,PMMA rod,5.0329999999999995,20.8,extinction / blowoff / no ignition
+P22b,PMMA rod,5.0329999999999995,20.0,extinction / blowoff / no ignition
+P23,PMMA rod,2.0132,18.2,spread recorded
+P24,PMMA rod,2.0132,19.0,spread recorded
+P25,PMMA rod,5.0329999999999995,20.9,extinction / blowoff / no ignition
+T1,SIBAL (cotton-fiberglass fabric),10.065999999999999,18.5,spread recorded
+T2,SIBAL (cotton-fiberglass fabric),9.0594,18.5,spread recorded
+T3,PMMA spherical section,10.065999999999999,17.2,spread recorded
+T4,SIBAL (cotton-fiberglass fabric),9.0594,18.7,spread recorded
+T5,SIBAL (cotton-fiberglass fabric),10.065999999999999,18.8,spread recorded
+T6,SIBAL (cotton-fiberglass fabric),5.0329999999999995,18.8,spread recorded
+T7,PMMA spherical section,10.065999999999999,17.3,spread recorded
+T9,SIBAL (cotton-fiberglass fabric),10.065999999999999,16.4,spread recorded
+T10,SIBAL (cotton-fiberglass fabric),5.0329999999999995,16.4,spread recorded
+T11,SIBAL (cotton-fiberglass fabric),5.0329999999999995,17.1,spread recorded
+T12,SIBAL (cotton-fiberglass fabric),5.0329999999999995,16.8,spread recorded
+T13,SIBAL (cotton-fiberglass fabric),5.0329999999999995,17.5,spread recorded
+T14,SIBAL (cotton-fiberglass fabric),5.0329999999999995,16.9,spread recorded
+T15,SIBAL (cotton-fiberglass fabric),9.0594,18.7,spread recorded
+T16,SIBAL (cotton-fiberglass fabric),5.0329999999999995,17.6,spread recorded
+T17,SIBAL (cotton-fiberglass fabric),6.0396,16.9,spread recorded
+T18,SIBAL (cotton-fiberglass fabric),5.0329999999999995,17.4,spread recorded
+T19,SIBAL (cotton-fiberglass fabric),11.0726,17.2,spread recorded
+T20,SIBAL (cotton-fiberglass fabric),11.0726,17.2,spread recorded
+T21,SIBAL (cotton-fiberglass fabric),11.0726,17.2,spread recorded
+T22,SIBAL (cotton-fiberglass fabric),10.065999999999999,17.1,spread recorded
+T23,SIBAL (cotton-fiberglass fabric),10.065999999999999,17.2,spread recorded
+T24,SIBAL (cotton-fiberglass fabric),10.065999999999999,18.2,spread recorded
+T25,SIBAL (cotton-fiberglass fabric),5.0329999999999995,20.8,spread recorded
+T26,SIBAL (cotton-fiberglass fabric),5.0329999999999995,20.8,spread recorded
+T27,SIBAL (cotton-fiberglass fabric),5.0329999999999995,20.7,spread recorded
+T28a,SIBAL (cotton-fiberglass fabric),5.0329999999999995,20.7,spread recorded
+T28b,SIBAL (cotton-fiberglass fabric),5.0329999999999995,20.7,spread recorded
+T29,SIBAL (cotton-fiberglass fabric),5.0329999999999995,20.7,spread recorded

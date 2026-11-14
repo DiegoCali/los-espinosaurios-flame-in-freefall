@@ -1,0 +1,1 @@
+**G18 — B4.** Telemetry read by OCR from the video (AIR = air velocity, lagging the fan by ≈15–25 s; FAN = 10× fan voltage; RAD = uncalibrated radiometer) aligned with the luminous area measured by computer vision. RAD and area should co-vary (independent cross-check). FAN steps are the crew's flow manoeuvres and explain changes in V_f.

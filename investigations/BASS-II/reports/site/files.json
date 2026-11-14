@@ -1,0 +1,16 @@
+{
+ "figures/B1__G1_overlay.png": "reports/figures/B1/G1_overlay.png",
+ "figures/B1__G2_kymograph.png": "reports/figures/B1/G2_kymograph.png",
+ "figures/B1__G3_edge_fit.png": "reports/figures/B1/G3_edge_fit.png",
+ "figures/B1__G18_telemetry.png": "reports/figures/B1/G18_telemetry.png",
+ "figures/G6_parity_published.png": "reports/figures/_ensemble/G6_parity_published.png",
+ "figures/G19_thickness_law.png": "reports/figures/_ensemble/G19_thickness_law.png",
+ "figures/G15_threshold_sensitivity.png": "reports/figures/_ensemble/G15_threshold_sensitivity.png",
+ "figures/G13_conditions.png": "reports/figures/_ensemble/G13_conditions.png",
+ "figures/G5_spread_vs_flow.png": "reports/figures/_ensemble/G5_spread_vs_flow.png",
+ "figures/B1__G9_forecast.png": "reports/figures/B1/G9_forecast.png",
+ "figures/G11_skill.png": "reports/figures/_ensemble/G11_skill.png",
+ "figures/G12_calibration.png": "reports/figures/_ensemble/G12_calibration.png",
+ "figures/G10_residuals.png": "reports/figures/_ensemble/G10_residuals.png",
+ "figures/G16_loop_progress.png": "reports/figures/_ensemble/G16_loop_progress.png"
+}

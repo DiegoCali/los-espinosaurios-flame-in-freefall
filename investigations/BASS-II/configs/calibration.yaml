@@ -1,0 +1,19 @@
+# Per-test / per-view spatial calibration and metadata.
+# mm_per_px: millimetres per VERTICAL pixel (horizontal is corrected with pixel_aspect).
+#   null => metrics are reported in px only (*_mm columns are NaN).
+# How to calibrate: measure an object of known size in a frame (sample width, rod diameter,
+#   sample holder, 76 mm duct; see knowledge/dataset/bass2_dataset.md §5) using
+#   `bass2 frame <video> <idx> out.png`, then record the value here.
+#   NEVER derive it from published spread rates (circular validation).
+# spread_direction: left | right | up | down | auto (auto = sign of the robust centroid trend)
+# roi: [x0, y0, x1, y1] in native px; excludes walls / reflections / igniter.
+defaults:
+  mm_per_px: null
+  spread_direction: auto
+  roi: null
+
+tests:
+  B1:
+    mm_per_px: null        # resolved from data/catalog/spatial_calibration.csv (ruler, global fixed FOV)
+    spread_direction: auto # measured: both edges move toward +x (right) => flow enters from the right
+    roi: null

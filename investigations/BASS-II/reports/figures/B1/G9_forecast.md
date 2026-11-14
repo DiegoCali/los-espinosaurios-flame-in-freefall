@@ -1,0 +1,1 @@
+**G9 — B1.** Grey: observed series. Blue: forecasts from several origins (vertical lines) with 90 % prediction intervals. An honest model contains the observation ~9 times out of 10 and its bands widen with the horizon. A median that flattens against a linear advance indicates a model that is mis-specified for steady spread.
