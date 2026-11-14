@@ -21,7 +21,7 @@ from __future__ import annotations
 
 import numpy as np
 
-MODEL_NAME = "ridge_alpha_0_01"
+MODEL_NAME = "ridge_composition_quadratic_alpha_0_01"
 RIDGE_ALPHA = 0.01
 
 
@@ -31,7 +31,7 @@ def fit_predict(
     X_eval: np.ndarray,
     seed: int,
 ) -> np.ndarray:
-    """Ajusta una regresión Ridge lineal y predice temperaturas en K.
+    """Ajusta Ridge con composición cuadrática y predice Tad en K.
 
     Las medias y escalas se estiman exclusivamente con entrenamiento.
     La columna 0 es binaria; el resto representa entradas físicas.
@@ -48,18 +48,26 @@ def fit_predict(
     if len(X_train) != len(y_train):
         raise ValueError("Longitudes X_train/y_train distintas")
 
-    means = X_train[:, 1:].mean(axis=0)
-    scales = X_train[:, 1:].std(axis=0)
+    def features(X):
+        burner, ambient = X[:, 1], X[:, 2]
+        return np.column_stack((
+            X[:, 1:], burner**2, burner * ambient, ambient**2,
+        ))
+
+    features_train = features(X_train)
+    features_eval = features(X_eval)
+    means = features_train.mean(axis=0)
+    scales = features_train.std(axis=0)
     scales[scales < 1e-12] = 1.0
     A = np.column_stack((
         np.ones(len(X_train)),
         X_train[:, 0],
-        (X_train[:, 1:] - means) / scales,
+        (features_train - means) / scales,
     ))
     B = np.column_stack((
         np.ones(len(X_eval)),
         X_eval[:, 0],
-        (X_eval[:, 1:] - means) / scales,
+        (features_eval - means) / scales,
     ))
 
     # Ridge sin penalización del intercepto. Resolver mediante mínimos cuadrados
