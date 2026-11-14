@@ -1,0 +1,72 @@
+{
+  "investigation": "NASA PSI-10 / ACME Flame Design",
+  "objective": "Tad calculated (K), NOT measured temperature or soot",
+  "status": "final_holdout_audit_completed",
+  "timestamp_utc": "2026-11-14T04:26:26.638564+00:00",
+  "model_name": "ridge_composition_quadratic_alpha_0_001",
+  "frozen_model_commit": "6d4dbe72c660dff475bfee09804ac275382300b6",
+  "train_sha256": "ab3c90ca73338ef954119343ae0a6f310b50352a39ad668b91729dce77929eb5",
+  "ledger_sha256": "2b6ddaa70ba35be72c1271a2ed237d9cade6f42a337e087ea3df5763f17545ba",
+  "source_sha256": {
+    "PSI-10_Experimental table_Flame Design_Normal Flame.csv": "4a663292bd3f65201943cc71bd661a70383639276a9176f64105b285bf0b6deb",
+    "PSI-10_Experimental table_Flame Design_Inverse Flame.csv": "97933ee9ae0b9ebc6b948a67485a0fe2f8218f753253a4f2be93c40d374c44e4"
+  },
+  "holdout_csv_sha256": "fb97e0a56da8a6fb753d86b254cf84644f63d0d88c4a70e2f4e22399ce72cf8b",
+  "python_version": "3.13.17",
+  "numpy_version": "2.5.4",
+  "n_train": 134,
+  "n_holdout": 50,
+  "validation_rmse_k_reference": 116.171636,
+  "global": {
+    "rmse_k": 62.170083,
+    "mae_k": 55.232577,
+    "max_abs_error_k": 131.338958
+  },
+  "by_flame_type": {
+    "Inverse": {
+      "n": 25,
+      "rmse_k": 72.61664,
+      "mae_k": 65.182068,
+      "max_abs_error_k": 131.338958
+    },
+    "Normal": {
+      "n": 25,
+      "rmse_k": 49.568762,
+      "mae_k": 45.283085,
+      "max_abs_error_k": 99.048352
+    }
+  },
+  "by_day_group": {
+    "inverse_day_02": {
+      "n": 13,
+      "rmse_k": 64.145782,
+      "mae_k": 57.404844,
+      "max_abs_error_k": 98.466169
+    },
+    "inverse_day_05": {
+      "n": 12,
+      "rmse_k": 80.797355,
+      "mae_k": 73.607395,
+      "max_abs_error_k": 131.338958
+    },
+    "normal_day_10": {
+      "n": 12,
+      "rmse_k": 48.824972,
+      "mae_k": 46.49134,
+      "max_abs_error_k": 72.732452
+    },
+    "normal_day_12": {
+      "n": 13,
+      "rmse_k": 50.245565,
+      "mae_k": 44.167773,
+      "max_abs_error_k": 99.048352
+    }
+  },
+  "elapsed_seconds": 0.008096,
+  "limitations": [
+    "Single holdout audit after 11 validation-guided comparisons.",
+    "Grouped observations from only four reserved experimental days.",
+    "No direct soot, real-temperature or extinction labels.",
+    "This audit must not be used for additional model selection."
+  ]
+}
