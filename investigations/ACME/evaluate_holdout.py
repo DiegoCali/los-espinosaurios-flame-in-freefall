@@ -28,6 +28,7 @@ import evaluate
 import prepare
 
 ROOT = Path(__file__).resolve().parent
+REPO_ROOT = ROOT.parents[1]
 BRANCH = "feature/psi-10-acme-autoresearch"
 FROZEN_COMMIT = "6d4dbe72c660dff475bfee09804ac275382300b6"
 FROZEN_MODEL = "ridge_composition_quadratic_alpha_0_001"
@@ -52,7 +53,7 @@ def sha256(raw: bytes) -> str:
 
 def command(*args: str, check: bool = True) -> bytes:
     result = subprocess.run(
-        ["git", "-C", str(ROOT), *args], capture_output=True,
+        ["git", "-C", str(REPO_ROOT), *args], capture_output=True,
         check=False, timeout=10,
     )
     if check and result.returncode != 0:
@@ -63,7 +64,7 @@ def command(*args: str, check: bool = True) -> bytes:
 def ensure_clean_tracked_files() -> None:
     for args in (("diff", "--quiet"), ("diff", "--cached", "--quiet")):
         result = subprocess.run(
-            ["git", "-C", str(ROOT), *args], capture_output=True, timeout=10,
+            ["git", "-C", str(REPO_ROOT), *args], capture_output=True, timeout=10,
         )
         if result.returncode:
             raise RuntimeError("Existen cambios rastreados sin confirmar; congelar antes de la auditoría")
@@ -109,11 +110,11 @@ def preflight() -> tuple[dict, dict, str]:
         raise RuntimeError(f"Utilizar la rama {BRANCH}")
     ensure_clean_tracked_files()
     subprocess.run(
-        ["git", "-C", str(ROOT), "merge-base", "--is-ancestor", FROZEN_COMMIT, "HEAD"],
+        ["git", "-C", str(REPO_ROOT), "merge-base", "--is-ancestor", FROZEN_COMMIT, "HEAD"],
         check=True, capture_output=True, timeout=10,
     )
     difference = subprocess.run(
-        ["git", "-C", str(ROOT), "diff", "--quiet", FROZEN_COMMIT,
+        ["git", "-C", str(REPO_ROOT), "diff", "--quiet", FROZEN_COMMIT,
          "HEAD", "--", *PROTECTED_PATHS],
         check=False, capture_output=True, timeout=10,
     )
