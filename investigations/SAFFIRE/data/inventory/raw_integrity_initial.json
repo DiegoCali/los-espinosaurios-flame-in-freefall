@@ -1,0 +1,1310 @@
+[
+  {
+    "path": "part-01/20161207_-_Overlap_verification_S8C1.zip",
+    "size_bytes": 20252,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b065e14b255c1548dcfd2cea027cbdd0493d92a58cec8aae1146703f233483b2"
+  },
+  {
+    "path": "part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+    "size_bytes": 1973,
+    "mtime_ns": 315554400000000000,
+    "sha256": "3c24390b9ef86f3d1ebaab911a1a3cc95a8759aebf42062371370e6d4b31b8ac"
+  },
+  {
+    "path": "part-01/PSI-99_metadata_PSI-167_SAFFIRE-II.zip",
+    "size_bytes": 10539,
+    "mtime_ns": 315554400000000000,
+    "sha256": "eb9f705d758daa14658fdf8e289031e08badd62f8c4bedf7bb5bfe3ac7688cd2"
+  },
+  {
+    "path": "part-01/SAFFIRE-II Operations.pdf",
+    "size_bytes": 13974,
+    "mtime_ns": 315554400000000000,
+    "sha256": "91e801d22bb68e297557ded050c9f86897d53ef0d54b281e7c17df2914d4ea0c"
+  },
+  {
+    "path": "part-01/SAFFIRE-II-S6C1_Image_Data_All_JPEGs_Mapped_part2.zip",
+    "size_bytes": 39900054,
+    "mtime_ns": 315554400000000000,
+    "sha256": "fbff8bc2b12e2b951c8bbd5adcb5547d80d2f3b57f29367eb22cfcd7de5519d3"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C1_DistortionGrid-30mmBlock_1280x916_color.zip",
+    "size_bytes": 1763266,
+    "mtime_ns": 315554400000000000,
+    "sha256": "405741a304d36d217d4d909d6ec6a8627017c9d50283364f1059ab159f746fcd"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C1_DistortionGrid-30mmBlock_1280x916_mono.zip",
+    "size_bytes": 186503,
+    "mtime_ns": 315554400000000000,
+    "sha256": "9664aa19fce5ea8e898a7889e773e05085c75d64e33db5f6a2dab53798184cac"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C1_DistortionGrid-30mmBlock_1360x1024.zip",
+    "size_bytes": 3375658,
+    "mtime_ns": 315554400000000000,
+    "sha256": "d3d91a6ce2f36d085ce3b96215a8a9efbd3307581b485179a402b15136106b61"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 129030,
+    "mtime_ns": 315554400000000000,
+    "sha256": "f28866118e3571f05373bf0710346f70aa3d670ff9f9af4c12b5f0d272e512bd"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C1_Image_Data_JPEGs_Mapped.zip",
+    "size_bytes": 49150123,
+    "mtime_ns": 315554400000000000,
+    "sha256": "e17bc7f4d6232824116eb6a23ec3bbfbbf2e77756c6a3abab1606f323e8609c4"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C1_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 578585333,
+    "mtime_ns": 315554400000000000,
+    "sha256": "79c5c7765e2ee7d5e7f3dd4d920a32824065c54e683abdad748c5c0e1f9046e5"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 115380,
+    "mtime_ns": 315554400000000000,
+    "sha256": "da36147ae4c48c6101ba866eb73f87c6ac65527560984b4c02d5cea0663bf613"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C2_Image_Data_All_JPEGs_Mapped.zip",
+    "size_bytes": 53069788,
+    "mtime_ns": 315554400000000000,
+    "sha256": "bce067166117bfd6678ebbee6805605990c7db4d31e945e1e30ef1b0ebcedf85"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F1C2_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 33702545,
+    "mtime_ns": 315554400000000000,
+    "sha256": "fc6194a1e22b6269d0a52a323fd3104ec13cca9384efd43691b4882c4b25ebe7"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F2C1_Image_Data_All_JPEGs_Mapped.zip",
+    "size_bytes": 48328833,
+    "mtime_ns": 315554400000000000,
+    "sha256": "98e32cb2fd72cbcf55e2335037462fdf87ee1ac25060364a6a7b6260031079e5"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_F2C2_Image_Data_All_JPEGs_Mapped.zip",
+    "size_bytes": 62580466,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0c38208d273e4b75b1784986b84721b60e14b3d89a8972758ef9e79bccab6589"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 71504771,
+    "mtime_ns": 315554400000000000,
+    "sha256": "181ae8922beaf8e9610057a72a99cfdd20d124b186f1e7be5a7184908e033231"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 9698,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0463d9cb30a858461ae9deee8fdaf122750d2e8af7d56607b52626823f903da5"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGS_part1.zip",
+    "size_bytes": 24084159,
+    "mtime_ns": 315554400000000000,
+    "sha256": "58a182507d9205bd073a391ec91b6a15825159417fb04bf00ce9056b7f59d680"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGS_part2.zip",
+    "size_bytes": 25647844,
+    "mtime_ns": 315554400000000000,
+    "sha256": "57318c18522811a68cc9637fea5dbc03d571b883c83453476c34052b7663de55"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGS_part3.zip",
+    "size_bytes": 7088701,
+    "mtime_ns": 315554400000000000,
+    "sha256": "488175fe66dd2d7c70a6c98c8ee04911595da65a1f503dbac62867dc502f0d0a"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGs_Mapped_part1.zip",
+    "size_bytes": 29086033,
+    "mtime_ns": 315554400000000000,
+    "sha256": "ca411dce12e9696eba345e36978a9f6d046aaf07b532c1cb6902b18ed5b147b6"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGs_Mapped_part2.zip",
+    "size_bytes": 30911591,
+    "mtime_ns": 315554400000000000,
+    "sha256": "979c654a79111ccb9bf7ebdd6275c9cbd04ecb76afebec197b5787575658b9a8"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_All-JPEGs_Mapped_part3.zip",
+    "size_bytes": 8557413,
+    "mtime_ns": 315554400000000000,
+    "sha256": "25b5245d6c0b43e46767fe57417961ee38a33641c9a8512304c5400bed60cab3"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 68006893,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7bf72256fcb5a531737537230ec08ec93f6bf9ebaa8ece04925ea17996849363"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 77108521,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7c62d32819217b80f2a2d80c2e4bccb7bdd4baae1b4775622d413af56bea196f"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_jpegs2png_icmad_part1.zip",
+    "size_bytes": 390108993,
+    "mtime_ns": 315554400000000000,
+    "sha256": "559edb408c85b6a59fcc076540df5ab6f904a5df83312f6ff8a088969f68761b"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_jpegs2png_icmad_part2.zip",
+    "size_bytes": 419584071,
+    "mtime_ns": 315554400000000000,
+    "sha256": "dab4b2b7501ba6f61d4e66c01423c3b74e2d871f9b9674e6eb3a86a9ec869e39"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S1C2_Image_Data_jpegs2png_icmad_part3.zip",
+    "size_bytes": 115378084,
+    "mtime_ns": 315554400000000000,
+    "sha256": "efb67b0d41816cc5e22532aeecd947e2532b78fee9ee9df409c94de3041c7189"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 9945,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0cc709973c666f2bf0be2b9b2e8c62330535fe5a5ddda857f69fc2cde5aa80c2"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part1 (2).zip",
+    "size_bytes": 28042647,
+    "mtime_ns": 315554400000000000,
+    "sha256": "45352816bd4e78fb0c072c0207dff805a8ddc119d613f00bbd5e8a29533688b6"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part1.zip",
+    "size_bytes": 28042647,
+    "mtime_ns": 315554400000000000,
+    "sha256": "45352816bd4e78fb0c072c0207dff805a8ddc119d613f00bbd5e8a29533688b6"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part2 (2).zip",
+    "size_bytes": 29194966,
+    "mtime_ns": 315554400000000000,
+    "sha256": "16ac2efb93aa585322543d884558e239ec23ecb30f279777bb8f10dda821842b"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part2.zip",
+    "size_bytes": 29194966,
+    "mtime_ns": 315554400000000000,
+    "sha256": "16ac2efb93aa585322543d884558e239ec23ecb30f279777bb8f10dda821842b"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part3 (2).zip",
+    "size_bytes": 29178822,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7c0c50c1c71b958a2378c4778197871dbb10aa12f99d4affb4d4f4f06d309697"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_Mapped_part3.zip",
+    "size_bytes": 29178822,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7c0c50c1c71b958a2378c4778197871dbb10aa12f99d4affb4d4f4f06d309697"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 22682813,
+    "mtime_ns": 315554400000000000,
+    "sha256": "cf451eaff6cf7e1e6dead727ef7d3f1ec02f2255bfaa045ef96011d3be9fa0f3"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_part2.zip",
+    "size_bytes": 23658708,
+    "mtime_ns": 315554400000000000,
+    "sha256": "d54565e2b8e7a5561648d36657b02b9611a6ad641033b9dfa7e678d4ac237832"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_All_JPEGs_part3.zip",
+    "size_bytes": 23681876,
+    "mtime_ns": 315554400000000000,
+    "sha256": "ffb99da3c6147194773330a342d86d7c749ce9241513a73e9de02cbc8e0d813b"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 85091413,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b047f46165b0e47f2077286a68fb6e43dc336fd18e8e30972d73cdaced663c55"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 85099933,
+    "mtime_ns": 315554400000000000,
+    "sha256": "a5a2083f6013cd8c9d25a2b5913635e8dd3dbab6a52d9ded80c48471f861686a"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_jpegs2png_icmad_part1.zip",
+    "size_bytes": 356534980,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7cbe82da09e28fc1cada40a6a505e278ab90d55135b1ebfbe9853c6589656a3a"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_jpegs2png_icmad_part2.zip",
+    "size_bytes": 373677189,
+    "mtime_ns": 315554400000000000,
+    "sha256": "2a0f554a357aee5ac8248c212316c431eb689f28557c0996327bafb02249e4c9"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S2C2_Image_Data_jpegs2png_icmad_part3.zip",
+    "size_bytes": 372579848,
+    "mtime_ns": 315554400000000000,
+    "sha256": "421935564e7e55c03ec94f1ad91af88748701c716123126249d41f2a819ee677"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S3C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 10742,
+    "mtime_ns": 315554400000000000,
+    "sha256": "a5fcb7bcb0ee97c2a19658ad473df318dd911936eb13a599a03833ff381e5c4b"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S3C2_Image_Data_All-JPEGs_part2.zip",
+    "size_bytes": 24003230,
+    "mtime_ns": 315554400000000000,
+    "sha256": "00006c192d19a199a5dec610d2652a411adaebaa009245ae059fe1d3ff210416"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S3C2_Image_Data_All-JPEGs_part3.zip",
+    "size_bytes": 23653915,
+    "mtime_ns": 315554400000000000,
+    "sha256": "268b892ebb1d3d56a4ac56eab41245c5c4811deeb60efc44980d53f7d3ad97b0"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S3C2_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 143041220,
+    "mtime_ns": 315554400000000000,
+    "sha256": "1ede3d10c1d6b8e97a53f1c8f0093e86da2ed5683c1000fe4a965735aabb2487"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S3C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 143054300,
+    "mtime_ns": 315554400000000000,
+    "sha256": "eb467b08890429f569519b326d452210c2ece6587da5486aa6367d5dc5bf16ce"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S3C2_Image_Data_jpegs2png_icmad_part1.zip",
+    "size_bytes": 358180517,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0d0af02080be9cd47820ea8f854c0af732633a723f6c311c9486da86d2027e23"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S3C2_Image_Data_jpegs2png_icmad_part2.zip",
+    "size_bytes": 386483259,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b7110a6f72bfedcf0c5717d465694868ba3260cbfdfe5623aee4fc93c8fd6453"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S3C2_Image_Data_jpegs2png_icmad_part3.zip",
+    "size_bytes": 379951042,
+    "mtime_ns": 315554400000000000,
+    "sha256": "aac7b87621b8efbfb02330f47b64de62b80ffb472645e24efac34339fa31e04e"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 8060,
+    "mtime_ns": 315554400000000000,
+    "sha256": "5921a3cd6312658886de41ebef5300950bc67ebbe8f4f6034d157f41da8bbfae"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_Mapped_part1.zip",
+    "size_bytes": 11297895,
+    "mtime_ns": 315554400000000000,
+    "sha256": "f2300d7b69b992608f0abd2f24987634192d0b50fd2b58a567e0e85135ccc8a8"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_Mapped_part2.zip",
+    "size_bytes": 11051040,
+    "mtime_ns": 315554400000000000,
+    "sha256": "4458881db3135231a9b3433fbc6d0e1696e76f60b507edbec3f3d78a53f0597e"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_Mapped_part3.zip",
+    "size_bytes": 11045768,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0f164a05d6fb5a43d35174bf6a6a37ed67a667dbad044a5b05c0f719b33b8aef"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 8518169,
+    "mtime_ns": 315554400000000000,
+    "sha256": "576a9bd50e859c224556094e281cbffef4f6a7773f23bb166ceebc2323dc4495"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_part2.zip",
+    "size_bytes": 8399814,
+    "mtime_ns": 315554400000000000,
+    "sha256": "fac295b7b0841a798dfc6ee1d779214571c296c61d86806576953b99f2319d69"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_Image_Data_All_JPEGs_part3.zip",
+    "size_bytes": 8407486,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0a3b505440e2f2debbb37d10fb951f85901535559fa34dbf40fa9c4effbc47aa"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 81408846,
+    "mtime_ns": 315554400000000000,
+    "sha256": "3d4f539fc2262ae8af4e0080e5c5fe636ddadb6031d041c65bbfc48321e23ff4"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C1_Image_Data_RAW2TIFF_Mapped_v2_ICMAD.zip",
+    "size_bytes": 79872601,
+    "mtime_ns": 315554400000000000,
+    "sha256": "f4cbf707685c829ac03a47b666be16cd286b5e2b0ba3f0445997b23fca989e02"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 12708,
+    "mtime_ns": 315554400000000000,
+    "sha256": "6a343e0daef874a114bfd4e1636bc3a4ebd7f989a2afa9727d4c8f0dbb93820a"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_All-JPEGs_Mapped_part1.zip",
+    "size_bytes": 35212174,
+    "mtime_ns": 315554400000000000,
+    "sha256": "3a407035ba2f00a978b0e8d640e530001183053e85e9eecb4639b04d6925b6e3"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_All-JPEGs_Mapped_part2.zip",
+    "size_bytes": 35640500,
+    "mtime_ns": 315554400000000000,
+    "sha256": "23e0195c439350871bcf4f9c16c52c931701c6db6f559ad5840ebbb556b1b93e"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_All-JPEGs_Mapped_part3.zip",
+    "size_bytes": 35206958,
+    "mtime_ns": 315554400000000000,
+    "sha256": "a62114c9364e16ed2cb3a05fae74b328a28d582dfa582aad7f02c642e7a0fed6"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_All_JPEGs_part3.zip",
+    "size_bytes": 20782079,
+    "mtime_ns": 315554400000000000,
+    "sha256": "111db6a601daf19d784dc643b3c3e41e9ce8d4831dc6050d3acd185a977f93bf"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_RAW2TIFF_Maped.zip",
+    "size_bytes": 123675511,
+    "mtime_ns": 315554400000000000,
+    "sha256": "a977d873287dbc28ec65f58b2b761bee84155db795b867f5c8a88bafc07fd1b7"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 147216265,
+    "mtime_ns": 315554400000000000,
+    "sha256": "2c1333c832f23345c141d32c74c83208139c137b25de2e2aa9369ebcc6f0bc60"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_jpegs2png_icmad_part1.zip",
+    "size_bytes": 358392231,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0723f68527a0b9edbcad7db37c71c92673736cd2f0839dde931bb9e71888437c"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_jpegs2png_icmad_part2.zip",
+    "size_bytes": 364635894,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7980313ea0412785dd28e0d3cb48798c9f25950826f315e5beab4bb70d933a64"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S4C2_Image_Data_jpegs2png_icmad_part3.zip",
+    "size_bytes": 356982061,
+    "mtime_ns": 315554400000000000,
+    "sha256": "cbff416474ea09b144898787cf4807e83623561c0c7b76103694bb41bd8c7065"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 9828,
+    "mtime_ns": 315554400000000000,
+    "sha256": "95cd59552e2e5b4828b5d964e79de5228ef54b40d08f6cd86d2d606127478810"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C1_Image_Data_All_JPEGS_part2.zip",
+    "size_bytes": 21311527,
+    "mtime_ns": 315554400000000000,
+    "sha256": "70b75dfd6ce1e23be9b6299800164e2da2ec058dbcf7985401c7d496e2e20218"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C1_Image_Data_All_JPEGs_Mapped_part1.zip",
+    "size_bytes": 18909381,
+    "mtime_ns": 315554400000000000,
+    "sha256": "e273157ccc6e91a6a03fb1a2fa73e4622ff19988133187d72a6093847a7fa9a7"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C1_Image_Data_All_JPEGs_Mapped_part2.zip",
+    "size_bytes": 32078494,
+    "mtime_ns": 315554400000000000,
+    "sha256": "92ef811b5ede33faff94f1dfbd2814adcdcc134bd7738b8a10c5b2f79bf01e3b"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C1_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 113229495,
+    "mtime_ns": 315554400000000000,
+    "sha256": "5021a2a2d8658572bea72df59247d17cb1cc817a8b8f33cf4c990bb3fe9a4bc6"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 126299995,
+    "mtime_ns": 315554400000000000,
+    "sha256": "56b0d4f3b381465d63dc96a70a9a51b8588ab0c31468c88c08016b85327d5029"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C2_DistortionGrids_Sample_ROI.zip",
+    "size_bytes": 145199,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b8305fece587e6c82810ef6b15260dbfa98bd297c2c86fa7aa8c9d892efc81f4"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 12384,
+    "mtime_ns": 315554400000000000,
+    "sha256": "20fffb9b9cc6576e60fd2641372e912894b8efe7d8c87b3ed41fe4889dcc246b"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C2_Image_Data_All-JPEGs_Mapped_part2.zip",
+    "size_bytes": 38613363,
+    "mtime_ns": 315554400000000000,
+    "sha256": "19e71f2a51e56597c68e7bbedcc1e53839b0f99e97bd431455377ee207a1ae8c"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C2_Image_Data_All_JPEGs_Mapped_part1.zip",
+    "size_bytes": 22493787,
+    "mtime_ns": 315554400000000000,
+    "sha256": "ac6566120e33de484785e773dee378cbf2daa25359c0034ba39c383c444bf8e7"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C2_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 135679937,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c96ca269af4d1fecb3eebefae62d424fff41715e298447d74399c0717d9fe53c"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S5C2_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 150971832,
+    "mtime_ns": 315554400000000000,
+    "sha256": "f399c89c8a899057a3895add5a319cd38ec2986a5c5dbffd4793bbd640b5e057"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 14803,
+    "mtime_ns": 315554400000000000,
+    "sha256": "fb32e68053ab06ef23bd875078be412c99f60f27fefe4b0a187cd8d8dee9f834"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_Image_Data_All-JPEGs_Mapped_part1.zip",
+    "size_bytes": 25353083,
+    "mtime_ns": 315554400000000000,
+    "sha256": "98f256b60092f4041aff68b4059621034db0e5333bd9ff37bb076acfd98d9975"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_Image_Data_All_JPEGS_part2.zip",
+    "size_bytes": 22998997,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7a79af21449b231d429c75464da0db85e4c4a9df51e90db88bfe238c2749a3b9"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 14277248,
+    "mtime_ns": 315554400000000000,
+    "sha256": "4dcdcf09f0a5ce213c5b0adf6e08ffcc18ac3bb4ce3086d0cc83d31c672b58a3"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 124405516,
+    "mtime_ns": 315554400000000000,
+    "sha256": "f9823da5594a59617cd92f5e6d905683eb3f89ec18aff3d44b8a1571ff1cedc6"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 140575821,
+    "mtime_ns": 315554400000000000,
+    "sha256": "9cf70d7ebdc2123e01572512564ee2f456861f0ef10765bc85bb7b390b8b62c6"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_Image_Data_RAW2TIFF_Mapped_v2_ICMAD.zip",
+    "size_bytes": 137123302,
+    "mtime_ns": 315554400000000000,
+    "sha256": "734cccc1a3b2dda3b6ef5d82478497e347ead76fa12eda66d8c59581427cc3a6"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_Image_Data_jpegs2pnc_icmad_part1.zip",
+    "size_bytes": 226924512,
+    "mtime_ns": 315554400000000000,
+    "sha256": "475518fc9acfdfdc7d3a3709f3367694054abb90c8c2eb21feda71a8b8c1ec3f"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C1_Image_Data_jpegs2pnc_icmad_part2.zip",
+    "size_bytes": 380429993,
+    "mtime_ns": 315554400000000000,
+    "sha256": "a43948a8621470e35e6a11ed78f0c52b7ff89e15dfcf14bdc7c0cec94c479ee4"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C2_Data_jpegs2png_icmad_part1.zip",
+    "size_bytes": 260981398,
+    "mtime_ns": 315554400000000000,
+    "sha256": "8bdbdf325e6baff1e4c5023c1e467e0ae52bee2035ead88a6c3b79005719b42d"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S6C2_Data_jpegs2png_icmad_part2.zip",
+    "size_bytes": 418906928,
+    "mtime_ns": 315554400000000000,
+    "sha256": "81662cdacb51ab0ebc9ab259b8109663cc98f9534fb95c1523b73be24fde7612"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 14755,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7e9349cb65fe06e79ad6ea79cea28a4e3f74a825cd850d9012e008e5b57a4fe3"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_All-JPEGs_Mapped_part1.zip",
+    "size_bytes": 20441624,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7680c1d9adf2b87c657f34a05a9349f9550fb8fb64383e8a198af8a90367d60f"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_All-JPEGs_Mapped_part2.zip",
+    "size_bytes": 20258671,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7855dac16471998873cfc8c16243af892928e702b09810758740e19a011a0d42"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_All-JPEGs_Mapped_part3.zip",
+    "size_bytes": 19707562,
+    "mtime_ns": 315554400000000000,
+    "sha256": "768a982eae61d603533228884e49f7d432081090c9fa30fd9ea9a75c030501e2"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_All-JPEGs_Mapped_part4.zip",
+    "size_bytes": 28301866,
+    "mtime_ns": 315554400000000000,
+    "sha256": "52822cc84aef34f64e93d439a5bfad41b06321c9886071a220259682ab763d2e"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 13711314,
+    "mtime_ns": 315554400000000000,
+    "sha256": "8f3a7e30876fedd769b0b303904d2202fcf878fa5c1740fe953636fa1777fe32"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_All_JPEGs_part2.zip",
+    "size_bytes": 13713795,
+    "mtime_ns": 315554400000000000,
+    "sha256": "6f7b7f05dd11de65fe9fc6c25283d5ca4503a57e49290bafbec6a5fa5d9dca1c"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_All_JPEGs_part3.zip",
+    "size_bytes": 13121919,
+    "mtime_ns": 315554400000000000,
+    "sha256": "de498ebe75886d9e7ef83931926eb14a4bb8893a8ff8c41b13380db470fca23c"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_All_JPEGs_part4.zip",
+    "size_bytes": 20532001,
+    "mtime_ns": 315554400000000000,
+    "sha256": "20d7e012eda66112c28e271d864f340412e851907dbd5982c2bb7010c187c2dc"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 890958999,
+    "mtime_ns": 315554400000000000,
+    "sha256": "47bcdb6129d48cbd8bbbc317ace9f684eba08504cfe1ce0341f22b2b6e974823"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S8C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 979447861,
+    "mtime_ns": 315554400000000000,
+    "sha256": "e32f09bfca5f886df536f938467ecc941b8940858bcb6721b8eec486190f1a04"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_DistortionGrids_Samples_ROI_Mapped JPEGS.zip",
+    "size_bytes": 15149,
+    "mtime_ns": 315554400000000000,
+    "sha256": "389829a5cc4a3fad8895d7abc981c33407e66a34ab8032f6d7a83bbd7aa94346"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part1.zip",
+    "size_bytes": 18984727,
+    "mtime_ns": 315554400000000000,
+    "sha256": "37ba39e834fa135e24b1f733d264a5ab8bcd2e31e42ed171f2c7b6ddce35287b"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part2.zip",
+    "size_bytes": 19575623,
+    "mtime_ns": 315554400000000000,
+    "sha256": "67784a069c62d70fa2ef1ed2a634d52910e6c0ea9389ff28baa1ba945f3b2678"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part3.zip",
+    "size_bytes": 20051795,
+    "mtime_ns": 315554400000000000,
+    "sha256": "578737533a2e7393373dc3d13793b720d88cd50075453602ec78d15ead020c2a"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part4.zip",
+    "size_bytes": 21355054,
+    "mtime_ns": 315554400000000000,
+    "sha256": "1e6d157f6e2ab789e8f5c3c7dc49fada4a8acbdad513606a9bde05c1f086d639"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part5.zip",
+    "size_bytes": 21877968,
+    "mtime_ns": 315554400000000000,
+    "sha256": "5ee4c85ab553dca01427e4957b0be9873bdd78cfad1a67807b94c85acde042e5"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_Mapped_part6.zip",
+    "size_bytes": 24729624,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c96afdfa60be94432ad8c522535b670f37162e0ee5e1f44e91cc34ecfd5bcf35"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 13166471,
+    "mtime_ns": 315554400000000000,
+    "sha256": "75b2f134d69fc221ec699b4a0d86b85d0207459ed4fd349fc38b4ae28fcf96d9"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part2.zip",
+    "size_bytes": 13513109,
+    "mtime_ns": 315554400000000000,
+    "sha256": "3aea30e9c9fd3104270092757e6b6ad044572d1d1ecee542bffe54feae761ae8"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part3.zip",
+    "size_bytes": 13838907,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0a4ad2170b2057d031e2282a39ed1e83155aaa3c0569e2e9368f5d64d955b36c"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part4.zip",
+    "size_bytes": 14764922,
+    "mtime_ns": 315554400000000000,
+    "sha256": "e78707bac61cf9c0cc15b6d8f3d79d87796896336f621d78b75125095a754620"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part5.zip",
+    "size_bytes": 15227302,
+    "mtime_ns": 315554400000000000,
+    "sha256": "d48a3fc8f74e424ee3919adddf11e30b206496d4cb7fd7f881ed9ad1d52f14e7"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_All_JPEGs_part6.zip",
+    "size_bytes": 18163518,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7fb990c2c8042e6d4c59b9987ab91515c25fd866785cbec7fb3e56e2d2f1c475"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_RAW2TIFF_Mapped_ICMAD_jpegs.zip",
+    "size_bytes": 31491163,
+    "mtime_ns": 315554400000000000,
+    "sha256": "348868441c88bc81a28c32f6d53ca9103f479a86ecbcf37b43d26398ea204b75"
+  },
+  {
+    "path": "part-01/SAFFIRE-II_S9C1_Image_Data_RAW2TIFF_Mapped_jpegs.zip",
+    "size_bytes": 16007240,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c6d3112c5ce128dca5f3842fd0e1a2d4a9fb6bbcc15429d53e13b96a80085476"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C1-BIT_jpeg.zip",
+    "size_bytes": 21447511,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b72de1d4629b97aea2d7846ec45f9460789e701e070e8e4806ca1e2a9ba017d7"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C1_Illustrative_images.zip",
+    "size_bytes": 185673,
+    "mtime_ns": 315554400000000000,
+    "sha256": "f4e8a845f36ee841e0908cbb7200926f630d4d13eda29a4bb01b41e6863702e6"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C1_Image_Data_All_JPEGS.zip",
+    "size_bytes": 30380880,
+    "mtime_ns": 315554400000000000,
+    "sha256": "fe6568d626b94a07a2a9cf1b559200c6742211ba629eb68da12c76aae90acdc5"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C1_Raw2TIFF.zip",
+    "size_bytes": 1063497390,
+    "mtime_ns": 315554400000000000,
+    "sha256": "51b811363fc711f537cb0505552ec2ed67ae5eb3f7b815e7e442f5aeec9a054c"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C2_BIT_jpeg.zip",
+    "size_bytes": 24364520,
+    "mtime_ns": 315554400000000000,
+    "sha256": "4c576fef1f0d306de8e20f011ef20cc3f7e0841409dd8a1dd1d6634d616dd5df"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C2_DistortionGrids_1280x916.zip",
+    "size_bytes": 9242363,
+    "mtime_ns": 315554400000000000,
+    "sha256": "1dbd017beca0474408765d49df8f85f08db94b3f63524eb87f78d91a8eda1cea"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C2_DistortionGrids_1360x1024.zip",
+    "size_bytes": 2178511,
+    "mtime_ns": 315554400000000000,
+    "sha256": "365dc5bfa8e196545b44418d588c5158f69ad31e26ea1b8c8b1d89823a7ad966"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C2_DistortionGrids_Sample_ROI.zip",
+    "size_bytes": 1691334,
+    "mtime_ns": 315554400000000000,
+    "sha256": "558fefc0a6fee05dc27da438d78eef99a5ae70150d07c9a6ec76962ee205965a"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C2_Illustrative_images.zip",
+    "size_bytes": 167630,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c0d1979ae13eb9781beb35c8770b60c381d498e43ba9c0f518e34200321094fc"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C2_Image_Data_JPEGS.zip",
+    "size_bytes": 32675828,
+    "mtime_ns": 315554400000000000,
+    "sha256": "33f832b13d595d9d33b2ff51f92e80417a41976a7f5375eb54c159f7744c65fe"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F1C2_Image_Data_RAWs.zip",
+    "size_bytes": 21734239,
+    "mtime_ns": 315554400000000000,
+    "sha256": "edce8fa88f66fb2475a67f7b5b2cdc4a52491710d4f2d8eb26237aa83be808db"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F2C1_Image_Data_All_JPEGS.zip",
+    "size_bytes": 28067121,
+    "mtime_ns": 315554400000000000,
+    "sha256": "fd6ec811ccb06f1b634a0c29d074375498b3335d8b05e34d9db43f12ce8ae567"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F2C1_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 13171197,
+    "mtime_ns": 315554400000000000,
+    "sha256": "ad3363ad50bb715c898ae991ecfbc7d58ac2b94f123f0a4b6f9b32f82a9909bf"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F2C2_Image_Data_All-JPEGS.zip",
+    "size_bytes": 39806646,
+    "mtime_ns": 315554400000000000,
+    "sha256": "8a2ef36ed9e74b009b3ae1ebdbaf4f0fd0ee9001e6de0575d098a58ad8105c52"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_F2C2_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 11186262,
+    "mtime_ns": 315554400000000000,
+    "sha256": "af11059fe7f9f01d0da62f49b3c6ddf82a6c6d2845108fd4541365e451744b6e"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S1C1_BIT_jpeg.zip",
+    "size_bytes": 2765780,
+    "mtime_ns": 315554400000000000,
+    "sha256": "36b16b5b162156a8e1628fa0796a070d3f9eeb9247cf2f3be237a951f2999e57"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S1C2_BIT_jpeg.zip",
+    "size_bytes": 11889414,
+    "mtime_ns": 315554400000000000,
+    "sha256": "54f6805dbd7bc7910bbfcdcc854f3360e2f86f5177abac5a6c5d1cd500af526a"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S1C2_DistortionGrids_Sample_ROI.zip",
+    "size_bytes": 135752,
+    "mtime_ns": 315554400000000000,
+    "sha256": "412bbc722a3bc3391ac3be0f7227e1e097ab47f340c45e8ecda06ed4a6ce07d7"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S1C2_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 43186545,
+    "mtime_ns": 315554400000000000,
+    "sha256": "74d3d6217cd95bdad636b42cfdc9b8e2f37fcc86ee9cca5b26065bcd462ceed7"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S2C2_DistortionGrids_Sample_ROI.zip",
+    "size_bytes": 129262,
+    "mtime_ns": 315554400000000000,
+    "sha256": "91ebc0c5b05a350a84d9afc2bd3c822c86fdea32342ac5e784bd99f30192b2e4"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S2C2_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 61897773,
+    "mtime_ns": 315554400000000000,
+    "sha256": "d6b5244765f26369299e35decc3fda82b4f139a1cc9df23aa85c091c7e4419fb"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S3C2_DistortionGrids_Sample_ROI_JPEGS.zip",
+    "size_bytes": 133854,
+    "mtime_ns": 315554400000000000,
+    "sha256": "a648ca0019a8ace78e5c0f2804e765052ee1d2f16089bd2a5e19b76f63092837"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S3C2_Image_Data_All-JPEGs_part1.zip",
+    "size_bytes": 22353913,
+    "mtime_ns": 315554400000000000,
+    "sha256": "fbe51434eace753185938172ebcb8cf7929d309ddf2f37d0445cddf8ff778c5f"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S3C2_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 95241219,
+    "mtime_ns": 315554400000000000,
+    "sha256": "dc1c25d4f02f5b035eb11380ae1db0e1a32f1d922b435892d3cbd57abf451e2a"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C1_DistortionGrids_Sample_ROI.zip",
+    "size_bytes": 128119,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0feda644793ff04a1f70fedb7ad622fa0edae6dc017ba92e8dc050e7165cf1ec"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C1_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 34483566,
+    "mtime_ns": 315554400000000000,
+    "sha256": "37b880d5f16084f6b914fdcce874462b8bc706965a0ca1e741627f6657216434"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C1_Image_Data_jpegs2png_icmad_part1.zip",
+    "size_bytes": 122771105,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b98cc60b405f0ca26b0296fb05767e21f008df11c53f9d696c1363d843801615"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C1_Image_Data_jpegs2png_icmad_part2.zip",
+    "size_bytes": 120853023,
+    "mtime_ns": 315554400000000000,
+    "sha256": "6ff80b0c5d20f3a0782df44631283bd5050e932c71e9f1c3bac42967feb5236f"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C1_Image_Data_jpegs2png_icmad_part3.zip",
+    "size_bytes": 120853023,
+    "mtime_ns": 315554400000000000,
+    "sha256": "6ff80b0c5d20f3a0782df44631283bd5050e932c71e9f1c3bac42967feb5236f"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C2_DistortionGrids_Sample_ROI.zip",
+    "size_bytes": 113371,
+    "mtime_ns": 315554400000000000,
+    "sha256": "817b532baedcb0e957936a26bd79494c1f320f23ad8dd0368fd7897b9bd451dd"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C2_Image_Data_All_JPEGS_part2.zip",
+    "size_bytes": 21178093,
+    "mtime_ns": 315554400000000000,
+    "sha256": "dd6f33aede5b8454a76a306429373cf3c6394816b54cd1d6463852334ab18419"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C2_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 20869701,
+    "mtime_ns": 315554400000000000,
+    "sha256": "9e673f51bc02de0610c0676dbb5969d8062873186c48700d1932f2e815205a2e"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S4C2_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 75712608,
+    "mtime_ns": 315554400000000000,
+    "sha256": "3eec656fdab7cae4147e9773b1a45cfc8dbc53695ae68df25eafd37f913599cc"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C1_DistortionGrids_Sample-ROI.zip",
+    "size_bytes": 105659,
+    "mtime_ns": 315554400000000000,
+    "sha256": "bbe1a5d79a4bdd50a4fd09261efef3892f386f95267b5619ddffc00d750a4279"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C1_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 48223952,
+    "mtime_ns": 315554400000000000,
+    "sha256": "166b0cb862011886fb9ed0ed2798f521b2aa9966cc596f0bec5d09c65bff0e34"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C1_Image_Data_jpegs2png_icmad_part1.zip",
+    "size_bytes": 186164574,
+    "mtime_ns": 315554400000000000,
+    "sha256": "247e1204ad1b9485cb62161db0686871cbc45c16ea8f50b6d68ac67f872367df"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C1_Image_Data_jpegs2png_icmad_part2.zip",
+    "size_bytes": 342729275,
+    "mtime_ns": 315554400000000000,
+    "sha256": "148e26a60f1a7adf369514f948ed12ed1dfcea5df45935608b9f891df91768ea"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C2_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 15706884,
+    "mtime_ns": 315554400000000000,
+    "sha256": "2514021ceaccecf5b3c15f7a2c333be786a9c836c6143d92243154de0d030297"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C2_Image_Data_All_JPEGs_part2.zip",
+    "size_bytes": 28831042,
+    "mtime_ns": 315554400000000000,
+    "sha256": "14c72ed513c4f40089517c2898d28b3f17abca62d2d7507325bb1b08f576a490"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C2_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 76163065,
+    "mtime_ns": 315554400000000000,
+    "sha256": "05982562346b859877b587e67ee2c679c8f64f834256dcc0a1fefb6976a2d550"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C2_Image_Data_jpegs2png_icmad_part1.zip",
+    "size_bytes": 226807458,
+    "mtime_ns": 315554400000000000,
+    "sha256": "1c514c85300bda72f9f36fd5d00300e1636905af834b431abacff9364d7a641f"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S5C2_Image_Data_jpegs2png_icmad_part2.zip",
+    "size_bytes": 445171094,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c36789a10149749224d8c824122b5365123a4a2c994d7d39ce59121d72c2d29c"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S6C1_DistortionGrids_Sample_ROI.zip",
+    "size_bytes": 132732,
+    "mtime_ns": 315554400000000000,
+    "sha256": "23c3e2cae648c8f00196c2a0a3a2cac98a9b6197815fcf2f671c3dfda3981a79"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S6C1_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 45591125,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b914a3f0ab425ba0da3ced4082ded4f1195a254351272b469c7887c942004e62"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S6C2_DistortionGrids_Sample_ROI.zip",
+    "size_bytes": 171428,
+    "mtime_ns": 315554400000000000,
+    "sha256": "e386abe15ce214221a05345cb944fc033cbf4c507f446dc3b6fe24842a2b9eec"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S6C2_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 16154147,
+    "mtime_ns": 315554400000000000,
+    "sha256": "0b323fbb035c3c9d1b10f4a321d2d3d8e9f8944e28098a3cad638ae998dc427f"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S6C2_Image_Data_All_JPEGs_part2.zip",
+    "size_bytes": 26843127,
+    "mtime_ns": 315554400000000000,
+    "sha256": "8a119f1dfd775a8ac92474d3d824585b5db6bd8ef1a19e551cb6524663ba012c"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S8C1_DistortionGrids_ROI.zip",
+    "size_bytes": 206565,
+    "mtime_ns": 315554400000000000,
+    "sha256": "f51dc8b7b4541b0c35f271707942afbf7ddb83ee87e7db57dc7235c7ea89e037"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S8C1_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 463398570,
+    "mtime_ns": 315554400000000000,
+    "sha256": "140fd2a039a4d26c0d9fa6f35997466b564ce22e87c3548200a9895789b319d1"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S9C1_DistortionGrids_ROI.zip",
+    "size_bytes": 213699,
+    "mtime_ns": 315554400000000000,
+    "sha256": "f2effa2d99982cf24cfc7870d6bb3913c31743b31e8fb5f4a11516fef56344fb"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S9C1_Illustrative_Images.zip",
+    "size_bytes": 21727,
+    "mtime_ns": 315554400000000000,
+    "sha256": "90f245d0dcd6be2cbcee030b908d03669f00901a37115bd9e5d1a7b401989eef"
+  },
+  {
+    "path": "part-01/SAFFIRE_II_S9C1_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 351666277,
+    "mtime_ns": 315554400000000000,
+    "sha256": "9ee5c1ad4809523cf7cf79c0eb1e062059486d769e0ec3328a08d92f2d0c8560"
+  },
+  {
+    "path": "part-01/SFS-W-009_MFB340-Saffire-2 SIBAL samples-Gas phase TC height nonconformance.pdf",
+    "size_bytes": 20046,
+    "mtime_ns": 315554400000000000,
+    "sha256": "ada0bf7741b0a854d54cbb11b9f62c936a2a17396cd2ccc7b65ecf7da41b6602"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 1.xlsx",
+    "size_bytes": 13817030,
+    "mtime_ns": 315554400000000000,
+    "sha256": "ade2fd82e01b22ed5ba2ce1676c2a595f4cfed3072e9e02fa8cca72a1631ae64"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 2.xlsx",
+    "size_bytes": 17570780,
+    "mtime_ns": 315554400000000000,
+    "sha256": "9bb089d53193b11b5f6f947a8a1192c7d00e6bf239a83a27b60587b385fc21f0"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 3.xlsx",
+    "size_bytes": 17526258,
+    "mtime_ns": 315554400000000000,
+    "sha256": "198de612171e4f2364854eecf80db12aa763af0c9304c0863f095e11d58a18dc"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 4.xlsx",
+    "size_bytes": 17506439,
+    "mtime_ns": 315554400000000000,
+    "sha256": "1ae432618c1ee21933ab5ad3c33f8f44bdb64d2c3e7dca88c6a475f015ca5b00"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 5.xlsx",
+    "size_bytes": 12281904,
+    "mtime_ns": 315554400000000000,
+    "sha256": "e974b4ea303ee6a1b9e5c3c1fa569512a0770c342407d25a7354e0b25ba3cd61"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 6.xlsx",
+    "size_bytes": 12086208,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c232e7bfd6832dcd0abde9e38e7956b3006fae5e9aa206e5a2248df3733907ee"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 7.xlsx",
+    "size_bytes": 21417527,
+    "mtime_ns": 315554400000000000,
+    "sha256": "173bdbd12e7fd366635726f4765b40e39c0b70608829adb0802aa6c964ba8668"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 8.xlsx",
+    "size_bytes": 23595029,
+    "mtime_ns": 315554400000000000,
+    "sha256": "fc0938ec7b43cf06e74d040d1356e8a9cf6628d8282345097edf7c842058bb7a"
+  },
+  {
+    "path": "part-01/Saffire Sensor Data Sample 9.xlsx",
+    "size_bytes": 32866352,
+    "mtime_ns": 315554400000000000,
+    "sha256": "19936290ef9e5d4278d6055c2efe8262863eaf99d8755adc0b5f8626ee24de16"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 1 TM Graphs.docx",
+    "size_bytes": 851902,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7ad74cfe4db3c4ab6df60a72678318db51aba347a3432a50eeed6e2d138bae71"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 2 TM Graphs.docx",
+    "size_bytes": 764185,
+    "mtime_ns": 315554400000000000,
+    "sha256": "8264d5a13332ab47693b16a420d76f3119e089b876196cd1826a1faf181cf3ff"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 3 TM Graphs.docx",
+    "size_bytes": 822973,
+    "mtime_ns": 315554400000000000,
+    "sha256": "3f6023290ba9a35d8b07b72732b230b3d4a34477826c65428c4d83b30b70af24"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 4 TM Graphs.docx",
+    "size_bytes": 848668,
+    "mtime_ns": 315554400000000000,
+    "sha256": "4294dae329597053fe84b9286bed240fbe389e6e1282979e1835070d19d5c21a"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 5 TM Graphs.docx",
+    "size_bytes": 781199,
+    "mtime_ns": 315554400000000000,
+    "sha256": "49c0164dd1e43e683aba832a5404b07568c628f0cd1930cbf6d8b3c9786d6201"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 6 TM Graphs.docx",
+    "size_bytes": 821109,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c8094a9064c2fc65326c8c07b918f1ded095006ada5f01c6b649a75106291199"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 7 TM Graphs.docx",
+    "size_bytes": 929310,
+    "mtime_ns": 315554400000000000,
+    "sha256": "d281b81b586f5d5b59fd7dd72cdbf94f9e0da15ac2c5eb1e909f795e485ec3a9"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 8 TM Graphs.docx",
+    "size_bytes": 837314,
+    "mtime_ns": 315554400000000000,
+    "sha256": "84f19c20a4e504335e196914e378204110a60ed9bba01388d1e271048cbad2eb"
+  },
+  {
+    "path": "part-01/Saffire-II Sample 9 TM Graphs.docx",
+    "size_bytes": 922363,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c2cb16497585cd742b04ba4212842efa977f0decc38cf9a3842585b17bd9f5f5"
+  },
+  {
+    "path": "part-01/Saffire-II Telemetry Data.xlsx",
+    "size_bytes": 41472762,
+    "mtime_ns": 315554400000000000,
+    "sha256": "cf6938011ed29c7306f1e2724953217f20e0eacd51a2e55d4fb6d4a15f020f47"
+  },
+  {
+    "path": "part-01/SaffireIIStitchedCO2V7.pdf",
+    "size_bytes": 25945,
+    "mtime_ns": 315554400000000000,
+    "sha256": "4936ff7467c5723afc8420112005f607fb662140d7903d1abfdbc36552c433bd"
+  },
+  {
+    "path": "part-01.zip",
+    "size_bytes": 16051319710,
+    "mtime_ns": 1794569656164418503,
+    "sha256": "b5954338e8efa0d4e7a5e2d106aad4f7377bc53ce474cbd0d0eb9ca9c070bdb9"
+  },
+  {
+    "path": "part-02/SAFFIRE Objectives, Development and Status.pdf",
+    "size_bytes": 186259,
+    "mtime_ns": 315554400000000000,
+    "sha256": "6cff0b55b8f1416f5b5b768b7fd22ae31991791ef633865471b72ff19ff4159b"
+  },
+  {
+    "path": "part-02/SAFFIRE-II DoD.docx",
+    "size_bytes": 134425,
+    "mtime_ns": 315554400000000000,
+    "sha256": "9f71bb8461dd1306d73a84264729851a10d7195616390096f929fa3f5ecbad72"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_Image_Directory_Nomenclature_v3.0.pdf",
+    "size_bytes": 755236,
+    "mtime_ns": 315554400000000000,
+    "sha256": "edb5b6f4ebc7c32bd26f45f728902d766affa395677d818e9ef932c704321dbe"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_MergeResult-jpeg_v5_Final.xlsx",
+    "size_bytes": 20820425,
+    "mtime_ns": 315554400000000000,
+    "sha256": "1889a35b7f6b9a6de3cc15d099929ca747052f2d5e54283a521680d9593f9277"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S6C2_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 11089,
+    "mtime_ns": 315554400000000000,
+    "sha256": "bb0924fc27930bae4ed7568a3705dc7cb20fae136cefb4a05c55135c6f65bf40"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S6C2_Image_Data_All_JPEGs_Mapped_part1.zip",
+    "size_bytes": 21323672,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c146a13686a679b9d6b844272dc141df8713c3c643735f534c40972cbe172a95"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S6C2_Image_Data_All_JPEGs_Mapped_part2.zip",
+    "size_bytes": 31413958,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b6b867b8279b88ea0e12ac9e70927e85b39495e04defb8925c087136b3a599ba"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S6C2_Image_Data_RAW2TIFF-Mapped_ICMAD.zip",
+    "size_bytes": 117128074,
+    "mtime_ns": 315554400000000000,
+    "sha256": "d7e6e60f981dfea2f7b74cb44eea7fa29d52b3a6d6f154a1f260e02922f06d44"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S6C2_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 106002947,
+    "mtime_ns": 315554400000000000,
+    "sha256": "3a0da4a21c9b5b4bf9b5126ba46997b0c040f59f0cd880414fca160cbd873ce7"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_DistortionGrids_Sample_ROI_Mapped JPEGS.zip",
+    "size_bytes": 11931,
+    "mtime_ns": 315554400000000000,
+    "sha256": "c2429e229d92d511d5947ea4de0e74c63db1f6682e4fe3deb0e639ad56d5e476"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_Mapped_part1.zip",
+    "size_bytes": 19717841,
+    "mtime_ns": 315554400000000000,
+    "sha256": "b6c2cf2d1ca9817052e44ce719d7f5a604ce6273131462dd61ad1b452c07e98b"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_Mapped_part2.zip",
+    "size_bytes": 33018339,
+    "mtime_ns": 315554400000000000,
+    "sha256": "82bc77a5e98124e374cd7a5f4e7f1e578f6ca802d4b58baeb0c0b964cf909146"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_Mapped_part3.zip",
+    "size_bytes": 34200823,
+    "mtime_ns": 315554400000000000,
+    "sha256": "8403b2e2260c3d1bfaa3d9c9366b94afb52e4cd1bbc47d2dab9edfa9bd86fcb0"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_Mapped_part4.zip",
+    "size_bytes": 25002611,
+    "mtime_ns": 315554400000000000,
+    "sha256": "cc724eea3d611282411400097077d289b53e04996a3b7266a5a050a126f955c6"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_part1.zip",
+    "size_bytes": 13677536,
+    "mtime_ns": 315554400000000000,
+    "sha256": "74adf6d83d85d578d4cd625c1fbf5854a7ee5d953ac62d13b40ae95edf661414"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_part2.zip",
+    "size_bytes": 24752080,
+    "mtime_ns": 315554400000000000,
+    "sha256": "48679f67f1836a474d2ac8cc7ed0f34a2101f75f8c5b93e79ee53d978e5333a1"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_part3.zip",
+    "size_bytes": 25610219,
+    "mtime_ns": 315554400000000000,
+    "sha256": "ffaa797bc9e929be349f212228714202415385d5301c24b14c1742eeeea443d8"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_All_JPEGs_part4.zip",
+    "size_bytes": 18796402,
+    "mtime_ns": 315554400000000000,
+    "sha256": "90e9fa093cee79b6681a26f73c1089690b9fbe2896e6886b280dac64fe3cea86"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_RAW2TIFF_Mapped.zip",
+    "size_bytes": 115602711,
+    "mtime_ns": 315554400000000000,
+    "sha256": "2698c0d22945775911539ed8cd02fb503b51cd6a45409b42a51c754b9144a434"
+  },
+  {
+    "path": "part-02/SAFFIRE-II_S7C1_Image_Data_RAW2TIFF_Mapped_ICMAD.zip",
+    "size_bytes": 128134800,
+    "mtime_ns": 315554400000000000,
+    "sha256": "1ff615c1e404afa159194ca0d1e4c654c3241cc8a590639793af7c9fc01ec1ac"
+  },
+  {
+    "path": "part-02/SAFFIRE_II_S6C2_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 59626666,
+    "mtime_ns": 315554400000000000,
+    "sha256": "72d9c82a019b2abca9c9ec57100d83392c63d1759b20c5b3d56226a29a2002c4"
+  },
+  {
+    "path": "part-02/SAFFIRE_II_S7C1_DistortionGrids_ROI.zip",
+    "size_bytes": 146647,
+    "mtime_ns": 315554400000000000,
+    "sha256": "a4302698bd4fd19eaf9d2db2ea02f8fdb32f901540698f43236480fb147653e5"
+  },
+  {
+    "path": "part-02/SAFFIRE_II_S7C1_Image_Data_RAW2TIFF.zip",
+    "size_bytes": 57722905,
+    "mtime_ns": 315554400000000000,
+    "sha256": "7ed24e9bc65eba372cb9a6dd93702463548a517ef6df8cc901991446738089cc"
+  },
+  {
+    "path": "part-02.zip",
+    "size_bytes": 853801540,
+    "mtime_ns": 1794555270227263823,
+    "sha256": "35b07f09596d11c3e5712c5e75dd30b68158f009ad3c8872d2e327667fcaf3e8"
+  }
+]

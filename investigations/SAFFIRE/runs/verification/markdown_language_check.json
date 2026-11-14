@@ -1,0 +1,39 @@
+{
+  "phase": "english_markdown_and_report_restoration",
+  "restored_files": [
+    "analysis-saffire.md",
+    "analysis-saffire.json"
+  ],
+  "project_markdown_count": 12,
+  "all_markdown_reviewed_in_english": true,
+  "markdown_sha256": {
+    "DATA_PLAN.md": "426ebf2ad259c7613c13b3401c2c960a0c6bf0fe457fa6574ea059c9647983c0",
+    "README.md": "db51cf58de901fffb74573e671c24a59d32c52d83998da214086b396d3f6a513",
+    "SAFFIRE_ANALYSIS_REPORT_EN.md": "e68fc82031f968dfd793eb20a316f8f3f1c04604980ff065c623848d57f6b075",
+    "SAFFIRE_EXPLICADO.md": "3d132b29c71083f940ff61bafe9864a10ccd9060eecedcd1c63a7be2f47f26d5",
+    "analysis-saffire.md": "d6b084662f17337f6c76958c612537e662ab234389bda428e94efeca2ed6cc81",
+    "data/inventory/INVENTORY.md": "bc60621e3a964259fda9cadd9bb8dfdadae1dc858bc832713b086b1f98154090",
+    "data/processed/VALIDATION.md": "0b0a35cb769f59095c0c55107e5d864ddcac6260490159731d5b0414d0af47e6",
+    "program.md": "d9ff1d11a567a67762cdfe40446976e1fcc1435984d60a49f7c72a5ddce4da72",
+    "protocol.md": "7efad15c33b10b5e9ab4d8f902f2ea1322dd75d2847f4685135f3538f9d6fe0a",
+    "upstream_reference/README.md": "3958fd4195ac2f98ed35c4eaa4f3028a335165ee24945e96426c408d25793a41",
+    "upstream_reference/program.md": "86cf987a5c381e46eefe0d0a82765223fd766d8d7acdc2afacfbbce15ecacece"
+  },
+  "two_report_regenerations_byte_identical": true,
+  "local_report_links_checked": 63,
+  "processed_csvs_unchanged": true,
+  "english_dashboard_json_unchanged": true,
+  "n_tests": 9,
+  "n_recorded_attempts": 15,
+  "best_metrics_match_archived_run": true,
+  "experimental_train_and_prepare_unchanged": true,
+  "restored_files_visible_to_git": true,
+  "raw_integrity": {
+    "n_files": 218,
+    "verification": "size_and_mtime_all_files",
+    "unchanged": true
+  },
+  "existing_tests_passed": 22,
+  "canonical_investigation_id": "PSI-99",
+  "numerical_results_preserved": true
+}

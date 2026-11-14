@@ -1,0 +1,114 @@
+{
+  "pytest_passed": 22,
+  "json_parse_and_schema": "pass",
+  "json_scientific_digest_matches_two_full_regenerations": true,
+  "selected_commit": "2af682a96609f938a023eb5bf94d62441d4e0d4d",
+  "diff_from_baseline": [
+    "train.py"
+  ],
+  "git_tree_clean": true,
+  "raw_integrity": {
+    "n_files": 218,
+    "verification": "size_and_mtime_all_files",
+    "unchanged": true
+  },
+  "all_metric_source_files_exist": true,
+  "n_attempts": 15,
+  "n_ignition_records": 9,
+  "n_flights": 1,
+  "cv_support_audit": [
+    {
+      "test_id": "II-1",
+      "unseen_original_material_in_cv_training": false,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": false,
+      "held_out_flow_cm_s": 19.996799924,
+      "cv_training_flow_range_cm_s": [
+        19.975666887,
+        24.988703228
+      ]
+    },
+    {
+      "test_id": "II-2",
+      "unseen_original_material_in_cv_training": false,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": false,
+      "held_out_flow_cm_s": 19.990056203,
+      "cv_training_flow_range_cm_s": [
+        19.975666887,
+        24.988703228
+      ]
+    },
+    {
+      "test_id": "II-3",
+      "unseen_original_material_in_cv_training": false,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": false,
+      "held_out_flow_cm_s": 19.989152794,
+      "cv_training_flow_range_cm_s": [
+        19.975666887,
+        24.988703228
+      ]
+    },
+    {
+      "test_id": "II-4",
+      "unseen_original_material_in_cv_training": false,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": false,
+      "held_out_flow_cm_s": 19.99035439,
+      "cv_training_flow_range_cm_s": [
+        19.975666887,
+        24.988703228
+      ]
+    },
+    {
+      "test_id": "II-5",
+      "unseen_original_material_in_cv_training": false,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": false,
+      "held_out_flow_cm_s": 19.989299637,
+      "cv_training_flow_range_cm_s": [
+        19.975666887,
+        24.988703228
+      ]
+    },
+    {
+      "test_id": "II-6",
+      "unseen_original_material_in_cv_training": false,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": true,
+      "held_out_flow_cm_s": 24.988703228,
+      "cv_training_flow_range_cm_s": [
+        19.975666887,
+        19.996799924
+      ]
+    },
+    {
+      "test_id": "II-7",
+      "unseen_original_material_in_cv_training": true,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": false,
+      "held_out_flow_cm_s": 19.987394263,
+      "cv_training_flow_range_cm_s": [
+        19.975666887,
+        24.988703228
+      ]
+    },
+    {
+      "test_id": "II-8",
+      "unseen_original_material_in_cv_training": false,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": false,
+      "held_out_flow_cm_s": 19.987080209,
+      "cv_training_flow_range_cm_s": [
+        19.975666887,
+        24.988703228
+      ]
+    },
+    {
+      "test_id": "II-9",
+      "unseen_original_material_in_cv_training": false,
+      "flow_outside_cv_training_range_beyond_0_1cm_s": false,
+      "held_out_flow_cm_s": 19.975666887,
+      "cv_training_flow_range_cm_s": [
+        19.987080209,
+        24.988703228
+      ]
+    }
+  ],
+  "support_conclusion": "The JSON extrapolation flag uses the full dataset domain. Per-fold support is weaker: II-6 is the only high-flow test; II-7 is the only composite-material test. Inverse-flow exponent is fixed, not learned or causally validated. The best CV score is selection-biased; no independent flight validation.",
+  "source_file": "data/processed/model_dataset.csv",
+  "method": "final independent re-evaluation, JSON digest, Git diff and fold-support audit"
+}

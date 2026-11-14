@@ -1,0 +1,109 @@
+{
+  "val_rmse": 25.30524879358243,
+  "val_mae": 19.871875617166666,
+  "val_max_abs_err": 61.523583609499994,
+  "model_name": "group_median",
+  "num_params": 2,
+  "elapsed_seconds": 0.00915463700221153,
+  "n_rows": 9,
+  "target": "co2_increase_180s_ppm",
+  "inputs": [
+    "material",
+    "thickness_nominal_mm",
+    "flow_pre_cm_s",
+    "direction",
+    "ignition_duration_command_s",
+    "ignition_power_command_w",
+    "structured_pmma"
+  ],
+  "validation": "leave_one_test_out",
+  "seed": 164,
+  "model": {
+    "model_name": "group_median",
+    "formula": "delta_CO2_180_ppm = silicone_location if material == Silicone else non_silicone_location",
+    "coefficients": {
+      "silicone_location": -3.9516672295,
+      "non_silicone_location": 45.64780371
+    },
+    "num_params": 2,
+    "estimator": "median"
+  },
+  "cv_predictions": [
+    {
+      "test_id": "II-1",
+      "observed": 3.060629209,
+      "predicted": -10.963963668,
+      "error": -14.024592877,
+      "source_file": "part-01/Saffire Sensor Data Sample 1.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-2",
+      "observed": 15.026702119,
+      "predicted": -10.963963668,
+      "error": -25.990665786999998,
+      "source_file": "part-01/Saffire Sensor Data Sample 2.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-3",
+      "observed": -10.963963668,
+      "predicted": 3.060629209,
+      "error": 14.024592877,
+      "source_file": "part-01/Saffire Sensor Data Sample 3.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-4",
+      "observed": -16.61131821,
+      "predicted": 3.060629209,
+      "error": 19.671947419,
+      "source_file": "part-01/Saffire Sensor Data Sample 4.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-5",
+      "observed": 39.654894258,
+      "predicted": 53.104385034,
+      "error": 13.449490776000005,
+      "source_file": "part-01/Saffire Sensor Data Sample 5.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-6",
+      "observed": 45.64780371,
+      "predicted": 52.9365440775,
+      "error": 7.288740367500004,
+      "source_file": "part-01/Saffire Sensor Data Sample 6.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-7",
+      "observed": 107.003546363,
+      "predicted": 45.479962753500004,
+      "error": -61.523583609499994,
+      "source_file": "part-01/Saffire Sensor Data Sample 7.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-8",
+      "observed": 60.560966358,
+      "predicted": 45.479962753500004,
+      "error": -15.081003604499998,
+      "source_file": "part-01/Saffire Sensor Data Sample 8.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv;part-02/SAFFIRE-II DoD.docx",
+      "method": "held_out_training_only_fit; fixed_folds"
+    },
+    {
+      "test_id": "II-9",
+      "observed": 45.312121797,
+      "predicted": 53.104385034,
+      "error": 7.792263237,
+      "source_file": "part-01/Saffire Sensor Data Sample 9.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv",
+      "method": "held_out_training_only_fit; fixed_folds"
+    }
+  ],
+  "commit": "c6a599ba7b9f20c8d8f017e053c500cf9cc8da26",
+  "attempt": 7,
+  "status": "keep",
+  "description": "Two robust material-regime medians; reduce outlier influence without extra parameters"
+}

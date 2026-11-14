@@ -1,0 +1,9 @@
+{
+  "python": "3.10.12 (main, Jan 26 2026, 14:55:28) [GCC 11.4.0]",
+  "platform": "Linux-5.15.0-41-generic-x86_64-with-glibc2.35",
+  "numpy": "2.2.6",
+  "matplotlib": "3.10.9",
+  "Pillow": "9.0.1",
+  "pytest": "9.2.0",
+  "baseline_commit": "96e465683d04a9ad89dcee99c0aa7baad9ee30e8"
+}

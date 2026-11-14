@@ -1,0 +1,1367 @@
+{
+  "findings": {
+    "materials": {
+      "silicone_tests": 4,
+      "silicone_no_sustained_spread": 4,
+      "sibal_tests": 2,
+      "sibal_complete_spread": 2,
+      "sibal_spread_rates_mm_s": [
+        2.1,
+        2.6
+      ],
+      "sibal_flow_cm_s": [
+        19.989299637,
+        24.988703228
+      ],
+      "sibal_relative_speed_increase": 0.23809523809523814,
+      "nomex_result": "PMMA lead-in consumed, Nomex did not ignite; single composite test",
+      "pmma_result": "Two slabs sustained anchored flames; damage length is not a spread trajectory",
+      "conclusion": "Material, geometry, gravity and ventilation all constrain interpretation; no material is declared universally fire-safe",
+      "source_file": "data/processed/metrics.csv",
+      "method": "group_by_documented_material_and_published_outcome"
+    },
+    "habitat_atmosphere": {
+      "pressure_kpa_range": [
+        102.495382183,
+        102.759229272
+      ],
+      "sensor_o2_pct_range": [
+        21.522142433,
+        21.797466261
+      ],
+      "observed_gravity_g": 0,
+      "conclusion": "Near terrestrial pressure and airlike oxygen only; no local low-pressure, oxygen-enriched tests",
+      "source_file": "data/processed/metrics.csv",
+      "method": "range_of_preignition_medians",
+      "note": "Sensor O2 absolute calibration is not independently established"
+    },
+    "suppression": {
+      "note": "No controlled cut-flow extinction intervention can be identified in this set",
+      "flow_cut_extinction_delay_s": null,
+      "conclusion": "No inference on ventilation shutoff effectiveness",
+      "source_file": "data/processed/metrics.csv",
+      "method": "unavailable_intervention"
+    },
+    "detection_and_products": {
+      "co2_response_180s_ppm_range": [
+        -16.61131821,
+        107.003546363
+      ],
+      "co2_pre_ppm_range": [
+        3306.780899322,
+        4333.854014549
+      ],
+      "smoke_records_present": true,
+      "alarm_delays_s": null,
+      "co_hazard_index": null,
+      "co2_hazard_index": null,
+      "conclusion": "CO2 response can be compared; alarm timing and crew exposure risk cannot be calculated",
+      "source_file": [
+        "data/processed/metrics.csv",
+        "data/processed/cabin_metrics.csv"
+      ],
+      "method": "fixed_window_response_ranges; explicit_missing_alarm_and_exposure_data"
+    },
+    "cabin_impact": {
+      "mission_record_statistics": [
+        {
+          "metric": "cabin_temperature_c_min",
+          "value": 19.7765,
+          "unit": "degC",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!D",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "cabin_temperature_c_median",
+          "value": 20.0837,
+          "unit": "degC",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!D",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "cabin_temperature_c_max",
+          "value": 21.3331,
+          "unit": "degC",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!D",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "cabin_temperature_c_n_nonzero_records",
+          "value": 4142.0,
+          "unit": "records",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!D",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "cabin_pressure_kpa_min",
+          "value": 99.754037993,
+          "unit": "kPa",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!F",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "cabin_pressure_kpa_median",
+          "value": 99.865733061,
+          "unit": "kPa",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!F",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "cabin_pressure_kpa_max",
+          "value": 100.202197217,
+          "unit": "kPa",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!F",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "cabin_pressure_kpa_n_nonzero_records",
+          "value": 4142.0,
+          "unit": "records",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!F",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "smoke_FIZ2_obscuration_v_min",
+          "value": 3.925,
+          "unit": "V",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!J",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "smoke_FIZ2_obscuration_v_median",
+          "value": 3.95,
+          "unit": "V",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!J",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "smoke_FIZ2_obscuration_v_max",
+          "value": 3.965,
+          "unit": "V",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!J",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "smoke_FIZ2_obscuration_v_n_nonzero_records",
+          "value": 389.0,
+          "unit": "records",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!J",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "smoke_FIZ2_scatter_v_min",
+          "value": 0.035,
+          "unit": "V",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!L",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "smoke_FIZ2_scatter_v_median",
+          "value": 0.04,
+          "unit": "V",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!L",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "smoke_FIZ2_scatter_v_max",
+          "value": 2.83,
+          "unit": "V",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!L",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        },
+        {
+          "metric": "smoke_FIZ2_scatter_v_n_nonzero_records",
+          "value": 390.0,
+          "unit": "records",
+          "source_file": "part-01/Saffire-II Telemetry Data.xlsx",
+          "source_channels": "CygnusData!L",
+          "method": "physical_range_filter; remove_zero_fill; mission_record_statistic_no_test_alignment",
+          "selection_reason": "Reconocer datos de cabina y humo que sí existen",
+          "conclusion": "Registro de misión sin atribución causal a cada fuego; señales de humo sin umbral de alarma",
+          "reason_if_null": null
+        }
+      ],
+      "note": "Statistics exclude zero fill; clocks not synchronized to individual tests; no causal attribution or spatial cabin average",
+      "conclusion": "There is useful cabin/smoke telemetry but it needs clock reconstruction and calibration for equipment design"
+    }
+  },
+  "relevance_ranking": {
+    "rubric": "Score /100: O2 30*max(0,1-|delta percentage points|/20); P 25*max(0,1-|delta kPa|/60); gravity 15*exp(-|g_environment-0|/0.2); area 5*min(1,area/0.04m2); behavior 5 fabric spread, 4 anchored PMMA, 3 otherwise; data 6 for gas/thermal +4 for published numeric spread; ground-comparison 10 if available. Ties ordered by test_id. Differences smaller than sensor uncertainty are not scientifically significant.",
+    "environment_assumptions": {
+      "iss_like_spacecraft": {
+        "o2_pct": 21.0,
+        "pressure_kpa": 101.3,
+        "gravity_g": 0.0,
+        "oxygen_partial_pressure_kpa": 21.272999999999996,
+        "status": "analyst_design_assumption_not_actual_mission_specification",
+        "source_file": "DATA_PLAN.md",
+        "method": "explicit_hypothetical_environment_scenario",
+        "conclusion": "Permite ordenar similitud, no certificar seguridad ni predecir cambio de gravedad"
+      },
+      "lunar_base": {
+        "o2_pct": 34.0,
+        "pressure_kpa": 56.5,
+        "gravity_g": 0.165,
+        "oxygen_partial_pressure_kpa": 19.21,
+        "status": "analyst_design_assumption_not_actual_mission_specification",
+        "source_file": "DATA_PLAN.md",
+        "method": "explicit_hypothetical_environment_scenario",
+        "conclusion": "Permite ordenar similitud, no certificar seguridad ni predecir cambio de gravedad"
+      },
+      "pressurized_rover": {
+        "o2_pct": 34.0,
+        "pressure_kpa": 56.5,
+        "gravity_g": 0.165,
+        "oxygen_partial_pressure_kpa": 19.21,
+        "status": "analyst_design_assumption_not_actual_mission_specification",
+        "source_file": "DATA_PLAN.md",
+        "method": "explicit_hypothetical_environment_scenario",
+        "conclusion": "Permite ordenar similitud, no certificar seguridad ni predecir cambio de gravedad"
+      },
+      "mars_base": {
+        "o2_pct": 26.5,
+        "pressure_kpa": 70.3,
+        "gravity_g": 0.38,
+        "oxygen_partial_pressure_kpa": 18.629499999999997,
+        "status": "analyst_design_assumption_not_actual_mission_specification",
+        "source_file": "DATA_PLAN.md",
+        "method": "explicit_hypothetical_environment_scenario",
+        "conclusion": "Permite ordenar similitud, no certificar seguridad ni predecir cambio de gravedad"
+      },
+      "gateway_like_station": {
+        "o2_pct": 21.0,
+        "pressure_kpa": 101.3,
+        "gravity_g": 0.0,
+        "oxygen_partial_pressure_kpa": 21.272999999999996,
+        "status": "analyst_design_assumption_not_actual_mission_specification",
+        "source_file": "DATA_PLAN.md",
+        "method": "explicit_hypothetical_environment_scenario",
+        "conclusion": "Permite ordenar similitud, no certificar seguridad ni predecir cambio de gravedad"
+      }
+    },
+    "environments": {
+      "iss_like_spacecraft": [
+        {
+          "test_id": "II-5",
+          "score": 95.08,
+          "components": {
+            "oxygen_similarity": 28.804,
+            "pressure_similarity": 24.467,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 1
+        },
+        {
+          "test_id": "II-6",
+          "score": 95.08,
+          "components": {
+            "oxygen_similarity": 28.813,
+            "pressure_similarity": 24.454,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 2
+        },
+        {
+          "test_id": "II-8",
+          "score": 90.43,
+          "components": {
+            "oxygen_similarity": 29.178,
+            "pressure_similarity": 24.443,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 3
+        },
+        {
+          "test_id": "II-9",
+          "score": 90.41,
+          "components": {
+            "oxygen_similarity": 29.201,
+            "pressure_similarity": 24.392,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 4
+        },
+        {
+          "test_id": "II-1",
+          "score": 89.53,
+          "components": {
+            "oxygen_similarity": 29.217,
+            "pressure_similarity": 24.502,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 5
+        },
+        {
+          "test_id": "II-3",
+          "score": 89.49,
+          "components": {
+            "oxygen_similarity": 29.189,
+            "pressure_similarity": 24.489,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 6
+        },
+        {
+          "test_id": "II-2",
+          "score": 89.47,
+          "components": {
+            "oxygen_similarity": 29.16,
+            "pressure_similarity": 24.501,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 7
+        },
+        {
+          "test_id": "II-4",
+          "score": 89.46,
+          "components": {
+            "oxygen_similarity": 29.174,
+            "pressure_similarity": 24.477,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 8
+        },
+        {
+          "test_id": "II-7",
+          "score": 89.07,
+          "components": {
+            "oxygen_similarity": 28.804,
+            "pressure_similarity": 24.455,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 9
+        }
+      ],
+      "lunar_base": [
+        {
+          "test_id": "II-5",
+          "score": 50.88,
+          "components": {
+            "oxygen_similarity": 11.696,
+            "pressure_similarity": 5.801,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 1
+        },
+        {
+          "test_id": "II-6",
+          "score": 50.86,
+          "components": {
+            "oxygen_similarity": 11.687,
+            "pressure_similarity": 5.787,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 2
+        },
+        {
+          "test_id": "II-8",
+          "score": 45.48,
+          "components": {
+            "oxygen_similarity": 11.322,
+            "pressure_similarity": 5.777,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 3
+        },
+        {
+          "test_id": "II-9",
+          "score": 45.41,
+          "components": {
+            "oxygen_similarity": 11.299,
+            "pressure_similarity": 5.725,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 4
+        },
+        {
+          "test_id": "II-7",
+          "score": 44.87,
+          "components": {
+            "oxygen_similarity": 11.696,
+            "pressure_similarity": 5.788,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 5
+        },
+        {
+          "test_id": "II-2",
+          "score": 44.56,
+          "components": {
+            "oxygen_similarity": 11.34,
+            "pressure_similarity": 5.834,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 6
+        },
+        {
+          "test_id": "II-3",
+          "score": 44.52,
+          "components": {
+            "oxygen_similarity": 11.311,
+            "pressure_similarity": 5.822,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 7
+        },
+        {
+          "test_id": "II-4",
+          "score": 44.52,
+          "components": {
+            "oxygen_similarity": 11.326,
+            "pressure_similarity": 5.811,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 8
+        },
+        {
+          "test_id": "II-1",
+          "score": 44.5,
+          "components": {
+            "oxygen_similarity": 11.283,
+            "pressure_similarity": 5.835,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 9
+        }
+      ],
+      "pressurized_rover": [
+        {
+          "test_id": "II-5",
+          "score": 50.88,
+          "components": {
+            "oxygen_similarity": 11.696,
+            "pressure_similarity": 5.801,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 1
+        },
+        {
+          "test_id": "II-6",
+          "score": 50.86,
+          "components": {
+            "oxygen_similarity": 11.687,
+            "pressure_similarity": 5.787,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 2
+        },
+        {
+          "test_id": "II-8",
+          "score": 45.48,
+          "components": {
+            "oxygen_similarity": 11.322,
+            "pressure_similarity": 5.777,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 3
+        },
+        {
+          "test_id": "II-9",
+          "score": 45.41,
+          "components": {
+            "oxygen_similarity": 11.299,
+            "pressure_similarity": 5.725,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 4
+        },
+        {
+          "test_id": "II-7",
+          "score": 44.87,
+          "components": {
+            "oxygen_similarity": 11.696,
+            "pressure_similarity": 5.788,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 5
+        },
+        {
+          "test_id": "II-2",
+          "score": 44.56,
+          "components": {
+            "oxygen_similarity": 11.34,
+            "pressure_similarity": 5.834,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 6
+        },
+        {
+          "test_id": "II-3",
+          "score": 44.52,
+          "components": {
+            "oxygen_similarity": 11.311,
+            "pressure_similarity": 5.822,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 7
+        },
+        {
+          "test_id": "II-4",
+          "score": 44.52,
+          "components": {
+            "oxygen_similarity": 11.326,
+            "pressure_similarity": 5.811,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 8
+        },
+        {
+          "test_id": "II-1",
+          "score": 44.5,
+          "components": {
+            "oxygen_similarity": 11.283,
+            "pressure_similarity": 5.835,
+            "gravity_similarity": 6.574,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 9
+        }
+      ],
+      "mars_base": [
+        {
+          "test_id": "II-5",
+          "score": 63.55,
+          "components": {
+            "oxygen_similarity": 22.946,
+            "pressure_similarity": 11.551,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 1
+        },
+        {
+          "test_id": "II-6",
+          "score": 63.53,
+          "components": {
+            "oxygen_similarity": 22.937,
+            "pressure_similarity": 11.537,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 2
+        },
+        {
+          "test_id": "II-8",
+          "score": 58.15,
+          "components": {
+            "oxygen_similarity": 22.572,
+            "pressure_similarity": 11.527,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 3
+        },
+        {
+          "test_id": "II-9",
+          "score": 58.08,
+          "components": {
+            "oxygen_similarity": 22.549,
+            "pressure_similarity": 11.475,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 4
+        },
+        {
+          "test_id": "II-7",
+          "score": 57.54,
+          "components": {
+            "oxygen_similarity": 22.946,
+            "pressure_similarity": 11.538,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 5
+        },
+        {
+          "test_id": "II-2",
+          "score": 57.23,
+          "components": {
+            "oxygen_similarity": 22.59,
+            "pressure_similarity": 11.584,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 6
+        },
+        {
+          "test_id": "II-3",
+          "score": 57.19,
+          "components": {
+            "oxygen_similarity": 22.561,
+            "pressure_similarity": 11.572,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 7
+        },
+        {
+          "test_id": "II-4",
+          "score": 57.19,
+          "components": {
+            "oxygen_similarity": 22.576,
+            "pressure_similarity": 11.561,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 8
+        },
+        {
+          "test_id": "II-1",
+          "score": 57.17,
+          "components": {
+            "oxygen_similarity": 22.533,
+            "pressure_similarity": 11.585,
+            "gravity_similarity": 2.244,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 9
+        }
+      ],
+      "gateway_like_station": [
+        {
+          "test_id": "II-5",
+          "score": 95.08,
+          "components": {
+            "oxygen_similarity": 28.804,
+            "pressure_similarity": 24.467,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 1
+        },
+        {
+          "test_id": "II-6",
+          "score": 95.08,
+          "components": {
+            "oxygen_similarity": 28.813,
+            "pressure_similarity": 24.454,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 5.0,
+            "quantitative_data": 10.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 2
+        },
+        {
+          "test_id": "II-8",
+          "score": 90.43,
+          "components": {
+            "oxygen_similarity": 29.178,
+            "pressure_similarity": 24.443,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 3
+        },
+        {
+          "test_id": "II-9",
+          "score": 90.41,
+          "components": {
+            "oxygen_similarity": 29.201,
+            "pressure_similarity": 24.392,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 4.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 4
+        },
+        {
+          "test_id": "II-1",
+          "score": 89.53,
+          "components": {
+            "oxygen_similarity": 29.217,
+            "pressure_similarity": 24.502,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 5
+        },
+        {
+          "test_id": "II-3",
+          "score": 89.49,
+          "components": {
+            "oxygen_similarity": 29.189,
+            "pressure_similarity": 24.489,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 6
+        },
+        {
+          "test_id": "II-2",
+          "score": 89.47,
+          "components": {
+            "oxygen_similarity": 29.16,
+            "pressure_similarity": 24.501,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 7
+        },
+        {
+          "test_id": "II-4",
+          "score": 89.46,
+          "components": {
+            "oxygen_similarity": 29.174,
+            "pressure_similarity": 24.477,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 8
+        },
+        {
+          "test_id": "II-7",
+          "score": 89.07,
+          "components": {
+            "oxygen_similarity": 28.804,
+            "pressure_similarity": 24.455,
+            "gravity_similarity": 15.0,
+            "sample_scale": 1.812,
+            "fire_behavior": 3.0,
+            "quantitative_data": 6.0,
+            "ground_comparison": 10.0
+          },
+          "conclusion": "Relevancia comparativa bajo supuestos; no nivel de riesgo del material",
+          "source_file": [
+            "data/processed/metrics.csv",
+            "DATA_PLAN.md"
+          ],
+          "method": "fixed_weighted_rubric_v1",
+          "transfer_to_environment_validated": false,
+          "rank": 9
+        }
+      ]
+    },
+    "limitations": [
+      "Weights and normalizing scales are analyst judgments, not calibrated probabilities",
+      "The same atmosphere assumptions for lunar base and rover intentionally yield equal rankings",
+      "All tests are microgravity, not lunar or Martian partial gravity",
+      "All samples have area 0.0145 m2; none demonstrates full-cabin fire scaling",
+      "No prediction at exploration atmospheres is validated"
+    ]
+  },
+  "key_insights": [
+    {
+      "id": "K1",
+      "objective": "identify_relevant_investigations",
+      "statement": "Los 218 archivos contienen nueve pruebas medidas de Saffire-II, identificadas localmente como PSI-99; no aportan seis misiones independientes.",
+      "evidence": [
+        "/data_inventory_summary/n_files",
+        "/data_inventory_summary/missions_found",
+        "/data_inventory_summary/identified_psi_investigation"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K2",
+      "objective": "identify_relevant_investigations",
+      "statement": "La presión previa medida abarca 102.50–102.76 kPa y el O2 del sensor 21.52–21.80%; la similitud atmosférica favorece los escenarios ISS/Gateway asumidos.",
+      "evidence": [
+        "/findings/habitat_atmosphere",
+        "/relevance_ranking/environment_assumptions",
+        "/relevance_ranking/environments"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K3",
+      "objective": "identify_relevant_investigations",
+      "statement": "Las bases lunares y marcianas y el rover reciben un ranking de transferencia condicionado: ninguna prueba local valida baja presión, O2 enriquecido o gravedad parcial.",
+      "evidence": [
+        "/findings/habitat_atmosphere/observed_gravity_g",
+        "/relevance_ranking/limitations"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K4",
+      "objective": "predictive_modeling_data",
+      "statement": "El piloto de nueve pruebas obtiene RMSE LOOCV 23.45 ppm frente a 41.42 ppm de la media de entrenamiento; la selección usa la misma CV y requiere validación externa.",
+      "evidence": [
+        "/autoresearch/n_rows",
+        "/autoresearch/baseline/val_rmse",
+        "/autoresearch/best/val_rmse",
+        "/predictive_model/cv_predictions"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "K5",
+      "objective": "predictive_modeling_data",
+      "statement": "Las dos pruebas SIBAL publican 2.1 y 2.6 mm/s con caudal medido de 19.99 y 24.99 cm/s: un aumento de velocidad de 23.8%, descriptivo con n=2.",
+      "evidence": [
+        "/findings/materials/sibal_spread_rates_mm_s",
+        "/findings/materials/sibal_flow_cm_s",
+        "/findings/materials/sibal_relative_speed_increase"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "K6",
+      "objective": "predictive_modeling_data",
+      "statement": "El CO2 previo varía entre 3307 y 4334 ppm; restar la línea base local evita confundir acumulación de pruebas previas con la respuesta del ensayo.",
+      "evidence": [
+        "/findings/detection_and_products/co2_pre_ppm_range",
+        "/tests/0/results/co2_increase_180s_ppm/method"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K7",
+      "objective": "next_gen_fire_safety_controls",
+      "statement": "Las 4 muestras de silicona no sostuvieron propagación en estas condiciones; sus comparaciones de 1g muestran que material y régimen de gravedad/flujo deben conservarse al interpretar la selección preventiva.",
+      "evidence": [
+        "/findings/materials/silicone_tests",
+        "/findings/materials/silicone_no_sustained_spread",
+        "/tests/0/results/ground_burn_length_label",
+        "/tests/3/results/ground_burn_length_label"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K8",
+      "objective": "next_gen_fire_safety_controls",
+      "statement": "Hay señales de humo de Cygnus, pero faltan umbrales/eventos de alarma y una sincronización verificada; no se informa un tiempo de detección ni un margen seguro para la tripulación.",
+      "evidence": [
+        "/findings/detection_and_products/smoke_records_present",
+        "/findings/detection_and_products/alarm_delays_s",
+        "/findings/cabin_impact/note"
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "K9",
+      "objective": "next_gen_fire_safety_controls",
+      "statement": "Faltan O2 de entrada/salida con caudal másico y una intervención documentada de corte de flujo; los datos no dimensionan por sí solos HRR ni eficacia de supresión.",
+      "evidence": [
+        "/tests/0/results/hrr_peak_kw",
+        "/findings/suppression"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

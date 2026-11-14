@@ -1,0 +1,29 @@
+{
+  "phase": "canonical_investigation_identifier",
+  "investigation_id": "PSI-99",
+  "n_tests": 9,
+  "n_attempts": 15,
+  "documents_and_exports_checked": [
+    "analysis-saffire.json",
+    "analysis-saffire-summary.json",
+    "analysis-saffire.md",
+    "SAFFIRE_EXPLICADO.md",
+    "data/inventory/summary.json",
+    "data/inventory/INVENTORY.md",
+    "data/processed/VALIDATION.md",
+    "README.md",
+    "DATA_PLAN.md",
+    "SAFFIRE_ANALYSIS_REPORT_EN.md"
+  ],
+  "obsolete_identity_metadata_removed": true,
+  "generated_reports_remain_clean_on_rebuild": true,
+  "scientific_measurements_and_model_results_preserved": true,
+  "best_metrics_match_archived_run": true,
+  "train_and_prepare_unchanged": true,
+  "existing_tests_passed": 22,
+  "raw_integrity": {
+    "n_files": 218,
+    "verification": "size_and_mtime_all_files",
+    "unchanged": true
+  }
+}

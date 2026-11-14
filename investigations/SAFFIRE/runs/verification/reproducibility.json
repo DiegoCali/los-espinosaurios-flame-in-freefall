@@ -1,0 +1,21 @@
+{
+  "n_full_passes": 2,
+  "json_identical_except_generated_at": true,
+  "all_processed_files_byte_identical": true,
+  "scientific_json_sha256": "c8f94b4502a6a195f4c4728cda5dd98349d3e3d1db910c0a8ddf604de9f38501",
+  "processed_file_hashes": {
+    "data/processed/VALIDATION.md": "0ff16c002329a72e73c0d5103f014a0558dda1d24834f49b146eeff76eb73cf3",
+    "data/processed/cabin_metrics.csv": "c0c4c8d1e767678e2e140cc9cb63a48408648630b571eb29468d42289d6774a8",
+    "data/processed/figures/co2_fixed_windows.png": "c410af61c45af003af05b22cb6d417d4b9614963f8e94db288536ed490bd5d54",
+    "data/processed/figures/image_contact_sheet.jpg": "652aba561780ae742c2eefbe137d695a72869eb8248b113387200c2c5b53fe20",
+    "data/processed/figures/sibal_published_rates.png": "be18b0fa4cf10dcaf9c1c6cc8564036c0ece10565cf890196b8ce0641e79b524",
+    "data/processed/figures/temperature_quality_control.png": "2afe5ca160a505682cb52c1239e063fa9392c7ebc566c056f9efc502c086ef9c",
+    "data/processed/image_frame_audit.csv": "534f3baf35151c93bc820a054251799c8f9fd012cc66f478a4adb3822c914b94",
+    "data/processed/metrics.csv": "dcf53146a66de56624174072b965d542b9a2b11c193f1dc1ad6a8384a2fc8a5f",
+    "data/processed/model_dataset.csv": "5dcd973137994b6d0295acb8701369e9682d969a18c77d09bc1f4fb0ec53e66d",
+    "data/processed/sensor_timeseries.csv": "4c560ce9d4ee513b61291826511a075820e157ec5041893748b406fa772f91f3",
+    "data/processed/tests.csv": "bf849e13f0bc6b5085c2d66c9f9a980ee2a26701c775fd5d33a9cf9eacca9c53",
+    "data/processed/validation_checks.csv": "2f4d6a408aceb9cb61c768cdfeb70bf1647ccae581c544be27c6ab897b0efefb"
+  },
+  "raw_integrity": "Full SHA256 verified against initial manifest, then size/mtime after both passes"
+}

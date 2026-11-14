@@ -1,0 +1,10 @@
+test_id,quantity,calculated,published,absolute_difference,tolerance,status,source_file,method
+II-1,ignition_duration_s,9.174,9.2,0.026,0.15,pass,part-01/Saffire Sensor Data Sample 1.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command
+II-2,ignition_duration_s,9.24,9.2,0.04,0.15,pass,part-01/Saffire Sensor Data Sample 2.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command
+II-3,ignition_duration_s,9.207,9.2,0.007,0.15,pass,part-01/Saffire Sensor Data Sample 3.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command
+II-4,ignition_duration_s,9.207,9.2,0.007,0.15,pass,part-01/Saffire Sensor Data Sample 4.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command
+II-5,ignition_duration_s,9.141,9.2,0.059,0.15,pass,part-01/Saffire Sensor Data Sample 5.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command
+II-6,ignition_duration_s,9.174,9.2,0.026,0.15,pass,part-01/Saffire Sensor Data Sample 6.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command
+II-7,ignition_duration_s,9.174,9.2,0.026,0.15,pass,part-01/Saffire Sensor Data Sample 7.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command
+II-8,ignition_duration_s,29.964,30.0,0.036,0.15,pass,part-01/Saffire Sensor Data Sample 8.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command
+II-9,ignition_duration_s,29.997,30.0,0.003,0.15,pass,part-01/Saffire Sensor Data Sample 9.xlsx;part-01/PSI-99_Experimental table_SAFFIRE-2.csv,electrical_pulse_duration_vs_published_command

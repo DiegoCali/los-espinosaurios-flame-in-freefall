@@ -1,0 +1,601 @@
+{
+  "schema_version": "1.0.0",
+  "language": "en",
+  "id": "saffire-ii",
+  "title": "Saffire-II: a plain-language summary",
+  "summary": "Nine fire tests were organized, material behavior was compared, and a pilot model was built to estimate a local CO2 sensor change three minutes after ignition.",
+  "source_analysis": "analysis-saffire.json",
+  "reading_guide": {
+    "measured": "Recorded by a NASA sensor.",
+    "published": "An outcome already reported in the supplied NASA documentation.",
+    "calculated": "Derived in this study by processing the readings.",
+    "insight": "An interpretation supported by the results.",
+    "predicted": "A model estimate compared with an observation to measure error.",
+    "null": "Unavailable or not applicable; never interpret null as zero."
+  },
+  "scope": {
+    "mission": "Saffire-II",
+    "setting": "Inside an uncrewed Cygnus spacecraft in microgravity.",
+    "local_investigation_id": "PSI-99",
+    "n_files": 218,
+    "raw_size_gb": 33.81,
+    "n_tests": 9,
+    "n_flights": 1,
+    "n_sensor_records": 159543,
+    "sample_dimensions_cm": {
+      "length": 29,
+      "width": 5
+    },
+    "note": "The nine tests share a flight and cabin; they are not nine independent flight replicates. Local raw data do not cover all six Saffire missions."
+  },
+  "measurements": [
+    {
+      "id": "materials",
+      "label": "Materials and flame behavior",
+      "origin": "Published outcomes supplied with the dataset",
+      "result": "Four silicone specimens showed no sustained spread; flames spread over both SIBAL fabrics; Nomex did not ignite in the composite; both PMMA slabs sustained anchored flames.",
+      "why_it_matters": "Supports material comparisons under the tested conditions.",
+      "detail_ref": "analysis-saffire.json#/findings/materials"
+    },
+    {
+      "id": "atmosphere",
+      "label": "Airflow, oxygen and pressure",
+      "origin": "Sensor readings before ignition",
+      "result": "Airflow ranged from 19.98 to 24.99 cm/s; oxygen readings from 21.52 to 21.80%; pressure from 102.50 to 102.76 kPa.",
+      "why_it_matters": "Defines the experimental conditions; behavior in another atmosphere requires additional evidence.",
+      "detail_ref": "analysis-saffire.json#/findings/habitat_atmosphere"
+    },
+    {
+      "id": "co2_response",
+      "label": "CO2 change after three minutes",
+      "origin": "New calculation from sensor readings",
+      "result": "Signed changes ranged from -16.61 to 107.00 ppm.",
+      "why_it_matters": "Provides a common response for comparing all nine tests and training the pilot model.",
+      "detail_ref": "analysis-saffire.json#/autoresearch/target_definition"
+    },
+    {
+      "id": "flame_spread",
+      "label": "Flame spread rate",
+      "origin": "Two published values; no new optical front tracking",
+      "result": "The SIBAL rates are 2.1 and 2.6 mm/s.",
+      "why_it_matters": "Quantifies flame advance where a rate is available; two cases cannot establish a general law.",
+      "detail_ref": "analysis-saffire.json#/findings/materials/sibal_spread_rates_mm_s"
+    },
+    {
+      "id": "thermal_signals",
+      "label": "Local plume temperature and radiation",
+      "origin": "Calculations from local sensors during the first three minutes",
+      "result": "Per-test sampled plume peaks range from 22.62 to 85.85 degrees C; relative radiation peaks range from 0.051 to 0.562 kW/m2.",
+      "why_it_matters": "Shows thermal signals at instrumented locations; geometry limits their interpretation as flame temperature or total fire power.",
+      "detail_ref": "data/processed/metrics.csv"
+    },
+    {
+      "id": "cabin_and_smoke",
+      "label": "Cabin and smoke signals",
+      "origin": "Cygnus telemetry",
+      "result": "Sensor signals exist, but per-fire alarm events and clock synchronization were not verified.",
+      "why_it_matters": "Provides information for future detection analysis; alarm delays remain unavailable.",
+      "detail_ref": "data/processed/cabin_metrics.csv"
+    },
+    {
+      "id": "ignition_and_images",
+      "label": "Ignition timing and images",
+      "origin": "Electrical channels and sampled images",
+      "result": "Pulses last about 9.2 or 30 s; 27 images were sampled, three per test. The ignitor energy scale requires review.",
+      "why_it_matters": "Supports event timing and visual inspection. Image sampling did not produce new spread-rate measurements.",
+      "detail_ref": "data/processed/VALIDATION.md"
+    }
+  ],
+  "co2_calculation": {
+    "rule": "Subtract the pre-ignition typical reading from the typical reading at 150-180 seconds. Each is a median of one-second medians over a 30-second window.",
+    "unit": "ppm: parts per million, a way to express concentration.",
+    "real_example": {
+      "test_id": "II-5",
+      "before_ppm": 3350.29,
+      "around_180s_ppm": 3389.94,
+      "change_ppm": 39.65,
+      "plain_explanation": "The sensor rose from approximately 3350 to 3390 ppm: a change of 40 ppm."
+    },
+    "negative_values": "A reading below its initial level can reflect variation or air mixing. It does not demonstrate that the fire consumed CO2.",
+    "interpretation_limit": "This response is not total emitted gas mass, total fire power or a crew exposure threshold."
+  },
+  "test_results": [
+    {
+      "test_id": "II-1",
+      "material_code": "Silicone",
+      "material": "Silicone",
+      "nominal_thickness_mm": 0.27,
+      "airflow_cm_s": 20.0,
+      "flow_direction": "concurrent",
+      "pressure_kpa": 102.5,
+      "oxygen_pct": 21.52,
+      "outcome_code": "no_sustained_spread",
+      "documented_behavior": "The flame did not spread in a sustained way.",
+      "co2_before_ppm": 3306.78,
+      "co2_change_180s_ppm": 3.06,
+      "plume_peak_180s_c": 22.62,
+      "radiation_peak_excess_180s_kw_m2": 0.255,
+      "spread_rate_published_mm_s": null,
+      "burn_duration_published_s": null,
+      "detail_ref": "analysis-saffire.json#/tests/0"
+    },
+    {
+      "test_id": "II-2",
+      "material_code": "Silicone",
+      "material": "Silicone",
+      "nominal_thickness_mm": 0.61,
+      "airflow_cm_s": 19.99,
+      "flow_direction": "concurrent",
+      "pressure_kpa": 102.5,
+      "oxygen_pct": 21.56,
+      "outcome_code": "no_sustained_spread",
+      "documented_behavior": "The flame did not spread in a sustained way.",
+      "co2_before_ppm": 3325.88,
+      "co2_change_180s_ppm": 15.03,
+      "plume_peak_180s_c": 61.93,
+      "radiation_peak_excess_180s_kw_m2": 0.303,
+      "spread_rate_published_mm_s": null,
+      "burn_duration_published_s": null,
+      "detail_ref": "analysis-saffire.json#/tests/1"
+    },
+    {
+      "test_id": "II-3",
+      "material_code": "Silicone",
+      "material": "Silicone",
+      "nominal_thickness_mm": 1.03,
+      "airflow_cm_s": 19.99,
+      "flow_direction": "concurrent",
+      "pressure_kpa": 102.53,
+      "oxygen_pct": 21.54,
+      "outcome_code": "no_sustained_spread",
+      "documented_behavior": "The flame did not spread in a sustained way.",
+      "co2_before_ppm": 3345.54,
+      "co2_change_180s_ppm": -10.96,
+      "plume_peak_180s_c": 22.88,
+      "radiation_peak_excess_180s_kw_m2": 0.134,
+      "spread_rate_published_mm_s": null,
+      "burn_duration_published_s": null,
+      "detail_ref": "analysis-saffire.json#/tests/2"
+    },
+    {
+      "test_id": "II-4",
+      "material_code": "Silicone",
+      "material": "Silicone",
+      "nominal_thickness_mm": 0.37,
+      "airflow_cm_s": 19.99,
+      "flow_direction": "opposed",
+      "pressure_kpa": 102.55,
+      "oxygen_pct": 21.55,
+      "outcome_code": "no_sustained_spread",
+      "documented_behavior": "The flame did not spread in a sustained way.",
+      "co2_before_ppm": 3341.81,
+      "co2_change_180s_ppm": -16.61,
+      "plume_peak_180s_c": 22.92,
+      "radiation_peak_excess_180s_kw_m2": 0.299,
+      "spread_rate_published_mm_s": null,
+      "burn_duration_published_s": null,
+      "detail_ref": "analysis-saffire.json#/tests/3"
+    },
+    {
+      "test_id": "II-5",
+      "material_code": "SIBAL",
+      "material": "SIBAL: cotton and fiberglass fabric",
+      "nominal_thickness_mm": 0.37,
+      "airflow_cm_s": 19.99,
+      "flow_direction": "concurrent",
+      "pressure_kpa": 102.58,
+      "oxygen_pct": 21.8,
+      "outcome_code": "complete_fabric_spread",
+      "documented_behavior": "The flame spread along the full 29 cm fabric sample.",
+      "co2_before_ppm": 3350.29,
+      "co2_change_180s_ppm": 39.65,
+      "plume_peak_180s_c": 51.51,
+      "radiation_peak_excess_180s_kw_m2": 0.562,
+      "spread_rate_published_mm_s": 2.1,
+      "burn_duration_published_s": 145.0,
+      "detail_ref": "analysis-saffire.json#/tests/4"
+    },
+    {
+      "test_id": "II-6",
+      "material_code": "SIBAL",
+      "material": "SIBAL: cotton and fiberglass fabric",
+      "nominal_thickness_mm": 0.37,
+      "airflow_cm_s": 24.99,
+      "flow_direction": "concurrent",
+      "pressure_kpa": 102.61,
+      "oxygen_pct": 21.79,
+      "outcome_code": "complete_fabric_spread",
+      "documented_behavior": "The flame spread along the full 29 cm fabric sample.",
+      "co2_before_ppm": 3408.81,
+      "co2_change_180s_ppm": 45.65,
+      "plume_peak_180s_c": 23.12,
+      "radiation_peak_excess_180s_kw_m2": 0.323,
+      "spread_rate_published_mm_s": 2.6,
+      "burn_duration_published_s": 115.0,
+      "detail_ref": "analysis-saffire.json#/tests/5"
+    },
+    {
+      "test_id": "II-7",
+      "material_code": "PMMA_Nomex",
+      "material": "PMMA followed by Nomex",
+      "nominal_thickness_mm": 0.37,
+      "airflow_cm_s": 19.99,
+      "flow_direction": "concurrent",
+      "pressure_kpa": 102.61,
+      "oxygen_pct": 21.8,
+      "outcome_code": "PMMA_consumed_Nomex_not_ignited",
+      "documented_behavior": "The PMMA section was consumed; the Nomex did not ignite.",
+      "co2_before_ppm": 3472.08,
+      "co2_change_180s_ppm": 107.0,
+      "plume_peak_180s_c": 25.1,
+      "radiation_peak_excess_180s_kw_m2": 0.054,
+      "spread_rate_published_mm_s": null,
+      "burn_duration_published_s": 140.0,
+      "detail_ref": "analysis-saffire.json#/tests/6"
+    },
+    {
+      "test_id": "II-8",
+      "material_code": "PMMA",
+      "material": "PMMA: acrylic plastic",
+      "nominal_thickness_mm": 10.0,
+      "airflow_cm_s": 19.99,
+      "flow_direction": "concurrent",
+      "pressure_kpa": 102.64,
+      "oxygen_pct": 21.55,
+      "outcome_code": "anchored_flame_slow_regression",
+      "documented_behavior": "The flame stayed near the leading edge while the material continued burning slowly.",
+      "co2_before_ppm": 3609.82,
+      "co2_change_180s_ppm": 60.56,
+      "plume_peak_180s_c": 85.85,
+      "radiation_peak_excess_180s_kw_m2": 0.067,
+      "spread_rate_published_mm_s": null,
+      "burn_duration_published_s": 600.0,
+      "detail_ref": "analysis-saffire.json#/tests/7"
+    },
+    {
+      "test_id": "II-9",
+      "material_code": "PMMA",
+      "material": "PMMA: acrylic plastic",
+      "nominal_thickness_mm": 10.0,
+      "airflow_cm_s": 19.98,
+      "flow_direction": "concurrent",
+      "pressure_kpa": 102.76,
+      "oxygen_pct": 21.53,
+      "outcome_code": "anchored_flame_slow_regression",
+      "documented_behavior": "The flame stayed near the leading edge while the material continued burning slowly.",
+      "co2_before_ppm": 4333.85,
+      "co2_change_180s_ppm": 45.31,
+      "plume_peak_180s_c": 32.52,
+      "radiation_peak_excess_180s_kw_m2": 0.051,
+      "spread_rate_published_mm_s": null,
+      "burn_duration_published_s": 900.0,
+      "detail_ref": "analysis-saffire.json#/tests/8"
+    }
+  ],
+  "insights": [
+    {
+      "id": "S1",
+      "title": "Silicone did not sustain flame spread in these tests",
+      "evidence": "This occurred in all four silicone specimens.",
+      "meaning": "The observed behavior was limited under this combination of airflow, oxygen, pressure and specimen geometry.",
+      "why_it_matters": "Provides evidence for material comparisons; it does not certify all silicone configurations as safe.",
+      "confidence": "medium",
+      "evidence_refs": [
+        "analysis-saffire.json#/findings/materials/silicone_no_sustained_spread"
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Flames spread over both SIBAL fabrics",
+      "evidence": "Published rates were 2.1 mm/s at roughly 20 cm/s airflow and 2.6 mm/s at roughly 25 cm/s.",
+      "meaning": "The second rate was 23.8% higher. This is a comparison of two tests, not a universal airflow law.",
+      "why_it_matters": "Identifies a relationship worth testing with more ventilation and propagation experiments.",
+      "confidence": "low",
+      "evidence_refs": [
+        "analysis-saffire.json#/findings/materials/sibal_spread_rates_mm_s",
+        "analysis-saffire.json#/findings/materials/sibal_flow_cm_s"
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "A flame can advance slowly while burning persists for minutes",
+      "evidence": "The PMMA slabs have published burn durations of 10 and 15 minutes, with flames near the leading edge.",
+      "meaning": "Limited advance and extinguishment are different outcomes.",
+      "why_it_matters": "Fire-safety analysis must also consider how long burning persists.",
+      "confidence": "low",
+      "evidence_refs": [
+        "analysis-saffire.json#/tests/7/results/burn_duration_reported_s",
+        "analysis-saffire.json#/tests/8/results/burn_duration_reported_s"
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "The composite's PMMA burned, but Nomex did not ignite",
+      "evidence": "Only one specimen used this combination.",
+      "meaning": "The fire did not transfer from the PMMA section to the Nomex section in that test.",
+      "why_it_matters": "Provides a material comparison case that needs replication under other conditions.",
+      "confidence": "low",
+      "evidence_refs": [
+        "analysis-saffire.json#/tests/6/results/material_outcome"
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Each test needs its own CO2 baseline",
+      "evidence": "Pre-test readings ranged from approximately 3307 to 4334 ppm.",
+      "meaning": "The tests started at different CO2 levels, so each response subtracts its own initial reading.",
+      "why_it_matters": "Avoids attributing CO2 already present to the current test.",
+      "confidence": "medium",
+      "evidence_refs": [
+        "analysis-saffire.json#/findings/detection_and_products/co2_pre_ppm_range",
+        "analysis-saffire.json#/autoresearch/target_definition"
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "The model improved one specific prediction in a small pilot",
+      "evidence": "Its mean absolute held-out error was 17.83 ppm.",
+      "meaning": "It estimates the three-minute sensor change within this pilot; another flight is needed for external validation.",
+      "why_it_matters": "Provides a first tool for comparing predicted and observed responses.",
+      "confidence": "low",
+      "evidence_refs": [
+        "analysis-saffire.json#/autoresearch/best/val_mae",
+        "analysis-saffire.json#/predictive_model/cv_predictions"
+      ]
+    },
+    {
+      "id": "S7",
+      "title": "The data are closer to the assumed ISS and Gateway scenarios",
+      "evidence": "The tests used near-terrestrial pressure, airlike oxygen and microgravity.",
+      "meaning": "They more closely match those reference scenarios used in the relevance comparison.",
+      "why_it_matters": "Helps prioritize which evidence to consult for a given environment.",
+      "confidence": "medium",
+      "evidence_refs": [
+        "analysis-saffire.json#/findings/habitat_atmosphere",
+        "analysis-saffire.json#/relevance_ranking/environment_assumptions"
+      ]
+    },
+    {
+      "id": "S8",
+      "title": "Transfer to lunar, Mars and rover environments remains unvalidated",
+      "evidence": "The local archive has no enriched-oxygen, low-pressure or lunar/Martian partial-gravity tests.",
+      "meaning": "Comparisons with those habitats are indicative and use analyst design assumptions.",
+      "why_it_matters": "Identifies additional experiments needed before extrapolating.",
+      "confidence": "medium",
+      "evidence_refs": [
+        "analysis-saffire.json#/data_inventory_summary/missing_or_ambiguous",
+        "analysis-saffire.json#/relevance_ranking/limitations"
+      ]
+    },
+    {
+      "id": "S9",
+      "title": "Smoke signals alone cannot establish alarm timing",
+      "evidence": "Alarm events, thresholds and verified clock synchronization are missing.",
+      "meaning": "A reliable detection delay is unavailable for each test.",
+      "why_it_matters": "Identifies the information needed to evaluate detection equipment.",
+      "confidence": "low",
+      "evidence_refs": [
+        "analysis-saffire.json#/findings/detection_and_products/alarm_delays_s",
+        "analysis-saffire.json#/findings/cabin_impact/note"
+      ]
+    }
+  ],
+  "predictive_model": {
+    "model_name": "group_huber20_inverse_flow",
+    "n_parameters": 2,
+    "active_inputs": [
+      "material_code",
+      "airflow_cm_s"
+    ],
+    "target": "co2_change_180s_ppm",
+    "target_description": "Change in the local CO2 sensor three minutes after the electrical ignition marker.",
+    "why_this_target": "Available for all nine tests and comparable at a common time horizon.",
+    "what_was_fitted": "Two typical responses: one for silicone and another for the other materials, with the latter adjusted for airflow.",
+    "evaluation": "Train on eight tests, predict the ninth, and repeat for all nine. All 15 candidate models used this same evaluation.",
+    "n_attempts": 15,
+    "baseline_description": "Always predict the mean response of the eight training tests.",
+    "errors_ppm": {
+      "mean_absolute_error": {
+        "baseline": 34.45,
+        "best_model": 17.83,
+        "meaning": "Average absolute distance between predicted and observed CO2 change; about 18 ppm for the selected model."
+      },
+      "rmse": {
+        "baseline": 41.42,
+        "best_model": 23.45,
+        "meaning": "Error measure that gives larger mistakes more weight. Lower is better."
+      },
+      "maximum_absolute_error": {
+        "baseline": 84.29,
+        "best_model": 56.36,
+        "meaning": "Largest absolute held-out error observed in these nine tests; not a bound for future experiments."
+      }
+    },
+    "cv_predictions": [
+      {
+        "test_id": "II-1",
+        "observed_ppm": 3.06,
+        "predicted_ppm": -4.18,
+        "error_ppm": -7.24,
+        "absolute_error_ppm": 7.24
+      },
+      {
+        "test_id": "II-2",
+        "observed_ppm": 15.03,
+        "predicted_ppm": -8.17,
+        "error_ppm": -23.2,
+        "absolute_error_ppm": 23.2
+      },
+      {
+        "test_id": "II-3",
+        "observed_ppm": -10.96,
+        "predicted_ppm": 0.49,
+        "error_ppm": 11.46,
+        "absolute_error_ppm": 11.46
+      },
+      {
+        "test_id": "II-4",
+        "observed_ppm": -16.61,
+        "predicted_ppm": 2.37,
+        "error_ppm": 18.99,
+        "absolute_error_ppm": 18.99
+      },
+      {
+        "test_id": "II-5",
+        "observed_ppm": 39.65,
+        "predicted_ppm": 60.97,
+        "error_ppm": 21.32,
+        "absolute_error_ppm": 21.32
+      },
+      {
+        "test_id": "II-6",
+        "observed_ppm": 45.65,
+        "predicted_ppm": 44.13,
+        "error_ppm": -1.52,
+        "absolute_error_ppm": 1.52
+      },
+      {
+        "test_id": "II-7",
+        "observed_ppm": 107.0,
+        "predicted_ppm": 50.64,
+        "error_ppm": -56.36,
+        "absolute_error_ppm": 56.36
+      },
+      {
+        "test_id": "II-8",
+        "observed_ppm": 60.56,
+        "predicted_ppm": 54.01,
+        "error_ppm": -6.55,
+        "absolute_error_ppm": 6.55
+      },
+      {
+        "test_id": "II-9",
+        "observed_ppm": 45.31,
+        "predicted_ppm": 59.14,
+        "error_ppm": 13.82,
+        "absolute_error_ppm": 13.82
+      }
+    ],
+    "rmse_reduction_pct": 43.4,
+    "improvement_meaning": "RMSE decreased relative to the baseline. This percentage is not a percentage of correct predictions or of safety.",
+    "worst_case": {
+      "test_id": "II-7",
+      "observed_ppm": 107.0,
+      "predicted_ppm": 50.64,
+      "absolute_error_ppm": 56.36,
+      "meaning": "The model misses much of the only PMMA-Nomex specimen's response; material-specific differences remain."
+    },
+    "formula_optional": "CO2 change = -2.372 ppm for silicone; 55.612 * (20 / airflow in cm/s) for the other observed materials.",
+    "limitations": [
+      "Only nine tests from one flight; no validation on another flight.",
+      "Repeated selection used the same evaluation, so the selected error is optimistic.",
+      "The inverse-airflow exponent was fixed for this candidate, not learned as a universal physical law.",
+      "Only II-6 has the higher airflow and only II-7 uses PMMA-Nomex; their held-out folds lack matching cases.",
+      "The model does not directly estimate flame spread, fire size, alarm delay or crew risk."
+    ]
+  },
+  "habitat_relevance": {
+    "iss_and_gateway": "Greater similarity to the assumed atmosphere and microgravity reference scenarios.",
+    "lunar_mars_rover": "Additional enriched-oxygen, low-pressure and partial-gravity evidence is needed.",
+    "ranking_meaning": "Ranks the usefulness of evidence under design assumptions, not material danger or ignition probability.",
+    "assumptions": "Habitat atmospheres are analyst scenarios, not official mission requirements.",
+    "detail_ref": "analysis-saffire.json#/relevance_ranking"
+  },
+  "unavailable_results": [
+    {
+      "id": "hrr",
+      "label": "Total fire power, or HRR",
+      "status": "unavailable",
+      "value": null,
+      "reason": "Missing validated inlet/outlet oxygen with mass flow, or a validated cabin mass balance."
+    },
+    {
+      "id": "alarm_delay",
+      "label": "Time until smoke alarm",
+      "status": "unavailable",
+      "value": null,
+      "reason": "Missing alarm events, thresholds and synchronized clocks."
+    },
+    {
+      "id": "crew_exposure",
+      "label": "Safe crew exposure time",
+      "status": "unavailable",
+      "value": null,
+      "reason": "Applicable exposure channels and limits were not established."
+    },
+    {
+      "id": "ventilation_cutoff",
+      "label": "Effect of stopping ventilation",
+      "status": "unavailable",
+      "value": null,
+      "reason": "No documented controlled flow-cutoff and extinction intervention."
+    },
+    {
+      "id": "ignitor_energy",
+      "label": "Ignitor energy",
+      "status": "requires_validation",
+      "value": null,
+      "reason": "The archived voltage/current product conflicts with nominal power and duration; units, scaling and channel interpretation require review.",
+      "archived_calculation_kj_range": [
+        25.98,
+        111.97
+      ],
+      "commanded_energy_kj": [
+        0.736,
+        2.91
+      ],
+      "model_use": "The calculated energy was not used to train the model."
+    }
+  ],
+  "source": {
+    "citation": "Urban DL, Ruff G. \"Spacecraft Fire Experiment-II(SAFFIRE-II)\", NASA PSI Data Repository, Version 5",
+    "url": "http://doi.org/10.60555/2chp-m469",
+    "version": "5",
+    "attribution": "NASA supplied measurements and published outcomes. Extraction, the CO2 response, modeling and interpretations were produced in this study."
+  },
+  "charts": [
+    {
+      "id": "overview",
+      "title": "Observed CO2 response and model error",
+      "path": "analysis/output/saffire-summary.png",
+      "description": "Left: signed CO2 changes for the nine tests. Right: baseline and selected-model RMSE; lower is better.",
+      "interpretation_note": "CO2 change is not a hazard score. Error reduction is not an accuracy or safety percentage."
+    },
+    {
+      "id": "co2_windows",
+      "title": "CO2 comparison windows",
+      "path": "data/processed/figures/co2_fixed_windows.png",
+      "description": "Each panel shows baseline-subtracted CO2 over time. Gray marks the pre-ignition window; orange marks 150-180 seconds.",
+      "interpretation_note": "The shaded regions define the calculation windows, not exposure limits."
+    },
+    {
+      "id": "sibal_spread",
+      "title": "Published SIBAL spread rates",
+      "path": "data/processed/figures/sibal_published_rates.png",
+      "description": "Two published flame spread rates plotted against measured pre-ignition airflow.",
+      "interpretation_note": "Two observations do not establish a causal or universal airflow law."
+    },
+    {
+      "id": "temperature_qc",
+      "title": "Temperature sensor coverage",
+      "path": "data/processed/figures/temperature_quality_control.png",
+      "description": "Maximum sampled plume-thermocouple readings and duct inlet temperature for each test.",
+      "interpretation_note": "Different sensor positions and coverage prevent interpreting these as maximum flame or average cabin temperatures."
+    },
+    {
+      "id": "images",
+      "title": "Sampled camera frames",
+      "path": "data/processed/figures/image_contact_sheet.jpg",
+      "description": "Three camera frames per test, selected near 30, 90 and 150 seconds after the electrical marker.",
+      "interpretation_note": "Visual quality control only; no independently calibrated flame-front measurement."
+    }
+  ],
+  "files": {
+    "plain_explanation": "SAFFIRE_EXPLICADO.md",
+    "detailed_analysis": "analysis-saffire.json",
+    "metrics_and_provenance": "data/processed/metrics.csv",
+    "model_dataset": "data/processed/model_dataset.csv",
+    "experiment_ledger": "runs/autoresearch/saffire-run-01/results.tsv",
+    "overview_figure": "analysis/output/saffire-summary.png"
+  }
+}
