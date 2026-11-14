@@ -21,7 +21,7 @@ from __future__ import annotations
 
 import numpy as np
 
-MODEL_NAME = "ridge_alpha_0_01"
+MODEL_NAME = "ridge_config_interactions_alpha_0_01"
 RIDGE_ALPHA = 0.01
 
 
@@ -31,7 +31,7 @@ def fit_predict(
     X_eval: np.ndarray,
     seed: int,
 ) -> np.ndarray:
-    """Ajusta una regresión Ridge lineal y predice temperaturas en K.
+    """Ajusta Ridge con pendientes por configuración y predice Tad en K.
 
     Las medias y escalas se estiman exclusivamente con entrenamiento.
     La columna 0 es binaria; el resto representa entradas físicas.
@@ -51,15 +51,19 @@ def fit_predict(
     means = X_train[:, 1:].mean(axis=0)
     scales = X_train[:, 1:].std(axis=0)
     scales[scales < 1e-12] = 1.0
+    z_train = (X_train[:, 1:] - means) / scales
+    z_eval = (X_eval[:, 1:] - means) / scales
     A = np.column_stack((
         np.ones(len(X_train)),
         X_train[:, 0],
-        (X_train[:, 1:] - means) / scales,
+        z_train,
+        X_train[:, :1] * z_train,
     ))
     B = np.column_stack((
         np.ones(len(X_eval)),
         X_eval[:, 0],
-        (X_eval[:, 1:] - means) / scales,
+        z_eval,
+        X_eval[:, :1] * z_eval,
     ))
 
     # Ridge sin penalización del intercepto. Resolver mediante mínimos cuadrados
