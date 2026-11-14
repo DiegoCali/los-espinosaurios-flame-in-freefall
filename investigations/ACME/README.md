@@ -1,5 +1,11 @@
 # NASA PSI-10 — ACME / Flame Design
 
+## Unified dashboard output
+
+[predictions.json](predictions.json) uses the FLEX schema (`schema_version: 2`): saved validation/holdout metrics, calculated Tad values (K), experiment history, chart data and provenance. `predictions` is empty because individual model estimates were not saved. Tad is calculated, not measured flame temperature.
+
+From the repository root, run `python3 investigations/export_predictions.py` to export existing results, then `python3 investigations/export_predictions.py --check` to verify all five investigations. Neither command trains models or repeats evaluations. Paths are relative to this investigation; `null` means unavailable. Historical source names are retained in `original_*` fields.
+
 **Proyecto NASA:** *Flame Design: A Novel Approach to Clean Efficient Diffusion Flames*  
 **Tipo:** Microgravity Investigation · **Plataforma:** International Space Station (ISS)  
 **Patrocinador:** NASA · **Centro:** Glenn Research Center (GRC)  

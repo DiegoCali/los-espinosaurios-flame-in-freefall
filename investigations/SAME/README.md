@@ -1,5 +1,11 @@
 # SAME-R: smoke particle size, aging and detector response in microgravity
 
+## Unified dashboard output
+
+Load [predictions.json](predictions.json) for the common FLEX contract (`schema_version: 2`). It includes 52 saved size and 65 saved detection cross-validation records, exact metrics, experimental data, findings, existing scenarios and chart links. Size targets retain their original log10/natural-log scales and physical reference units; detector estimates are probabilities against proxy response labels. Scenarios remain separate from validated predictions.
+
+From the repository root, run `python3 investigations/export_predictions.py`, then `python3 investigations/export_predictions.py --check`. Neither command evaluates models. Serve linked series/images with the JSON. Paths are relative to this investigation; missing original files have null links and preserved `original_*` labels and recorded provenance. The earlier summary format below remains available.
+
 This module processes NASA's **Smoke Aerosol Measurement Experiment Reflight (SAME-R, PSI-101)** — smoke from
 overheated spacecraft materials measured on the ISS in 2010 — into dashboard-ready JSON, clean CSVs, reports and
 figures. It reproduces NASA's moment-method particle sizes, quantifies smoke aging by Brownian coagulation,
@@ -40,7 +46,7 @@ measurements**. No SAME-1 (PSI-102, 2007) flight data are present yet — see [d
 
 ## Dashboard JSON: format and use
 
-Load **`analysis-same-summary.json`**. Top-level layout matches `analysis-saffire-summary.json`.
+For consumers of the earlier format, load **`analysis-same-summary.json`**. Top-level layout matches `analysis-saffire-summary.json`.
 
 | Field | Dashboard use |
 |---|---|
