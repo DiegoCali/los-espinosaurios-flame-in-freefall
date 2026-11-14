@@ -21,7 +21,7 @@ from __future__ import annotations
 
 import numpy as np
 
-MODEL_NAME = "ridge_quadratic_no_total_flow_alpha_0_01"
+MODEL_NAME = "ridge_composition_quadratic_alpha_0_01"
 RIDGE_ALPHA = 0.01
 
 
@@ -51,7 +51,7 @@ def fit_predict(
     def features(X):
         burner, ambient = X[:, 1], X[:, 2]
         return np.column_stack((
-            X[:, [1, 2, 3, 4, 6]], burner**2, burner * ambient, ambient**2,
+            X[:, 1:], burner**2, burner * ambient, ambient**2,
         ))
 
     features_train = features(X_train)
