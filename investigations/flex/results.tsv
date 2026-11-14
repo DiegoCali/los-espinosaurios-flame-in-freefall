@@ -1,0 +1,17 @@
+commit	objective_rmse	status	description
+e49a932	1.659355	keep	baseline; RandomForestRegressor, 200 trees, depth 8, leaf 2; fixed validation as implemented
+dc962fb	1.716616	discard	RandomForestRegressor min_samples_leaf 2 to 1
+88bb903	1.727508	discard	RandomForestRegressor min_samples_leaf 2 to 4
+63087c2	1.636512	keep	RandomForestRegressor max_depth 8 to None
+f3d6d35	1.619041	keep	RandomForestRegressor n_estimators 200 to 500
+96ce449	1.686450	discard	RandomForestRegressor min_samples_leaf 2 to 1, with depth None and 500 trees
+f3f4f14	1.519498	keep	RandomForestRegressor max_features set to 0.7
+5422d9d	1.485120	keep	RandomForestRegressor max_features 0.7 to 0.5
+ccee7f2	1.429828	keep	RandomForestRegressor max_features 0.5 to 0.3
+e228f2a	1.594192	discard	RandomForestRegressor max_features 0.3 to 0.2
+38be737	1.402853	keep	RandomForestRegressor max_features 0.3 to 0.4
+ab9640b	1.502114	discard	RandomForestRegressor min_samples_leaf 2 to 3
+635c530	1.428019	discard	RandomForestRegressor max_features 0.4 to 0.35
+308b950	1.207437	keep	Apply log1p transform to each target during fit and invert predictions with expm1
+f571d0f	1.216994	discard	RandomForestRegressor max_features 0.4 to 0.5 with log targets
+c8b6956	1.424794	discard	Replace RandomForestRegressor with ExtraTreesRegressor while fitting log targets
