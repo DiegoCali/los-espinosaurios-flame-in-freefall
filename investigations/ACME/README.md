@@ -64,11 +64,11 @@ investigations/ACME/
 Desde la raíz del repositorio:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r investigations/ACME/requirements.txt
-python investigations/ACME/prepare.py --check
-python -m unittest discover -s investigations/ACME/tests -v
+cd investigations/ACME
+
+uv sync
+uv run python prepare.py --check
+uv run python -m unittest discover -s tests -v
 ```
 
 Con los dos CSV originales descargados de NASA en `data/raw/`, la preparación debe indicar: **327** filas, **236** filas para el piloto, con **134 train**, **52 validation** y **50 holdout**. `holdout` permanece sin consultar durante la búsqueda.
@@ -84,8 +84,11 @@ export MKL_NUM_THREADS=1
 ## 5. Primera medición y primer candidato
 
 ```bash
-python investigations/ACME/evaluate.py --baseline --run-id pilot-01
-python investigations/ACME/evaluate.py --candidate --run-id pilot-01 --description "Ridge alpha=10"
+uv run python evaluate.py --baseline --run-id pilot-01
+
+uv run python evaluate.py --candidate \
+  --run-id pilot-01 \
+  --description "Ridge alpha=10"
 ```
 
 - Primer comando: predicción constante con la media de `Tad` de **entrenamiento**.
