@@ -1,0 +1,16 @@
+attempt	train_sha256	model_name	val_score	size_nrmse	detection_brier_ratio	num_params	status	description
+1	b84e90d53cba	training_mean_baseline	1.042605	1.031131	1.054079	7	keep	Baseline: training-fold mean for each size target and training prevalence for each detector (7 params)
+2	fa2ebf1471cb	ridge_logistic_material_logaging_noflow	0.936074	1.258068	0.614079	58	keep	Ridge (alpha=1) on material one-hot + log1p(aging) + no_flow + Rt/R0 for size; L2 logistic on the same design for detection
+3	b02d852423bc	ridge_logistic_centered	0.631160	0.648241	0.614079	63	keep	Same design, ridge with unpenalized intercept (fixes shrinkage of material offsets toward zero)
+4	473591af3dd3	ridge_logistic_flow_interactions	0.637233	0.658119	0.616347	77	discard	Add flow-regime interactions: log-aging x no_flow (pre-coagulated quiescent smoke) and Kapton/Teflon x no_flow
+5	92c58cfe1a8a	ridgecv_logisticcv_centered	0.591892	0.595467	0.588316	63	keep	Inner-CV regularisation: RidgeCV alpha per target (GCV) and LogisticRegressionCV C by Brier, training fold only
+6	78d05784fd8f	ridgecv_hatch_choate_consistent	0.588675	0.589034	0.588316	45	keep	Hatch-Choate consistency: fit log Dm, ln sigma_g, log M0 and derive Dg and AMD from them (fewer free outputs)
+7	196fd2d1ded5	ridgecv_hc_smoluchowski_feature	0.585404	0.566554	0.604253	45	keep	Replace log1p(aging) by Smoluchowski coagulation variable ln(1+K*N0*t), K=1.25e-9 cm3/s from the NASA coagulation note, N0 10x lower without flow
+8	e9c4a2a0d9d4	ridgecv_hc_coag_size__logit_logaging_detection	0.577435	0.566554	0.588316	45	keep	Task-specific designs: coagulation variable for size, log1p(aging) for detector response
+9	25f0089caa4e	ridgecv_hc_coag_size__logit_small_x_noflow	0.581352	0.566554	0.596149	47	discard	Detection only: add Kapton/Teflon x no_flow interaction (small particles become visible to ISS scatter after quiescent coagulation)
+10	1af064d725c9	ridgecv_hc_coag_size__betabinomial_flow_material	0.537925	0.566554	0.509296	53	keep	Detection: hierarchical beta-binomial rates (global -> flow regime -> flow x material, prior strength 2) instead of logistic
+11	324c483e6a99	ridgecv_hc_coag_size__betabinomial_flow_material_aged	0.528931	0.566554	0.491308	93	keep	Detection hierarchy adds an aged level (aging > 120 s) under flow x material; remove dead logistic code
+12	f0d802bf09ff	ridgecv_hc_material_coag_slopes__betabinomial	0.532821	0.574334	0.491308	108	discard	Size: material-specific coagulation slopes (material x ln(1+K N0 t)), ridge-shrunk
+13	3d5448d3da9a	ridge_plus_gp_residual__betabinomial	0.529719	0.568130	0.491308	102	discard	Size: ridge mean + Gaussian-process (RBF+white, ML-II) correction on ridge residuals
+14	1533afa668e0	ridgecv_hc_coag_size__bb_logit_ensemble	0.538824	0.566554	0.511094	111	discard	Detection: equal-weight ensemble of the hierarchical beta-binomial rate and an inner-CV L2 logistic that uses Rt/R0
+15	21ba6b952be0	ridgecv_hc_coag_size__betabinomial_detector_specific_order	0.530253	0.566554	0.493952	93	discard	Detection: detector-specific hierarchy order (ISS: material first; ionization: flow regime first), no new parameters

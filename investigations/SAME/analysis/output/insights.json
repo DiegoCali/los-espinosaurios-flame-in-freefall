@@ -1,0 +1,1239 @@
+{
+  "findings": {
+    "particle_size": {
+      "by_material": [
+        {
+          "material": "Kapton",
+          "aged_state": "aged",
+          "n_measurements": 7,
+          "median_aging_s": 566.0,
+          "dg_um": 0.119,
+          "amd_um": 0.136,
+          "dm_um": 0.165,
+          "sigma_g": 1.67,
+          "m0_per_cm3": 1112400.0
+        },
+        {
+          "material": "Kapton",
+          "aged_state": "unaged",
+          "n_measurements": 4,
+          "median_aging_s": 38.0,
+          "dg_um": 0.066,
+          "amd_um": 0.076,
+          "dm_um": 0.103,
+          "sigma_g": 1.76,
+          "m0_per_cm3": 2985285.0
+        },
+        {
+          "material": "Lampwick",
+          "aged_state": "aged",
+          "n_measurements": 3,
+          "median_aging_s": 582.0,
+          "dg_um": 0.178,
+          "amd_um": 0.23,
+          "dm_um": 0.377,
+          "sigma_g": 2.02,
+          "m0_per_cm3": 1251720.0
+        },
+        {
+          "material": "Lampwick",
+          "aged_state": "unaged",
+          "n_measurements": 5,
+          "median_aging_s": 38.0,
+          "dg_um": 0.091,
+          "amd_um": 0.13,
+          "dm_um": 0.286,
+          "sigma_g": 2.36,
+          "m0_per_cm3": 3197760.0
+        },
+        {
+          "material": "Pyrell",
+          "aged_state": "aged",
+          "n_measurements": 6,
+          "median_aging_s": 615.0,
+          "dg_um": 0.309,
+          "amd_um": 0.369,
+          "dm_um": 0.536,
+          "sigma_g": 1.79,
+          "m0_per_cm3": 1524855.0
+        },
+        {
+          "material": "Pyrell",
+          "aged_state": "unaged",
+          "n_measurements": 6,
+          "median_aging_s": 37.5,
+          "dg_um": 0.167,
+          "amd_um": 0.227,
+          "dm_um": 0.416,
+          "sigma_g": 2.14,
+          "m0_per_cm3": 3792330.0
+        },
+        {
+          "material": "Silicone",
+          "aged_state": "aged",
+          "n_measurements": 2,
+          "median_aging_s": 681.5,
+          "dg_um": 0.236,
+          "amd_um": 0.315,
+          "dm_um": 0.559,
+          "sigma_g": 2.14,
+          "m0_per_cm3": 1937980.0
+        },
+        {
+          "material": "Silicone",
+          "aged_state": "unaged",
+          "n_measurements": 2,
+          "median_aging_s": 37.0,
+          "dg_um": 0.144,
+          "amd_um": 0.216,
+          "dm_um": 0.483,
+          "sigma_g": 2.46,
+          "m0_per_cm3": 3438465.0
+        },
+        {
+          "material": "Teflon",
+          "aged_state": "aged",
+          "n_measurements": 1,
+          "median_aging_s": 807.0,
+          "dg_um": 0.07,
+          "amd_um": 0.105,
+          "dm_um": 0.232,
+          "sigma_g": 2.44,
+          "m0_per_cm3": 557920.0
+        },
+        {
+          "material": "Teflon",
+          "aged_state": "unaged",
+          "n_measurements": 6,
+          "median_aging_s": 37.0,
+          "dg_um": 0.113,
+          "amd_um": 0.136,
+          "dm_um": 0.189,
+          "sigma_g": 1.84,
+          "m0_per_cm3": 2714650.0
+        }
+      ],
+      "published_comparison": [
+        {
+          "material": "Kapton",
+          "aged_state": "unaged",
+          "aging_s_nominal": null,
+          "dg_um_published": 0.042,
+          "amd_um_published": 0.056,
+          "dm_um_published": 0.101,
+          "sigma_g_published": 2.154,
+          "n": 4,
+          "dg_um_this_study": 0.0658,
+          "amd_um_this_study": 0.076,
+          "dm_um_this_study": 0.1035,
+          "sigma_g_this_study": 1.763,
+          "m0_per_cc": 2985285.0,
+          "aging_s": 38.0,
+          "dm_ratio_this_over_published": 1.0248
+        },
+        {
+          "material": "Kapton",
+          "aged_state": "aged",
+          "aging_s_nominal": 720.0,
+          "dg_um_published": 0.089,
+          "amd_um_published": 0.109,
+          "dm_um_published": 0.161,
+          "sigma_g_published": 1.872,
+          "n": 7,
+          "dg_um_this_study": 0.1193,
+          "amd_um_this_study": 0.136,
+          "dm_um_this_study": 0.165,
+          "sigma_g_this_study": 1.669,
+          "m0_per_cc": 1112400.0,
+          "aging_s": 566.0,
+          "dm_ratio_this_over_published": 1.0248
+        },
+        {
+          "material": "Lampwick",
+          "aged_state": "unaged",
+          "aging_s_nominal": null,
+          "dg_um_published": 0.09,
+          "amd_um_published": 0.128,
+          "dm_um_published": 0.258,
+          "sigma_g_published": 2.312,
+          "n": 5,
+          "dg_um_this_study": 0.0911,
+          "amd_um_this_study": 0.13,
+          "dm_um_this_study": 0.286,
+          "sigma_g_this_study": 2.357,
+          "m0_per_cc": 3197760.0,
+          "aging_s": 38.0,
+          "dm_ratio_this_over_published": 1.1085
+        },
+        {
+          "material": "Lampwick",
+          "aged_state": "aged",
+          "aging_s_nominal": 720.0,
+          "dg_um_published": 0.229,
+          "amd_um_published": 0.276,
+          "dm_um_published": 0.398,
+          "sigma_g_published": 1.834,
+          "n": 3,
+          "dg_um_this_study": 0.1777,
+          "amd_um_this_study": 0.23,
+          "dm_um_this_study": 0.377,
+          "sigma_g_this_study": 2.02,
+          "m0_per_cc": 1251720.0,
+          "aging_s": 582.0,
+          "dm_ratio_this_over_published": 0.9472
+        },
+        {
+          "material": "Silicone",
+          "aged_state": "unaged",
+          "aging_s_nominal": null,
+          "dg_um_published": 0.128,
+          "amd_um_published": 0.196,
+          "dm_um_published": 0.465,
+          "sigma_g_published": 2.53,
+          "n": 2,
+          "dg_um_this_study": 0.1445,
+          "amd_um_this_study": 0.216,
+          "dm_um_this_study": 0.483,
+          "sigma_g_this_study": 2.4565,
+          "m0_per_cc": 3438465.0,
+          "aging_s": 37.0,
+          "dm_ratio_this_over_published": 1.0387
+        },
+        {
+          "material": "Silicone",
+          "aged_state": "aged",
+          "aging_s_nominal": 720.0,
+          "dg_um_published": 0.269,
+          "amd_um_published": 0.355,
+          "dm_um_published": 0.619,
+          "sigma_g_published": 2.108,
+          "n": 2,
+          "dg_um_this_study": 0.236,
+          "amd_um_this_study": 0.3145,
+          "dm_um_this_study": 0.559,
+          "sigma_g_this_study": 2.144,
+          "m0_per_cc": 1937980.0,
+          "aging_s": 681.5,
+          "dm_ratio_this_over_published": 0.9031
+        },
+        {
+          "material": "Teflon",
+          "aged_state": "unaged",
+          "aging_s_nominal": null,
+          "dg_um_published": 0.081,
+          "amd_um_published": 0.101,
+          "dm_um_published": 0.17,
+          "sigma_g_published": 2.198,
+          "n": 6,
+          "dg_um_this_study": 0.1127,
+          "amd_um_this_study": 0.136,
+          "dm_um_this_study": 0.189,
+          "sigma_g_this_study": 1.8435,
+          "m0_per_cc": 2714650.0,
+          "aging_s": 37.0,
+          "dm_ratio_this_over_published": 1.1118
+        },
+        {
+          "material": "Teflon",
+          "aged_state": "aged",
+          "aging_s_nominal": 720.0,
+          "dg_um_published": 0.07,
+          "amd_um_published": 0.105,
+          "dm_um_published": 0.232,
+          "sigma_g_published": 2.442,
+          "n": 1,
+          "dg_um_this_study": 0.0705,
+          "amd_um_this_study": 0.105,
+          "dm_um_this_study": 0.232,
+          "sigma_g_this_study": 2.442,
+          "m0_per_cc": 557920.0,
+          "aging_s": 807.0,
+          "dm_ratio_this_over_published": 1.0
+        },
+        {
+          "material": "Pyrell",
+          "aged_state": "unaged",
+          "aging_s_nominal": null,
+          "dg_um_published": 0.149,
+          "amd_um_published": 0.204,
+          "dm_um_published": 0.384,
+          "sigma_g_published": 2.211,
+          "n": 6,
+          "dg_um_this_study": 0.1669,
+          "amd_um_this_study": 0.2265,
+          "dm_um_this_study": 0.4165,
+          "sigma_g_this_study": 2.14,
+          "m0_per_cc": 3792330.0,
+          "aging_s": 37.5,
+          "dm_ratio_this_over_published": 1.0846
+        },
+        {
+          "material": "Pyrell",
+          "aged_state": "aged",
+          "aging_s_nominal": 720.0,
+          "dg_um_published": 0.293,
+          "amd_um_published": 0.359,
+          "dm_um_published": 0.539,
+          "sigma_g_published": 1.892,
+          "n": 6,
+          "dg_um_this_study": 0.3095,
+          "amd_um_this_study": 0.369,
+          "dm_um_this_study": 0.536,
+          "sigma_g_this_study": 1.7925,
+          "m0_per_cc": 1524855.0,
+          "aging_s": 615.0,
+          "dm_ratio_this_over_published": 0.9944
+        }
+      ],
+      "source_file": "data/processed/size_dataset.csv",
+      "method": "median_of_nasa_moment_rows_8cm_s"
+    },
+    "aging": {
+      "pairs": [
+        {
+          "run": 58,
+          "material": "Teflon",
+          "flow_velocity_cm_s": 8.08,
+          "no_flow": 0,
+          "aging_unaged_s": 37.0,
+          "aging_aged_s": 807.0,
+          "delta_t_s": 770.0,
+          "m0_unaged": 2105300.0,
+          "m0_aged": 557920.0,
+          "m0_ratio_aged_over_unaged": 0.265,
+          "dm_unaged_um": 0.149,
+          "dm_aged_um": 0.232,
+          "dm_growth": 1.557,
+          "amd_growth": 1.9811,
+          "dg_growth": 2.2298,
+          "sigma_g_unaged": 2.764,
+          "sigma_g_aged": 2.442,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.5569
+        },
+        {
+          "run": 63,
+          "material": "Pyrell",
+          "flow_velocity_cm_s": 8.1,
+          "no_flow": 0,
+          "aging_unaged_s": 38.0,
+          "aging_aged_s": 831.0,
+          "delta_t_s": 793.0,
+          "m0_unaged": 3862680.0,
+          "m0_aged": 1414790.0,
+          "m0_ratio_aged_over_unaged": 0.3663,
+          "dm_unaged_um": 0.392,
+          "dm_aged_um": 0.539,
+          "dm_growth": 1.375,
+          "amd_growth": 1.7343,
+          "dg_growth": 1.9465,
+          "sigma_g_unaged": 2.222,
+          "sigma_g_aged": 1.892,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.3977
+        },
+        {
+          "run": 64,
+          "material": "Pyrell",
+          "flow_velocity_cm_s": 8.14,
+          "no_flow": 0,
+          "aging_unaged_s": 39.0,
+          "aging_aged_s": 830.0,
+          "delta_t_s": 791.0,
+          "m0_unaged": 3881190.0,
+          "m0_aged": 1417570.0,
+          "m0_ratio_aged_over_unaged": 0.3652,
+          "dm_unaged_um": 0.445,
+          "dm_aged_um": 0.616,
+          "dm_growth": 1.3843,
+          "amd_growth": 1.7717,
+          "dg_growth": 2.0055,
+          "sigma_g_unaged": 2.115,
+          "sigma_g_aged": 1.75,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.399
+        },
+        {
+          "run": 73,
+          "material": "Kapton",
+          "flow_velocity_cm_s": 8.16,
+          "no_flow": 0,
+          "aging_unaged_s": 38.0,
+          "aging_aged_s": 565.0,
+          "delta_t_s": 527.0,
+          "m0_unaged": 2604650.0,
+          "m0_aged": 1053910.0,
+          "m0_ratio_aged_over_unaged": 0.4046,
+          "dm_unaged_um": 0.089,
+          "dm_aged_um": 0.124,
+          "dm_growth": 1.3933,
+          "amd_growth": 1.6271,
+          "dg_growth": 1.7535,
+          "sigma_g_unaged": 1.9,
+          "sigma_g_aged": 1.669,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.352
+        },
+        {
+          "run": 74,
+          "material": "Pyrell",
+          "flow_velocity_cm_s": 8.1,
+          "no_flow": 0,
+          "aging_unaged_s": 37.0,
+          "aging_aged_s": 615.0,
+          "delta_t_s": 578.0,
+          "m0_unaged": 4953330.0,
+          "m0_aged": 1662800.0,
+          "m0_ratio_aged_over_unaged": 0.3357,
+          "dm_unaged_um": 0.355,
+          "dm_aged_um": 0.512,
+          "dm_growth": 1.4423,
+          "amd_growth": 1.9141,
+          "dg_growth": 2.2064,
+          "sigma_g_unaged": 2.149,
+          "sigma_g_aged": 1.731,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.4389
+        },
+        {
+          "run": 76,
+          "material": "Pyrell",
+          "flow_velocity_cm_s": 8.16,
+          "no_flow": 0,
+          "aging_unaged_s": 40.0,
+          "aging_aged_s": 615.0,
+          "delta_t_s": 575.0,
+          "m0_unaged": 3275640.0,
+          "m0_aged": 1632140.0,
+          "m0_ratio_aged_over_unaged": 0.4983,
+          "dm_unaged_um": 0.515,
+          "dm_aged_um": 0.643,
+          "dm_growth": 1.2485,
+          "amd_growth": 1.2571,
+          "dg_growth": 1.2604,
+          "sigma_g_unaged": 1.843,
+          "sigma_g_aged": 1.835,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.2614
+        },
+        {
+          "run": 77,
+          "material": "Kapton",
+          "flow_velocity_cm_s": 8.18,
+          "no_flow": 0,
+          "aging_unaged_s": 37.0,
+          "aging_aged_s": 565.0,
+          "delta_t_s": 528.0,
+          "m0_unaged": 3460330.0,
+          "m0_aged": 1237770.0,
+          "m0_ratio_aged_over_unaged": 0.3577,
+          "dm_unaged_um": 0.107,
+          "dm_aged_um": 0.165,
+          "dm_growth": 1.5421,
+          "amd_growth": 1.5682,
+          "dg_growth": 1.5743,
+          "sigma_g_unaged": 1.541,
+          "sigma_g_aged": 1.527,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.4087
+        },
+        {
+          "run": 78,
+          "material": "Lampwick",
+          "flow_velocity_cm_s": 8.16,
+          "no_flow": 0,
+          "aging_unaged_s": 38.0,
+          "aging_aged_s": 582.0,
+          "delta_t_s": 544.0,
+          "m0_unaged": 2987220.0,
+          "m0_aged": 1158630.0,
+          "m0_ratio_aged_over_unaged": 0.3879,
+          "dm_unaged_um": 0.265,
+          "dm_aged_um": 0.355,
+          "dm_growth": 1.3396,
+          "amd_growth": 1.7231,
+          "dg_growth": 1.9505,
+          "sigma_g_unaged": 2.324,
+          "sigma_g_aged": 1.975,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.3712
+        },
+        {
+          "run": 82,
+          "material": "Lampwick",
+          "flow_velocity_cm_s": 8.08,
+          "no_flow": 0,
+          "aging_unaged_s": 38.0,
+          "aging_aged_s": 582.0,
+          "delta_t_s": 544.0,
+          "m0_unaged": 3463690.0,
+          "m0_aged": 1343410.0,
+          "m0_ratio_aged_over_unaged": 0.3879,
+          "dm_unaged_um": 0.29,
+          "dm_aged_um": 0.385,
+          "dm_growth": 1.3276,
+          "amd_growth": 1.6547,
+          "dg_growth": 1.8463,
+          "sigma_g_unaged": 2.357,
+          "sigma_g_aged": 2.051,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.3712
+        },
+        {
+          "run": 84,
+          "material": "Pyrell",
+          "flow_velocity_cm_s": 8.04,
+          "no_flow": 0,
+          "aging_unaged_s": 37.0,
+          "aging_aged_s": 614.0,
+          "delta_t_s": 577.0,
+          "m0_unaged": 3721980.0,
+          "m0_aged": 1683220.0,
+          "m0_ratio_aged_over_unaged": 0.4522,
+          "dm_unaged_um": 0.412,
+          "dm_aged_um": 0.533,
+          "dm_growth": 1.2937,
+          "amd_growth": 1.5236,
+          "dg_growth": 1.6548,
+          "sigma_g_unaged": 2.131,
+          "sigma_g_aged": 1.893,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.3028
+        },
+        {
+          "run": 93,
+          "material": "Kapton",
+          "flow_velocity_cm_s": 7.95,
+          "no_flow": 0,
+          "aging_unaged_s": 38.0,
+          "aging_aged_s": 566.0,
+          "delta_t_s": 528.0,
+          "m0_unaged": 2951670.0,
+          "m0_aged": 990234.0,
+          "m0_ratio_aged_over_unaged": 0.3355,
+          "dm_unaged_um": 0.1,
+          "dm_aged_um": 0.155,
+          "dm_growth": 1.55,
+          "amd_growth": 1.6406,
+          "dg_growth": 1.6816,
+          "sigma_g_unaged": 1.937,
+          "sigma_g_aged": 1.864,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.4392
+        },
+        {
+          "run": 94,
+          "material": "Kapton",
+          "flow_velocity_cm_s": 7.97,
+          "no_flow": 0,
+          "aging_unaged_s": 38.0,
+          "aging_aged_s": 567.0,
+          "delta_t_s": 529.0,
+          "m0_unaged": 3018900.0,
+          "m0_aged": 1151400.0,
+          "m0_ratio_aged_over_unaged": 0.3814,
+          "dm_unaged_um": 0.116,
+          "dm_aged_um": 0.176,
+          "dm_growth": 1.5172,
+          "amd_growth": 1.4783,
+          "dg_growth": 1.4591,
+          "sigma_g_unaged": 1.626,
+          "sigma_g_aged": 1.669,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.3789
+        },
+        {
+          "run": 98,
+          "material": "Lampwick",
+          "flow_velocity_cm_s": 0.0,
+          "no_flow": 1,
+          "aging_unaged_s": 36.0,
+          "aging_aged_s": 581.0,
+          "delta_t_s": 545.0,
+          "m0_unaged": 438729.0,
+          "m0_aged": 329084.0,
+          "m0_ratio_aged_over_unaged": 0.7501,
+          "dm_unaged_um": 0.403,
+          "dm_aged_um": 0.431,
+          "dm_growth": 1.0695,
+          "amd_growth": 1.1071,
+          "dg_growth": 1.1248,
+          "sigma_g_unaged": 2.546,
+          "sigma_g_aged": 2.503,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.1006
+        },
+        {
+          "run": 101,
+          "material": "Kapton",
+          "flow_velocity_cm_s": 0.0,
+          "no_flow": 1,
+          "aging_unaged_s": 37.0,
+          "aging_aged_s": 566.0,
+          "delta_t_s": 529.0,
+          "m0_unaged": 277646.0,
+          "m0_aged": 253110.0,
+          "m0_ratio_aged_over_unaged": 0.9116,
+          "dm_unaged_um": 0.346,
+          "dm_aged_um": 0.351,
+          "dm_growth": 1.0145,
+          "amd_growth": 1.0493,
+          "dg_growth": 1.0647,
+          "sigma_g_unaged": 1.936,
+          "sigma_g_aged": 1.893,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.0313
+        },
+        {
+          "run": 105,
+          "material": "Teflon",
+          "flow_velocity_cm_s": 0.0,
+          "no_flow": 1,
+          "aging_unaged_s": 37.0,
+          "aging_aged_s": 565.0,
+          "delta_t_s": 528.0,
+          "m0_unaged": 195397.0,
+          "m0_aged": 146578.0,
+          "m0_ratio_aged_over_unaged": 0.7502,
+          "dm_unaged_um": 0.306,
+          "dm_aged_um": 0.324,
+          "dm_growth": 1.0588,
+          "amd_growth": 0.9419,
+          "dg_growth": 0.8874,
+          "sigma_g_unaged": 2.132,
+          "sigma_g_aged": 2.298,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.1006
+        },
+        {
+          "run": 107,
+          "material": "Pyrell",
+          "flow_velocity_cm_s": 0.0,
+          "no_flow": 1,
+          "aging_unaged_s": 36.0,
+          "aging_aged_s": 564.0,
+          "delta_t_s": 528.0,
+          "m0_unaged": 206019.0,
+          "m0_aged": 192866.0,
+          "m0_ratio_aged_over_unaged": 0.9362,
+          "dm_unaged_um": 0.922,
+          "dm_aged_um": 0.933,
+          "dm_growth": 1.0119,
+          "amd_growth": 1.0888,
+          "dg_growth": 1.129,
+          "sigma_g_unaged": 3.084,
+          "sigma_g_aged": 2.985,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.0222
+        },
+        {
+          "run": 108,
+          "material": "Kapton",
+          "flow_velocity_cm_s": 0.0,
+          "no_flow": 1,
+          "aging_unaged_s": 37.0,
+          "aging_aged_s": 565.0,
+          "delta_t_s": 528.0,
+          "m0_unaged": 495068.0,
+          "m0_aged": 451723.0,
+          "m0_ratio_aged_over_unaged": 0.9124,
+          "dm_unaged_um": 0.343,
+          "dm_aged_um": 0.351,
+          "dm_growth": 1.0233,
+          "amd_growth": 1.0741,
+          "dg_growth": 1.1025,
+          "sigma_g_unaged": 2.632,
+          "sigma_g_aged": 2.561,
+          "k_coag_cm3_s": 0.0,
+          "dm_growth_if_mass_conserved": 1.031
+        }
+      ],
+      "coagulation": {
+        "nasa_note_k_cm3_s": [
+          1.24779e-09,
+          1.26186e-09,
+          1.66767e-09
+        ],
+        "brownian_monodisperse_k_cm3_s_at_0p2um": 5.636949990178927e-10,
+        "pairs_k_median_flow_cm3_s": 9.044061073179891e-10,
+        "pairs_k_iqr_flow_cm3_s": [
+          5.657838667165911e-10,
+          1.029700876728017e-09
+        ]
+      },
+      "source_file": "data/processed/size_dataset.csv",
+      "method": "paired_unaged_aged_moments; smoluchowski_constant_kernel"
+    },
+    "flow": {
+      "by_material": [
+        {
+          "material": "Kapton",
+          "n_flow": 4,
+          "n_no_flow": 2,
+          "dm_flow_um": 0.1035,
+          "dm_no_flow_um": 0.3445,
+          "dm_ratio_no_flow_over_flow": 3.3285,
+          "m0_flow": 2985285.0,
+          "m0_no_flow": 386357.0,
+          "m0_ratio_no_flow_over_flow": 0.1294
+        },
+        {
+          "material": "Lampwick",
+          "n_flow": 5,
+          "n_no_flow": 1,
+          "dm_flow_um": 0.286,
+          "dm_no_flow_um": 0.403,
+          "dm_ratio_no_flow_over_flow": 1.4091,
+          "m0_flow": 3197760.0,
+          "m0_no_flow": 438729.0,
+          "m0_ratio_no_flow_over_flow": 0.1372
+        },
+        {
+          "material": "Pyrell",
+          "n_flow": 6,
+          "n_no_flow": 1,
+          "dm_flow_um": 0.4165,
+          "dm_no_flow_um": 0.922,
+          "dm_ratio_no_flow_over_flow": 2.2137,
+          "m0_flow": 3792330.0,
+          "m0_no_flow": 206019.0,
+          "m0_ratio_no_flow_over_flow": 0.0543
+        },
+        {
+          "material": "Teflon",
+          "n_flow": 6,
+          "n_no_flow": 1,
+          "dm_flow_um": 0.189,
+          "dm_no_flow_um": 0.306,
+          "dm_ratio_no_flow_over_flow": 1.619,
+          "m0_flow": 2714650.0,
+          "m0_no_flow": 195397.0,
+          "m0_ratio_no_flow_over_flow": 0.072
+        }
+      ],
+      "method": "median_unaged_no_flow_vs_8cm_s"
+    },
+    "detection": {
+      "overall": {
+        "all": {
+          "n_pushes": 65,
+          "iss_rate": 0.7692307692307693,
+          "ion_rate": 0.676923076923077,
+          "either_rate": 0.9538461538461539,
+          "both_rate": 0.49230769230769234,
+          "iss_only": 18,
+          "ion_only": 12,
+          "neither": 3
+        },
+        "flow_8cm_s": {
+          "n_pushes": 45,
+          "iss_rate": 0.7111111111111111,
+          "ion_rate": 0.9333333333333333,
+          "either_rate": 0.9555555555555556,
+          "both_rate": 0.6888888888888889,
+          "iss_only": 1,
+          "ion_only": 11,
+          "neither": 2
+        },
+        "no_flow": {
+          "n_pushes": 20,
+          "iss_rate": 0.9,
+          "ion_rate": 0.1,
+          "either_rate": 0.95,
+          "both_rate": 0.05,
+          "iss_only": 17,
+          "ion_only": 1,
+          "neither": 1
+        }
+      },
+      "by_material_and_flow": [
+        {
+          "material": "Kapton",
+          "flow_regime": "flow_8cm_s",
+          "n_pushes": 15,
+          "iss_rate": 0.2667,
+          "ion_rate": 0.9333,
+          "either_rate": 0.9333
+        },
+        {
+          "material": "Kapton",
+          "flow_regime": "no_flow",
+          "n_pushes": 4,
+          "iss_rate": 1.0,
+          "ion_rate": 0.0,
+          "either_rate": 1.0
+        },
+        {
+          "material": "Lampwick",
+          "flow_regime": "flow_8cm_s",
+          "n_pushes": 11,
+          "iss_rate": 1.0,
+          "ion_rate": 0.9091,
+          "either_rate": 1.0
+        },
+        {
+          "material": "Lampwick",
+          "flow_regime": "no_flow",
+          "n_pushes": 6,
+          "iss_rate": 1.0,
+          "ion_rate": 0.0,
+          "either_rate": 1.0
+        },
+        {
+          "material": "Pyrell",
+          "flow_regime": "flow_8cm_s",
+          "n_pushes": 7,
+          "iss_rate": 1.0,
+          "ion_rate": 1.0,
+          "either_rate": 1.0
+        },
+        {
+          "material": "Pyrell",
+          "flow_regime": "no_flow",
+          "n_pushes": 6,
+          "iss_rate": 1.0,
+          "ion_rate": 0.0,
+          "either_rate": 1.0
+        },
+        {
+          "material": "Silicone",
+          "flow_regime": "flow_8cm_s",
+          "n_pushes": 4,
+          "iss_rate": 1.0,
+          "ion_rate": 1.0,
+          "either_rate": 1.0
+        },
+        {
+          "material": "Teflon",
+          "flow_regime": "flow_8cm_s",
+          "n_pushes": 8,
+          "iss_rate": 0.75,
+          "ion_rate": 0.875,
+          "either_rate": 0.875
+        },
+        {
+          "material": "Teflon",
+          "flow_regime": "no_flow",
+          "n_pushes": 4,
+          "iss_rate": 0.5,
+          "ion_rate": 0.5,
+          "either_rate": 0.75
+        }
+      ],
+      "threshold_sensitivity": [
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 0.25,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 1.0
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 0.25,
+          "flow_regime": "no_flow",
+          "detection_rate": 1.0
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 0.5,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.9778
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 0.5,
+          "flow_regime": "no_flow",
+          "detection_rate": 1.0
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 1.0,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.7111
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 1.0,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.9
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 1.5,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.6
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 1.5,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.9
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 2.0,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.6
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 2.0,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.9
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 3.0,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.5333
+        },
+        {
+          "detector": "ISS photoelectric (scatter)",
+          "threshold_v": 3.0,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.8
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 0.1,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 1.0
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 0.1,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.8
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 0.25,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 1.0
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 0.25,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.55
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 0.5,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.9333
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 0.5,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.1
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 0.75,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.8444
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 0.75,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.0
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 1.0,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.6889
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 1.0,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.0
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 1.5,
+          "flow_regime": "flow_8cm_s",
+          "detection_rate": 0.5556
+        },
+        {
+          "detector": "Ionization chamber (first moment)",
+          "threshold_v": 1.5,
+          "flow_regime": "no_flow",
+          "detection_rate": 0.0
+        }
+      ],
+      "sts": [
+        {
+          "test": 67,
+          "material": "Silicone",
+          "push_index": 1,
+          "aging_s": 748,
+          "flow_velocity_cm_s": 8.1,
+          "sts_alarm": true,
+          "sts_alarm_delay_s": 17.0,
+          "iss_scatter_delta_peak_v": 6.073,
+          "iss_detect_proxy": true,
+          "iss_scatter_delay_s": 5.0,
+          "ion_b_delta_peak_v": 2.2511,
+          "ion_detect_proxy": true,
+          "dusttrak_b_peak_mg_m3": 182.877
+        },
+        {
+          "test": 67,
+          "material": "Silicone",
+          "push_index": 2,
+          "aging_s": 1050,
+          "flow_velocity_cm_s": 8.1,
+          "sts_alarm": true,
+          "sts_alarm_delay_s": 16.0,
+          "iss_scatter_delta_peak_v": 6.0724,
+          "iss_detect_proxy": true,
+          "iss_scatter_delay_s": 5.0,
+          "ion_b_delta_peak_v": 0.7539,
+          "ion_detect_proxy": true,
+          "dusttrak_b_peak_mg_m3": 73.259
+        },
+        {
+          "test": 68,
+          "material": "Lampwick",
+          "push_index": 1,
+          "aging_s": 747,
+          "flow_velocity_cm_s": 8.1,
+          "sts_alarm": true,
+          "sts_alarm_delay_s": 17.0,
+          "iss_scatter_delta_peak_v": 6.084,
+          "iss_detect_proxy": true,
+          "iss_scatter_delay_s": 5.0,
+          "ion_b_delta_peak_v": 1.4381,
+          "ion_detect_proxy": true,
+          "dusttrak_b_peak_mg_m3": 61.448
+        },
+        {
+          "test": 69,
+          "material": "Teflon",
+          "push_index": 1,
+          "aging_s": 748,
+          "flow_velocity_cm_s": 8.1,
+          "sts_alarm": true,
+          "sts_alarm_delay_s": 24.0,
+          "iss_scatter_delta_peak_v": 5.3714,
+          "iss_detect_proxy": true,
+          "iss_scatter_delay_s": 7.0,
+          "ion_b_delta_peak_v": 1.8709,
+          "ion_detect_proxy": true,
+          "dusttrak_b_peak_mg_m3": 45.14
+        },
+        {
+          "test": 70,
+          "material": "Kapton",
+          "push_index": 1,
+          "aging_s": 747,
+          "flow_velocity_cm_s": 8.14,
+          "sts_alarm": false,
+          "sts_alarm_delay_s": null,
+          "iss_scatter_delta_peak_v": 0.7945,
+          "iss_detect_proxy": false,
+          "iss_scatter_delay_s": null,
+          "ion_b_delta_peak_v": 0.9631,
+          "ion_detect_proxy": true,
+          "dusttrak_b_peak_mg_m3": 18.438
+        },
+        {
+          "test": 87,
+          "material": "Pyrell",
+          "push_index": 1,
+          "aging_s": 37,
+          "flow_velocity_cm_s": 8.08,
+          "sts_alarm": true,
+          "sts_alarm_delay_s": 14.0,
+          "iss_scatter_delta_peak_v": 6.0724,
+          "iss_detect_proxy": true,
+          "iss_scatter_delay_s": 6.0,
+          "ion_b_delta_peak_v": 2.6686,
+          "ion_detect_proxy": true,
+          "dusttrak_b_peak_mg_m3": 110.991
+        },
+        {
+          "test": 89,
+          "material": "Teflon",
+          "push_index": 1,
+          "aging_s": 37,
+          "flow_velocity_cm_s": 8.06,
+          "sts_alarm": false,
+          "sts_alarm_delay_s": null,
+          "iss_scatter_delta_peak_v": 1.0022,
+          "iss_detect_proxy": true,
+          "iss_scatter_delay_s": 48.0,
+          "ion_b_delta_peak_v": 0.9341,
+          "ion_detect_proxy": true,
+          "dusttrak_b_peak_mg_m3": 5.528
+        },
+        {
+          "test": 91,
+          "material": "unknown",
+          "push_index": 1,
+          "aging_s": 37,
+          "flow_velocity_cm_s": 7.97,
+          "sts_alarm": true,
+          "sts_alarm_delay_s": 15.0,
+          "iss_scatter_delta_peak_v": 6.0616,
+          "iss_detect_proxy": true,
+          "iss_scatter_delay_s": 4.0,
+          "ion_b_delta_peak_v": 3.0781,
+          "ion_detect_proxy": true,
+          "dusttrak_b_peak_mg_m3": 225.455
+        },
+        {
+          "test": 92,
+          "material": "Lampwick",
+          "push_index": 1,
+          "aging_s": 36,
+          "flow_velocity_cm_s": 7.99,
+          "sts_alarm": false,
+          "sts_alarm_delay_s": null,
+          "iss_scatter_delta_peak_v": 2.5551,
+          "iss_detect_proxy": true,
+          "iss_scatter_delay_s": 6.0,
+          "ion_b_delta_peak_v": 0.4605,
+          "ion_detect_proxy": false,
+          "dusttrak_b_peak_mg_m3": 5.32
+        }
+      ],
+      "delays_s": {
+        "iss_scatter_median_s": 6.0,
+        "ion_b_median_s": 17.0,
+        "sts_alarm_median_s": 16.5,
+        "n_iss": 67,
+        "n_ion": 62,
+        "n_sts": 6
+      },
+      "source_file": "data/processed/pushes.csv",
+      "method": "peak_response_within_180s_vs_clean_air_baseline"
+    },
+    "model": {
+      "baseline": {
+        "val_score": 1.0426049028159767,
+        "size_nrmse": 1.0311308983196885,
+        "detection_brier_ratio": 1.054078907312265
+      },
+      "best": {
+        "attempt": 11,
+        "val_score": 0.528930998422076,
+        "size_nrmse": 0.5665542626343709,
+        "detection_brier_ratio": 0.491307734209781,
+        "size_factor_error": {
+          "log10_dg_um": 1.478369911335278,
+          "log10_dm_um": 1.2267917638613863,
+          "log10_amd_um": 1.3443161141068676,
+          "log10_m0_per_cc": 1.3471866394685865
+        }
+      },
+      "ledger_file": "runs/autoresearch/same-run-01/results.tsv"
+    }
+  },
+  "key_insights": [
+    {
+      "id": "K1",
+      "objective": "reproduce_nasa_results",
+      "statement": "The moment-method statistics re-derived here match the published SAME-2 Table 1: the diameter of average mass agrees within 11% for all 10 material × aging cases.",
+      "evidence": [
+        "data/processed/size_dataset.csv",
+        "data/processed/published_table1_baseline.csv"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K2",
+      "objective": "particle_size_by_material",
+      "statement": "Kapton and Teflon (wire-insulation polymers) produce the smallest smoke: Dm 0.10–0.23 µm, versus 0.29–0.56 µm for lampwick (cellulose), Pyrell foam and silicone rubber at 8 cm/s flow.",
+      "evidence": [
+        "analysis-same.json#/size/by_material"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K3",
+      "objective": "aging_coagulation",
+      "statement": "With flow, 527–793 s of extra aging cut the particle count to 27%–50% of its initial value and grew Dm by ×1.25–1.56. The growth equals the mass-conserving coagulation prediction (N0/N)^1/3, giving a coagulation coefficient of 9.0e-10 cm³/s, consistent with NASA's note (1.2e-09–1.7e-09) and Brownian theory.",
+      "evidence": [
+        "analysis-same.json#/aging/pairs",
+        "data/processed/figures/aging_coagulation.png"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "K4",
+      "objective": "aging_distribution_width",
+      "statement": "Aging narrowed the size distribution (σg fell) in 11 of 12 flow runs, the trend expected as coagulating smoke approaches a self-preserving distribution.",
+      "evidence": [
+        "analysis-same.json#/aging/pairs"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K5",
+      "objective": "microgravity_no_flow",
+      "statement": "Without flow (possible only in microgravity, where there is no buoyant plume) smoke had ×1.4–3.3 larger Dm and 7–18× fewer particles, and further aging changed it little because it had already coagulated near the heater.",
+      "evidence": [
+        "analysis-same.json#/flow_effect",
+        "data/processed/figures/flow_effect.png"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K6",
+      "objective": "detector_comparison",
+      "statement": "The two detection principles fail in opposite regimes. With 8 cm/s flow the ISS photoelectric (scattering) detector responded to 71% of pushes and the ionization chamber to 93%; for Kapton the ISS detector responded to only 27%. Without flow the ISS detector responded to 90% and the ionization chamber to 10%. Either detector would have responded to 95% of all pushes.",
+      "evidence": [
+        "analysis-same.json#/detectors",
+        "data/processed/figures/detector_comparison.png",
+        "data/processed/figures/threshold_sensitivity.png"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K7",
+      "objective": "shuttle_detector",
+      "statement": "The Space Shuttle ionization smoke detector (powered in 9 pushes) alarmed in 6; it stayed silent for aged Kapton (test 70), a weak Teflon test (89) and a dilute lampwick test (92).",
+      "evidence": [
+        "analysis-same.json#/detectors/sts_pushes"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K8",
+      "objective": "predictive_model",
+      "statement": "The AutoResearch-selected model predicts held-out Dm within a typical factor of 1.23 and M0 within 1.35, and reduces the detection Brier score by 51% relative to the prevalence; its combined score is 0.529 versus 1.043 for the mean baseline.",
+      "evidence": [
+        "runs/autoresearch/same-run-01/best.json",
+        "data/processed/figures/model_cv.png"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K9",
+      "objective": "tem_vs_moments",
+      "statement": "TEM image sizing of lampwick grids gives mean diameters ×1.7–2.7 the in-flight moment value: small particles and liquid droplets are under-counted on grids, so in-flight moments are the better number statistic.",
+      "evidence": [
+        "data/processed/tem_summary.csv",
+        "data/processed/figures/size_distributions.png"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "K10",
+      "objective": "fire_safety_implication",
+      "statement": "A single-moment detector is not enough for spacecraft: overheated wire insulation (Kapton, Teflon) in ventilated areas makes ~0.1 µm smoke that light scattering misses, while smoke trapped in still air (avionics boxes, stagnant corners) is dilute and coarse and weakens the ionization signal. Measuring two moments (e.g. the MPASS demonstrated on SAME-R, or combining ionization and scattering) covers both cases.",
+      "evidence": [
+        "K2",
+        "K5",
+        "K6"
+      ],
+      "confidence": "medium"
+    }
+  ]
+}

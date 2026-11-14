@@ -1,0 +1,231 @@
+file,category,description,size_bytes,run,sample_id,material,grid_age,label_flags,zip_entries,zip_images,sha256,hash_kind
+# 52 - 5P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,2363763,52,5P,Pyrell,,,7,7,a9d408ef955ebd05ba00b26d03a40de71ae19bb5a080ab9ae5a12c146bba670c,full
+# 53 - 65 Silicone.zip,tem_image_archive,Archive of TEM micrographs for one grid,23031718,53,,Silicone,,,10,10,90020a6b772fbaedef107736df229fd4951d042c9f19bfdd74093488c897a4dc,full
+#100 - 53T Teflon.zip,tem_image_archive,Archive of TEM micrographs for one grid,8155276,100,53T,Teflon,,,4,4,86a748b16f98ae4b5363c77cc370f659441c070e44e3219f01f55bb2a14a038b,full
+#101 Postage 54K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,9248880,101,54K,Kapton,postage,,4,4,080424eefaae41032074dedcccadf71ea21ae12091e44b8a4a1ccb8e9085ee99,full
+#101 Preage 54K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,22975604,101,54K,Kapton,preage,,10,10,8c48f9d8c8dea2bf20c8449af60d9931e4dd089097e457474ebaf2ea03482550,full
+#105 postage 58T Teflon.zip,tem_image_archive,Archive of TEM micrographs for one grid,3032821,105,58T,Teflon,postage,,8,8,174f32e5937360d53d2bc5f904f5628315ad93b3fce90e0e22d80ab78e3ea2a1,full
+#106 - 59L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,26147859,106,59L,Lampwick,,,12,12,2addf725a53c9d3cdee57756d6333c1576bdc3fad63bf8feb378ebea4def2f28,full
+#107 Postage 60P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,20550719,107,60P,Pyrell,postage,,10,10,1859b03062d6da9fb92d43bd8981b900cf8cb7a7623e1f899f58e2c9af2e69e5,full
+#107 Preage 60P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,22615239,107,60P,Pyrell,preage,,10,10,19122b2dce02bf6608cd6c02fea8c14a14abd92fa6d936b4c6f8eb67797a248e,full
+#108 Preage 61K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,26765624,108,61K,Kapton,preage,,12,12,0f09738e38df6f3aa02adc4defbcb2c38609d211753f8f075d9e05988728d62e,full
+#49 - 2L - Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,13505560,49,2L,Lampwick,,,28,28,ff7d8b9c8c7b97bba0056477fc4bd3d04f7c6e13b43fc20cfdf5263080448a79,full
+#50 - 3T - Teflon.zip,tem_image_archive,Archive of TEM micrographs for one grid,2885115,50,3T,Teflon,,,5,5,bff0ce8f6fe6782a18e6d94e5b76377d20eda6b2df69d4796dd6b3ebfa58c12a,full
+#54 - 7L - Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,52423002,54,7L,Lampwick,,,24,24,0995b9a7e311dcabfbda3a971b5e81606c909b14f3cb364c73aac5756dde73b9,full
+#54 7L Lampwick - new.zip,tem_image_archive,Archive of TEM micrographs for one grid,6778846,54,7L,Lampwick,,,23,23,81bb795a8d173edb7befa81efcbde2341989d7e69dfa91c99c4e37f7ba780e5c,full
+#54 Lampwick linear 5-2-12.zip,tem_image_archive,Archive of TEM micrographs for one grid,12689807,54,,Lampwick,,,25,25,226a6a1149a247db13c2888e4c407d9c18228c5ef76e9955ac78e7d25ebb093a,full
+#55 - 8L Lampwick High RT_RO.zip,tem_image_archive,Archive of TEM micrographs for one grid,62839623,55,8L,Lampwick,,,24,24,2cf8f06b6d74dab3520eb6f190aeb29408a054f18376e329f355e1b5735c8655,full
+#55 Lampwick linear 5-2-12.zip,tem_image_archive,Archive of TEM micrographs for one grid,16395536,55,,Lampwick,,,22,22,36c31b273166e20af9d1aa6ce7b11162ca154ac151f35cf8bb02cba2abab79be,full
+#56 - 9T - Teflon.zip,tem_image_archive,Archive of TEM micrographs for one grid,47644631,56,9T,Teflon,,,18,18,4ef6a3934f7f67c65a326541824ceaab38b060c927d949dee7b87cef906bdc2d,full
+#58 Postage 11T Teflon.zip,tem_image_archive,Archive of TEM micrographs for one grid,23968084,58,11T,Teflon,postage,,10,10,a5a311c28afdb30832e0d745e57d1bcffe11d412bed6835e4570e9fc0e578ff9,full
+#60 13S Silicone.zip,tem_image_archive,Archive of TEM micrographs for one grid,7420141,60,13S,Silicone,,,24,24,ae94422cd6100042a1e2047495e41f4f3ca3b95ceb4f27e7ece2431297800d10,full
+#63 Postage 16P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,17438901,63,16P,Pyrell,postage,,8,8,86ece7f79608c8714251f099de65dfb8f27a381101df0a499931e88805f55998,full
+#63 Preage 16P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,18016199,63,16P,Pyrell,preage,,8,8,23fdec4d59b94873af5c85280ce2df0f3b1adfe921de13759c35a9ce897f9d7b,full
+#64 Postage 17P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,28890260,64,17P,Pyrell,postage,,12,12,871cb36438698a0cc655321d20cbf1e502416abdac247b255abfc9b337ef63f9,full
+#64 preage - 16P - Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,47180218,64,16P,Pyrell,preage,run_64_but_sample_code_implies_63,20,20,43348a13acc1d8fd58eb123bd2f08570af17920c29b2e8a03aa65a33d4bce398,full
+#67 - 20S Silicone.zip,tem_image_archive,Archive of TEM micrographs for one grid,23163931,67,20S,Silicone,,,10,10,8e77d89f72981c82c07545ffaed12e4f376d87f3083fae9d8aef980960288f2d,full
+#68 21L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,421460,68,21L,Lampwick,,,8,8,80d1fa89abf485481f2c53d1c20509512cad0197a0bc54b7f4e0eb0415eea31f,full
+#69 - 22T Teflon.zip,tem_image_archive,Archive of TEM micrographs for one grid,22813158,69,22T,Teflon,,,10,10,d215e4887ac4e701e7f935d452d358dc48c5b855d83d12a108ae21779e49e250,full
+#71 - 24P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,19490799,71,24P,Pyrell,,,9,9,dce5f4f5d22c0f71b97a147c0e14c804aef5f811adf0d3bb1e80cc0121477bf9,full
+#72 - 25S Silicone.zip,tem_image_archive,Archive of TEM micrographs for one grid,17862299,72,25S,Silicone,,,8,8,c65c331503aeed3cf22bc6d4b0968c215e44ca18797389e18f3d6cc43bcd1881,full
+#73 mis labeled pyrellpreage 26K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,66969710,73,26K,Kapton,preage,source_label_warning,24,24,53c5355128ceba1eade63c0435010e041e45d91f6d4bf634e28fb6a01ef9ae5e,full
+#73 mislabeled pyrell postage 26K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,64003333,73,26K,Kapton,postage,source_label_warning,24,24,b6675dd5b38eff5e5ab7b4d60687da8a0950609d450eb950e4667af1dd898328,full
+#74 Postage 27P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,11461931,74,27P,Pyrell,postage,,21,21,8f576988566f118089d80896761197983de4f6f8399d03b87ae11eed20f6ebb6,full
+#74 Preage 27P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,651421,74,27P,Pyrell,preage,,3,3,b386484ff565eb39116e350e32c8fbc334a06a1f2ef1579510988c4f34919602,full
+#76 postage 29P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,7913530,76,29P,Pyrell,postage,,21,21,57577e438c7c36c1e0af14597543d77f298394fbdf9f61feff135329bd7b17d9,full
+#76 preage 29P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,1497112,76,29P,Pyrell,preage,,4,4,d98352319fddaa3607e92cb7b1bd0ba5f363e4542f9c7152bb743b025a8971ce,full
+#78 Postage 31L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,1613620,78,31L,Lampwick,postage,,4,4,3e36c941cd72980ad0a531d1f5240f861835a9971a78bef845ccf8c63611bb25,full
+#78 Preage 31L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,1199289,78,31L,Lampwick,preage,,6,6,130ea96273fc2b6b7298440a2a9b653f03cd7191150e9b9c556f6c0e57002d53,full
+#79 Postage 32T Teflon.zip,tem_image_archive,Archive of TEM micrographs for one grid,1266188,79,32T,Teflon,postage,,4,4,71d63925b0568971f246471a0ea1769cd44926c9815717f08537c71e48f8a29c,full
+#79 Preage 32T Teflon.zip,tem_image_archive,Archive of TEM micrographs for one grid,1275395,79,32T,Teflon,preage,,3,3,4ca8927f20e4fef1c2679bd1313a791b4be40b1633e8ae6761c8e98d699d76ef,full
+#80 Postage 33L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,539968,80,33L,Lampwick,postage,,2,2,5ab2d8cec325936625f173e0f127c894dac531f016b2b284a4c35b8b42331ab8,full
+#81 post age Teflon (34T).zip,tem_image_archive,Archive of TEM micrographs for one grid,8735441,81,34T,Teflon,postage,,4,4,d44a925a6e7fb5f8113056a6d54f343db96e8fac9b8b875568eec50901edf53d,full
+#81 preage Teflon (34T).zip,tem_image_archive,Archive of TEM micrographs for one grid,21770770,81,34T,Teflon,preage,,10,10,33418a7806abe1afad4ebf0e009f0410b37ed1ca862e7d5df6429f24b0e5eb90,full
+#82 Postage 35L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,3032217,82,35L,Lampwick,postage,,10,10,b9e7d41d6b5d65ebae845e4dce0ffbea6c4146e608dad0bb463654b726db351e,full
+#82 Preage 35L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,480179,82,35L,Lampwick,preage,,2,2,fd80c0c5b8a4c27fbb42afe391e16bf70c2105bedf662dcb9087045887430692,full
+#83 post age Teflon (36T).zip,tem_image_archive,Archive of TEM micrographs for one grid,15145945,83,36T,Teflon,postage,,7,7,a91e9e49422467e08a01948cdd34ab09ae3bec9f9c7637d84dcabda276ef20a9,full
+#84 post-age 37P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,64003129,84,37P,Pyrell,postage,,24,24,76512f1a637d2014fd4eceb5ebfc7ab59ec6d02cde798cec7db64cd4f099f6d6,full
+#84 pre-age 37P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,66969662,84,37P,Pyrell,preage,,24,24,ecf025b3a7b84068a66ff470727d59aa83c1cb88daca06ff677642ff7ddbe157,full
+#87 - 40P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,24626532,87,40P,Pyrell,,,10,10,bc130fb11b1e55105ed3d7c320796abdbf039b685ff035dd735b05a51828b714,full
+#93 Postage 46K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,1906334,93,46K,Kapton,postage,,6,6,3f5ff037ffd221e23e6899eb70abfdf7181fda145d29aee205c79d6b3623a561,full
+#93 Preage 46K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,8132002,93,46K,Kapton,preage,,4,4,427bd985cbd756e64c2c9c99009a7b3974d25126e9e5b21420f4d0e32f5e3963,full
+#95 - 48P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,7108991,95,48P,Pyrell,,,4,4,66ff4a66b57363dc72bd1b7e7cc01fe574b41cfaa946be85d9872c8d6b0fc8ba,full
+#96 - 49L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,20510970,96,49L,Lampwick,,,9,9,74ae53b03426886b3263343d347446613097dac7009c27c4563d12e4d3c7c340,full
+#97 - 50P Pyrell.zip,tem_image_archive,Archive of TEM micrographs for one grid,22559031,97,50P,Pyrell,,,10,10,c31f853bbd40ece4c1a5dab93319059331cd22c8e540f97050104e23a8060d09,full
+#98 Postage 51L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,16112726,98,51L,Lampwick,postage,,8,8,ba4f0a23c1fcdfaf41b5396044e9bfd98a0fbd91735844038025689def47d59e,full
+#98 Preage 51L Lampwick.zip,tem_image_archive,Archive of TEM micrographs for one grid,32561516,98,51L,Lampwick,preage,,15,15,972158d67fe42c68a4201340b18809416571611e2b202f6539ed7524746126c6,full
+1 Lampwick vlc-record-2010-09-07-16h18m22s-udp___233.1.14.11 _50300-.mp4,video,Downlinked MSG video,303548579,,,,,,,,31b2fe8a3891b611055f1265b426c92243eb03b6db77820b85cd8e600fffe81b,size+first+last_MiB
+1 Lampwick vlc-record-2010-09-07-16h18m22s-udp___233.1.14.11 _50300-.zip,video,Downlinked MSG video,44787440,,,,,,1,0,57fb7c76f9ae2f114967729dfc6833aaa47ad02a49ee98043696385850539061,full
+100 - 53T Teflon.pptx,tem_presentation,TEM image presentation for one grid,688572,100,53T,Teflon,,,,,08077b3a251ce5089ae265f77beda04fd6ab28b37140307db405ec0c9348ffb9,full
+101 Preage 54K Kapton.pptx,tem_presentation,TEM image presentation for one grid,1956308,101,54K,Kapton,preage,,,,9842867eab092cf4ed17912dbafd5dbd92d6f04559ebf808754ef4aa8311fe27,full
+101 postage 54k Kapton.pptx,tem_presentation,TEM image presentation for one grid,815606,101,54K,Kapton,postage,,,,d6bb2df5f00be7afb432742c130347abf208e79c941712aca4e2df6f2422d037,full
+105 postage 58T Teflon.pptx,tem_presentation,TEM image presentation for one grid,1612238,105,58T,Teflon,postage,,,,8118acbb0db6b84dc912db2b3e2334bf475551063c6c1b73f6d77659d93722d6,full
+106 - 59L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,2091716,106,59L,Lampwick,,,,,4fc4ce22b3edcb351149b65158ed924f05cc9a3821415e8f62e1ff0ea512c815,full
+107 Postage 60P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,1613570,107,60P,Pyrell,postage,,,,6d59b2f4e4e57656796697e7278b5bab4b033ec8f7c4b8412e2622d0c21fa76b,full
+107 Preage 60P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,1642654,107,60P,Pyrell,preage,,,,7983108b5ba6a4e2a9aa55c1cbf24a4909bef8a97bbe471a19e055ae076ffe7d,full
+108 Postage 61K Kapton.pptx,tem_presentation,TEM image presentation for one grid,2079091,108,61K,Kapton,postage,,,,2c838dc4eaf1ce239ff52144e9db1e36f3ebeecd92ea227d8c4009d59158b6fe,full
+108 Preage 61K Kapton.pptx,tem_presentation,TEM image presentation for one grid,2241480,108,61K,Kapton,preage,,,,5378281bc0cd046057dc0570f543915abb9b21e2926ff542ab923a872e1bdc55,full
+108 post 61K.zip,tem_image_archive,Archive of TEM micrographs for one grid,23004474,108,61K,Kapton,postage,,10,10,834b98cec13954b6bca6b4ae1694b8ddbc801cd70cc99d4c8af36ab625c1afbb,full
+2 Kapton vlc-record-2010-09-07-17h19m24s-udp___233.1.14.11 _50300-.mp4,video,Downlinked MSG video,164650898,,,,,,,,3f44229d8571ee3be33c761901cab221099ccedbdee1532813c796e0e4d56e98,size+first+last_MiB
+2 Kapton vlc-record-2010-09-07-17h19m24s-udp___233.1.14.11 _50300-.zip,video,Downlinked MSG video,28541664,,,,,,1,0,fef2a624ca9b7b36b944d85424610d1228b86f5ffeea908eac81d5a5bdd52e17,full
+2010_210_10_lampwick_run54.xls,run_spreadsheet,Housekeeping copy for one run plus the analyst's plotting sheet,7128576,,,Lampwick,,,,,2a67d2ac9c62ac2c99ff98b3f00bfe355faed48049a74b4e41affb2c7bda7ed5,full
+2010_210_10_lampwick_run55 wrong.xls,run_spreadsheet,Housekeeping copy for one run plus the analyst's plotting sheet,4406784,,,Lampwick,,source_label_warning,,,5cf919f04ea9455664f5d9f16b0f36b81a0f01fd03cadfd0943812ca21b37d3e,full
+2010_210_10_lampwick_run55.xls,run_spreadsheet,Housekeeping copy for one run plus the analyst's plotting sheet,2990080,,,Lampwick,,,,,d8a1ecee339b901388095bfb18d82785b98e772f14b2d1c2a5e1f93cb425f0e9,full
+2010_211_13_silcon_run59 wrong seems to be 60.xls,run_spreadsheet,Housekeeping copy for one run plus the analyst's plotting sheet,6920704,,,Silicone,,source_label_warning,,,78e066262ed90ef6291f481f1f7e507f445b8245129f02a065589cc6e525cc41,full
+2010_211_14_lampwick run 55 corrected.xls,run_spreadsheet,Housekeeping copy for one run plus the analyst's plotting sheet,6368768,,,Lampwick,,,,,2075fbf9cd6d17c945662c4d4be0c8b1639a2e6d76484ed451ce7b718dd7b265,full
+3 pyrell vlc-record-2010-09-08-11h37m29s-udp___233.1.14.5 _50000-.mp4,video,Downlinked MSG video,463842635,,,,,,,,f847fcb97c0df7f3ce57ee7ab0f644f0c6503b0097236109085e5cba531164c8,size+first+last_MiB
+3 pyrell vlc-record-2010-09-08-11h37m29s-udp___233.1.14.5 _50000-.zip,video,Downlinked MSG video,76888678,,,,,,1,0,16da1c3c8dd65c717b3d9998c3e772775c77e9852c39aefe58e539c41ec9e28b,size+first+last_MiB
+4 lampwick vlc-record-2010-09-08-12h10m02s-udp___233.1.14.5 _50000-.mp4,video,Downlinked MSG video,279582511,,,,,,,,b8d014e050de918b17cc10e79a5a3f505f4909977c77c73798b077788ced92c6,size+first+last_MiB
+4 lampwick vlc-record-2010-09-08-12h10m02s-udp___233.1.14.5 _50000-.zip,video,Downlinked MSG video,41582320,,,,,,1,0,e8ba65b6cfff70ac4aebad837d1591317bcc2bfd87b567f30cbc9f0a3f71f479,full
+49 - 2L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,901205,49,2L,Lampwick,,,,,d2e734fdb3b91ce4b3d685c78ca42f9a9eb18117b833a44432df5bb263533959,full
+4K-K01-10 -6x-1y 10k.tif,tem_image,Single TEM micrograph,606532,51,4K,Kapton,,,,,d029f81d4badbad3b2ff053cf555d790aaf383c1871859ba06c705b4f42324f5,full
+4K-K01-15 -1x-1y 10k.tif,tem_image,Single TEM micrograph,634338,51,4K,Kapton,,,,,cb1336433ce2c53f1253eb928b509bff32d17a01126206f953be2c536476a217,full
+4K-K01-4 -6x-1y 1350.tif,tem_image,Single TEM micrograph,547155,51,4K,Kapton,,,,,7b7445e7aac0a59b3504192b27c427df518ef06a45d1b4c7a78cf55d148009de,full
+50 - 3T Teflon.pptx,tem_presentation,TEM image presentation for one grid,448844,50,3T,Teflon,,,,,39810b1171625aa5c7d76331a07dbaf89c35ef01509a5c74d3fe7f74bfdb34f4,full
+51 - 4K Kapton.pptx,tem_presentation,TEM image presentation for one grid,1261921,51,4K,Kapton,,,,,f198083bd1ffefa587bdd16e52693212b0991b93eae20ba5cf27960aa8f237b1,full
+52-5P Pyrell.pdf,tem_presentation,TEM image presentation for one grid,1824143,52,5P,Pyrell,,,,,e067b86433a6ecb08d3cfa7117f7e025703319e4ad5ea0df6dc8c019430a286c,full
+52-5P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,5649952,52,5P,Pyrell,,,,,d2aa17ac26ea54cf232afe906136e781aacea4206d18226a3b079535ca7ba13e,full
+53 - 6S Silicone.pptx,tem_presentation,TEM image presentation for one grid,1911407,53,6S,Silicone,,,,,9207372c66fa52d206268cc36648023aba2df16ab38ac19e3b03bcbb5a82df8e,full
+54 7L Lampwick new names 4-23-12.pptx,tem_presentation,TEM image presentation for one grid,4253960,54,7L,Lampwick,,,,,80fc45223c37f981f0fb4e374731d308a08f96ca092bb8848f16bad6555d4d89,full
+54 7L Lampwick.pdf,tem_presentation,TEM image presentation for one grid,1608893,54,7L,Lampwick,,,,,266897bd7888cedb08ab12c534349dc468befe59e97095692a6f7d9396eab1b9,full
+54 7L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,1649841,54,7L,Lampwick,,,,,d913acc2cec595e437e11c81dfd0f1757a28bdc5b0ea15908cedbca3cb1ce898,full
+54 Lampwick linear for image analysis.pptx,tem_presentation,TEM image presentation for one grid,5417172,54,,Lampwick,,,,,8673b0959f3c441ff06f5f6d7b6c19da368e76498de3953faa0f7a534edf0371,full
+54 l quarters.pptx,tem_presentation,TEM image presentation for one grid,615007,54,,,,,,,96be6e512c23f89742584167e82472c65ee2cf16d9baeba82867924986e9f884,full
+54 lampwick binneddatacorr from GWM.xlsx,tem_particle_sizing,Per-particle TEM image analysis and binned statistics,241661,54,,Lampwick,,,,,3a264eda40cb49eb37f6817425eec11594a1ae0c24bad29aac2f3c784613deca,full
+55 8L Lampwick.pdf,tem_presentation,TEM image presentation for one grid,1487063,55,8L,Lampwick,,,,,f2ec822eba670aee2245d07de5e45c26b55b84626a219016f8b34eee9f98068f,full
+55 8L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,4458515,55,8L,Lampwick,,,,,299466adf35d2fe7fa8ffde40ecb5eb5e53d99bea6ea6d0b9f95d5d053ee6022,full
+55 Lampwick.xlsx,tem_particle_sizing,Per-particle TEM image analysis and binned statistics,690112,55,,Lampwick,,,,,0805f421d5d29d031afeb317451486f296cd86cb4aeee53c69359f0ff1335085,full
+56 - 9T teflon.pdf,tem_presentation,TEM image presentation for one grid,2313158,56,9T,Teflon,,,,,bce393535b52fccf60020900af042abea0c13f4578dd5475343247c21a7dfa35,full
+56 - 9T teflon.pptx,tem_presentation,TEM image presentation for one grid,2185887,56,9T,Teflon,,,,,8868883c1aae4ad821cb24b0459360d636e9b504de26ceca4eab874ea6d2df2d,full
+58 postage 11T Teflon.pptx,tem_presentation,TEM image presentation for one grid,2024203,58,11T,Teflon,postage,,,,d7c5d44699924e71d2546d1fdfb0e53e784b202f2188a9d10aa1435caaaffe09,full
+60 13S Silicone.pptx,tem_presentation,TEM image presentation for one grid,4717609,60,13S,Silicone,,,,,79a458218793b6d2382d81e980ddb9da69ab651036d3bd90661a1a8721eb6d98,full
+62 Post Kapton - linear for image analysis.pptx,tem_presentation,TEM image presentation for one grid,5487298,62,,Kapton,postage,,,,9d3b710e4891deb7ffc8d4c0761251a4f15d0d0d575980c39c5955fb9ffc0806,full
+62 Postage 15K Kapton.pptx,tem_presentation,TEM image presentation for one grid,1568467,62,15K,Kapton,postage,,,,9fae3e8ab74c158c4f3baf30a209fa0071646214778794b6b2c0bfa430fa6a82,full
+62 Postage Kapton linear.zip,tem_image_archive,Archive of TEM micrographs for one grid,11188395,62,,Kapton,postage,,22,22,e11f4319c1f2c967b3960c238f62b8896a731e5830c55ee58310bb3502c7a21f,full
+62 pre 15K Kapton.pdf,tem_presentation,TEM image presentation for one grid,1023848,62,15K,Kapton,preage,,,,ac5a6889f7d11e9b67c997104182370b6442d5ee23f1db6aaaf0285623db75ce,full
+62 pre 15K Kapton.pptx,tem_presentation,TEM image presentation for one grid,1076136,62,15K,Kapton,preage,,,,906dfdb071fe7a4c6cd33414b4dba0fc49d8043d8a8c02719c17c46df9bda98d,full
+62-preage 15K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,41931737,62,15K,Kapton,preage,,18,18,ea1bc999138b02e80dc065d967b88341c2185c2b51d708ed9089b5205f004dbe,full
+62_Preage Kapton linear.zip,tem_image_archive,Archive of TEM micrographs for one grid,13377910,62,,Kapton,preage,,23,23,9302c3ac4afea83f36f42b0605c875036b42ad81c03338ff9dcc4ae8a36b157e,full
+63 Postage 16P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,1635817,63,16P,Pyrell,postage,,,,c011c158c07006b63cde21ac895f8f4082e27e076ed09d4f16d2ba583dc9dacc,full
+63 Postage Pyrell for image analysis.pptx,tem_presentation,TEM image presentation for one grid,5689372,63,,Pyrell,postage,,,,b581ee3f93652903236ef09cc1e9a2c519734a527aea0e2f916dad4742111e10,full
+63 Preage 16P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,1737419,63,16P,Pyrell,preage,,,,0646b0c1defa9563dc3c2a4287bf9bbd47b30f923c8fd4416d802c4f12c2d23a,full
+63 Preage Pyrell for image analysis.pptx,tem_presentation,TEM image presentation for one grid,6897849,63,,Pyrell,preage,,,,daf514194165bc0d0220bcdcaf1d2ad2fabca23360e9719784da194282aa0baf,full
+64 Postage 17P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,2508070,64,17P,Pyrell,postage,,,,909fb4bd1360ae959ced9884d71178a2cbaa2328d233f1671c6170c1c2cbd639,full
+64 Postage Pyrell for image analysis.pptx,tem_presentation,TEM image presentation for one grid,5350396,64,,Pyrell,postage,,,,56e231ee75d2688a5353d4ab35e94b998113d95747970241e5197af5c15f57df,full
+64 Preage Pyrell for image analysis.pptx,tem_presentation,TEM image presentation for one grid,5239509,64,,Pyrell,preage,,,,536f4c367335f006e8941f4af196b7e21470b106557d5736e1a7a0c6b224d04a,full
+64 preage - 17P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,1749626,64,17P,Pyrell,preage,,,,510e24edbf442661926a6a1360ce5571acbfa28eb91e793ce906ba98aa29af82,full
+67 - 20S Silicone.pptx,tem_presentation,TEM image presentation for one grid,2057323,67,20S,Silicone,,,,,1b6cf226eef0b35315eea90eab7422d3ba97e5b7d8e4a5241e95883cd7657fc8,full
+68 21L Lampwick.pdf,tem_presentation,TEM image presentation for one grid,4235607,68,21L,Lampwick,,,,,2c620e230bd6aebc80ae9d740306239ed0e12bc5437aa519ef3c0581d835f2cf,full
+68 21L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,8981135,68,21L,Lampwick,,,,,b815d8b885fdb3a55cd8a2b2b5fad5d4c3802f2de591cb5e21bb03a16895ea38,full
+69 - 22T Teflon.pptx,tem_presentation,TEM image presentation for one grid,1813728,69,22T,Teflon,,,,,3d8186970c484569a2d0053f40af443bfdbcb67916d764c37f8c0aec886626e0,full
+7 kapton vlc-record-2010-09-08-14h26m11s-udp___233.1.14.5 _50000-.mp4,video,Downlinked MSG video,251700257,,,,,,,,3d60c0af872b7a5061478eb821eee4c294a40223341eb0818ee508516cb7537b,size+first+last_MiB
+7 kapton vlc-record-2010-09-08-14h26m11s-udp___233.1.14.5 _50000-.zip,video,Downlinked MSG video,41711655,,,,,,1,0,4a3802aa1ef536508c92bfcb231575cf2c6abaf99d022f54688793ab3286cc39,full
+70-23K Kapton.pdf,tem_presentation,TEM image presentation for one grid,5292539,70,23K,Kapton,,,,,44f26b317cafb656f9fe42a9ae27631a2d91e8c997a0b2286c83ae731590e87f,full
+70-23K Kapton.pptx,tem_presentation,TEM image presentation for one grid,11210574,70,23K,Kapton,,,,,d1c56fb2f694af69e94ff1ebf663ec15c6c250ac04b13cef4a403eaf6564b04a,full
+70-23K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,530577,70,23K,Kapton,,,10,10,aac0f17a6f525be3251de8a6d8410d8fa69dda412f545344d51259466c684648,full
+71 - 24P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,1580310,71,24P,Pyrell,,,,,eacf571606e25407eb788ee04de7e2b1113c96b0e9548938791256d79ffce2d6,full
+72 25S Silicone.pptx,tem_presentation,TEM image presentation for one grid,1497290,72,25S,Silicone,,,,,146955795d2489ae3e1a2540fb1ed39ad8b703ec6ba2cb3e44c69f39152e015f,full
+73 post 26K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,787886,73,26K,Kapton,postage,,2,2,793f4c620d0e9080d8f70cd676a6a3e6d34500210cf7987111d8e64b872ec3ae,full
+73 postage Kapton 26K.pptx,tem_presentation,TEM image presentation for one grid,426321,73,26K,Kapton,postage,,,,0edc09ef5c7d30c214550a32319358ea93253a5452280b73d9fc159d501cbd92,full
+73 preage Kapton (26K).pptx,tem_presentation,TEM image presentation for one grid,4841969,73,26K,Kapton,preage,,,,1d7d02c530d99097c5b012b676bbd9e51c828404c16c02469e6541f9f4c9488a,full
+73 preage Kapton 26K.pptx,tem_presentation,TEM image presentation for one grid,940782,73,26K,Kapton,preage,,,,001c807b74f2468e82547c157d327cdd1ab5f7ccdc12af97a8ecc8fb823a7a01,full
+73 preage Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,1907387,73,,Kapton,preage,,5,5,941e2e0991fffb28c14d175718fbc9668767611878fc7d2facb2239960c9223a,full
+74 postage Pyrell 27P.pptx,tem_presentation,TEM image presentation for one grid,5154529,74,27P,Pyrell,postage,,,,71a47cfccc25e3223977d16dabfbe485ed83c1e038c5729a0d539bdee491317d,full
+74 preage Pyrell 27P.pptx,tem_presentation,TEM image presentation for one grid,412976,74,27P,Pyrell,preage,,,,6d9e6dde0b729827193ff89e73460765de8881d61062bbe96645cc63ef82ab71,full
+75 postage Kapton 28K.pptx,tem_presentation,TEM image presentation for one grid,3076542,75,28K,Kapton,postage,,,,6be7e345797c8dffab63dc1e73111514b5b721088bcfb5312812d7d358877449,full
+75 postage Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,7341213,75,,Kapton,postage,,12,12,bfe58bc59f46102290e1f669bffcfd7a588b88b2ab3ca9e6e8ce94f80a4ff854,full
+75 preage Kapton 28K.pptx,tem_presentation,TEM image presentation for one grid,750884,75,28K,Kapton,preage,,,,d01ff1f21918e78dea04b95461433e5971fc283b78c9681145aadc78c1fec324,full
+75 preage-28K.zip,tem_image_archive,Archive of TEM micrographs for one grid,1497816,75,28K,Kapton,preage,,4,4,5bb91feefcb13b72a3e5fd2b3d29548dc5b21d756c0dd5ef6111a953acb6f801,full
+76 postage Pyrell 29P.pptx,tem_presentation,TEM image presentation for one grid,4086823,76,29P,Pyrell,postage,,,,1dbb7014a1d913d8e946a763e9e26d3544bf223e115f6d66862ea9c3aaceeff1,full
+76 preage Pyrell 29P.pptx,tem_presentation,TEM image presentation for one grid,3091163,76,29P,Pyrell,preage,,,,e90096759fba5ea705243ef1a00d68f6547423c3fa1ea985eb0af8e19a28f80e,full
+77 post-30K_Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,10880180,77,30K,Kapton,postage,,21,21,6101ad6f102678bf7327675254e90ba2df832104e14ad6a480817cb413e9b364,full
+77 postage Kapton 30K.pptx,tem_presentation,TEM image presentation for one grid,4690013,77,30K,Kapton,postage,,,,8c25cfd875ef96ce6d86889da2eda8e79c665398f7c0704b3ec3179c13432e8e,full
+77 preage Kapton 30K.pptx,tem_presentation,TEM image presentation for one grid,4724742,77,30K,Kapton,preage,,,,7a688c2c625a0d5063a9748138df23282aca60f5f48fdfb972fce78885ee60df,full
+77preage Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,9968698,77,,Kapton,preage,,21,21,00b7ebd4c50c7da05967e6d35fa6648c8eebb93dffe1422781a2439b033bfce4,full
+78 Postage 31L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,836925,78,31L,Lampwick,postage,,,,cef2c65987949234c7a21b5ac68677804ed27b38db7cd461c9663ec2daf6cfae,full
+78 Preage 31l Lampwick.pptx,tem_presentation,TEM image presentation for one grid,845658,78,31L,Lampwick,preage,,,,c6b239092915e65d2487b32a01c8ef137df77b7acf0b0c688de1e5e0c4520588,full
+79 Postage 32T Teflon.pptx,tem_presentation,TEM image presentation for one grid,681410,79,32T,Teflon,postage,,,,6573b1615379a227950347ff406d522ba2903f29a75c67f5892bd83177ed3ec2,full
+79 preage Teflon 32T.pptx,tem_presentation,TEM image presentation for one grid,331634,79,32T,Teflon,preage,,,,f4be300425be8e1a0b5e8a1798d531d67c132a925101d90d65f321eb0423cae9,full
+80 Preage 33L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,1752731,80,33L,Lampwick,preage,,,,aaceb065a754e8584281436b5d5e72aafa0d4e5e16e12a3f7a3a030051d05ecf,full
+82 Postage 35L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,1821941,82,35L,Lampwick,postage,,,,4f754c5c1f3cf1c1d9bea89da90ada196188fb726fcb0a89599dac429a728b3c,full
+82 Preage 35 L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,297490,82,35L,Lampwick,preage,,,,e2f0d8c27a6b7b2993fdea5a686e701deebb08bb60f39170d1a0d615d483a926,full
+83 postage Teflon 36T.pptx,tem_presentation,TEM image presentation for one grid,1343676,83,36T,Teflon,postage,,,,ded55f1fea4645d455f8e79159792ea1a9fe565f8f96199fa90fecab3b798966,full
+84 post 37P Pyrell (26K).pptx,tem_presentation,TEM image presentation for one grid,4500394,84,37P,Pyrell,postage,,,,b7a5089e225a1c9e5c43dac7234182011e6e35dfb4f08fb45424ff6be1b11961,full
+84 preage Pyrell (37P).pptx,tem_presentation,TEM image presentation for one grid,4843320,84,37P,Pyrell,preage,,,,fd0cc5a0a870b59f380319842e70e786f1c8f70c163e33a3f8cf6bc7ec483682,full
+85 38K Kapton.pptx,tem_presentation,TEM image presentation for one grid,1576135,85,38K,Kapton,,,,,06bc8de6151460620d830a50404735f29aeca1aeb8baf515a21f037596cfa239,full
+85-38K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,3083737,85,38K,Kapton,,,8,8,eba3d75f646f7a2cb17b9911ecc91232a614d5047e0c942191e1a3cf6995243f,full
+87 - 40P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,2109315,87,40P,Pyrell,,,,,df953db0bfeb3603e79bff27c9ec815d48bb28765517a40ce43df43498948bb8,full
+93 Preage 46K Kapton.pptx,tem_presentation,TEM image presentation for one grid,756899,93,46K,Kapton,preage,,,,ce507fca68163718122a9ad747cfbeb3ef4597c5524edb3ff092963240b94a2f,full
+93 postage 46K Kapton.pptx,tem_presentation,TEM image presentation for one grid,367139,93,46K,Kapton,postage,,,,78f944c5c40adb306ed31c1545bc0a30a944fd4c595f1387c981708c5d465c96,full
+94 post 47K.zip,tem_image_archive,Archive of TEM micrographs for one grid,16286287,94,47K,Kapton,postage,,6,6,c244119d5e00bf9a9d8406045ea9315ec3533bd3054b7c72fbcc7627a88fdb7f,full
+94 postage 47k Kapton.pptx,tem_presentation,TEM image presentation for one grid,1442904,94,47K,Kapton,postage,,,,1e410a2ef34cfb97a0bcebb33149a8a5c9c5911ce0cc33e878a6d3a20bb7e53e,full
+95 48P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,668920,95,48P,Pyrell,,,,,16925518de7de37a554ef1d599bb58473625d5093a1ce0b12b13e12d1a1dcdfd,full
+96 48L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,1728964,96,48L,Lampwick,,run_96_but_sample_code_implies_95,,,96944348cbb2c3ead5146c31ae68fca9644d6fb52137ffc38420773ebd59fc13,full
+97 - 50P Pyrell.pptx,tem_presentation,TEM image presentation for one grid,1922135,97,50P,Pyrell,,,,,29052f7e2d6e551c0cbea8d12722d8fd435cf05be72581e470973a08de8496ee,full
+98 Preage 51L Lampwick.pptx,tem_presentation,TEM image presentation for one grid,3012371,98,51L,Lampwick,preage,,,,e824d2f310d25cbfe1d870620a450899f1620e01aef2cd58190666b4f5da3175,full
+98 postage 51l Lampwick.pptx,tem_presentation,TEM image presentation for one grid,1477691,98,51L,Lampwick,postage,,,,bde3432db47870207717ca7dd91d575bbf220dff198a9a7d7add52a41f230809,full
+HKPData_gmt211_2.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,694283,,,,,,,,cef7e6546693a8bab060c3b4fde8706bce0dc7a1fde4c043b24c156408f5e143,full
+HKPData_gmt211_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,693361,,,,,,,,01c1850d94bc11109d8d52941208b8330908afb718a18d407b0a92cbf10590c7,full
+HKPData_gmt211_4.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,784824,,,,,,,,c2fc633f30782679b19d34dcd30c36d83e480f06abd7e913b8340381f1d866c7,full
+HKPData_gmt214_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,680383,,,,,,,,49a886384bff6ba2370ed1ae7a96726e4adc2f921c7b5a5b6989fad723b0df09,full
+HKPData_gmt214_2.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,625909,,,,,,,,ca0b524ff4bfb5c2899fb5987cd81d3e48a0ae10df3f10a9431b708260a6e08c,full
+HKPData_gmt235_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,496614,,,,,,,,d9cfb2adefd9bbf59100d5f2406f5d0bc1f51b1893adc919b419da6b6973bbfc,full
+HKPData_gmt235_2.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,934806,,,,,,,,6457dcdc76e3f6b4a7fff5f86f466635a83215f510e6535533f847b90029154a,full
+HKPData_gmt235_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,678028,,,,,,,,ca4a3c4c4ff9d479f40e3dd4368b32d4933457bb4aa8d4d4a59f62e91dcba209,full
+HKPData_gmt235_4.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,606228,,,,,,,,ea6b9670749b768cbb99e5365ec09d91749446a7c0437fdf92c9dd746436af45,full
+HKPData_gmt236_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,521399,,,,,,,,16e9952ef6f02f2a0447a43be6c9a0a28ad152f32356f107d2c0d8b54fe8d512,full
+HKPData_gmt236_2.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,492364,,,,,,,,dc38296b4ecbb3aec3758b67519a2a1d40089705ff535a1b89077577d6323065,full
+HKPData_gmt236_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,652132,,,,,,,,adde1734642ee034d34468f5ed49b23db9bcc547dd0a4097250d3046cc13777a,full
+HKPData_gmt237_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,576815,,,,,,,,25b9b41900b7932ceb250cde8f2501f7e9c5cfb311de9bd8336a0a2183e903cf,full
+HKPData_gmt238_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,499714,,,,,,,,1b16bf9a49ef4c726d58e72c13c78bc228427c7d12d8c707e0815f99c1a31fd1,full
+HKPData_gmt238_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,511400,,,,,,,,0d320377ba96070916711dc42a0d1995d70498f45060c62a449f5effa41d25ac,full
+HKPData_gmt238_4.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,578952,,,,,,,,74425c51b5e041708f16f1f064ba2116db1ca00fa6ebf1012dcb2c0435176a05,full
+HKPData_gmt238_5.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,524152,,,,,,,,d72fd7e0e8e6443d56587561bf515ac2e25a1267e1ca0c6f201cec49d2fd0717,full
+HKPData_gmt239_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,779694,,,,,,,,7b06ee3f206b563f0db2d5a47cc4f4f8438bbf15a94b3c6c95799e68afb7ee4d,full
+HKPData_gmt239_2.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,537510,,,,,,,,a2222142637b5d63ac2254a7e33d828f721946618f36fc88fba841fbcc4e3c17,full
+HKPData_gmt239_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,475594,,,,,,,,5b6143236495df18f175bdc91a14662c57529aad2eb0649eadf22efa25ff5571,full
+HKPData_gmt239_4.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,519128,,,,,,,,3319d7ca308be9e7c3caa4393622bea086ba368f387a5ca5a5253033b7a47111,full
+HKPData_gmt239_5.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,659660,,,,,,,,03475608d80c6be69e33b0592191686f51c4b4d746b1d1a07c017cf0278da0ba,full
+HKPData_gmt242_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,625086,,,,,,,,27986766651650835aa63711c6c86167d16605c6b45f748e29b8c41e7eadb4ae,full
+HKPData_gmt242_2.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,509413,,,,,,,,c7e2932f8aa5c1d855d42c4f8bcbf704aa0281b7528676ef685b15d074612b9a,full
+HKPData_gmt242_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,300609,,,,,,,,ddd4abdf04ef79a7b68575c3353def14f7a87eb23bb7f6df52f2a3cacc1c98c8,full
+HKPData_gmt242_4.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,570590,,,,,,,,02fd054274989aea363ee888152c5939de0b1e7e7a8e503139cc6b2e660814b0,full
+HKPData_gmt242_6.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,328895,,,,,,,,1a019a2e97910bf24291f1bae7d0ca5811f71639c04ada4e9f75ae55d6bb6ec0,full
+HKPData_gmt242_7.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,464302,,,,,,,,84dab76cdfd81bc376ef6e18da1d79039c750a628d7db397a3af46b3482b83f8,full
+HKPData_gmt250_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,222568,,,,,,,,69c25a566b6af6b43fb263ceadad82499b6e18e69e5fdad928e8088124ee43a3,full
+HKPData_gmt250_2.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,537394,,,,,,,,8fdbde8a4952d71679dd05c36fbbfe2345d2f604ca7e059e8eb6eea7f44f3859,full
+HKPData_gmt250_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,639211,,,,,,,,8a986805a5df0a2a2c7e9db3a5bbd375501a76f8d4279c671721d6aa0a15087b,full
+HKPData_gmt250_4.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,761534,,,,,,,,d1ddf039030375aceeac95871d2924facd9c485c6ecf2054685117fd4a14f0ca,full
+HKPData_gmt250_5.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,809057,,,,,,,,c68e0cda928b3af2a37bab58b3e4aab947ae4be74b77b0acad5d60bee0281586,full
+HKPData_gmt250_6.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,303771,,,,,,,,7f4c072a2647fa76bffb69f869b49e24e94af2b5484b13c84d0a93045ae618b9,full
+HKPData_gmt251_1.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,723359,,,,,,,,a04d0d0ed6dbd9ea0e9367ce9279848faf01d9fe2d4cf50f330582215e9e1878,full
+HKPData_gmt251_2.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,597910,,,,,,,,620f48ef0b38fbb8e2e653c231037aacef01deca34f37f22425efd7fd92f68ec,full
+HKPData_gmt251_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,620322,,,,,,,,8cf96e43f1d4650dd0f249840de0912d860a80d77a37a902053fb814e44f238a,full
+HKPData_gmt251_4.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,629275,,,,,,,,6dd2566854299b308ec682fd421a0721c0aa4188d2bf321d71da6d64eb0f39a2,full
+HKPData_gmt251_5.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,614400,,,,,,,,3c2803fb40741c2716918536f8b6c0016a342dee6aae02d5490ddfb5a2c8e135,full
+HKPData_gmt251_6.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,654648,,,,,,,,a870f8df360c864b4f84c354ca1c5b5c2ca7b8c18dec6948ad4a864395696993,full
+HKPData_gmt252_3.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,1533648,,,,,,,,7161b258dcc2abafe21c7e14bc499a77ea297edbd14d00b363f0dbef0f184f7c,full
+HKPData_gmt252_4.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,508552,,,,,,,,f92b38ae5bc8271a573ce3024b841c100121573d6c19d05406bff98aa13fee78,full
+HKPData_gmt252_5.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,1528232,,,,,,,,8df33a3fc7fbc806ac3bb79d13ea6c3d72e0cba199943e7df3b6d1899956f058,full
+HKPData_gmt252_6.csv,housekeeping_timeseries,1 Hz instrument and control telemetry for one test,676593,,,,,,,,cf505cf5a16005587bbc114f8d1c8531cd47bb907878a6f15c723118796efeb3,full
+ISS Coagulation.doc,coagulation_reference,Start/end concentration and coagulation time examples,141312,,,,,,,,9fb2a74c848d3b473affd7a8c7601fe117d999e5d6bd0e431d6ed179559cdf6f,full
+K01-4K images.pdf,tem_presentation,TEM image presentation for one grid,8945561,51,4K,Kapton,,,,,307b64db49c24e1af4dd62a3df7105f51b59be18c8f41ecc0e5db97c6344e6ed,full
+K01-4K images.pptx,tem_presentation,TEM image presentation for one grid,19032908,51,4K,Kapton,,,,,44cf3bb0662623f2c2c5debc90a3bcb41ec77f244302cd8ee471906946c84896,full
+L13 images.pdf,tem_presentation,TEM image presentation for one grid,3203423,,,,,,,,f5fb51c604dd0ef7e05da90c171ef192303b065de3df62f0455dca3ff80a17bc,full
+L13 images.pptx,tem_presentation,TEM image presentation for one grid,31178308,,,,,,,,b11edf8e96b3eebd1b4ca3c8f6eae48f6fc38c7facd96348bce9d3909a0689ed,full
+New Microsoft Office PowerPoint Presentation.pptx,tem_presentation,TEM image presentation for one grid,27581,,,,,,,,cad64742bfd9b769c7223999752dd4b2e3e73791d172ba7cbb1ce259e4289f61,full
+Run 051 4K Kapton.zip,tem_image_archive,Archive of TEM micrographs for one grid,10060674,51,4K,Kapton,,,17,17,c68a49e67712600e7717b18b19a42d44e1812eb0d5834d45837939f0598db42d,full
+"SAME Verification Plan & Engineering Requirements Document (VPRED), Jan 2007.pdf",engineering_document,Verification plan and engineering requirements,514219,,,,,,,,72a7264cc60030b1b999ccef093c18cae42969082a285a155d781de063f6ca15,full
+SPV of 54-7L_21 all quarters (3).xlsx,tem_particle_sizing,Per-particle TEM image analysis and binned statistics,47188,54,7L,Lampwick,,,,,667381694375ab95d4b122f575d02bf515b20c5b986482e0bd10dfff4605ddad,full
+Sample descriptions tables.docx,reduced_moment_table,NASA/NIST per-grid moment results and TEM notes,28571083,,,,,,,,715cd2c4560799a0fcb9d9c824d1f56761414e3264da191c4e379021235b24bd,full
+T01-3T images.pdf,tem_presentation,TEM image presentation for one grid,3342789,50,3T,Teflon,,,,,e120a684ba14508f833bd8b20bbf8dbbbad5686b50fb13e190fb4743383ad41c,full
+T01-3T images.pptx,tem_presentation,TEM image presentation for one grid,6753467,50,3T,Teflon,,,,,cb3247c44d20574e928f8c537cb813350d983d6a70f6713f885202ab9a71e147,full
+TEMflowvsnoflow.xls,reduced_moment_table,"Reduced moments, inlet velocity and net aging for flow/no-flow runs",39936,,,,,,,,1c7fff7b4ddb75e6b2682b53a528cc5777506bf98b96d955bcd43073d3d0a536,full
+more 54.zip,tem_image_archive,Archive of TEM micrographs for one grid,960620,,,,,,9,9,0749a97f4db86ca049dda2db9c678faab9abeae2d502f288ae9701331d807b5a,full
+thermal precipitator map updated.xlsx,precipitator_map,TEM grid to run/sample mapping and viewing notes,17138,,,,,,,,fe3765a3980ef9c6c53f48c99abdaecdc205e727386c78cae2bb79c0ea1ff849,full
+vlc-record-2010-07-30-13h25m07s-udp___233.1.14.7 _50100-.mp4,video,Downlinked MSG video,970563377,,,,,,,,67643d6166024bd2dd466bde7d1959ecc8f41080b885cdf71c7ace1e74359527,size+first+last_MiB
+vlc-record-2010-07-30-13h25m07s-udp___233.1.14.7 _50100-.zip,video,Downlinked MSG video,164070472,,,,,,1,0,bda802ea97dde310d7c671f551534f691e63c1fe0fe1d559fbe649dc7492e2cd,size+first+last_MiB
+vlc-record-2010-07-30-14h12m08s-udp___233.1.14.7 _50100-.mp4,video,Downlinked MSG video,970563377,,,,,,,,8d1b4d24a086221c07ae6aec2849838c4ff30af7de2d9ab321cac967394a8bdc,size+first+last_MiB
+vlc-record-2010-07-30-14h12m08s-udp___233.1.14.7 _50100-.zip,video,Downlinked MSG video,36068567,,,,,,1,0,e0ac15877d0867122718869fa59a153ca7e2b78bd2ce53c210353e199063050b,full
+vlc-record-2010-07-30-15h06m31s-udp___233.1.14.7 _50100-.mp4,video,Downlinked MSG video,282455755,,,,,,,,630f13faaa355e99d1f31291d8af0ac9cd0a50686f9036a30673a8f06cd490cf,size+first+last_MiB
+vlc-record-2010-07-30-15h06m31s-udp___233.1.14.7 _50100-.zip,video,Downlinked MSG video,47265860,,,,,,1,0,a7ecd3132845a771953ab649df48c8215aa6b718e318736e5ad9b9fdb47bad12,full

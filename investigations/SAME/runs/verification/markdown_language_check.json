@@ -1,0 +1,35 @@
+{
+  "phase": "english_markdown_and_code",
+  "project_markdown_count": 9,
+  "all_markdown_reviewed_in_english": true,
+  "language_by_markdown_file": {
+    "DATA_PLAN.md": "en",
+    "README.md": "en",
+    "SAME_ANALYSIS_REPORT_EN.md": "en",
+    "SAME_EXPLICADO.md": "en",
+    "analysis-same.md": "en",
+    "data/inventory/INVENTORY.md": "en",
+    "data/processed/VALIDATION.md": "en",
+    "knowledge/SAME_KNOWLEDGE_BASE.md": "en",
+    "program.md": "en"
+  },
+  "explainer_file": {
+    "name": "SAME_EXPLICADO.md",
+    "language": "en",
+    "note": "Name mirrors SAFFIRE_EXPLICADO.md, which is also English."
+  },
+  "text_files_scanned_py_md_json_csv_tsv_toml": 94,
+  "files_with_spanish_text": {},
+  "all_text_files_english": true,
+  "markdown_sha256": {
+    "DATA_PLAN.md": "277f49ebcf5d2648b413efa57fcb673ebf828543cc9c0b241f4937084d7a16e2",
+    "README.md": "64d609df1102b1c008cb444653ff2e2d9103e249d4f05d1d5c72edea5a60ff25",
+    "SAME_ANALYSIS_REPORT_EN.md": "2542dc6cfbe6a26d47616fa87dc043c06c0c36f002002dddc1ce9a8b3cf0d524",
+    "SAME_EXPLICADO.md": "7788812b7b286c912dcc5ee4c0815fd56ffd6161f4887fff1ea75417cd8e26c7",
+    "analysis-same.md": "6553d1b93775cc352e86f95f9e153d8169a09427e9600d687d7ce5af3b5dec70",
+    "data/inventory/INVENTORY.md": "de522fb48bbea8bfae0bbbc84c0ce6e75a36a85a28b5803ced988d239c153a94",
+    "data/processed/VALIDATION.md": "022e888acf66e3bcd65721be4e60e49eb15bb8def38291629016d10ff5333030",
+    "knowledge/SAME_KNOWLEDGE_BASE.md": "0e107b937bad7a2a0617f4c531aa224dbc6330684af4108670e978f12eeeb8f7",
+    "program.md": "ddd3263535a97b222e7419f1f7c1c20c0fafc004e09d9cc63c826ca4d206b976"
+  }
+}

@@ -1,0 +1,8 @@
+run,particle_set,material,method,source_file,sheet,n_particles,amd_um,dm_um,dg_um,sigma_g,d_min_um,d_median_um,d_max_um,frac_above_0p3um,frac_above_1um,d_avg_vol_um
+54,54_all_data,Lampwick,count_statistics_of_equivalent_circle_diameters,54 lampwick binneddatacorr from GWM.xlsx,all data,576,0.272754,0.387364,0.191679,2.73444,0.0112838,0.253446,1.33874,0.390625,0.00347222,
+55,55_all_data,Lampwick,count_statistics_of_equivalent_circle_diameters,55 Lampwick.xlsx,all data,226,0.314977,0.475813,0.202639,3.05273,0.0112838,0.273028,1.48454,0.446903,0.0132743,
+55,55_all_data_2_extended,Lampwick,count_statistics_of_equivalent_circle_diameters,55 Lampwick.xlsx,all data (2),4668,0.196093,0.370146,0.123668,2.71931,0.0112838,0.127662,1.83685,0.19623,0.00706941,
+54,54_SPV_quarter_A,Lampwick,published_spreadsheet_statistics,SPV of 54-7L_21 all quarters (3).xlsx,Statistics,,0.163568,,0.106691,2.43575,,,,,,0.31935
+54,54_SPV_quarter_B,Lampwick,published_spreadsheet_statistics,SPV of 54-7L_21 all quarters (3).xlsx,Statistics,,0.223556,,0.150248,2.5109,,,,,,0.363494
+54,54_SPV_quarter_C,Lampwick,published_spreadsheet_statistics,SPV of 54-7L_21 all quarters (3).xlsx,Statistics,,0.23263,,0.173594,2.29515,,,,,,0.387648
+54,54_SPV_quarter_D,Lampwick,published_spreadsheet_statistics,SPV of 54-7L_21 all quarters (3).xlsx,Statistics,,0.240225,,0.15597,2.82131,,,,,,0.52048

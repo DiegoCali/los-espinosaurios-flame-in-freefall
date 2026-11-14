@@ -1,0 +1,57 @@
+{
+  "attempt": 11,
+  "description": "Detection hierarchy adds an aged level (aging > 120 s) under flow x material; remove dead logistic code",
+  "train_sha256": "324c483e6a99d48b6ecb061d097b72536699e7114d396a77ab1640fc7399f55e",
+  "model": {
+    "model_name": "ridgecv_hc_coag_size__betabinomial_flow_material_aged",
+    "num_params": 93,
+    "formula": "y_j = ridge(material one-hot + ln(1 + K N0 t) + no_flow + 5(Rt/R0-1.35)), K N0 = 3.75e-3/s (x0.1 no-flow); Dg, AMD via Hatch-Choate; detection: P_j = beta-binomial rate in (flow, material, aged) -> (flow, material) -> flow regime -> global, a=2",
+    "notes": "Size (Dm, sigma_g, M0): RidgeCV with an unpenalised intercept and per-target alpha chosen by GCV from 9 values in 1e-2..1e2, on 8 features: 5 material indicators, ln(1 + K*N0*t) with K = 1.25e-9 cm3/s and N0 = 3e6 /cm3 (x0.1 when no_flow = 1), the no_flow flag, and 5*(Rt/R0 - 1.35). Predicted ln sigma_g is clipped at 0.05; Dg and AMD are then derived from Dm and sigma_g by the Hatch-Choate relations. Detection (ISS and ionization): no regression; a hierarchical beta-binomial rate with prior strength 2 that shrinks global -> same flow regime -> same flow regime and material -> same flow regime, material and aging state (aging_s > 120 s). Detection ignores Rt/R0 and push_index. No logistic regression is used in this attempt. num_params = 93 is the nominal count recorded at selection time (3 x 9 ridge + 2 x 33 rate cells); the fitted model on all rows has 3 x 9 ridge terms plus 2 x 30 non-empty rate cells (1 global + 2 flow + 9 flow x material + 18 flow x material x aging).",
+    "notes_correction": {
+      "field": "notes",
+      "corrected_on": "2026-11-13",
+      "reason": "The original text described RidgeCV with inner-CV logistic regression, a design from attempt 5 that attempt 11 had removed. Code, formula, metrics and train_sha256 are unchanged.",
+      "original_text": "Ridge on log Dm, ln sigma_g, log M0; Dg and AMD derived by Hatch-Choate. Per-target alpha by GCV; logistic C by inner 5-fold Brier."
+    }
+  },
+  "val_score": 0.528930998422076,
+  "size_nrmse": 0.5665542626343709,
+  "detection_brier_ratio": 0.491307734209781,
+  "size_rmse": {
+    "log10_dg_um": 0.16978311494608497,
+    "log10_dm_um": 0.08877085165870435,
+    "log10_amd_um": 0.1285014044838919,
+    "ln_sigma_g": 0.15687018771911196,
+    "log10_m0_per_cc": 0.1294277671233294
+  },
+  "size_nrmse_by_target": {
+    "log10_dg_um": 0.7078308571251164,
+    "log10_dm_um": 0.36788001425025796,
+    "log10_amd_um": 0.5691921717498245,
+    "ln_sigma_g": 0.8730195806903688,
+    "log10_m0_per_cc": 0.3148486893562868
+  },
+  "size_factor_error": {
+    "log10_dg_um": 1.478369911335278,
+    "log10_dm_um": 1.2267917638613863,
+    "log10_amd_um": 1.3443161141068676,
+    "log10_m0_per_cc": 1.3471866394685865
+  },
+  "detection_brier": {
+    "iss_detect": 0.093977164434336,
+    "ion_detect": 0.0991163920724425
+  },
+  "detection_brier_ratio_by_target": {
+    "iss_detect": 0.5294046929800929,
+    "ion_detect": 0.45321077543946925
+  },
+  "detection_accuracy_at_0p5": {
+    "iss_detect": 0.8769230769230769,
+    "ion_detect": 0.8923076923076924
+  },
+  "n_size_rows": 52,
+  "n_size_groups": 35,
+  "n_detection_rows": 65,
+  "n_detection_groups": 36,
+  "seed": 0
+}

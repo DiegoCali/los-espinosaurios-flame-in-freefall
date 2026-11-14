@@ -1,0 +1,8 @@
+{
+  "n_files": 230,
+  "verification": "sha256_full_up_to_64MB_else_size_plus_first_last_MiB",
+  "missing": [],
+  "changed": [],
+  "unchanged": true,
+  "raw_folder": "data"
+}

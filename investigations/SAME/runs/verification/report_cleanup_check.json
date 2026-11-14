@@ -1,0 +1,12 @@
+{
+  "phase": "report_and_link_cleanup",
+  "analysis_report": "analysis-same.md",
+  "english_report": "SAME_ANALYSIS_REPORT_EN.md",
+  "dashboard_export": "analysis-same-summary.json",
+  "n_markdown_links_checked": 35,
+  "broken_links": [],
+  "all_links_resolve": true,
+  "current_model_notes_free_of_obsolete_logistic_text": true,
+  "n_tests": 47,
+  "n_insights": 10
+}

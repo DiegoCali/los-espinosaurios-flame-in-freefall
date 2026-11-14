@@ -1,0 +1,22 @@
+{
+  "phase": "english_dashboard_export",
+  "schema_version": "1.0.0",
+  "language": "en",
+  "n_test_results": 47,
+  "n_insights": 10,
+  "n_chart_descriptions": 11,
+  "test_count_matches_detailed_export": true,
+  "best_score_matches_detailed_export": true,
+  "all_missing_values_preserved_as_null": true,
+  "all_evidence_references_and_file_links_resolve": true,
+  "unresolved": [],
+  "dataset_citation_preserved": true,
+  "two_regenerations_identical": true,
+  "export_sha256": {
+    "analysis-same-summary.json": "14e86f0a4f666d4106f8b39aeaa9bf01dd31e0839f3848e057bbdf1157ab2ffc",
+    "SAME_EXPLICADO.md": "7788812b7b286c912dcc5ee4c0815fd56ffd6161f4887fff1ea75417cd8e26c7",
+    "SAME_ANALYSIS_REPORT_EN.md": "2542dc6cfbe6a26d47616fa87dc043c06c0c36f002002dddc1ce9a8b3cf0d524",
+    "data/processed/VALIDATION.md": "022e888acf66e3bcd65721be4e60e49eb15bb8def38291629016d10ff5333030",
+    "analysis/output/insights.json": "c926a9dd0b8e4a2655bbd7d3d2818a4414391b7a51dc5ebc5c5dc587c1483d2d"
+  }
+}
