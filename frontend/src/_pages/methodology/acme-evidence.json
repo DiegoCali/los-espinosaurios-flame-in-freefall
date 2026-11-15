@@ -1,0 +1,13 @@
+{
+  "attempts": 12,
+  "partitions": [
+    134,
+    52,
+    50
+  ],
+  "baselineRmseK": 286.9787611861529,
+  "selectedRmseK": 116.17163615370868,
+  "holdoutRmseK": 62.170083,
+  "source": "investigations/ACME/predictions.json",
+  "sha256": "0823756b24986734c7bc8ee77c8ad1640a918e99b6d579d70479f81123cf8cac"
+}

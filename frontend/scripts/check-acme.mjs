@@ -1,0 +1,20 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import ts from 'typescript';
+const root=new URL('../',import.meta.url);
+const read=path=>JSON.parse(readFileSync(new URL(path,root),'utf8'));
+const compiled=ts.transpileModule(readFileSync(new URL('src/entities/acme/model.ts',root),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText;
+const exports={};new Function('exports',compiled)(exports);
+const model=read('src/entities/acme/model.json');
+const fixtures=read('src/entities/acme/python-fixtures.json');
+let maxDifference=0;
+for(const f of fixtures){const difference=Math.abs(exports.predictAcme(model,f.inputs)-f.expected);maxDifference=Math.max(maxDifference,difference);assert.ok(difference<1e-6,`${f.id}: ${difference} K`);}
+assert.equal(fixtures.length,52);assert.equal(model.n_train,134);
+const x=fixtures[0].inputs;
+for(const invalid of [[],[...x.slice(0,6),NaN],[2,...x.slice(1)],[x[0],-1,...x.slice(2)],[...x.slice(0,5),x[5]+1,x[6]],[...x.slice(0,6),0]])assert.throws(()=>exports.predictAcme(model,invalid),RangeError);
+const out=[...x];out[2]=1;assert.equal(exports.outsideAcmeTrainingDomain(model,out),true);
+const evidence=read('src/entities/acme/evidence.json');
+assert.deepEqual(evidence.validation.partitions,{holdout:50,train:134,validation:52});
+const rows=read('public/data/acme/validation.json');
+assert.ok(rows.every(r=>r.split==='validation'));assert.equal(rows.length,52);
+console.log(`52 Python/TypeScript predictions match within 1e-6 K; maximum difference ${maxDifference} K. Input validation and domain warning pass. Holdout remains aggregate only.`);

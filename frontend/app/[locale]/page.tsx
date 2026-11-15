@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import { HomePage } from '@/_pages/home';
+export async function generateMetadata({params}:{params:Promise<{locale:string}>}):Promise<Metadata>{const {locale}=await params;return {title:locale==='es'?'Inicio · Los Espinosaurios':'Home · Los Espinosaurios',description:locale==='es'?'Explora cinco investigaciones NASA sobre combustión y humo en microgravedad.':'Explore five NASA investigations into combustion and smoke in microgravity.',alternates:{canonical:`/los-espinosaurios-flame-in-freefall/${locale}/`,languages:{en:'/los-espinosaurios-flame-in-freefall/en/',es:'/los-espinosaurios-flame-in-freefall/es/'}}};}
+export default async function Page({params}:{params:Promise<{locale:'en'|'es'}>}){const {locale}=await params;return <HomePage locale={locale}/>;}

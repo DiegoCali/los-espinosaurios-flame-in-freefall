@@ -1,0 +1,22 @@
+{
+  "values": {
+    "processedTests": 83,
+    "co2ResponsePpm": 107.003546363,
+    "photoRate": 0.7111111111111111,
+    "ionRate": 0.9333333333333333
+  },
+  "sources": [
+    {
+      "file": "investigations/BASS-II/predictions.json",
+      "sha256": "06ede9ecb02688f88d4da3281cbc9c160e579daeb3156dd6b9d00f2052dcdf6d"
+    },
+    {
+      "file": "investigations/SAFFIRE/predictions.json",
+      "sha256": "faf278ec9180093acd5ea7869514cc5b1fad5b5f8622f11643e71f463e0dfa53"
+    },
+    {
+      "file": "investigations/SAME/predictions.json",
+      "sha256": "2c5eb09d530e7a348367faf40e63149085ded2da0c3f6a37712b5540d714a0ea"
+    }
+  ]
+}
