@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { SiteHeader } from '@/widgets/site-header';
 import { Reveal } from '@/shared/ui/reveal';
+import { asset } from '@/shared/config';
 import { dictionaries, type Locale } from '@/shared/i18n';
 import { members } from './members';
 import { teamCopy } from './copy';
@@ -17,7 +18,7 @@ export function TeamPage({locale}:{locale:Locale}){
     const reference=`https://github.com/DiegoCali/los-espinosaurios-flame-in-freefall/commit/${member.commit}`;
     return <Reveal className={`team-member team-member-${i}`} key={member.handle} aria-labelledby={`member-${i}`}>
      <span className="team-member-index desktop-only">0{i+1}</span>
-     <div className="team-portrait desktop-only"><span className="team-portrait-calibration"/><span>GH / PROFILE</span><strong>{member.initials}</strong><a href={`https://avatars.githubusercontent.com/u/${member.avatarId}?v=4`} target="_blank" rel="noopener noreferrer">{t.photo}</a></div>
+     <div className="team-portrait"><img src={asset(`/assets/team/${member.avatarFile}`)} alt={`${locale==='es'?'Avatar de GitHub de':'GitHub avatar for'} @${member.handle}`} width={220} height={220} loading="lazy" decoding="async"/><span className="team-portrait-calibration"/><a href={`https://avatars.githubusercontent.com/u/${member.avatarId}?v=4`} target="_blank" rel="noopener noreferrer">{t.photo}</a></div>
      <div className="team-member-copy"><a className="team-handle desktop-only" href={profile} target="_blank" rel="noopener noreferrer">@{member.handle}</a><h3 id={`member-${i}`}><a href={profile} target="_blank" rel="noopener noreferrer">{member.name}</a></h3><p className="team-study">{member.psi}{"  /  "}{member.study}{"   /   "}{t.subjects[i]}</p><p className="team-contribution">{t.contributions[i]}</p><p className="team-contract-label desktop-only">{t.contract}</p><p className="team-contract">{t.contracts[i]}</p><p className="team-history desktop-only">{t.histories[i]}</p><a className="team-profile-link" href={profile} target="_blank" rel="noopener noreferrer">github.com/{member.handle}</a></div>
      <a className="team-reference desktop-only" href={reference} target="_blank" rel="noopener noreferrer" title={i===3?t.identityNote:`${t.gitAuthor}: ${member.gitAuthor}`}>REF / {member.commit.slice(0,7)}</a>
     </Reveal>;
