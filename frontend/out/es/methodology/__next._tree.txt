@@ -1,7 +1,9 @@
-:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/54d27d11b955bf84.css","style"]
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/f7d8291dfae77da6.css","style"]
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/226f4571965e8b3e.css","style"]
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/0f544172ef18b21b.css","style"]
 :HL["/los-espinosaurios-flame-in-freefall/_next/static/css/28b05c617ddbe575.css","style"]
 :HL["/los-espinosaurios-flame-in-freefall/_next/static/css/44b77aade7c0a751.css","style"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":"methodology","h":96,"c":"$Q3"}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"es","s":["_not-found","_global-error"]},"h":65648,"c":"$Q2"}]]
-0:{"b":"x22M8T53tpK12MTJAfX2W","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}
+0:{"b":"JQfopv_26Spl9vYU9rQzV","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

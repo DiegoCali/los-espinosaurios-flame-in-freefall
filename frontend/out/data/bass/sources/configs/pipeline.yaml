@@ -1,0 +1,65 @@
+# Default configuration for the BASS-II pipeline.
+# All paths are relative to investigations/BASS-II/.
+paths:
+  catalog: data/catalog
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  gold: data/gold
+  figures: reports/figures
+
+nasa:
+  accession: PSI-25
+  investigation_url: https://psi.nasa.gov/geode-py/ws/repo/investigations/PSI-25
+  download_url: https://psi.nasa.gov/geode-py/ws/studies/PSI-25/download
+
+video:
+  pixel_aspect: 0.9090909   # SAR 10:11 (NTSC): physical width of a horizontal pixel / vertical pixel
+  frame_step: auto          # int = process 1 out of every N frames; auto = ceil(n_frames / max_processed_frames)
+  max_processed_frames: 2500  # cap used by frame_step=auto (long slab tests last tens of minutes)
+  max_frames: null          # null = all frames
+  osd_every_s: 0.5          # OCR the OSD telemetry every N seconds (forward-filled in between)
+  lights_on_median: 18     # frames whose median brightness exceeds this are illuminated (not flame-only); excluded
+  osd_mask:                 # burned-in telemetry band to mask (px at native 720x480)
+    y0: 0
+    y1: 90
+  roi: null                 # optional [x0, y0, x1, y1]; per-test override in calibration.yaml
+
+segmentation:
+  method: adaptive          # adaptive (default, noise-relative) | hysteresis | otsu | fixed
+  channel: value            # value (max RGB) | luma | blue_excess | soot
+  blur_sigma: 1.0
+  # adaptive: low = max(min_low, median + k_low·σ), high = max(min_high, median + k_high·σ), σ = 1.4826·MAD
+  k_low: 8
+  k_high: 16
+  min_low: 14
+  min_high: 30
+  use_blue: true            # OR with a blue-excess hysteresis mask (faint blue leading edges)
+  blue_low: 6
+  blue_high: 14
+  low: 40                   # hysteresis (v0) low threshold (0-255)
+  high: 90                  # hysteresis (v0) high threshold
+  fixed_threshold: 60
+  min_component_area: 25    # px
+  morph_close: 3            # elliptical kernel size (px), 0 = disabled
+  keep: largest_k           # all | largest_k
+  k: 2                      # e.g. the two flame sheets of a thin film
+
+metrics:
+  edge_threshold_frac: 0.5  # fraction of profile max used for the sub-pixel edge
+  intensity_gamma: 2.2      # approximate linearization for integrated intensity
+
+spread:
+  smooth: savgol            # savgol | none
+  savgol_window_s: 1.0
+  savgol_order: 2
+  rolling_window_s: 3.0     # local linear-regression window for the instantaneous rate
+
+forecast:
+  targets: [leading_edge_mm, area_mm2]
+  resample_hz: 2.0          # resample the series before forecasting
+  horizons_s: [1, 5, 10]
+  min_history_s: 5
+  n_origins: 8              # rolling origins per test
+  interval: 0.9             # prediction-interval level
+  models: [persistence, drift, holt_damped, physics_linear, kalman_cv, kalman_mle, kalman_conformal]

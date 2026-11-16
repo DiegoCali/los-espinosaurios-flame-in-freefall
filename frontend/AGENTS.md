@@ -6,7 +6,8 @@ The approved master plan is in ../PLAN.md. Only the Home vertical slice is imple
 - Use app/ for route adapters and src/_app, _pages, widgets, features, entities and shared for FSD layers. Create entities when scientific integration begins.
 - Keep English and Spanish dictionaries complete. Internal Next links omit basePath; public assets use shared/config.ts.
 - Home references: Figma 215:2 desktop, 385:3 mobile, 385:137 tablet. Compact screens have different content from desktop.
-- Preserve original local SVG assets and local fonts. Motion owns UI animation; respect reduced motion.
+- Preserve original local SVG assets and local fonts. Motion owns React UI transitions and scroll progress; anime.js v4 owns illustrative/explainer animation (timelines, SVG morph/draw, motion paths, onScroll); Lenis provides slow scroll (`shared/motion/smooth-scroll`). Respect reduced motion everywhere.
+- Global FX layer lives in `widgets/fx` (boot, embers, HUD, reticle, route wipe, page enhancer). "How it was measured" explainers live in `widgets/measure` and only animate exported evidence or clearly labelled conceptual diagrams.
 - Run npm run check and npm run build at milestones. Do not run broad browser suites during hackathon iteration.
 - Other routes are honest delivery placeholders. Next task: Research catalog, after manual Home approval.
 - No Git writes, deployment or changes to remote settings without explicit instruction.
