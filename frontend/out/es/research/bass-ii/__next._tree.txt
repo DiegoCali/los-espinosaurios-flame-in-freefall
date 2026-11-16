@@ -1,0 +1,8 @@
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/54d27d11b955bf84.css","style"]
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/28b05c617ddbe575.css","style"]
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/8d340358ea5b8928.css","style"]
+4:[["children",{"s":"__PAGE__","h":160}]]
+3:[["children",{"s":"bass-ii","h":96,"c":"$Q4"}]]
+2:[["children",{"s":"research","h":96,"c":"$Q3"}]]
+1:[["children",{"s":{"n":"locale","t":"d","k":"es","s":["_not-found","_global-error"]},"h":65648,"c":"$Q2"}]]
+0:{"b":"x22M8T53tpK12MTJAfX2W","t":{"t":{"s":"","h":131152,"c":"$Q1"}}}

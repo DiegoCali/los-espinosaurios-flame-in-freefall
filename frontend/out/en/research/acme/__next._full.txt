@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:I[57121,[],""]
+3:I[74581,[],""]
+b:I[90484,[],"OutletBoundary"]
+c:"$Sreact.suspense"
+e:"ViewportBoundary"
+f:I[90484,[],"$e"]
+11:"MetadataBoundary"
+12:I[90484,[],"$11"]
+14:I[27123,[],"default",1]
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/54d27d11b955bf84.css","style"]
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/28b05c617ddbe575.css","style"]
+:HL["/los-espinosaurios-flame-in-freefall/_next/static/css/074742ec9e1919f3.css","style"]
+4:X
+9:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$La",[["$","link","0",{"rel":"stylesheet","href":"/los-espinosaurios-flame-in-freefall/_next/static/css/28b05c617ddbe575.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/los-espinosaurios-flame-in-freefall/_next/static/css/074742ec9e1919f3.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],"p":false,"v":null}}]]
+8:[["children",{"s":"acme","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$4"},"c":"$Q9"}]]
+7:[["children",{"s":"research","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$4"},"c":"$Q8"}]]
+5:[["children",{"s":{"n":"locale","t":"d","k":"en","s":["_not-found","_global-error"]},"h":66064,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/los-espinosaurios-flame-in-freefall/_next/static/css/54d27d11b955bf84.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],"$L6"]}],"p":false,"v":null},"c":"$Q7"}]]
+0:{"P":null,"c":["","en","research","acme",""],"q":"","i":false,"t":{"t":{"s":"","h":131600,"d":{"r":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$4"},"c":"$Q5"},"h":{"r":["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","$L12",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$c",null,{"name":"Next.Metadata","children":"$L13"}]}],null]}],null]}],"p":false,"v":null}},"m":"$undefined","G":["$14",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"x22M8T53tpK12MTJAfX2W"}
+15:"static/chunks/500-9d2a77de23464304.js"
+16:"static/chunks/780-55db462a5f5a3739.js"
+17:"static/chunks/234-36b9940e4cb62425.js"
+18:"static/chunks/app/%5Blocale%5D/research/acme/page-03d191fbf5eb504b.js"
+19:I[59983,["500","$15","780","$16","234","$17","714","$18"],"SiteHeader"]
+1a:I[42932,["500","$15","780","$16","234","$17","714","$18"],"AcmeDashboard"]
+4:C
+6:["$","html",null,{"lang":"en","className":"__variable_fae1bd __variable_8af406 __variable_0907c6","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]
+a:["$","div",null,{"className":"research-home acme-page","children":[["$","$L19",null,{"locale":"en"}],["$","$L1a",null,{"locale":"en"}]]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+d:null
+13:[["$","title","0",{"children":"ACME · Los Espinosaurios"}],["$","meta","1",{"name":"description","content":"Normal and inverse flames: calculated Tad, 52 validation predictions and exploration of the frozen Ridge model."}],["$","link","2",{"rel":"alternate","hrefLang":"en","href":"https://diegocali.github.io/los-espinosaurios-flame-in-freefall/los-espinosaurios-flame-in-freefall/en/research/acme/"}],["$","link","3",{"rel":"alternate","hrefLang":"es","href":"https://diegocali.github.io/los-espinosaurios-flame-in-freefall/los-espinosaurios-flame-in-freefall/es/research/acme/"}]]

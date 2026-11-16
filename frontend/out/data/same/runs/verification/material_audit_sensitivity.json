@@ -1,0 +1,31 @@
+{
+  "note": "Detection task only; model and hyper-parameters frozen from attempt 11.",
+  "frozen": {
+    "n_pushes": 65,
+    "n_tests": 36,
+    "brier_ratio_iss": 0.5294046929800929,
+    "brier_ratio_ion": 0.45321077543946925,
+    "brier_ratio_mean": 0.491307734209781,
+    "accuracy_iss": 0.8769230769230769,
+    "accuracy_ion": 0.8923076923076924
+  },
+  "relabel_92": {
+    "n_pushes": 65,
+    "n_tests": 36,
+    "brier_ratio_iss": 0.5726252300004232,
+    "brier_ratio_ion": 0.44982548671483924,
+    "brier_ratio_mean": 0.5112253583576312,
+    "accuracy_iss": 0.8615384615384616,
+    "accuracy_ion": 0.8923076923076924
+  },
+  "add_audited": {
+    "n_pushes": 84,
+    "n_tests": 46,
+    "brier_ratio_iss": 0.4580961562541571,
+    "brier_ratio_ion": 0.5395926206078391,
+    "brier_ratio_mean": 0.4988443884309981,
+    "accuracy_iss": 0.8928571428571429,
+    "accuracy_ion": 0.8809523809523809
+  },
+  "frozen_matches_best_json": true
+}
