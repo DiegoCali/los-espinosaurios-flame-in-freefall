@@ -10,6 +10,8 @@ import { MissionRail } from './sections/mission-rail';
 import { FlameFrontLab } from '@/widgets/measure/flame-front-lab';
 import { DropletLab } from '@/widgets/measure/droplet-lab';
 import { FlameFuse, ProvenanceFlow, ResearchLoop } from './sections/loops';
+import { SpacecraftFire } from '@/widgets/measure/spacecraft-fire';
+import { spacecraftCopy } from '@/widgets/measure/spacecraft-copy';
 import './home.css';
 import './home-fx.css';
 
@@ -46,6 +48,8 @@ export function HomePage({ locale }: { locale: Locale }) {
       </Reveal>
       <FlameFuse label="00 → 01 / IGNITION" />
       <GravityExplainer t={fx.gravity} />
+      <FlameFuse label="01 → 01B / SAFFIRE-II · PSI-99" />
+      <SpacecraftFire t={spacecraftCopy[locale]} simulationHref={`/${locale}/simulation/`} />
       <FlameFuse label="01 → 02 / NASA PSI" />
       <MissionRail locale={locale} t={fx.rail} />
       <FlameFuse label="02 → 03 / BASS-II · PSI-25" />
