@@ -1,0 +1,57 @@
+# Physics-based quality control of per-test results (source: reports/physics_review.md §4, 2026-11-13,
+# bass2-combustion-physicist). Used by `bass2 aggregate` to decide what enters ensemble figures and trends.
+# trusted:        quantitative conclusions (bright, continuously tracked, single flow plateau, in physical range)
+# trusted_null:   no measurable spread, consistent with crew notes
+# flagged:        trend/illustration only (dim, multi-step, or post-hoc regime choice)
+# excluded:       implausible, missed burn, wrong quantity, or insufficient footage
+trusted: [B1, B2, B3, B4, B5, B6, B7, B9, B11, B12, B13, B19, B20, M1, P2]
+trusted_steps_only: [B15]          # use per-FAN-step rates, not the summary rate
+trusted_order_of_magnitude: [T15]  # concurrent flame growth; not a steady V_f
+trusted_null: [B14, F1, F3, F4, O16, T3, T12, T7, T23]  # T7: sphere (no linear spread expected); T23: failed ignition on a reused sample
+flagged:
+  B17: dim but consistent edge track
+  B18: dim but consistent edge track
+  B21: dim but consistent edge track
+  B10: late regime (0.84 mm/s) preferred over the summary value
+  B8: only the 10 cm/s step (0.936 mm/s) is usable
+  M16: plateau regime 0.141 mm/s preferred over the selected 0.160
+  P21: edge toggles between ~2 and ~17 mm; slow RAD/area oscillation (unexplained)
+  P22: 25 s window in the first minute (shorter than the 1 min quasi-steady requirement)
+  M7: re-measured after the Hampel edge filter (0.112 mm/s, physically plausible); the original exclusion (0.615) is obsolete; diagnosed post hoc
+  M9: re-measured after the Hampel edge filter (0.027 mm/s, physically plausible); the original exclusion (0.210) is obsolete; diagnosed post hoc
+excluded:
+  P1: igniter-flash regime (implausible 1.6 mm/s for a rod)
+  O8: implausible rate
+  T4: implausible rate
+  T9: crew logged no ignition
+  T10: crew logged no ignition
+  B16: documented burn missed (dim, low-soot flame)
+  B22: documented burn missed
+  P13: documented burn missed
+  T5: documented burn missed
+  T6: documented burn missed
+  T11: documented burn missed
+  T16: documented burn missed
+  T19: documented burn missed
+  O1: measures flame-length settling, not spread
+  O2: measures flame-length settling, not spread
+  O3: measures flame-length settling, not spread
+  O5: measures flame-length settling, not spread
+  O13: measures flame-length settling, not spread
+  M3: only a rack-camera video recorded during loss of signal
+  T20: insufficient footage
+  T21: insufficient footage
+  T22: insufficient footage
+  T28: steady window only 5 s
+  T1: dim SIBAL, wide CI
+  T2: dim SIBAL, wide CI
+  T13: dim SIBAL, wide CI
+  T14: dim SIBAL, wide CI
+  T17: dim SIBAL, wide CI
+  T18: dim SIBAL, wide CI
+  T24: dim SIBAL, wide CI
+  T25: dim SIBAL, wide CI
+  T26: dim SIBAL, wide CI
+  T27: dim SIBAL, wide CI
+  T29: dim SIBAL, wide CI
+anemometer_lag_s: 20               # OSD AIR lags the fan by 15–25 s (physics review §2.3), not ~60 s
