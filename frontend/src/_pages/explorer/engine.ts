@@ -13,7 +13,7 @@ import type { FlameState } from '@/entities/saffire/mission';
 
 export type Part = 'cargo' | 'service' | 'array' | 'rack' | 'sample' | 'igniter' | 'tc' | 'co2' | 'earth';
 export type View = 'orbit' | 'craft' | 'rack' | 'flame';
-export type EngineInput = { flame: FlameState; sensed: number; heat: number; intensity: number; reading: number | null; burning: boolean };
+export type EngineInput = { flame: FlameState; sensed: number; heat: number; intensity: number; reading: number | null; burning: boolean; frontLabel: string | null };
 export type SampleSpec = { material: string; opposed: boolean; leadInCm: number | null; regressCm: number };
 type Opts = { canvas: HTMLCanvasElement; pip: HTMLCanvasElement; overlay: HTMLElement; beacons: Record<Part, string>; onPick: (p: Part) => void; onHover: (p: Part | null, x: number, y: number) => void; onCamera: (dist: number) => void };
 
@@ -93,6 +93,10 @@ export function createExplorer(o: Opts) {
   const tilt = new THREE.Euler(.38, 0, .08);
   const orbitLine = new THREE.LineLoop(new THREE.BufferGeometry().setFromPoints(Array.from({ length: 360 }, (_, i) => new THREE.Vector3(Math.cos(i / 360 * Math.PI * 2) * ORBIT_R, 0, Math.sin(i / 360 * Math.PI * 2) * ORBIT_R).applyEuler(tilt))), new THREE.LineDashedMaterial({ color: 0x77c3ed, dashSize: 1, gapSize: 1.4, transparent: true, opacity: .28 }));
   orbitLine.computeLineDistances(); scene.add(orbitLine);
+  const TRAIL_N = 120, trailPos = new Float32Array(TRAIL_N * 3), trailCol = new Float32Array(TRAIL_N * 3);
+  for (let i = 0; i < TRAIL_N; i++) { const k = (i / TRAIL_N) ** 2; trailCol.set([1 * k, .7 * k, .28 * k], i * 3); }
+  const trailGeo = new THREE.BufferGeometry(); trailGeo.setAttribute('position', new THREE.BufferAttribute(trailPos, 3)); trailGeo.setAttribute('color', new THREE.BufferAttribute(trailCol, 3));
+  const trail = new THREE.Line(trailGeo, new THREE.LineBasicMaterial({ vertexColors: true, transparent: true, blending: THREE.AdditiveBlending, depthWrite: false })); trail.frustumCulled = false; scene.add(trail);
 
   // ---------- Spacecraft ----------
   const craft = new THREE.Group(); scene.add(craft);
@@ -112,6 +116,11 @@ export function createExplorer(o: Opts) {
   for (const x of [-2.15, -1.6, -1.05, -.5, .05, .6, 1.1]) { const ring = new THREE.Mesh(new THREE.TorusGeometry(1.105, .02, 8, 96), ringMat); ring.rotation.y = Math.PI / 2; ring.position.x = x; cargo.add(ring); }
   const cabinLight = new THREE.PointLight(0xdfefff, 1.1, 4.5, 1.4); cabinLight.position.set(-.6, .7, -.2); cargo.add(cabinLight);
   tagPart(cargo, 'cargo');
+  // Cutaway "laser" plane: a scan grid at the clip plane plus two glowing hull edges
+  const scanMat = new THREE.MeshBasicMaterial({ map: tex(256, 128, c => { c.fillStyle = 'rgba(119,195,237,.12)'; c.fillRect(0, 0, 256, 128); c.strokeStyle = 'rgba(150,215,255,.7)'; c.lineWidth = 1; for (let i = 0; i <= 256; i += 16) { c.beginPath(); c.moveTo(i, 0); c.lineTo(i, 128); c.stroke(); } for (let j = 0; j <= 128; j += 16) { c.beginPath(); c.moveTo(0, j); c.lineTo(256, j); c.stroke(); } }), transparent: true, opacity: 0, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide });
+  const scan = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), scanMat); scan.position.x = -.6; cargo.add(scan);
+  const laserMat = new THREE.MeshBasicMaterial({ color: new THREE.Color().setRGB(2.6, 1.1, .35), transparent: true, opacity: 0, depthWrite: false, blending: THREE.AdditiveBlending });
+  const lasers = [1, -1].map(() => { const m = new THREE.Mesh(new THREE.BoxGeometry(3.6, .014, .014), laserMat); m.position.x = -.6; cargo.add(m); return m; });
   const front = new THREE.Group(); craft.add(front);
   const cap = new THREE.Mesh(new THREE.SphereGeometry(1.1, 64, 16, 0, Math.PI * 2, 0, Math.PI / 2), hullOut); cap.rotation.z = Math.PI / 2; cap.scale.set(.32, 1, 1); cap.position.x = -2.4; front.add(cap);
   const cbm = new THREE.Mesh(new THREE.TorusGeometry(.72, .09, 16, 64), dark); cbm.rotation.y = Math.PI / 2; cbm.position.x = -2.76; front.add(cbm);
@@ -178,6 +187,7 @@ export function createExplorer(o: Opts) {
   rack.add(flame.pts, sparks.pts, smoke.pts);
   const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glow('rgba(255,200,130,1)', 'rgba(255,90,40,.35)'), blending: THREE.AdditiveBlending, depthWrite: false, transparent: true })); rack.add(halo);
   const flameLight = new THREE.PointLight(0xff8a3d, 0, 3.2, 1.5); rack.add(flameLight);
+  const shock = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex(128, 128, c => { c.strokeStyle = 'rgba(255,214,160,1)'; c.lineWidth = 5; c.shadowColor = '#ff7a3d'; c.shadowBlur = 10; c.beginPath(); c.arc(64, 64, 52, 0, Math.PI * 2); c.stroke(); }), blending: THREE.AdditiveBlending, transparent: true, depthWrite: false, opacity: 0 })); rack.add(shock);
   const streakPos = new Float32Array(30 * 6), streakX = Float32Array.from({ length: 30 }, () => -1.8 + Math.random() * 2.4);
   const streakGeo = new THREE.BufferGeometry(); streakGeo.setAttribute('position', new THREE.BufferAttribute(streakPos, 3));
   const streaks = new THREE.LineSegments(streakGeo, new THREE.LineBasicMaterial({ color: 0x77c3ed, transparent: true, opacity: .45 })); rack.add(streaks);
@@ -199,12 +209,13 @@ export function createExplorer(o: Opts) {
     b.addEventListener('click', () => { o.onPick(part); focus(part); }); o.overlay.appendChild(b); return { part, el: b };
   });
   const co2Tag = document.createElement('div'); co2Tag.className = 'xp-holo'; o.overlay.appendChild(co2Tag);
+  const frontTag = document.createElement('div'); frontTag.className = 'xp-holo xp-holo-front'; o.overlay.appendChild(frontTag);
 
   // ---------- State ----------
-  let input: EngineInput = { flame: { x: 0, alive: 0, burnt: 0, regress: 0, pulse: 0 }, sensed: 0, heat: 0, intensity: .5, reading: null, burning: false };
+  let input: EngineInput = { flame: { x: 0, alive: 0, burnt: 0, regress: 0, pulse: 0 }, sensed: 0, heat: 0, intensity: .5, reading: null, burning: false, frontLabel: null };
   let spec: SampleSpec = { material: 'SIBAL', opposed: false, leadInCm: null, regressCm: 0 };
   let cut = 0, explode = 0, beacons = true, orbitSpeed = 1, theta = .9, disposed = false, raf = 0, lastChar = 0, lastCam = 0, lastHover = 0;
-  let followFlame = false;
+  let followFlame = false, cutGlow = 0, shakeAmp = 0, bloomBoost = 0, shockT = -1;
   let flying: { l: { x: number; y: number; z: number; tx: number; ty: number; tz: number }; anim: JSAnimation } | null = null;
   const prevPos = new THREE.Vector3(), prevQ = new THREE.Quaternion(), basis = new THREE.Matrix4();
 
@@ -236,7 +247,7 @@ export function createExplorer(o: Opts) {
     if (['rack', 'flame', 'sample', 'igniter', 'tc', 'co2'].includes(v) && cut < .55 && explode < .3) { setCut(.75); cutListeners.forEach(f => f(.75)); }
   }
   const cutListeners: ((v: number) => void)[] = [];
-  function setCut(v: number) { cut = v; clipLocal.constant = 1.3 - v * 1.55; }
+  function setCut(v: number) { if (Math.abs(v - cut) > .001) cutGlow = 1; cut = v; clipLocal.constant = 1.3 - v * 1.55; }
   function setExplode(v: number) { explode = v; }
 
   // Specimen texture redraw
@@ -310,7 +321,10 @@ export function createExplorer(o: Opts) {
   // Start with the sun behind the viewer so the vehicle is front-lit (no glare behind it).
   const viewDir = camera.position.clone().sub(craft.position).normalize();
   const initialSun = Math.round((THREE.MathUtils.radToDeg(Math.atan2(viewDir.z, viewDir.x)) + 25 + 360) % 360); setSun(initialSun);
-  setCut(0); drawChar(); resize();
+  setCut(0); cutGlow = 0; drawChar(); resize();
+  // Cinematic arrival: start from the orbit view and fly in to the spacecraft.
+  const [oc, ot] = views.orbit(); camera.position.copy(craft.localToWorld(oc)); controls.target.copy(craft.localToWorld(ot));
+  const introTimer = setTimeout(() => { if (!disposed && !flying) focus('craft', 3800); }, 700);
 
   const t0ms = performance.now(); let lastMs = t0ms; const tmpQ = new THREE.Quaternion(), v3 = new THREE.Vector3();
   function frame() {
@@ -336,14 +350,25 @@ export function createExplorer(o: Opts) {
     service.position.x = ex * 2.6; front.position.x = -ex * 1.6; rack.position.y = ex * 2.2;
     arrays.forEach(a => { a.position.z = a.userData.side * ex * 2.2; });
     clipWorld.copy(clipLocal).applyMatrix4(craft.matrixWorld);
+    cutGlow = Math.max(0, cutGlow - dt * .7);
+    const cz = clipLocal.constant, ch = Math.sqrt(Math.max(0, 1.1 * 1.1 - cz * cz)), cutOn = cut > .02 && Math.abs(cz) < 1.1;
+    scan.visible = cutOn; scan.position.z = cz; scan.scale.set(3.6, Math.max(.001, ch * 2), 1); scanMat.opacity = cutGlow * cutGlow * .6; scan.visible = cutOn && cutGlow > .01;
+    lasers.forEach((m, i) => { m.visible = cutOn; m.position.set(-.6, (i ? -1 : 1) * ch, cz); });
+    laserMat.opacity = .45 + cutGlow * .55 + Math.sin(T * 9) * .08;
+    for (let i = 0; i < TRAIL_N; i++) { const th = theta - (TRAIL_N - 1 - i) * .0045; v3.set(Math.cos(th) * ORBIT_R, 0, Math.sin(th) * ORBIT_R).applyEuler(tilt); trailPos.set([v3.x, v3.y, v3.z], i * 3); }
+    trailGeo.attributes.position.needsUpdate = true;
     navs[0].visible = Math.sin(T * 3.1) > 0; navs[1].visible = Math.sin(T * 3.1 + 1.6) > 0; navs[2].visible = (T % 2) < .07;
     fan.rotation.x += dt * 16;
 
     // ---- Fire ----
     const f = input.flame, fx = flameLocalX(), dir = spec.opposed ? -1 : 1, a = f.alive, flick = 1 + Math.sin(T * 27) * .07 + Math.sin(T * 41) * .05;
     const silicone = spec.material === 'Silicone';
-    halo.position.set(fx + .06, SY + .07, 0); halo.scale.set(.75 * a * flick + .001, .42 * a * flick + .001, 1); (halo.material as THREE.SpriteMaterial).opacity = a * .9;
-    flameLight.position.set(fx + .05, SY + .12, 0); flameLight.intensity = a * 4.2 * flick;
+    // Close to the flame, tone down the glow so the flame structure stays readable.
+    const dFlame = camera.position.distanceTo(rack.localToWorld(v3.set(fx, SY, 0))), near = THREE.MathUtils.clamp(dFlame / 3, .25, 1);
+    halo.position.set(fx + .06, SY + .07, 0); halo.scale.set(.75 * a * flick + .001, .42 * a * flick + .001, 1); (halo.material as THREE.SpriteMaterial).opacity = a * .9 * near;
+    flameLight.position.set(fx + .05, SY + .12, 0); flameLight.intensity = a * 4.2 * flick * near;
+    bloomBoost = Math.max(0, bloomBoost - dt * .9); bloom.strength = .62 * (a > .05 ? .55 + .45 * near : 1) + bloomBoost;
+    if (shockT >= 0) { shockT += dt; const k = shockT / 1.2, sm = shock.material as THREE.SpriteMaterial; if (k >= 1) { shockT = -1; sm.opacity = 0; } else { shock.position.copy(igniter.position); shock.scale.setScalar(.04 + k * .42); sm.opacity = (1 - k) ** 1.5; } }
     ignMat.emissiveIntensity = f.pulse * 3 + (f.pulse > 0 ? Math.sin(T * 30) * .4 : 0);
     // flame particles
     const emitF = a * (silicone ? 380 : 950) * dt;
@@ -408,9 +433,17 @@ export function createExplorer(o: Opts) {
     const showHolo = inside && dist < 6 && input.reading !== null && hv.z < 1;
     co2Tag.style.opacity = showHolo ? '1' : '0';
     if (showHolo) { co2Tag.textContent = `CO₂ ${input.reading!.toFixed(1)} ppm`; co2Tag.style.transform = `translate(${((hv.x + 1) / 2) * W}px,${((1 - hv.y) / 2) * H}px)`; }
+    const fv = rack.localToWorld(new THREE.Vector3(fx, SY + .2, 0)).project(camera);
+    const showFront = inside && dist < 7 && f.alive > .05 && !!input.frontLabel && fv.z < 1;
+    frontTag.style.opacity = showFront ? '1' : '0';
+    if (showFront) { frontTag.textContent = input.frontLabel!; frontTag.style.transform = `translate(${((fv.x + 1) / 2) * W}px,${((1 - fv.y) / 2) * H}px)`; }
     if (T - lastCam > .25) { lastCam = T; o.onCamera(dist); }
 
+    shakeAmp *= Math.exp(-dt * 2.6);
+    const shakeOff = shakeAmp > .002 ? new THREE.Vector3(Math.sin(T * 63), Math.sin(T * 71 + 1), Math.sin(T * 57 + 2)).multiplyScalar(shakeAmp * .012 * camera.position.distanceTo(controls.target)) : null;
+    if (shakeOff) camera.position.add(shakeOff);
     composer.render();
+    if (shakeOff) camera.position.sub(shakeOff);
     // Experiment camera (picture-in-picture), locked to the rack
     const flameW = rack.localToWorld(new THREE.Vector3(Math.min(SX1 - .2, Math.max(SX0 + .25, fx + .12)), SY, 0));
     pipCam.position.copy(rack.localToWorld(new THREE.Vector3(Math.min(SX1, Math.max(SX0, fx)) + .45, .2, .62)));
@@ -427,10 +460,11 @@ export function createExplorer(o: Opts) {
     onCutAuto(fn: (v: number) => void) { cutListeners.push(fn); },
     setSun, setOrbitSpeed(k: number) { orbitSpeed = k; }, setBeacons(on: boolean) { beacons = on; }, setAutoRotate(on: boolean) { controls.autoRotate = on; },
     theta: () => theta, initialSun,
+    ignitionFx() { shakeAmp = 1; bloomBoost = .8; shockT = 0; },
     dispose() {
-      disposed = true; cancelAnimationFrame(raf); ro.disconnect(); flying?.anim.pause(); window.removeEventListener('keydown', onKey);
+      disposed = true; cancelAnimationFrame(raf); ro.disconnect(); flying?.anim.pause(); window.removeEventListener('keydown', onKey); clearTimeout(introTimer);
       o.canvas.removeEventListener('pointermove', onMove); o.canvas.removeEventListener('pointerdown', onDown); o.canvas.removeEventListener('pointerup', onUp); o.canvas.removeEventListener('dblclick', onDbl); o.canvas.removeEventListener('pointerleave', onLeave);
-      beaconEls.forEach(b => b.el.remove()); co2Tag.remove(); controls.dispose(); composer.dispose();
+      beaconEls.forEach(b => b.el.remove()); co2Tag.remove(); frontTag.remove(); controls.dispose(); composer.dispose();
       scene.traverse(x => { const m = x as THREE.Mesh; m.geometry?.dispose?.(); const mat = m.material as THREE.Material | THREE.Material[] | undefined; (Array.isArray(mat) ? mat : mat ? [mat] : []).forEach(q => { (q as THREE.MeshStandardMaterial).map?.dispose(); q.dispose(); }); });
       envTex.dispose(); renderer.dispose(); pipRenderer.dispose();
     },

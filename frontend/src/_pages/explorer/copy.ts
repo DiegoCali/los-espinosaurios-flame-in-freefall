@@ -36,9 +36,34 @@ const en = {
     earth: ['EARTH', 'Stylised and not to scale.'],
   } as Record<string, [string, string]>,
   log: 'MISSION LOG',
-  events: { armed: 'Armed · baseline window [−30, 0) s', ignition: 'Ignition marker · {utc} UTC', igniterOff: 'Igniter off ({power} W × {duration} s)', burnEnd: 'Published burn ends · {duration} s · {length} cm', noSpread: 'No sustained spread (published)', front: 'Front reaches 29 cm (published {rate} mm/s)', response: 'Response window [150, 180) s', delta: 'Δ CO₂ at 180 s = {delta} ppm' },
+  events: { armed: 'Armed · baseline window [−30, 0) s', ignition: 'Ignition marker · {utc} UTC', igniterOff: 'Igniter off ({power} W × {duration} s)', burnEnd: 'Published burn ends · {duration} s · {length} cm', noSpread: 'No sustained spread (published)', front: 'Front reaches 29 cm (estimated from the published {rate} mm/s)', response: 'Response window [150, 180) s', delta: 'Δ CO₂ at 180 s = {delta} ppm' },
   disclaimer: 'Stylised vehicle and Earth, not to scale; the experiment is enlarged and its layout is schematic. Flame motion follows the published outcome, burn length and duration (only SIBAL has spread rates). CO₂ values are the real sensor series. No explosion is documented.',
   open3d: 'ENTER THE 3D EXPLORER', open3dNote: 'Fly, open the spacecraft and ignite a test',
+  solution: {
+    title: 'OUR SOLUTION · LIVE PIPELINE',
+    steps: { forecast: '1 · FORECAST', baseline: '2 · BASELINE', burn: '3 · IGNITION', response: '4 · RESPONSE', verdict: '5 · VERDICT' } as Record<string, string>,
+    captions: {
+      forecast: 'Before ignition, the team model forecasts Δ CO₂ from the material and the flow only. It was fitted without this test (leave-one-test-out): Δ̂ = {pred} ppm, typical error ±{rmse} ppm.',
+      baseline: 'Baseline window [−30, 0) s: the median of the CO₂ sensor is {base} ppm.',
+      burn: 'Igniter {power} W × {duration} s. The flame follows the published outcome while the sensor keeps recording.',
+      response: 'Response window [150, 180) s: its median minus the baseline is the measured Δ CO₂.',
+      verdict: 'Measured {actual} ppm vs forecast {pred} ppm → residual {res} ppm ({within}).',
+    } as Record<string, string>,
+    within: 'within ±1 RMSE', outside: 'outside ±1 RMSE',
+    forecast: 'Forecast Δ̂', live: 'Live Δ', measured: 'Measured Δ', pending: 'at 180 s',
+    branchSilicone: 'Silicone branch · constant level', branchOther: 'Non-silicone branch · ∝ 20 / flow',
+    report: 'OPEN MISSION REPORT',
+  },
+  slowmo: 'SLOW MOTION · IGNITION', ignition: 'IGNITION', toastGoal: 'OBJECTIVE', signal: 'ACQUIRING SIGNAL · SAFFIRE-II', signalOk: 'SIGNAL LOCKED',
+  front: 'FRONT {x} cm · est. from published rate', frontInterp: 'FRONT {x} cm · interpolated',
+  debrief: {
+    title: 'MISSION REPORT · {id}', measured: 'MEASURED Δ CO₂ AT 180 s', forecast: 'HELD-OUT FORECAST Δ̂', residual: 'RESIDUAL (measured − forecast)',
+    scatter: 'ALL 9 TESTS · FORECAST vs MEASURED (ppm)', ideal: 'perfect forecast', band: '±1 RMSE', axisX: 'forecast Δ̂', axisY: 'measured Δ',
+    rmse: 'LOOCV ERROR (RMSE) OVER 9 TESTS', model: 'Team model', baseline: 'Training-mean baseline', better: '{pct}% lower error than the baseline',
+    formula: 'Fitted on all 9 tests: Δ̂ = {sil} ppm for silicone; otherwise Δ̂ = {k} × (20 / flow) ppm',
+    facts: 'DOCUMENTED RECORD OF THIS TEST', plume: 'Plume thermocouple peak', o2: 'O₂ change at 180 s', press: 'Pressure change at 180 s', rad: 'Radiometer peak (180 s)', burnLen: 'Published burn', rate: 'Spread rate',
+    next: 'NEXT TEST →', close: 'CLOSE', replay: '↺ REPLAY',
+  },
 };
 type ExplorerCopy = typeof en;
 const es: ExplorerCopy = {
@@ -75,9 +100,34 @@ const es: ExplorerCopy = {
     earth: ['TIERRA', 'Estilizada y sin escala.'],
   },
   log: 'BITÁCORA DE MISIÓN',
-  events: { armed: 'Armado · ventana base [−30, 0) s', ignition: 'Marcador de ignición · {utc} UTC', igniterOff: 'Ignitor apagado ({power} W × {duration} s)', burnEnd: 'Termina la combustión publicada · {duration} s · {length} cm', noSpread: 'Sin propagación sostenida (publicado)', front: 'El frente llega a 29 cm ({rate} mm/s publicada)', response: 'Ventana de respuesta [150, 180) s', delta: 'Δ CO₂ a 180 s = {delta} ppm' },
+  events: { armed: 'Armado · ventana base [−30, 0) s', ignition: 'Marcador de ignición · {utc} UTC', igniterOff: 'Ignitor apagado ({power} W × {duration} s)', burnEnd: 'Termina la combustión publicada · {duration} s · {length} cm', noSpread: 'Sin propagación sostenida (publicado)', front: 'El frente llega a 29 cm (estimado con la tasa publicada de {rate} mm/s)', response: 'Ventana de respuesta [150, 180) s', delta: 'Δ CO₂ a 180 s = {delta} ppm' },
   disclaimer: 'Nave y Tierra estilizadas, sin escala; el experimento está ampliado y su disposición es esquemática. La llama sigue el resultado, la longitud y la duración publicadas (solo SIBAL tiene tasas de propagación). Los valores de CO₂ son la serie real del sensor. No hay explosión documentada.',
   open3d: 'ENTRAR AL EXPLORADOR 3D', open3dNote: 'Vuela, abre la nave y enciende un ensayo',
+  solution: {
+    title: 'NUESTRA SOLUCIÓN · FLUJO EN VIVO',
+    steps: { forecast: '1 · PRONÓSTICO', baseline: '2 · LÍNEA BASE', burn: '3 · IGNICIÓN', response: '4 · RESPUESTA', verdict: '5 · VEREDICTO' },
+    captions: {
+      forecast: 'Antes de la ignición, el modelo del equipo pronostica Δ CO₂ solo con el material y el flujo. Se ajustó sin este ensayo (dejando un ensayo fuera): Δ̂ = {pred} ppm, error típico ±{rmse} ppm.',
+      baseline: 'Ventana base [−30, 0) s: la mediana del sensor de CO₂ es {base} ppm.',
+      burn: 'Ignitor {power} W × {duration} s. La llama sigue el resultado publicado mientras el sensor sigue registrando.',
+      response: 'Ventana de respuesta [150, 180) s: su mediana menos la línea base es el Δ CO₂ medido.',
+      verdict: 'Medido {actual} ppm vs pronóstico {pred} ppm → residuo {res} ppm ({within}).',
+    },
+    within: 'dentro de ±1 RMSE', outside: 'fuera de ±1 RMSE',
+    forecast: 'Pronóstico Δ̂', live: 'Δ en vivo', measured: 'Δ medido', pending: 'a 180 s',
+    branchSilicone: 'Rama silicona · nivel constante', branchOther: 'Rama no silicona · ∝ 20 / flujo',
+    report: 'ABRIR INFORME DE MISIÓN',
+  },
+  slowmo: 'CÁMARA LENTA · IGNICIÓN', ignition: 'IGNICIÓN', toastGoal: 'OBJETIVO', signal: 'ADQUIRIENDO SEÑAL · SAFFIRE-II', signalOk: 'SEÑAL FIJADA',
+  front: 'FRENTE {x} cm · estimado con tasa publicada', frontInterp: 'FRENTE {x} cm · interpolado',
+  debrief: {
+    title: 'INFORME DE MISIÓN · {id}', measured: 'Δ CO₂ MEDIDO A 180 s', forecast: 'PRONÓSTICO RESERVADO Δ̂', residual: 'RESIDUO (medido − pronóstico)',
+    scatter: 'LOS 9 ENSAYOS · PRONÓSTICO vs MEDIDO (ppm)', ideal: 'pronóstico perfecto', band: '±1 RMSE', axisX: 'pronóstico Δ̂', axisY: 'Δ medido',
+    rmse: 'ERROR LOOCV (RMSE) EN 9 ENSAYOS', model: 'Modelo del equipo', baseline: 'Línea base de media', better: '{pct}% menos error que la línea base',
+    formula: 'Ajustado con los 9 ensayos: Δ̂ = {sil} ppm para silicona; si no, Δ̂ = {k} × (20 / flujo) ppm',
+    facts: 'REGISTRO DOCUMENTADO DE ESTE ENSAYO', plume: 'Pico del termopar de penacho', o2: 'Cambio de O₂ a 180 s', press: 'Cambio de presión a 180 s', rad: 'Pico del radiómetro (180 s)', burnLen: 'Combustión publicada', rate: 'Tasa de propagación',
+    next: 'SIGUIENTE ENSAYO →', close: 'CERRAR', replay: '↺ REPETIR',
+  },
 };
 export const explorerCopy: Record<Locale, ExplorerCopy> = { en, es };
 export type { ExplorerCopy };

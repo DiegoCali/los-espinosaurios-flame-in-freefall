@@ -100,3 +100,10 @@
 }
 @media(max-width:767px){.dl-drops{grid-template-columns:1fr 1fr 1fr;gap:6px}.dl-drop figcaption span:not(.dl-ended){font-size:9px}.gx-readouts,.ff-conditions,.mr-facts,.rl-example dl{grid-template-columns:1fr}.pf-nodes{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.footer-word{animation:none}.ff-steps li,.ff-result{transition:none}}
+/* Whole mission-rail card is clickable: the "open record" link stretches over the card */
+.mr-card{cursor:pointer}
+.mr-open::after{content:"";position:absolute;inset:0;z-index:2}
+.mr-open:focus-visible{outline:2px solid #77c3ed;outline-offset:2px}
+.mr-card:hover .mr-open,.mr-card:focus-within .mr-open{background:#0a2033;border-color:#77c3ed}
+.mr-card:hover .mr-open span{transform:translateX(4px)}.mr-open span{transition:transform .25s}
+.mr-card:focus-within{border-color:#77c3ed}
