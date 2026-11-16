@@ -1,0 +1,27 @@
+{
+  "attempt": 12,
+  "run_id": "pilot-01",
+  "commit": "6d4dbe7",
+  "train_sha256": "ab3c90ca73338ef954119343ae0a6f310b50352a39ad668b91729dce77929eb5",
+  "seed": 20261113,
+  "model_name": "ridge_composition_quadratic_alpha_0_001",
+  "elapsed_seconds": 0.001499,
+  "peak_memory_mb": 34.859,
+  "status": "keep",
+  "description": "Ridge cuadratico alpha=0.001: reducir penalizacion del mejor modelo",
+  "val_rmse_k": 116.17163615370868,
+  "val_mae_k": 83.61408278129836,
+  "val_max_abs_error_k": 352.8999730828898,
+  "features": [
+    "flame_type_inverse",
+    "burner_reactant_mole_fraction",
+    "ambient_reactant_fraction_initial",
+    "burner_reactant_flow_mg_s",
+    "nitrogen_flow_mg_s",
+    "total_flow_mg_s",
+    "pressure_initial_atm"
+  ],
+  "n_train": 134,
+  "n_validation": 52,
+  "objective": "calculated_Tad_not_soot"
+}

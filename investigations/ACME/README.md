@@ -1,5 +1,13 @@
 # NASA PSI-10 — ACME / Flame Design
 
+## Unified dashboard output
+
+[predictions.json](predictions.json) uses the FLEX schema (`schema_version: 2`): 52 individual **validation** predictions, saved validation/holdout metrics, calculated Tad values (K), experiment history, chart data and provenance. Each prediction includes `test_id`, `flame_type`, `group_id`, `split: "validation"`, `actual`, `predicted` and `residual` (`actual - predicted`), with a reference to its original validation CSV row. Tad is calculated, not measured flame temperature. The parity chart compares tabulated calculated Tad with predicted Tad in K. Individual holdout estimates remain unavailable and are not reconstructed.
+
+[runs/pilot-01/validation_predictions.json](runs/pilot-01/validation_predictions.json) preserves the recovered predictions, frozen-model SHA-256, feature order, seed, source hashes and verified errors: RMSE **116.171636 K**, MAE **83.614083 K**, maximum absolute error **352.899973 K**. Recovery uses the original 134 training and 52 validation rows; it adds no AutoResearch attempt and never loads holdout labels. To reproduce it from the repository root, run `investigations/ACME/.venv/bin/python investigations/ACME/recover_validation_predictions.py`. A metric difference exceeding `1e-6 K` absolute / `1e-10` relative tolerance stops recovery before writing results.
+
+From the repository root, run `python3 investigations/export_predictions.py` to export existing results, then `python3 investigations/export_predictions.py --check` to verify all five investigations. Neither command trains models or repeats evaluations. Paths are relative to this investigation; `null` means unavailable. Historical source names are retained in `original_*` fields.
+
 **Proyecto NASA:** *Flame Design: A Novel Approach to Clean Efficient Diffusion Flames*  
 **Tipo:** Microgravity Investigation · **Plataforma:** International Space Station (ISS)  
 **Patrocinador:** NASA · **Centro:** Glenn Research Center (GRC)  

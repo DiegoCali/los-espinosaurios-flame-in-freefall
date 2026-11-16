@@ -1,5 +1,11 @@
 # BASS-II flame-spread analysis
 
+## Unified dashboard output
+
+[predictions.json](predictions.json) uses the FLEX schema (`schema_version: 2`): extracted rates and conditions for 83 tests, 25 published-rate comparisons, saved forecast metrics, existing figures and provenance. `predictions` is empty because individual forecasts are not present locally. Video measurements and published comparisons are kept separate from model metrics; mm, mm² and aspect-corrected px² retain their units.
+
+From the repository root, run `python3 investigations/export_predictions.py`, then `python3 investigations/export_predictions.py --check`. These commands only export/check saved results. Serve linked figures with the JSON; paths are relative to this investigation and `null` means unavailable. Historical source names are retained in `original_*` fields. The scientific report and its generators remain available.
+
 Detection and measurement of flame spread in NASA **BASS-II** (Burning and Suppression of Solids II,
 [PSI-25](https://psi.nasa.gov/physci/repo/data/investigations/PSI-25), DOI 10.60555/4qc4-de67) ISS videos,
 followed by time-series forecasting of the measurements and a scientific visualisation layer.

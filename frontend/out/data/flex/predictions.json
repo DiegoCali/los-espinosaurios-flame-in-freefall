@@ -1,0 +1,1663 @@
+{
+  "schema_version": 2,
+  "model": "random_forest_multi_task_masked",
+  "data_source": {
+    "file": "data/PSI-69_Experimental table_FLEX.csv",
+    "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+    "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+  },
+  "references": {
+    "@data/PSI-69.bib": {
+      "file": "data/PSI-69.bib",
+      "sha256": "88b59d6688e86e7c7104368939e4a57d682c8675c8904b5a13b7e36f58070545",
+      "bibtex": "@data{ PSI-69,\nauthor = {Williams FA; Shaw BD; Hicks MC; Nayagam V; Choi MY; Dryer FL; Dietrich D},\npublisher = {NASA PSI Data Repository},\ntitle = {Flame Extinguishment Experiment(FLEX)},\nyear = {2016},\ndoi = {10.60555/mbq8-0451},\nurl = {https://psi.nasa.gov/physci/repo/data/investigations/PSI-69},\nversion = {5}\n}"
+    },
+    "source_files": [
+      {
+        "file": "data/PSI-69_Experimental table_FLEX.csv",
+        "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+        "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+      },
+      {
+        "file": "data/FLEX Overall Ext File-2.pdf",
+        "reference": "@data/FLEX Overall Ext File-2.pdf",
+        "sha256": "32b780edb446f5f9134a7138658faa6ea72c529a62ac6c3fd726f7ca049d0999"
+      },
+      {
+        "file": "data/MeOH_FLEX_001_Summary.pdf",
+        "reference": "@data/MeOH_FLEX_001_Summary.pdf",
+        "sha256": "c212f58f128e64901ad50c908f00842a887db6472769acd48edf9739212f103a"
+      },
+      {
+        "file": "data/Heptane_FLEX-007_Summary.pdf",
+        "reference": "@data/Heptane_FLEX-007_Summary.pdf",
+        "sha256": "da2d053bb5d3cd7079d4463097d97a82e5775682a42aba33219707e7e3e7e3fd"
+      },
+      {
+        "file": "data/MeOH_Air_FLEX_001_Summary.pdf",
+        "reference": "@data/MeOH_Air_FLEX_001_Summary.pdf",
+        "sha256": "031d050daa694c10bce1bb8b64d89d42548ede3dbc672affa04a1cd5f6015b7e"
+      },
+      {
+        "file": "data/MeOH_FLEX-010_DropletData.txt",
+        "reference": "@data/MeOH_FLEX-010_DropletData.txt",
+        "sha256": "e97037762c74f4f5f9155fa7f87718eea09d351b112c0acddd9e7c10760dd6a6"
+      },
+      {
+        "file": "data/Heptane_FLEX-007_DropletData.txt",
+        "reference": "@data/Heptane_FLEX-007_DropletData.txt",
+        "sha256": "b23c77bbca5896142369d6b6e2c1c964ce527ea0fbaaebea6de69bb3e7b79f6b"
+      },
+      {
+        "file": "data/MeOH_Air_FLEX-001_DropletData.txt",
+        "reference": "@data/MeOH_Air_FLEX-001_DropletData.txt",
+        "sha256": "2e7c0516abd3d33bbec93a546637938a49d6e0e06faab47de9f09fed17409979"
+      }
+    ]
+  },
+  "target_metadata": {
+    "burning_rate_m2_s": {
+      "unit": "m^2/s",
+      "source_column": "burning_rate_m2_s"
+    },
+    "burn_time_s": {
+      "unit": "s",
+      "source_column": "Burn time; s"
+    }
+  },
+  "validation_campaign": "NaT",
+  "validation": {
+    "split_rule": "last_lexicographically_sorted_campaign_label",
+    "campaign_label": "NaT",
+    "n_rows": 50,
+    "missing_date_rows": 50,
+    "is_missing_date_campaign": true
+  },
+  "metrics": {
+    "burning_rate_m2_s": {
+      "n_train": 209,
+      "n_validation": 49,
+      "mae": 8.392070026754363e-08,
+      "rmse": 1.1269379658057051e-07,
+      "r2": 0.461574425642281
+    },
+    "burn_time_s": {
+      "n_train": 217,
+      "n_validation": 49,
+      "mae": 1.7485375684110567,
+      "rmse": 2.4148738149902926,
+      "r2": 0.8779850459545985
+    },
+    "objective": 1.2074369638420446
+  },
+  "residual_definition": "actual_minus_predicted",
+  "predictions": [
+    {
+      "row_index": 19,
+      "actual": {
+        "burning_rate_m2_s": 5.3e-07,
+        "burn_time_s": 17.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.822900685951806e-07,
+        "burn_time_s": 16.200625343045132
+      },
+      "residual": {
+        "burning_rate_m2_s": -1.522900685951806e-07,
+        "burn_time_s": 1.1993746569548662
+      }
+    },
+    {
+      "row_index": 20,
+      "actual": {
+        "burning_rate_m2_s": 6.6e-07,
+        "burn_time_s": 17.8
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.823073477087453e-07,
+        "burn_time_s": 16.837272261332973
+      },
+      "residual": {
+        "burning_rate_m2_s": -2.230734770874524e-08,
+        "burn_time_s": 0.9627277386670272
+      }
+    },
+    {
+      "row_index": 21,
+      "actual": {
+        "burning_rate_m2_s": 6.5e-07,
+        "burn_time_s": 18.2
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.813072343490203e-07,
+        "burn_time_s": 16.461634334597942
+      },
+      "residual": {
+        "burning_rate_m2_s": -3.130723434902025e-08,
+        "burn_time_s": 1.738365665402057
+      }
+    },
+    {
+      "row_index": 22,
+      "actual": {
+        "burning_rate_m2_s": 7.3e-07,
+        "burn_time_s": 13.1
+      },
+      "predicted": {
+        "burning_rate_m2_s": 7.141808429806329e-07,
+        "burn_time_s": 10.997309050213424
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.5819157019367148e-08,
+        "burn_time_s": 2.1026909497865756
+      }
+    },
+    {
+      "row_index": 23,
+      "actual": {
+        "burning_rate_m2_s": null,
+        "burn_time_s": null
+      },
+      "predicted": {
+        "burning_rate_m2_s": 7.136221762995668e-07,
+        "burn_time_s": 8.338254504843858
+      },
+      "residual": {
+        "burning_rate_m2_s": null,
+        "burn_time_s": null
+      }
+    },
+    {
+      "row_index": 28,
+      "actual": {
+        "burning_rate_m2_s": 7.4e-07,
+        "burn_time_s": 10.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.412675294664568e-07,
+        "burn_time_s": 9.85975408559506
+      },
+      "residual": {
+        "burning_rate_m2_s": 9.873247053354325e-08,
+        "burn_time_s": 0.5402459144049399
+      }
+    },
+    {
+      "row_index": 29,
+      "actual": {
+        "burning_rate_m2_s": 5.9e-07,
+        "burn_time_s": 15.6
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.323664858763148e-07,
+        "burn_time_s": 17.006776885011025
+      },
+      "residual": {
+        "burning_rate_m2_s": -4.236648587631486e-08,
+        "burn_time_s": -1.4067768850110252
+      }
+    },
+    {
+      "row_index": 30,
+      "actual": {
+        "burning_rate_m2_s": 8.5e-07,
+        "burn_time_s": 18.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.36510254221117e-07,
+        "burn_time_s": 16.266490990246027
+      },
+      "residual": {
+        "burning_rate_m2_s": 2.1348974577888302e-07,
+        "burn_time_s": 2.133509009753972
+      }
+    },
+    {
+      "row_index": 31,
+      "actual": {
+        "burning_rate_m2_s": 6.800000000000001e-07,
+        "burn_time_s": 14.0
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.367767230118853e-07,
+        "burn_time_s": 15.021010238823516
+      },
+      "residual": {
+        "burning_rate_m2_s": 4.3223276988114766e-08,
+        "burn_time_s": -1.021010238823516
+      }
+    },
+    {
+      "row_index": 32,
+      "actual": {
+        "burning_rate_m2_s": 4.8e-07,
+        "burn_time_s": 11.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.278743043954071e-07,
+        "burn_time_s": 10.701658254401671
+      },
+      "residual": {
+        "burning_rate_m2_s": -4.7874304395407116e-08,
+        "burn_time_s": 0.698341745598329
+      }
+    },
+    {
+      "row_index": 33,
+      "actual": {
+        "burning_rate_m2_s": 4.4e-07,
+        "burn_time_s": 27.3
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.3064644789556114e-07,
+        "burn_time_s": 24.86315479497572
+      },
+      "residual": {
+        "burning_rate_m2_s": 9.35355210443888e-09,
+        "burn_time_s": 2.43684520502428
+      }
+    },
+    {
+      "row_index": 34,
+      "actual": {
+        "burning_rate_m2_s": 4.3e-07,
+        "burn_time_s": 8.9
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.6221814600877665e-07,
+        "burn_time_s": 5.967480249999021
+      },
+      "residual": {
+        "burning_rate_m2_s": -3.221814600877664e-08,
+        "burn_time_s": 2.9325197500009796
+      }
+    },
+    {
+      "row_index": 35,
+      "actual": {
+        "burning_rate_m2_s": 4.5000000000000003e-07,
+        "burn_time_s": 7.1
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.983409822096526e-07,
+        "burn_time_s": 9.552448450854607
+      },
+      "residual": {
+        "burning_rate_m2_s": -4.834098220965255e-08,
+        "burn_time_s": -2.4524484508546074
+      }
+    },
+    {
+      "row_index": 143,
+      "actual": {
+        "burning_rate_m2_s": 4.5000000000000003e-07,
+        "burn_time_s": 23.8
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.567476425648073e-07,
+        "burn_time_s": 22.833112073073927
+      },
+      "residual": {
+        "burning_rate_m2_s": -6.747642564807287e-09,
+        "burn_time_s": 0.9668879269260735
+      }
+    },
+    {
+      "row_index": 144,
+      "actual": {
+        "burning_rate_m2_s": 4.5000000000000003e-07,
+        "burn_time_s": 20.0
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.6789930409147857e-07,
+        "burn_time_s": 19.363114389287695
+      },
+      "residual": {
+        "burning_rate_m2_s": -1.7899304091478537e-08,
+        "burn_time_s": 0.6368856107123051
+      }
+    },
+    {
+      "row_index": 145,
+      "actual": {
+        "burning_rate_m2_s": 4.1e-07,
+        "burn_time_s": 39.2
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.306795036723871e-07,
+        "burn_time_s": 27.87973767827478
+      },
+      "residual": {
+        "burning_rate_m2_s": -2.0679503672387083e-08,
+        "burn_time_s": 11.320262321725224
+      }
+    },
+    {
+      "row_index": 147,
+      "actual": {
+        "burning_rate_m2_s": 5.4e-07,
+        "burn_time_s": 11.8
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.356412897122488e-07,
+        "burn_time_s": 10.150042894638394
+      },
+      "residual": {
+        "burning_rate_m2_s": 4.358710287751227e-09,
+        "burn_time_s": 1.6499571053616062
+      }
+    },
+    {
+      "row_index": 148,
+      "actual": {
+        "burning_rate_m2_s": 5.3e-07,
+        "burn_time_s": 8.9
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.391301668837029e-07,
+        "burn_time_s": 8.713364404188036
+      },
+      "residual": {
+        "burning_rate_m2_s": -9.130166883702906e-09,
+        "burn_time_s": 0.1866355958119641
+      }
+    },
+    {
+      "row_index": 149,
+      "actual": {
+        "burning_rate_m2_s": 4.6000000000000004e-07,
+        "burn_time_s": 8.0
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.946574612552376e-07,
+        "burn_time_s": 9.290888969407362
+      },
+      "residual": {
+        "burning_rate_m2_s": -3.465746125523752e-08,
+        "burn_time_s": -1.2908889694073622
+      }
+    },
+    {
+      "row_index": 156,
+      "actual": {
+        "burning_rate_m2_s": 3e-07,
+        "burn_time_s": 7.6
+      },
+      "predicted": {
+        "burning_rate_m2_s": 3.6532842407905295e-07,
+        "burn_time_s": 5.261344631352195
+      },
+      "residual": {
+        "burning_rate_m2_s": -6.532842407905297e-08,
+        "burn_time_s": 2.338655368647805
+      }
+    },
+    {
+      "row_index": 157,
+      "actual": {
+        "burning_rate_m2_s": 3.7e-07,
+        "burn_time_s": 10.1
+      },
+      "predicted": {
+        "burning_rate_m2_s": 3.784446111888183e-07,
+        "burn_time_s": 7.319997145302893
+      },
+      "residual": {
+        "burning_rate_m2_s": -8.444611188818294e-09,
+        "burn_time_s": 2.7800028546971065
+      }
+    },
+    {
+      "row_index": 158,
+      "actual": {
+        "burning_rate_m2_s": 3.8e-07,
+        "burn_time_s": 14.9
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.3565559375230584e-07,
+        "burn_time_s": 11.752970367818756
+      },
+      "residual": {
+        "burning_rate_m2_s": -5.565559375230582e-08,
+        "burn_time_s": 3.147029632181244
+      }
+    },
+    {
+      "row_index": 159,
+      "actual": {
+        "burning_rate_m2_s": 3.8e-07,
+        "burn_time_s": 14.8
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.3217548937111456e-07,
+        "burn_time_s": 12.341569829016102
+      },
+      "residual": {
+        "burning_rate_m2_s": -5.2175489371114545e-08,
+        "burn_time_s": 2.458430170983899
+      }
+    },
+    {
+      "row_index": 160,
+      "actual": {
+        "burning_rate_m2_s": 2.8e-07,
+        "burn_time_s": 6.0
+      },
+      "predicted": {
+        "burning_rate_m2_s": 3.5410476688882503e-07,
+        "burn_time_s": 5.124489025656649
+      },
+      "residual": {
+        "burning_rate_m2_s": -7.410476688882501e-08,
+        "burn_time_s": 0.8755109743433511
+      }
+    },
+    {
+      "row_index": 161,
+      "actual": {
+        "burning_rate_m2_s": 3.7e-07,
+        "burn_time_s": 8.5
+      },
+      "predicted": {
+        "burning_rate_m2_s": 3.964915040985178e-07,
+        "burn_time_s": 7.557769355298761
+      },
+      "residual": {
+        "burning_rate_m2_s": -2.649150409851779e-08,
+        "burn_time_s": 0.9422306447012394
+      }
+    },
+    {
+      "row_index": 162,
+      "actual": {
+        "burning_rate_m2_s": 3.7e-07,
+        "burn_time_s": 11.6
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.197492706203914e-07,
+        "burn_time_s": 9.213046336090224
+      },
+      "residual": {
+        "burning_rate_m2_s": -4.974927062039142e-08,
+        "burn_time_s": 2.3869536639097753
+      }
+    },
+    {
+      "row_index": 163,
+      "actual": {
+        "burning_rate_m2_s": 4.2e-07,
+        "burn_time_s": 8.9
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.16652337750943e-07,
+        "burn_time_s": 8.259460686343907
+      },
+      "residual": {
+        "burning_rate_m2_s": 3.3476622490569912e-09,
+        "burn_time_s": 0.6405393136560935
+      }
+    },
+    {
+      "row_index": 247,
+      "actual": {
+        "burning_rate_m2_s": 5.1e-07,
+        "burn_time_s": 0.3
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.0912498517507534e-07,
+        "burn_time_s": 4.235309508038564
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.0087501482492465e-07,
+        "burn_time_s": -3.9353095080385643
+      }
+    },
+    {
+      "row_index": 248,
+      "actual": {
+        "burning_rate_m2_s": 7.2e-07,
+        "burn_time_s": 12.2
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.170616906924813e-07,
+        "burn_time_s": 11.255192195756418
+      },
+      "residual": {
+        "burning_rate_m2_s": 2.0293830930751864e-07,
+        "burn_time_s": 0.944807804243581
+      }
+    },
+    {
+      "row_index": 249,
+      "actual": {
+        "burning_rate_m2_s": 7.1e-07,
+        "burn_time_s": 11.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.060987447318836e-07,
+        "burn_time_s": 9.3500750693607
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.0390125526811639e-07,
+        "burn_time_s": 2.0499249306392997
+      }
+    },
+    {
+      "row_index": 250,
+      "actual": {
+        "burning_rate_m2_s": 6.2e-07,
+        "burn_time_s": 11.2
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.540520688792241e-07,
+        "burn_time_s": 10.557249022902143
+      },
+      "residual": {
+        "burning_rate_m2_s": 6.594793112077588e-08,
+        "burn_time_s": 0.6427509770978563
+      }
+    },
+    {
+      "row_index": 251,
+      "actual": {
+        "burning_rate_m2_s": 7e-07,
+        "burn_time_s": 8.1
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.486904981122581e-07,
+        "burn_time_s": 10.739248199643372
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.5130950188774187e-07,
+        "burn_time_s": -2.6392481996433723
+      }
+    },
+    {
+      "row_index": 252,
+      "actual": {
+        "burning_rate_m2_s": 6e-07,
+        "burn_time_s": 8.3
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.61422225249306e-07,
+        "burn_time_s": 7.351665072598704
+      },
+      "residual": {
+        "burning_rate_m2_s": 3.857777475069395e-08,
+        "burn_time_s": 0.9483349274012971
+      }
+    },
+    {
+      "row_index": 253,
+      "actual": {
+        "burning_rate_m2_s": 7.3e-07,
+        "burn_time_s": 6.3
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.713020027582182e-07,
+        "burn_time_s": 8.328991654514514
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.5869799724178185e-07,
+        "burn_time_s": -2.028991654514514
+      }
+    },
+    {
+      "row_index": 254,
+      "actual": {
+        "burning_rate_m2_s": 5.6e-07,
+        "burn_time_s": 10.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.405773132653835e-07,
+        "burn_time_s": 12.135849179381706
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.9422686734616535e-08,
+        "burn_time_s": -1.735849179381706
+      }
+    },
+    {
+      "row_index": 255,
+      "actual": {
+        "burning_rate_m2_s": 6.5e-07,
+        "burn_time_s": 12.1
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.316334579167401e-07,
+        "burn_time_s": 13.236796105042044
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.1836654208325992e-07,
+        "burn_time_s": -1.1367961050420448
+      }
+    },
+    {
+      "row_index": 256,
+      "actual": {
+        "burning_rate_m2_s": 7e-07,
+        "burn_time_s": 7.6
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.575824574911613e-07,
+        "burn_time_s": 8.050225686451315
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.4241754250883864e-07,
+        "burn_time_s": -0.450225686451315
+      }
+    },
+    {
+      "row_index": 257,
+      "actual": {
+        "burning_rate_m2_s": 6.7e-07,
+        "burn_time_s": 7.5
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.170810143513508e-07,
+        "burn_time_s": 9.070626909872999
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.5291898564864925e-07,
+        "burn_time_s": -1.570626909872999
+      }
+    },
+    {
+      "row_index": 258,
+      "actual": {
+        "burning_rate_m2_s": 7e-07,
+        "burn_time_s": 11.0
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.922674387938794e-07,
+        "burn_time_s": 9.066202147177505
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.077325612061206e-07,
+        "burn_time_s": 1.9337978528224955
+      }
+    },
+    {
+      "row_index": 259,
+      "actual": {
+        "burning_rate_m2_s": 6.1e-07,
+        "burn_time_s": 4.3
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.2021989849547207e-07,
+        "burn_time_s": 4.125928162930851
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.8978010150452791e-07,
+        "burn_time_s": 0.17407183706914875
+      }
+    },
+    {
+      "row_index": 260,
+      "actual": {
+        "burning_rate_m2_s": 6.7e-07,
+        "burn_time_s": 5.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.610538204396041e-07,
+        "burn_time_s": 9.557382088739498
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.0894617956039598e-07,
+        "burn_time_s": -4.157382088739498
+      }
+    },
+    {
+      "row_index": 261,
+      "actual": {
+        "burning_rate_m2_s": 6e-07,
+        "burn_time_s": 17.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.189034648420023e-07,
+        "burn_time_s": 18.737283592903665
+      },
+      "residual": {
+        "burning_rate_m2_s": 8.109653515799767e-08,
+        "burn_time_s": -1.3372835929036668
+      }
+    },
+    {
+      "row_index": 262,
+      "actual": {
+        "burning_rate_m2_s": 6.3e-07,
+        "burn_time_s": 10.6
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.512747536137435e-07,
+        "burn_time_s": 10.034925797484469
+      },
+      "residual": {
+        "burning_rate_m2_s": 7.872524638625653e-08,
+        "burn_time_s": 0.5650742025155306
+      }
+    },
+    {
+      "row_index": 263,
+      "actual": {
+        "burning_rate_m2_s": 5.9e-07,
+        "burn_time_s": 7.8
+      },
+      "predicted": {
+        "burning_rate_m2_s": 4.846568852362322e-07,
+        "burn_time_s": 9.501846208907478
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.0534311476376779e-07,
+        "burn_time_s": -1.7018462089074786
+      }
+    },
+    {
+      "row_index": 264,
+      "actual": {
+        "burning_rate_m2_s": 6.3e-07,
+        "burn_time_s": 5.9
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.729923610978187e-07,
+        "burn_time_s": 5.98394370931954
+      },
+      "residual": {
+        "burning_rate_m2_s": 5.7007638902181264e-08,
+        "burn_time_s": -0.08394370931953965
+      }
+    },
+    {
+      "row_index": 265,
+      "actual": {
+        "burning_rate_m2_s": 6.2e-07,
+        "burn_time_s": 2.3
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.684414335673524e-07,
+        "burn_time_s": 3.9843092183251274
+      },
+      "residual": {
+        "burning_rate_m2_s": 5.15585664326476e-08,
+        "burn_time_s": -1.6843092183251276
+      }
+    },
+    {
+      "row_index": 266,
+      "actual": {
+        "burning_rate_m2_s": 7.1e-07,
+        "burn_time_s": 3.5
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.861662119415134e-07,
+        "burn_time_s": 4.7879665230714785
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.2383378805848661e-07,
+        "burn_time_s": -1.2879665230714785
+      }
+    },
+    {
+      "row_index": 267,
+      "actual": {
+        "burning_rate_m2_s": 7.7e-07,
+        "burn_time_s": 3.5
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.930924131966479e-07,
+        "burn_time_s": 3.594606783912553
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.7690758680335214e-07,
+        "burn_time_s": -0.09460678391255284
+      }
+    },
+    {
+      "row_index": 268,
+      "actual": {
+        "burning_rate_m2_s": 7.6e-07,
+        "burn_time_s": 1.9
+      },
+      "predicted": {
+        "burning_rate_m2_s": 5.830035250746042e-07,
+        "burn_time_s": 3.8402523421165307
+      },
+      "residual": {
+        "burning_rate_m2_s": 1.7699647492539586e-07,
+        "burn_time_s": -1.9402523421165307
+      }
+    },
+    {
+      "row_index": 269,
+      "actual": {
+        "burning_rate_m2_s": 1.06e-06,
+        "burn_time_s": 1.4
+      },
+      "predicted": {
+        "burning_rate_m2_s": 6.472799045392998e-07,
+        "burn_time_s": 2.789214246764991
+      },
+      "residual": {
+        "burning_rate_m2_s": 4.127200954607002e-07,
+        "burn_time_s": -1.389214246764991
+      }
+    }
+  ],
+  "discovery": {
+    "study_summary": {
+      "investigation_id": "PSI-69",
+      "title": "Flame Extinguishment Experiment (FLEX)",
+      "citation": {
+        "source": {
+          "file": "data/PSI-69.bib",
+          "reference": "@data/PSI-69.bib",
+          "sha256": "88b59d6688e86e7c7104368939e4a57d682c8675c8904b5a13b7e36f58070545"
+        },
+        "bibtex_reference": "@data/PSI-69.bib",
+        "doi": "10.60555/mbq8-0451",
+        "repository": "NASA Physical Sciences Informatics"
+      },
+      "dataset": {
+        "source": {
+          "file": "data/PSI-69_Experimental table_FLEX.csv",
+          "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+          "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+        },
+        "n_test_records": 274,
+        "n_unique_flex_identifiers": 273,
+        "date_range": {
+          "start": "2009-03-05",
+          "end": "2011-12-08",
+          "n_missing_or_unparseable": 50
+        },
+        "fuel_counts": {
+          "Methanol": 157,
+          "Heptane": 117
+        },
+        "test_end_counts": {
+          "Extinction": 186,
+          "Disruption": 61,
+          "Completion": 27
+        },
+        "test_end_counts_by_fuel": {
+          "Heptane": {
+            "Extinction": 60,
+            "Disruption": 38,
+            "Completion": 19
+          },
+          "Methanol": {
+            "Extinction": 126,
+            "Disruption": 23,
+            "Completion": 8
+          }
+        },
+        "target_coverage": {
+          "burning_rate_m2_s": {
+            "unit": "m^2/s",
+            "n_observed": 258,
+            "n_missing_or_unparseable": 16,
+            "min": 5.0000000000000004e-08,
+            "median": 5e-07,
+            "max": 1.06e-06
+          },
+          "burn_time_s": {
+            "unit": "s",
+            "n_observed": 266,
+            "n_missing_or_unparseable": 8,
+            "min": 0.3,
+            "median": 9.6,
+            "max": 39.2
+          }
+        },
+        "target_statistics_by_fuel": {
+          "Heptane": {
+            "n_records": 117,
+            "burning_rate_m2_s": {
+              "n_observed": 107,
+              "n_missing_or_unparseable": 10,
+              "min": 5.0000000000000004e-08,
+              "median": 5.4e-07,
+              "max": 1.06e-06
+            },
+            "burn_time_s": {
+              "n_observed": 111,
+              "n_missing_or_unparseable": 6,
+              "min": 0.55,
+              "median": 7.5,
+              "max": 24.0
+            }
+          },
+          "Methanol": {
+            "n_records": 157,
+            "burning_rate_m2_s": {
+              "n_observed": 151,
+              "n_missing_or_unparseable": 6,
+              "min": 2.0000000000000002e-07,
+              "median": 4.6000000000000004e-07,
+              "max": 7.4e-07
+            },
+            "burn_time_s": {
+              "n_observed": 155,
+              "n_missing_or_unparseable": 2,
+              "min": 0.3,
+              "median": 12.1,
+              "max": 39.2
+            }
+          }
+        },
+        "conditions": {
+          "pressure_mmhg": {
+            "n_positive_observations": 273,
+            "min_positive": 526.3,
+            "median_positive": 759.6,
+            "max": 2319.9,
+            "n_zero_records": 1,
+            "n_missing_or_unparseable": 0
+          },
+          "n_distinct_gas_compositions": 52,
+          "gas_composition_fields": {
+            "oxygen_mole_fraction": "O initial ambient composition; mole fraction",
+            "nitrogen_mole_fraction": "N initial ambient composition; mole fraction",
+            "co_source_column_mole_fraction": "CO initial ambient composition; mole fraction",
+            "helium_mole_fraction": "He initial ambient composition; mole fraction"
+          },
+          "five_most_common_gas_compositions": [
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.21,
+                "nitrogen_mole_fraction": 0.79,
+                "co_source_column_mole_fraction": 0.0,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 29
+            },
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.24,
+                "nitrogen_mole_fraction": 0.56,
+                "co_source_column_mole_fraction": 0.2,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 16
+            },
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.3,
+                "nitrogen_mole_fraction": 0.7,
+                "co_source_column_mole_fraction": 0.0,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 15
+            },
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.18,
+                "nitrogen_mole_fraction": 0.67,
+                "co_source_column_mole_fraction": 0.15,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 13
+            },
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.2,
+                "nitrogen_mole_fraction": 0.75,
+                "co_source_column_mole_fraction": 0.05,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 12
+            }
+          ]
+        }
+      }
+    },
+    "ranked_investigations": [
+      {
+        "rank": 1,
+        "rank_out_of": 1,
+        "investigation_id": "PSI-69",
+        "title": "Flame Extinguishment Experiment (FLEX)",
+        "priority_basis": "Direct topical match: the local record identifies a flame-extinguishment investigation and the table contains droplet fuel, atmosphere, pressure, burn-rate, and burn-time fields.",
+        "rating_scope": "Discovery relevance only; not a hazard, flammability, or operational-safety rating.",
+        "evidence": [
+          {
+            "file": "data/PSI-69.bib",
+            "reference": "@data/PSI-69.bib",
+            "sha256": "88b59d6688e86e7c7104368939e4a57d682c8675c8904b5a13b7e36f58070545"
+          },
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          },
+          {
+            "file": "data/FLEX Overall Ext File-2.pdf",
+            "reference": "@data/FLEX Overall Ext File-2.pdf",
+            "sha256": "32b780edb446f5f9134a7138658faa6ea72c529a62ac6c3fd726f7ca049d0999"
+          }
+        ]
+      }
+    ],
+    "ranked_cases": [
+      {
+        "rank": 1,
+        "rank_basis": "Qualitative review order for condition coverage, not a hazard or safety ranking.",
+        "review_role": "atmosphere_pressure_contrast",
+        "review_reason": "Review first for condition coverage: this Methanol record has the highest pressure among the three detailed-history cases and a distinct gas-composition vector; the CSV/PDF gas label mismatch is flagged above.",
+        "record": {
+          "flex_identifier": "256F002",
+          "test_number": 10,
+          "test_date": "2009-05-22",
+          "fuel": "Methanol",
+          "pressure_mmhg": 2319.7,
+          "gas_composition": {
+            "oxygen_mole_fraction": 0.21,
+            "nitrogen_mole_fraction": 0.09,
+            "co_source_column_mole_fraction": 0.7,
+            "helium_mole_fraction": 0.0
+          },
+          "droplet_initial_diameter_mm": 3.86,
+          "visible_flame_extinction_diameter_mm": null,
+          "burning_rate_m2_s": 3.7e-07,
+          "burn_time_s": 13.6,
+          "test_end": "Extinction"
+        },
+        "droplet_history_summary": {
+          "history_points": 229.0,
+          "history_duration_s": 7.866667000002053,
+          "history_initial_diameter_mm": 3.958822605366384,
+          "history_final_diameter_mm": 3.37874006827657,
+          "history_min_diameter_mm": 3.37874006827657,
+          "history_max_diameter_mm": 4.003695929806503,
+          "history_diameter_std_mm": 0.10252427337422952,
+          "history_diameter_slope_mm_s": -0.03269176275508413,
+          "history_d_squared_slope_mm2_s": -0.24829007713983878
+        },
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+            "record_key": "FLEX Test #10"
+          },
+          {
+            "file": "data/MeOH_FLEX_001_Summary.pdf",
+            "reference": "@data/MeOH_FLEX_001_Summary.pdf",
+            "sha256": "c212f58f128e64901ad50c908f00842a887db6472769acd48edf9739212f103a"
+          },
+          {
+            "file": "data/MeOH_FLEX-010_DropletData.txt",
+            "reference": "@data/MeOH_FLEX-010_DropletData.txt",
+            "sha256": "e97037762c74f4f5f9155fa7f87718eea09d351b112c0acddd9e7c10760dd6a6"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "rank_basis": "Qualitative review order for condition coverage, not a hazard or safety ranking.",
+        "review_role": "fuel_contrast",
+        "review_reason": "Review next for a Heptane record under the air-like O/N composition also represented by the Methanol reference case.",
+        "record": {
+          "flex_identifier": "20CAL13",
+          "test_number": 7,
+          "test_date": "2009-04-10",
+          "fuel": "Heptane",
+          "pressure_mmhg": 761.3,
+          "gas_composition": {
+            "oxygen_mole_fraction": 0.21,
+            "nitrogen_mole_fraction": 0.79,
+            "co_source_column_mole_fraction": 0.0,
+            "helium_mole_fraction": 0.0
+          },
+          "droplet_initial_diameter_mm": 1.87,
+          "visible_flame_extinction_diameter_mm": null,
+          "burning_rate_m2_s": 6.7e-07,
+          "burn_time_s": 5.3,
+          "test_end": "Disruption"
+        },
+        "droplet_history_summary": {
+          "history_points": 141.0,
+          "history_duration_s": 5.366667000002053,
+          "history_initial_diameter_mm": 1.8532650143266,
+          "history_final_diameter_mm": 0.9591973440290592,
+          "history_min_diameter_mm": 0.9591973440290592,
+          "history_max_diameter_mm": 1.880775453937522,
+          "history_diameter_std_mm": 0.3032143106111201,
+          "history_diameter_slope_mm_s": -0.1340176031107286,
+          "history_d_squared_slope_mm2_s": -0.39932924324136354
+        },
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+            "record_key": "FLEX Test #7"
+          },
+          {
+            "file": "data/Heptane_FLEX-007_Summary.pdf",
+            "reference": "@data/Heptane_FLEX-007_Summary.pdf",
+            "sha256": "da2d053bb5d3cd7079d4463097d97a82e5775682a42aba33219707e7e3e7e3fd"
+          },
+          {
+            "file": "data/Heptane_FLEX-007_DropletData.txt",
+            "reference": "@data/Heptane_FLEX-007_DropletData.txt",
+            "sha256": "b23c77bbca5896142369d6b6e2c1c964ce527ea0fbaaebea6de69bb3e7b79f6b"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "rank_basis": "Qualitative review order for condition coverage, not a hazard or safety ranking.",
+        "review_role": "methanol_reference",
+        "review_reason": "Use as the Methanol reference case in the detailed-history set; its summary reports an O/N air-like mixture and the table contains burn outcomes.",
+        "record": {
+          "flex_identifier": "20CAL08",
+          "test_number": 1,
+          "test_date": "2009-03-05",
+          "fuel": "Methanol",
+          "pressure_mmhg": 757.7,
+          "gas_composition": {
+            "oxygen_mole_fraction": 0.21,
+            "nitrogen_mole_fraction": 0.79,
+            "co_source_column_mole_fraction": 0.0,
+            "helium_mole_fraction": 0.0
+          },
+          "droplet_initial_diameter_mm": 1.69,
+          "visible_flame_extinction_diameter_mm": 0.89,
+          "burning_rate_m2_s": 5.2e-07,
+          "burn_time_s": 4.3,
+          "test_end": "Disruption"
+        },
+        "droplet_history_summary": {
+          "history_points": 170.0,
+          "history_duration_s": 5.833333000002312,
+          "history_initial_diameter_mm": 2.019341385944358,
+          "history_final_diameter_mm": 0.94512522660926,
+          "history_min_diameter_mm": 0.8941304245500309,
+          "history_max_diameter_mm": 2.019341385944358,
+          "history_diameter_std_mm": 0.2742060280585248,
+          "history_diameter_slope_mm_s": -0.15059996217840663,
+          "history_d_squared_slope_mm2_s": -0.416880842583034
+        },
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+            "record_key": "FLEX Test #1"
+          },
+          {
+            "file": "data/MeOH_Air_FLEX_001_Summary.pdf",
+            "reference": "@data/MeOH_Air_FLEX_001_Summary.pdf",
+            "sha256": "031d050daa694c10bce1bb8b64d89d42548ede3dbc672affa04a1cd5f6015b7e"
+          },
+          {
+            "file": "data/MeOH_Air_FLEX-001_DropletData.txt",
+            "reference": "@data/MeOH_Air_FLEX-001_DropletData.txt",
+            "sha256": "2e7c0516abd3d33bbec93a546637938a49d6e0e06faab47de9f09fed17409979"
+          }
+        ]
+      }
+    ],
+    "ranking_note": "The local files contain one PSI investigation; case ordering is a qualitative condition-coverage review aid, not a safety ranking.",
+    "insights": [
+      {
+        "id": "fuel_and_outcome_coverage",
+        "type": "descriptive_coverage",
+        "summary": "The local table contains 274 test records: 157 Methanol and 117 Heptane; recorded end labels are {'Extinction': 186, 'Disruption': 61, 'Completion': 27}.",
+        "values": {
+          "fuel_counts": {
+            "Methanol": 157,
+            "Heptane": 117
+          },
+          "test_end_counts": {
+            "Extinction": 186,
+            "Disruption": 61,
+            "Completion": 27
+          }
+        },
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      },
+      {
+        "id": "condition_coverage",
+        "type": "descriptive_coverage",
+        "summary": "The table contains 52 distinct recorded gas-composition vectors and positive pressure observations from 526.3 to 2319.9 mmHg.",
+        "values": {
+          "pressure_mmhg": {
+            "n_positive_observations": 273,
+            "min_positive": 526.3,
+            "median_positive": 759.6,
+            "max": 2319.9,
+            "n_zero_records": 1,
+            "n_missing_or_unparseable": 0
+          },
+          "n_distinct_gas_compositions": 52,
+          "gas_composition_fields": {
+            "oxygen_mole_fraction": "O initial ambient composition; mole fraction",
+            "nitrogen_mole_fraction": "N initial ambient composition; mole fraction",
+            "co_source_column_mole_fraction": "CO initial ambient composition; mole fraction",
+            "helium_mole_fraction": "He initial ambient composition; mole fraction"
+          },
+          "five_most_common_gas_compositions": [
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.21,
+                "nitrogen_mole_fraction": 0.79,
+                "co_source_column_mole_fraction": 0.0,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 29
+            },
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.24,
+                "nitrogen_mole_fraction": 0.56,
+                "co_source_column_mole_fraction": 0.2,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 16
+            },
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.3,
+                "nitrogen_mole_fraction": 0.7,
+                "co_source_column_mole_fraction": 0.0,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 15
+            },
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.18,
+                "nitrogen_mole_fraction": 0.67,
+                "co_source_column_mole_fraction": 0.15,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 13
+            },
+            {
+              "composition": {
+                "oxygen_mole_fraction": 0.2,
+                "nitrogen_mole_fraction": 0.75,
+                "co_source_column_mole_fraction": 0.05,
+                "helium_mole_fraction": 0.0
+              },
+              "n_records": 12
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      },
+      {
+        "id": "fuel_group_descriptives",
+        "type": "descriptive_comparison",
+        "summary": "Burn-time and burning-rate summaries by fuel are descriptive only; pressure and gas-composition mixtures differ across records, so these comparisons do not isolate a fuel effect.",
+        "values": {
+          "Heptane": {
+            "n_records": 117,
+            "burning_rate_m2_s": {
+              "n_observed": 107,
+              "n_missing_or_unparseable": 10,
+              "min": 5.0000000000000004e-08,
+              "median": 5.4e-07,
+              "max": 1.06e-06
+            },
+            "burn_time_s": {
+              "n_observed": 111,
+              "n_missing_or_unparseable": 6,
+              "min": 0.55,
+              "median": 7.5,
+              "max": 24.0
+            }
+          },
+          "Methanol": {
+            "n_records": 157,
+            "burning_rate_m2_s": {
+              "n_observed": 151,
+              "n_missing_or_unparseable": 6,
+              "min": 2.0000000000000002e-07,
+              "median": 4.6000000000000004e-07,
+              "max": 7.4e-07
+            },
+            "burn_time_s": {
+              "n_observed": 155,
+              "n_missing_or_unparseable": 2,
+              "min": 0.3,
+              "median": 12.1,
+              "max": 39.2
+            }
+          }
+        },
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      },
+      {
+        "id": "data_quality_review",
+        "type": "data_quality",
+        "summary": "Review date coverage (50 missing/unparseable dates), target coverage, repeated identifiers, zero pressure, and the CSV/PDF gas-label mismatch before interpreting comparisons.",
+        "values": {
+          "flags": [
+            {
+              "id": "missing_test_dates",
+              "severity": "review",
+              "n_records": 50,
+              "message": "Test Date is absent or unparsable; these rows form the current NaT validation campaign.",
+              "evidence": [
+                {
+                  "file": "data/PSI-69_Experimental table_FLEX.csv",
+                  "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+                  "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+                }
+              ]
+            },
+            {
+              "id": "non_numeric_target_values",
+              "severity": "review",
+              "raw_values": {
+                "Burn time; s": {
+                  "~6": 1,
+                  "~9": 1
+                }
+              },
+              "message": "Non-numeric target strings are counted as unavailable, not silently imputed.",
+              "evidence": [
+                {
+                  "file": "data/PSI-69_Experimental table_FLEX.csv",
+                  "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+                  "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+                }
+              ]
+            },
+            {
+              "id": "reused_flex_identifiers",
+              "severity": "review",
+              "records": [
+                {
+                  "flex_identifier": "193F001",
+                  "test_numbers": [
+                    70,
+                    73
+                  ],
+                  "n_records": 2
+                }
+              ],
+              "message": "Rows with a repeated identifier remain separate test records.",
+              "evidence": [
+                {
+                  "file": "data/PSI-69_Experimental table_FLEX.csv",
+                  "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+                  "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+                }
+              ]
+            },
+            {
+              "id": "zero_ambient_pressure",
+              "severity": "review",
+              "records": [
+                {
+                  "test_number": 114,
+                  "flex_identifier": "C11M201",
+                  "value_mmhg": 0.0
+                }
+              ],
+              "message": "Displayed as recorded; confirm whether zero is a measurement or a missing-value code before physical interpretation.",
+              "evidence": [
+                {
+                  "file": "data/PSI-69_Experimental table_FLEX.csv",
+                  "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+                  "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+                }
+              ]
+            },
+            {
+              "id": "gas_column_label_mismatch",
+              "severity": "review",
+              "test_number": 10,
+              "csv_label": "CO initial ambient composition; mole fraction",
+              "summary_document_label": "YCO2",
+              "message": "The CSV field is labelled CO while the FLEX-010 summary text labels the corresponding fraction YCO2; no automatic reconciliation is applied.",
+              "evidence": [
+                {
+                  "file": "data/PSI-69_Experimental table_FLEX.csv",
+                  "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+                  "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+                },
+                {
+                  "file": "data/MeOH_FLEX_001_Summary.pdf",
+                  "reference": "@data/MeOH_FLEX_001_Summary.pdf",
+                  "sha256": "c212f58f128e64901ad50c908f00842a887db6472769acd48edf9739212f103a"
+                }
+              ]
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      },
+      {
+        "id": "validation_campaign_missing_dates",
+        "type": "model_validation_limit",
+        "summary": "The current fixed split selected the NaT label: all validation rows lack a parsed test date. The metric therefore does not measure a held-out dated campaign.",
+        "values": {
+          "validation_rows": 50,
+          "burning_rate_n_validation": 49,
+          "burn_time_n_validation": 49,
+          "validation_campaign": "NaT"
+        },
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      }
+    ],
+    "application_recommendations": [
+      {
+        "id": "low_gravity_droplet_model_inputs",
+        "category": "research_application",
+        "recommendation": "Prioritize PSI-69 as a candidate source of droplet-scale combustion observations for low-gravity fire-scenario model research; keep model outputs as screening estimates and validate against independent experiments before application.",
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96",
+            "fields": [
+              "Fuel",
+              "Ambient pressure; mmHg",
+              "O initial ambient composition; mole fraction",
+              "N initial ambient composition; mole fraction",
+              "CO initial ambient composition; mole fraction",
+              "He initial ambient composition; mole fraction",
+              "Droplet initial diameter; mm",
+              "Burning rate; mm",
+              "Burn time; s"
+            ]
+          },
+          {
+            "file": "data/FLEX Overall Ext File-2.pdf",
+            "reference": "@data/FLEX Overall Ext File-2.pdf",
+            "sha256": "32b780edb446f5f9134a7138658faa6ea72c529a62ac6c3fd726f7ca049d0999"
+          },
+          {
+            "file": "data/PSI-69.bib",
+            "reference": "@data/PSI-69.bib",
+            "sha256": "88b59d6688e86e7c7104368939e4a57d682c8675c8904b5a13b7e36f58070545"
+          }
+        ],
+        "limitations": [
+          "This is one droplet-combustion investigation, not a complete spacecraft or habitat fire test.",
+          "The local table contains Methanol and Heptane; lunar/Martian habitats and pressurized-rover conditions are not identified as tested environments.",
+          "The records do not directly evaluate suppression hardware, solid materials, smoke sensors, or enclosure-scale fire behavior."
+        ]
+      },
+      {
+        "id": "follow_up_test_review",
+        "category": "research_planning",
+        "recommendation": "For literature and data review, compare the high-pressure/composition-contrast case first, then the Heptane/air-like and Methanol/air-like detailed histories; use the ranking only to organize condition coverage, not to rank hazards.",
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          },
+          {
+            "file": "data/MeOH_FLEX_001_Summary.pdf",
+            "reference": "@data/MeOH_FLEX_001_Summary.pdf",
+            "sha256": "c212f58f128e64901ad50c908f00842a887db6472769acd48edf9739212f103a"
+          },
+          {
+            "file": "data/Heptane_FLEX-007_Summary.pdf",
+            "reference": "@data/Heptane_FLEX-007_Summary.pdf",
+            "sha256": "da2d053bb5d3cd7079d4463097d97a82e5775682a42aba33219707e7e3e7e3fd"
+          },
+          {
+            "file": "data/MeOH_Air_FLEX_001_Summary.pdf",
+            "reference": "@data/MeOH_Air_FLEX_001_Summary.pdf",
+            "sha256": "031d050daa694c10bce1bb8b64d89d42548ede3dbc672affa04a1cd5f6015b7e"
+          }
+        ],
+        "limitations": [
+          "The qualitative ordering is a navigation aid; it is not a model score, safety assessment, or operating recommendation."
+        ]
+      },
+      {
+        "id": "terrestrial_transfer_context",
+        "category": "challenge_context_only",
+        "recommendation": "Treat fine-water-mist extinguishers, smoke detection, protective clothing, and air tanks as separate technology-transfer leads from the challenge brief; the local FLEX records do not provide evidence to recommend or design those technologies.",
+        "evidence": [
+          {
+            "source": "challenge_brief",
+            "source_type": "user-provided context"
+          }
+        ],
+        "limitations": [
+          "No effectiveness or design data for those technologies are present in the local PSI-69 FLEX files."
+        ]
+      }
+    ],
+    "data_quality_flags": [
+      {
+        "id": "missing_test_dates",
+        "severity": "review",
+        "n_records": 50,
+        "message": "Test Date is absent or unparsable; these rows form the current NaT validation campaign.",
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      },
+      {
+        "id": "non_numeric_target_values",
+        "severity": "review",
+        "raw_values": {
+          "Burn time; s": {
+            "~6": 1,
+            "~9": 1
+          }
+        },
+        "message": "Non-numeric target strings are counted as unavailable, not silently imputed.",
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      },
+      {
+        "id": "reused_flex_identifiers",
+        "severity": "review",
+        "records": [
+          {
+            "flex_identifier": "193F001",
+            "test_numbers": [
+              70,
+              73
+            ],
+            "n_records": 2
+          }
+        ],
+        "message": "Rows with a repeated identifier remain separate test records.",
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      },
+      {
+        "id": "zero_ambient_pressure",
+        "severity": "review",
+        "records": [
+          {
+            "test_number": 114,
+            "flex_identifier": "C11M201",
+            "value_mmhg": 0.0
+          }
+        ],
+        "message": "Displayed as recorded; confirm whether zero is a measurement or a missing-value code before physical interpretation.",
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          }
+        ]
+      },
+      {
+        "id": "gas_column_label_mismatch",
+        "severity": "review",
+        "test_number": 10,
+        "csv_label": "CO initial ambient composition; mole fraction",
+        "summary_document_label": "YCO2",
+        "message": "The CSV field is labelled CO while the FLEX-010 summary text labels the corresponding fraction YCO2; no automatic reconciliation is applied.",
+        "evidence": [
+          {
+            "file": "data/PSI-69_Experimental table_FLEX.csv",
+            "reference": "@data/PSI-69_Experimental table_FLEX.csv",
+            "sha256": "37c88ce8ae9391b7544ff630a45ce87543d04d317cdbfbed104fe7d5c27e1b96"
+          },
+          {
+            "file": "data/MeOH_FLEX_001_Summary.pdf",
+            "reference": "@data/MeOH_FLEX_001_Summary.pdf",
+            "sha256": "c212f58f128e64901ad50c908f00842a887db6472769acd48edf9739212f103a"
+          }
+        ]
+      }
+    ],
+    "interpretation_limits": [
+      "Descriptive differences and model predictions do not establish causality.",
+      "The validation set is the undated NaT group under the unchanged split and is small.",
+      "The scalar objective averages RMSE values with different physical units; burn_time_s dominates its magnitude.",
+      "Earth technology-transfer examples in the challenge brief are not findings of the local FLEX dataset."
+    ]
+  }
+}

@@ -1,5 +1,11 @@
 # Saffire-II: fire-test evidence and a predictive pilot
 
+## Unified dashboard output
+
+Load [predictions.json](predictions.json) for the common FLEX contract (`schema_version: 2`). It includes nine saved CO2 cross-validation predictions (ppm), exact recorded metrics, experimental results, findings, limitations and chart links. Residuals are `actual - predicted`; the opposite-sign original errors are retained separately. Sensor-derived CO2 change is a calculation, not total emitted gas or hazard.
+
+From the repository root, run `python3 investigations/export_predictions.py`, then `python3 investigations/export_predictions.py --check`. Neither command evaluates models. Serve the linked series/images with the JSON. Paths are relative to this investigation; missing original files have null links and preserved `original_*` labels and recorded provenance. The earlier summary format below remains available.
+
 This project organizes NASA Saffire-II measurements, compares material behavior, and builds a small model of the **local CO2 sensor change three minutes after ignition**. The local archive contains **nine tests from one flight**, represented by 218 physical files. The model is an internally evaluated pilot; transfer to other flights, atmospheres or gravity levels has not been validated.
 
 ## Where to start
@@ -7,7 +13,7 @@ This project organizes NASA Saffire-II measurements, compares material behavior,
 | File | What it explains or contains |
 |---|---|
 | [SAFFIRE_EXPLICADO.md](SAFFIRE_EXPLICADO.md) | **Start here:** a plain-English explanation of what was measured, what was calculated, the results and what they mean. |
-| [analysis-saffire-summary.json](analysis-saffire-summary.json) | **Dashboard input:** English text, structured test results, insights, model errors, limitations, source citation and figure paths. |
+| [analysis-saffire-summary.json](analysis-saffire-summary.json) | **Earlier dashboard format:** English text, structured test results, insights, model errors, limitations, source citation and figure paths. |
 | [SAFFIRE_ANALYSIS_REPORT_EN.md](SAFFIRE_ANALYSIS_REPORT_EN.md) | The longer English report: methods, all 35 metric definitions, all 15 model attempts, interpretation and data-quality issues. |
 | [analysis-saffire.json](analysis-saffire.json) | Full scientific export with per-value provenance, methods, assumptions, detailed predictions and rankings. Some original explanatory notes are in Spanish. |
 | [DATA_PLAN.md](DATA_PLAN.md) | The English data plan: extraction decisions, target selection and habitat-ranking assumptions. |
@@ -23,7 +29,7 @@ The local metadata identifies the investigation as **PSI-99**. Only Saffire-II h
 
 ## Dashboard JSON: format and use
 
-Load **[analysis-saffire-summary.json](analysis-saffire-summary.json)** for the interface. It declares `schema_version: "1.0.0"` and `language: "en"`. Both property names and explanatory text are in English. This replaces the earlier unversioned Spanish summary; use the English keys below.
+For consumers of the earlier format, load **[analysis-saffire-summary.json](analysis-saffire-summary.json)**. It declares `schema_version: "1.0.0"` and `language: "en"`. Both property names and explanatory text are in English. This replaces the earlier unversioned Spanish summary; use the English keys below.
 
 | Field | Dashboard use |
 |---|---|
